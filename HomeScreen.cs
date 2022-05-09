@@ -19,6 +19,7 @@ namespace hospitalmanagement
 
         private void button1_Click(object sender, EventArgs e)
         {
+            resetButtonColor();
             button1.BackColor = Color.FromArgb(81, 107, 130);
             sectionLabel.Text = "Doctors";
             //bunifuPages1.SetPage("tabDrs");
@@ -26,6 +27,7 @@ namespace hospitalmanagement
 
         private void button_patients_Click(object sender, EventArgs e)
         {
+            resetButtonColor();
             button_patients.BackColor = Color.FromArgb(81, 107, 130);
             sectionLabel.Text = "Patients";
             //bunifuPages1.SetPage("tabPtnts");
@@ -33,6 +35,7 @@ namespace hospitalmanagement
 
         private void button_appoint_Click(object sender, EventArgs e)
         {
+            resetButtonColor();
             button_appoint.BackColor = Color.FromArgb(81, 107, 130);
             sectionLabel.Text = "Appointments";
             //bunifuPages1.SetPage("tabAppoint");
@@ -40,6 +43,7 @@ namespace hospitalmanagement
 
         private void button_diagnose_Click(object sender, EventArgs e)
         {
+            resetButtonColor();
             button_diagnose.BackColor = Color.FromArgb(81, 107, 130);
             sectionLabel.Text = "Diagnoses";
             //bunifuPages1.SetPage("tabDiag");
@@ -47,6 +51,7 @@ namespace hospitalmanagement
 
         private void button_prescription_Click(object sender, EventArgs e)
         {
+            resetButtonColor();
             button_prescription.BackColor = Color.FromArgb(81, 107, 130);
             sectionLabel.Text = "Prescriptions";
             //bunifuPages1.SetPage("tabPres");
@@ -54,6 +59,7 @@ namespace hospitalmanagement
 
         private void button_medications_Click(object sender, EventArgs e)
         {
+            resetButtonColor();
             button_medications.BackColor = Color.FromArgb(81, 107, 130);
             sectionLabel.Text = "Medications";
            // bunifuPages1.SetPage("tabMedic");
@@ -98,6 +104,16 @@ namespace hospitalmanagement
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             sectionLabel.Text = "Home";
+        }
+
+        private void resetButtonColor()
+        {
+            button1.BackColor = Color.FromArgb(26, 32, 40);
+            button_appoint.BackColor = Color.FromArgb(26, 32, 40);
+            button_diagnose.BackColor = Color.FromArgb(26, 32, 40);
+            button_medications.BackColor = Color.FromArgb(26, 32, 40);
+            button_patients.BackColor = Color.FromArgb(26, 32, 40);
+            button_prescription.BackColor = Color.FromArgb(26, 32, 40);
         }
     }
 }

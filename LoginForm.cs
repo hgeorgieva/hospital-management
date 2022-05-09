@@ -42,6 +42,10 @@ namespace hospitalmanagement
                 HomeScreen homescreen = new HomeScreen();
                 homescreen.Show();
             }
+            else
+            {
+                MessageBox.Show("Please enter valid username and password.");
+            }
         }
 
         private void xButton_Click(object sender, EventArgs e)
