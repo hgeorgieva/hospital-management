@@ -15,6 +15,7 @@ namespace hospitalmanagement
         public HomeScreen()
         {
             InitializeComponent();
+         
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -22,7 +23,11 @@ namespace hospitalmanagement
             resetButtonColor();
             button1.BackColor = Color.FromArgb(81, 107, 130);
             sectionLabel.Text = "Doctors";
-            //bunifuPages1.SetPage("tabDrs");
+            pages.SetPage("doctorsPage");
+            addNewDoctorButton.Show();
+            viewAllDoctorsButton.Show();
+            searchDoctorButton.Show();
+            deleteDoctorButton.Show(); 
         }
 
         private void button_patients_Click(object sender, EventArgs e)
@@ -30,7 +35,7 @@ namespace hospitalmanagement
             resetButtonColor();
             button_patients.BackColor = Color.FromArgb(81, 107, 130);
             sectionLabel.Text = "Patients";
-            //bunifuPages1.SetPage("tabPtnts");
+            pages.SetPage("patientsPage");
         }
 
         private void button_appoint_Click(object sender, EventArgs e)
@@ -38,7 +43,7 @@ namespace hospitalmanagement
             resetButtonColor();
             button_appoint.BackColor = Color.FromArgb(81, 107, 130);
             sectionLabel.Text = "Appointments";
-            //bunifuPages1.SetPage("tabAppoint");
+            pages.SetPage("appointmentsPage");
         }
 
         private void button_diagnose_Click(object sender, EventArgs e)
@@ -83,8 +88,8 @@ namespace hospitalmanagement
                 img.RotateFlip(RotateFlipType.Rotate90FlipNone);
                 pictureBox_menu.Image = img;
 
-                bunifuPages1.Location = new Point(280, 76);
-                bunifuPages1.Size = new Size(725, 527);
+                pages.Location = new Point(280, 76);
+                pages.Size = new Size(725, 527);
             }
             else
             {
@@ -96,8 +101,8 @@ namespace hospitalmanagement
                 img.RotateFlip(RotateFlipType.Rotate90FlipNone);
                 pictureBox_menu.Image = img;
 
-                bunifuPages1.Location = new Point(90, 76);
-                bunifuPages1.Size = new Size(915, 527);
+                pages.Location = new Point(90, 76);
+                pages.Size = new Size(915, 527);
             }
         }
 
@@ -114,6 +119,76 @@ namespace hospitalmanagement
             button_medications.BackColor = Color.FromArgb(26, 32, 40);
             button_patients.BackColor = Color.FromArgb(26, 32, 40);
             button_prescription.BackColor = Color.FromArgb(26, 32, 40);
+        }
+
+        private void addNewDoctorButton_Click(object sender, EventArgs e)
+        {
+            pages.SetPage("addNewDoctorPage");
+        }
+
+        private void HomeScreen_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuLabel10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuLabel6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuLabel7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuLabel8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuLabel9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuDropdown1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuTextBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addNewPatientButton_Click(object sender, EventArgs e)
+        {
+            pages.SetPage("addNewPatientPage");
+        }
+
+        private void searchForPatientButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -15,11 +15,6 @@ namespace hospitalmanagement
         public loginScreen()
         {
             InitializeComponent();
-            this.bunifuElipse1.ApplyElipse();
-            this.bunifuElipse2.ApplyElipse();
-            this.bunifuElipse3.ApplyElipse();
-            this.bunifuElipse4.ApplyElipse();
-            this.bunifuDragControl1.Drag();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -44,7 +39,7 @@ namespace hospitalmanagement
             }
             else
             {
-                MessageBox.Show("Please enter valid username and password.");
+                MessageBox.Show("Please enter correct username and password.");
             }
         }
 

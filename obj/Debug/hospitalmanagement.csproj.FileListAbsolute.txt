@@ -34,3 +34,7 @@ C:\Users\skaya\Desktop\tired\obj\Debug\hospitalmanagement.csproj.CopyComplete
 C:\Users\skaya\Desktop\tired\obj\Debug\hospitalmanagement.exe
 C:\Users\skaya\Desktop\tired\obj\Debug\hospitalmanagement.pdb
 C:\Users\skaya\Desktop\tired\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+D:\UNI\proekt-bd\hospitalmanagement\bin\Debug\hospitaldatabase.mdf
+D:\UNI\proekt-bd\hospitalmanagement\bin\Debug\hospitaldatabase_log.ldf
+D:\UNI\proekt-bd\hospitalmanagement\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+D:\UNI\proekt-bd\hospitalmanagement\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
