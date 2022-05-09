@@ -20,3 +20,17 @@ D:\UNI\proekt-bd\hospitalmanagement\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
 D:\UNI\proekt-bd\hospitalmanagement\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
 D:\UNI\proekt-bd\hospitalmanagement\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
 D:\UNI\proekt-bd\hospitalmanagement\obj\Debug\hospitalmanagement.HomeScreen.resources
+C:\Users\skaya\Desktop\tired\bin\Debug\hospitalmanagement.exe.config
+C:\Users\skaya\Desktop\tired\bin\Debug\hospitalmanagement.exe
+C:\Users\skaya\Desktop\tired\bin\Debug\hospitalmanagement.pdb
+C:\Users\skaya\Desktop\tired\obj\Debug\hospitalmanagement.csproj.AssemblyReference.cache
+C:\Users\skaya\Desktop\tired\obj\Debug\hospitalmanagement.HomeScreen.resources
+C:\Users\skaya\Desktop\tired\obj\Debug\hospitalmanagement.loginScreen.resources
+C:\Users\skaya\Desktop\tired\obj\Debug\hospitalmanagement.Properties.Resources.resources
+C:\Users\skaya\Desktop\tired\obj\Debug\hospitalmanagement.csproj.GenerateResource.cache
+C:\Users\skaya\Desktop\tired\obj\Debug\hospitalmanagement.exe.licenses
+C:\Users\skaya\Desktop\tired\obj\Debug\hospitalmanagement.csproj.CoreCompileInputs.cache
+C:\Users\skaya\Desktop\tired\obj\Debug\hospitalmanagement.csproj.CopyComplete
+C:\Users\skaya\Desktop\tired\obj\Debug\hospitalmanagement.exe
+C:\Users\skaya\Desktop\tired\obj\Debug\hospitalmanagement.pdb
+C:\Users\skaya\Desktop\tired\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
