@@ -29,18 +29,18 @@ namespace hospitalmanagement
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-            String username = usernameTextBox.Text.ToString();
-            String password = passwordTextBox.Text.ToString();
-            if(username == "admin" && password == "123456")
-            {
+            //String username = usernameTextBox.Text.ToString();
+            //String password = passwordTextBox.Text.ToString();
+            //if(username == "admin" && password == "123456")
+            //{
                 this.Hide();
                 HomeScreen homescreen = new HomeScreen();
                 homescreen.Show();
-            }
-            else
-            {
-                MessageBox.Show("Please enter correct username and password.");
-            }
+           // }
+          //  else
+          //  {
+          //      MessageBox.Show("Please enter correct username and password.");
+          //  }
         }
 
         private void xButton_Click(object sender, EventArgs e)

@@ -38,3 +38,5 @@ D:\UNI\proekt-bd\hospitalmanagement\bin\Debug\hospitaldatabase.mdf
 D:\UNI\proekt-bd\hospitalmanagement\bin\Debug\hospitaldatabase_log.ldf
 D:\UNI\proekt-bd\hospitalmanagement\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
 D:\UNI\proekt-bd\hospitalmanagement\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\UNI\proekt-bd\hospitalmanagement\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+D:\UNI\proekt-bd\hospitalmanagement\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll

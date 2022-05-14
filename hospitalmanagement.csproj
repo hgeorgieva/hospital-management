@@ -58,6 +58,9 @@
     <Reference Include="Bunifu.UI.WinForms.BunifuButton">
       <HintPath>..\..\BunifuCrack-main\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>..\..\BunifuCrack-main\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
       <HintPath>..\..\BunifuCrack-main\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
     </Reference>
@@ -66,6 +69,9 @@
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuFormDock">
       <HintPath>..\..\BunifuCrack-main\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGroupBox">
+      <HintPath>..\..\BunifuCrack-main\Bunifu.UI.WinForms.BunifuGroupBox.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
       <HintPath>..\..\BunifuCrack-main\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
@@ -114,6 +120,16 @@
     <Compile Include="HomeScreen.Designer.cs">
       <DependentUpon>HomeScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="hospitaldatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hospitaldatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hospitaldatabaseDataSetPatient.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hospitaldatabaseDataSetPatient.xsd</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +156,28 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.manifest" />
+    <None Include="hospitaldatabaseDataSet.xsc">
+      <DependentUpon>hospitaldatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="hospitaldatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hospitaldatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hospitaldatabaseDataSet.xss">
+      <DependentUpon>hospitaldatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="hospitaldatabaseDataSetPatient.xsc">
+      <DependentUpon>hospitaldatabaseDataSetPatient.xsd</DependentUpon>
+    </None>
+    <None Include="hospitaldatabaseDataSetPatient.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hospitaldatabaseDataSetPatient.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hospitaldatabaseDataSetPatient.xss">
+      <DependentUpon>hospitaldatabaseDataSetPatient.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
