@@ -125,6 +125,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>hospitaldatabaseDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="hospitaldatabaseDataSetAppointment.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hospitaldatabaseDataSetAppointment.xsd</DependentUpon>
+    </Compile>
     <Compile Include="hospitaldatabaseDataSetPatient.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -166,6 +171,17 @@
     </None>
     <None Include="hospitaldatabaseDataSet.xss">
       <DependentUpon>hospitaldatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="hospitaldatabaseDataSetAppointment.xsc">
+      <DependentUpon>hospitaldatabaseDataSetAppointment.xsd</DependentUpon>
+    </None>
+    <None Include="hospitaldatabaseDataSetAppointment.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hospitaldatabaseDataSetAppointment.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hospitaldatabaseDataSetAppointment.xss">
+      <DependentUpon>hospitaldatabaseDataSetAppointment.xsd</DependentUpon>
     </None>
     <None Include="hospitaldatabaseDataSetPatient.xsc">
       <DependentUpon>hospitaldatabaseDataSetPatient.xsd</DependentUpon>

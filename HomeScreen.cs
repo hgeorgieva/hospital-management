@@ -48,7 +48,7 @@ namespace hospitalmanagement
             sectionLabel.Text = "Patients";
             pages.SetPage("patientsPage");
 
-            String usedQuery = "select PATIENT.PATIENT_ID, PATIENT.PATIENT_NAME, PATIENT.PATIENT_ADDRESS, PATIENT.PATIENT_BIRTHDATE, PATIENT.PATIENT_PHONENUM, PATIENT.PATIENT_GENDER, GENDER.GENDER from PATIENT inner join GENDER on PATIENT.PATIENT_GENDER=GENDER.GENDER_ID";
+            String usedQuery = "select PATIENT.PATIENT_ID, PATIENT.PATIENT_NAME, PATIENT.PATIENT_ADDRESS, PATIENT.PATIENT_BIRTHDATE, PATIENT.PATIENT_PHONENUM, GENDER.GENDER from PATIENT left outer join GENDER on PATIENT.PATIENT_GENDER=GENDER.GENDER_ID";
             DisplayDataInView(usedQuery, patientsDataView);
         }
 
@@ -58,6 +58,19 @@ namespace hospitalmanagement
             button_appoint.BackColor = Color.FromArgb(81, 107, 130);
             sectionLabel.Text = "Appointments";
             pages.SetPage("appointmentsPage");
+
+            sqlConnection = new SqlConnection(cs);
+            sqlConnection.Open();
+            query = "select * from APPOINTMENT where APPOINTMENT_DATE=@date";
+            sqlCommand = new SqlCommand(query, sqlConnection);
+            adapter = new SqlDataAdapter();
+            dataTable = new DataTable();
+            sqlCommand.Parameters.AddWithValue("@date", DateTime.Today);
+            sqlCommand.ExecuteNonQuery();
+            adapter.SelectCommand = sqlCommand;
+            adapter.Fill(dataTable);
+            appointmentsTodayDataView.DataSource = dataTable;
+            sqlConnection.Close();
         }
 
         private void button_diagnose_Click(object sender, EventArgs e)
@@ -142,6 +155,8 @@ namespace hospitalmanagement
 
         private void HomeScreen_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'hospitaldatabaseDataSetAppointment.APPOINTMENT' table. You can move, or remove it, as needed.
+            this.aPPOINTMENTTableAdapter.Fill(this.hospitaldatabaseDataSetAppointment.APPOINTMENT);
             // TODO: This line of code loads data into the 'hospitaldatabaseDataSetPatient.PATIENT' table. You can move, or remove it, as needed.
             this.pATIENTTableAdapter.Fill(this.hospitaldatabaseDataSetPatient.PATIENT);
 
@@ -299,7 +314,7 @@ namespace hospitalmanagement
                 sqlCommand.ExecuteNonQuery();
                 sqlConnection.Close();
                 MessageBox.Show("Doctor record deleted successfully!");
-                
+
                 String usedQuery = "select DOCTOR.DOCTOR_ID, DOCTOR.DOCTOR_NAME, DOCTOR.DOCTOR_DESIGNATION, DOCTOR.DOCTOR_PHONENUM, DOCTOR.DOCTOR_DEPARTMENT, DOCTOR.DOCTOR_GRADUATION, DEPARTMENT.DEPARTMENT_NAME from DOCTOR inner join DEPARTMENT on DOCTOR.DOCTOR_DEPARTMENT=DEPARTMENT.DEPARTMENT_ID";
                 DisplayDataInView(usedQuery, doctorsDataView);
             }
@@ -312,6 +327,9 @@ namespace hospitalmanagement
         private void additionalSearchButton_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             doctorsInnerPages.SetPage("additionalSearchPage");
+
+            String usedQuery = "select DOCTOR.DOCTOR_ID, DOCTOR.DOCTOR_NAME, DOCTOR.DOCTOR_DESIGNATION, DOCTOR.DOCTOR_PHONENUM, DOCTOR.DOCTOR_DEPARTMENT, DOCTOR.DOCTOR_GRADUATION, DEPARTMENT.DEPARTMENT_NAME from DOCTOR inner join DEPARTMENT on DOCTOR.DOCTOR_DEPARTMENT=DEPARTMENT.DEPARTMENT_ID";
+            DisplayDataInView(usedQuery, searchResultsDataGridView);
 
             sqlConnection = new SqlConnection(cs);
             query = "select * from DEPARTMENT";
@@ -328,7 +346,7 @@ namespace hospitalmanagement
         private void searchTextBox_TextChange(object sender, EventArgs e)
         {
             String searchString = searchTextBox.Text;
-            String usedQuery = "Select * from DOCTOR Where DOCTOR_NAME LIKE '%" + searchString + "%'";
+            String usedQuery = "select DOCTOR.DOCTOR_ID, DOCTOR.DOCTOR_NAME, DOCTOR.DOCTOR_DESIGNATION, DOCTOR.DOCTOR_PHONENUM, DOCTOR.DOCTOR_DEPARTMENT, DOCTOR.DOCTOR_GRADUATION, DEPARTMENT.DEPARTMENT_NAME from DOCTOR inner join DEPARTMENT on DOCTOR.DOCTOR_DEPARTMENT=DEPARTMENT.DEPARTMENT_ID Where DOCTOR_NAME LIKE '%" + searchString + "%'";
             DisplayDataInView(usedQuery, doctorsDataView);
         }
 
@@ -337,19 +355,19 @@ namespace hospitalmanagement
             if (searchIDRadioButton.Checked)
             {
                 String searchString = searchAdditionalTextBox.Text;
-                String usedQuery = "Select * from DOCTOR Where DOCTOR_ID LIKE '%" + searchString + "%'";
+                String usedQuery = "select DOCTOR.DOCTOR_ID, DOCTOR.DOCTOR_NAME, DOCTOR.DOCTOR_DESIGNATION, DOCTOR.DOCTOR_PHONENUM, DOCTOR.DOCTOR_DEPARTMENT, DOCTOR.DOCTOR_GRADUATION, DEPARTMENT.DEPARTMENT_NAME from DOCTOR inner join DEPARTMENT on DOCTOR.DOCTOR_DEPARTMENT=DEPARTMENT.DEPARTMENT_ID Where DOCTOR_ID LIKE '%" + searchString + "%'";
                 DisplayDataInView(usedQuery, searchResultsDataGridView);
             }
             else if (searchPhoneNumRadioButton.Checked)
             {
                 String searchString = searchAdditionalTextBox.Text;
-                String usedQuery = "Select * from DOCTOR Where DOCTOR_PHONENUM LIKE '%" + searchString + "%'";
+                String usedQuery = "select DOCTOR.DOCTOR_ID, DOCTOR.DOCTOR_NAME, DOCTOR.DOCTOR_DESIGNATION, DOCTOR.DOCTOR_PHONENUM, DOCTOR.DOCTOR_DEPARTMENT, DOCTOR.DOCTOR_GRADUATION, DEPARTMENT.DEPARTMENT_NAME from DOCTOR inner join DEPARTMENT on DOCTOR.DOCTOR_DEPARTMENT=DEPARTMENT.DEPARTMENT_ID Where DOCTOR_PHONENUM LIKE '%" + searchString + "%'";
                 DisplayDataInView(usedQuery, searchResultsDataGridView);
             }
             else if (searchDesignationRadioButton.Checked)
             {
                 String searchString = searchAdditionalTextBox.Text;
-                String usedQuery = "Select * from DOCTOR Where DOCTOR_DESIGNATION LIKE '%" + searchString + "%'";
+                String usedQuery = "select DOCTOR.DOCTOR_ID, DOCTOR.DOCTOR_NAME, DOCTOR.DOCTOR_DESIGNATION, DOCTOR.DOCTOR_PHONENUM, DOCTOR.DOCTOR_DEPARTMENT, DOCTOR.DOCTOR_GRADUATION, DEPARTMENT.DEPARTMENT_NAME from DOCTOR inner join DEPARTMENT on DOCTOR.DOCTOR_DEPARTMENT=DEPARTMENT.DEPARTMENT_ID Where DOCTOR_DESIGNATION LIKE '%" + searchString + "%'";
                 DisplayDataInView(usedQuery, searchResultsDataGridView);
             }
             else
@@ -361,7 +379,7 @@ namespace hospitalmanagement
         private void filterDepartmentDropdown_SelectionChangeCommitted(object sender, EventArgs e)
         {
             String searchDepartmentID = filterDepartmentDropdown.SelectedValue.ToString();
-            String usedQuery = "Select * from DOCTOR Where DOCTOR_DEPARTMENT =" + searchDepartmentID;
+            String usedQuery = "select DOCTOR.DOCTOR_ID, DOCTOR.DOCTOR_NAME, DOCTOR.DOCTOR_DESIGNATION, DOCTOR.DOCTOR_PHONENUM, DOCTOR.DOCTOR_DEPARTMENT, DOCTOR.DOCTOR_GRADUATION, DEPARTMENT.DEPARTMENT_NAME from DOCTOR inner join DEPARTMENT on DOCTOR.DOCTOR_DEPARTMENT=DEPARTMENT.DEPARTMENT_ID Where DOCTOR_DEPARTMENT =" + searchDepartmentID;
             DisplayDataInView(usedQuery, searchResultsDataGridView);
 
         }
@@ -389,7 +407,7 @@ namespace hospitalmanagement
                 MessageBox.Show("Patient submitted successfully!");
 
                 patientsInnerPages.SetPage("patientsMainPage");
-                String usedQuery = "select PATIENT.PATIENT_ID, PATIENT.PATIENT_NAME, PATIENT.PATIENT_ADDRESS, PATIENT.PATIENT_BIRTHDATE, PATIENT.PATIENT_PHONENUM, PATIENT.PATIENT_GENDER, GENDER.GENDER from PATIENT inner join GENDER on PATIENT.PATIENT_GENDER=GENDER.GENDER_ID";
+                String usedQuery = "select PATIENT.PATIENT_ID, PATIENT.PATIENT_NAME, PATIENT.PATIENT_ADDRESS, PATIENT.PATIENT_BIRTHDATE, PATIENT.PATIENT_PHONENUM, GENDER.GENDER from PATIENT inner join GENDER on PATIENT.PATIENT_GENDER=GENDER.GENDER_ID";
                 DisplayDataInView(usedQuery, patientsDataView);
             }
         }
@@ -419,19 +437,19 @@ namespace hospitalmanagement
             if (searchPatientIDRadioButton.Checked)
             {
                 String searchString = additionalSearchPatientTextBox.Text;
-                String usedQuery = "Select * from PATIENT Where PATIENT_ID LIKE '%" + searchString + "%'";
+                String usedQuery = "select PATIENT.PATIENT_ID, PATIENT.PATIENT_NAME, PATIENT.PATIENT_ADDRESS, PATIENT.PATIENT_BIRTHDATE, PATIENT.PATIENT_PHONENUM, GENDER.GENDER from PATIENT left outer join GENDER on PATIENT.PATIENT_GENDER=GENDER.GENDER_ID Where PATIENT_ID LIKE '%" + searchString + "%'";
                 DisplayDataInView(usedQuery, patientSearchResultsDataView);
             }
             else if (searchPatientPhoneNumRadioButton.Checked)
             {
                 String searchString = additionalSearchPatientTextBox.Text;
-                String usedQuery = "Select * from PATIENT Where PATIENT_PHONENUM LIKE '%" + searchString + "%'";
+                String usedQuery = "select PATIENT.PATIENT_ID, PATIENT.PATIENT_NAME, PATIENT.PATIENT_ADDRESS, PATIENT.PATIENT_BIRTHDATE, PATIENT.PATIENT_PHONENUM, GENDER.GENDER from PATIENT left outer join GENDER on PATIENT.PATIENT_GENDER=GENDER.GENDER_ID Where PATIENT_PHONENUM LIKE '%" + searchString + "%'";
                 DisplayDataInView(usedQuery, patientSearchResultsDataView);
             }
             else if (searchPatientAddressRadioButton.Checked)
             {
                 String searchString = additionalSearchPatientTextBox.Text;
-                String usedQuery = "Select * from PATIENT Where PATIENT_ADDRESS LIKE '%" + searchString + "%'";
+                String usedQuery = "select PATIENT.PATIENT_ID, PATIENT.PATIENT_NAME, PATIENT.PATIENT_ADDRESS, PATIENT.PATIENT_BIRTHDATE, PATIENT.PATIENT_PHONENUM, GENDER.GENDER from PATIENT left outer join GENDER on PATIENT.PATIENT_GENDER=GENDER.GENDER_ID Where PATIENT_ADDRESS LIKE '%" + searchString + "%'";
                 DisplayDataInView(usedQuery, patientSearchResultsDataView);
             }
             else
@@ -443,13 +461,16 @@ namespace hospitalmanagement
         private void searchAdditionalPatientButton_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             patientsInnerPages.SetPage("additionalSearchPatientPage");
+
+            String usedQuery = "select PATIENT.PATIENT_ID, PATIENT.PATIENT_NAME, PATIENT.PATIENT_ADDRESS, PATIENT.PATIENT_BIRTHDATE, PATIENT.PATIENT_PHONENUM, GENDER.GENDER from PATIENT left outer join GENDER on PATIENT.PATIENT_GENDER=GENDER.GENDER_ID";
+            DisplayDataInView(usedQuery, patientSearchResultsDataView);
         }
 
         private void filterBirthdateButton_Click(object sender, EventArgs e)
         {
             sqlConnection = new SqlConnection(cs);
             sqlConnection.Open();
-            query = "Select * from PATIENT Where PATIENT_BIRTHDATE=@birthdate";
+            query = "select PATIENT.PATIENT_ID, PATIENT.PATIENT_NAME, PATIENT.PATIENT_ADDRESS, PATIENT.PATIENT_BIRTHDATE, PATIENT.PATIENT_PHONENUM, GENDER.GENDER from PATIENT left outer join GENDER on PATIENT.PATIENT_GENDER=GENDER.GENDER_ID Where PATIENT_BIRTHDATE=@birthdate";
             sqlCommand = new SqlCommand(query, sqlConnection);
             adapter = new SqlDataAdapter();
             dataTable = new DataTable();
@@ -464,7 +485,7 @@ namespace hospitalmanagement
         private void searchPatientTextBox_TextChange(object sender, EventArgs e)
         {
             String searchString = searchPatientTextBox.Text;
-            String usedQuery = "Select * from PATIENT Where PATIENT_NAME LIKE '%" + searchString + "%'";
+            String usedQuery = "select PATIENT.PATIENT_ID, PATIENT.PATIENT_NAME, PATIENT.PATIENT_ADDRESS, PATIENT.PATIENT_BIRTHDATE, PATIENT.PATIENT_PHONENUM, GENDER.GENDER from PATIENT left outer join GENDER on PATIENT.PATIENT_GENDER=GENDER.GENDER_ID Where PATIENT_NAME LIKE '%" + searchString + "%'";
             DisplayDataInView(usedQuery, patientsDataView);
         }
 
@@ -484,12 +505,104 @@ namespace hospitalmanagement
                 sqlConnection.Close();
                 MessageBox.Show("Patient record deleted successfully!");
 
-                String usedQuery = "select PATIENT.PATIENT_ID, PATIENT.PATIENT_NAME, PATIENT.PATIENT_ADDRESS, PATIENT.PATIENT_BIRTHDATE, PATIENT.PATIENT_PHONENUM, PATIENT.PATIENT_GENDER, GENDER.GENDER from PATIENT inner join GENDER on PATIENT.PATIENT_GENDER=GENDER.GENDER_ID";
+                String usedQuery = "select PATIENT.PATIENT_ID, PATIENT.PATIENT_NAME, PATIENT.PATIENT_ADDRESS, PATIENT.PATIENT_BIRTHDATE, PATIENT.PATIENT_PHONENUM, GENDER.GENDER from PATIENT inner join GENDER on PATIENT.PATIENT_GENDER=GENDER.GENDER_ID";
                 DisplayDataInView(usedQuery, patientsDataView);
             }
             else
             {
                 MessageBox.Show("Please select patient record to delete.");
+            }
+        }
+
+        private void newAppointmentButton_Click(object sender, EventArgs e)
+        {
+            appointmentsInnerPages.SetPage("createAppointmentPage");
+
+            appointmentTimePicker.CustomFormat = "HH:mm tt"; // Only use hours and minutes
+            appointmentTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            appointmentTimePicker.MinDate = DateTime.Now;
+            appointmentDatePicker.MinDate = DateTime.Today;
+
+            String usedQuery = "select PATIENT.PATIENT_ID, PATIENT.PATIENT_NAME, PATIENT.PATIENT_ADDRESS, PATIENT.PATIENT_BIRTHDATE, PATIENT.PATIENT_PHONENUM, GENDER.GENDER from PATIENT inner join GENDER on PATIENT.PATIENT_GENDER=GENDER.GENDER_ID";
+            DisplayDataInView(usedQuery, appointmentPatientSearchDataView);
+
+            sqlConnection = new SqlConnection(cs);
+            query = "select * from DEPARTMENT";
+            sqlCommand = new SqlCommand(query, sqlConnection);
+            adapter = new SqlDataAdapter();
+            dataTable = new DataTable();
+            adapter.SelectCommand = sqlCommand;
+            adapter.Fill(dataTable);
+            departmentListBox.DataSource = dataTable;
+            departmentListBox.ValueMember = dataTable.Columns[0].ColumnName;
+            departmentListBox.DisplayMember = dataTable.Columns[1].ColumnName;
+        }
+
+        private void appointmentPatientSearchTextBox_TextChange(object sender, EventArgs e)
+        {
+            String searchString = appointmentPatientSearchTextBox.Text;
+            String usedQuery = "select PATIENT.PATIENT_ID, PATIENT.PATIENT_NAME, PATIENT.PATIENT_ADDRESS, PATIENT.PATIENT_BIRTHDATE, PATIENT.PATIENT_PHONENUM, GENDER.GENDER from PATIENT left outer join GENDER on PATIENT.PATIENT_GENDER=GENDER.GENDER_ID Where PATIENT_NAME LIKE '%" + searchString + "%'";
+            DisplayDataInView(usedQuery, appointmentPatientSearchDataView);
+        }
+
+        private void checkDoctorsButton_Click(object sender, EventArgs e)
+        {
+            String searchDepartmentID = departmentListBox.SelectedValue.ToString();
+            sqlConnection = new SqlConnection(cs);
+            sqlConnection.Open();
+            query = "select * from DOCTOR where DOCTOR.DOCTOR_DEPARTMENT="+searchDepartmentID;
+            sqlCommand = new SqlCommand(query, sqlConnection);
+            adapter = new SqlDataAdapter();
+            dataTable = new DataTable();
+            adapter.SelectCommand = sqlCommand;
+            adapter.Fill(dataTable);
+            availableDoctorsListBox.DataSource = dataTable;
+            availableDoctorsListBox.ValueMember = dataTable.Columns[0].ColumnName;
+            availableDoctorsListBox.DisplayMember = dataTable.Columns[1].ColumnName;
+            sqlConnection.Close();
+        }
+
+        private void bookAppointmentButton_Click(object sender, EventArgs e)
+        {
+            int selectedIndex = appointmentPatientSearchDataView.SelectedRows[0].Index;
+            int patientID = int.Parse(appointmentPatientSearchDataView[0, selectedIndex].Value.ToString());
+
+            if (selectedIndex!=0)
+            {
+                sqlConnection = new SqlConnection(cs);
+                sqlConnection.Open();
+                query = "SELECT MAX(APPOINTMENT_ID) FROM APPOINTMENT";
+                sqlCommand = new SqlCommand(query, sqlConnection);
+                int appointmentID = (int)sqlCommand.ExecuteScalar();
+                appointmentID++;
+                query = "Insert INTO APPOINTMENT (APPOINTMENT_ID, APPOINTMENT_DATE, APPOINTMENT_TIME, APPOINTMENT_DOCTOR_ID, APPOINTMENT_PATIENT_ID) VALUES (@id, @date, @time, @doctor_id, @patient_id)";
+                sqlCommand = new SqlCommand(query, sqlConnection);
+                sqlCommand.Parameters.AddWithValue("@id", appointmentID);
+                sqlCommand.Parameters.AddWithValue("@date", appointmentDatePicker.Value.Date);
+                sqlCommand.Parameters.AddWithValue("@time", appointmentTimePicker.Value.TimeOfDay);
+                sqlCommand.Parameters.AddWithValue("@doctor_id", availableDoctorsListBox.SelectedValue);
+                sqlCommand.Parameters.AddWithValue("@patient_id", patientID);
+                sqlCommand.ExecuteNonQuery();
+                sqlConnection.Close();
+                MessageBox.Show("Appointment booked successfully!");
+
+                appointmentsInnerPages.SetPage("appointmentsMainPage");
+                sqlConnection = new SqlConnection(cs);
+                sqlConnection.Open();
+                query = "select APPOINTMENT.APPOINTMENT_TIME, DOCTOR.DOCTOR_NAME, PATIENT.PATIENT_NAME from APPOINTMENT inner join DOCTOR ON APPOINTMENT.APPOINTMENT_DOCTOR_ID=DOCTOR.DOCTOR_ID where APPOINTMENT_DATE=@date";
+                sqlCommand = new SqlCommand(query, sqlConnection);
+                adapter = new SqlDataAdapter();
+                dataTable = new DataTable();
+                sqlCommand.Parameters.AddWithValue("@date", DateTime.Today);
+                sqlCommand.ExecuteNonQuery();
+                adapter.SelectCommand = sqlCommand;
+                adapter.Fill(dataTable);
+                appointmentsTodayDataView.DataSource = dataTable;
+                sqlConnection.Close();
+            }
+            else
+            {
+                MessageBox.Show("Please fill all required information.");
             }
         }
     }

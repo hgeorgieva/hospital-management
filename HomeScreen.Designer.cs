@@ -31,7 +31,7 @@ namespace hospitalmanagement
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeScreen));
-            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation3 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
+            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation4 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             Utilities.BunifuPages.BunifuAnimatorNS.Animation animation1 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -93,6 +93,18 @@ namespace hospitalmanagement
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties42 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties43 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties44 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation3 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties45 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties46 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties47 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties48 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
@@ -125,8 +137,8 @@ namespace hospitalmanagement
             this.dOCTORIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dOCTORNAMEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dOCTORDESIGNATIONDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dOCTORPHONENUMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dOCTORDEPARTMENTDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dOCTORGRADUATIONDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dOCTORBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.hospitaldatabaseDataSet = new hospitalmanagement.hospitaldatabaseDataSet();
@@ -161,8 +173,8 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DOCTOR_DEPARTMENT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.patientsPage = new System.Windows.Forms.TabPage();
             this.patientsInnerPages = new Bunifu.UI.WinForms.BunifuPages();
@@ -173,7 +185,7 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PATIENT_GENDER = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pATIENTBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.hospitaldatabaseDataSetPatient = new hospitalmanagement.hospitaldatabaseDataSetPatient();
             this.searchAdditionalPatientButton = new System.Windows.Forms.LinkLabel();
@@ -203,7 +215,7 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.additionalSearchPatientTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuLabel6 = new Bunifu.UI.WinForms.BunifuLabel();
@@ -215,10 +227,37 @@ namespace hospitalmanagement
             this.bunifuLabel9 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel10 = new Bunifu.UI.WinForms.BunifuLabel();
             this.appointmentsPage = new System.Windows.Forms.TabPage();
-            this.cancelAppointmentButton = new Bunifu.Framework.UI.BunifuTileButton();
-            this.searchForAppointmentButton = new Bunifu.Framework.UI.BunifuTileButton();
-            this.viewAllAppointmentsButton = new Bunifu.Framework.UI.BunifuTileButton();
-            this.addNewAppointmentButton = new Bunifu.Framework.UI.BunifuTileButton();
+            this.appointmentsInnerPages = new Bunifu.UI.WinForms.BunifuPages();
+            this.appointmentsMainPage = new System.Windows.Forms.TabPage();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.searchAppointmentButton = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.viewAllAppointments = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.cancelAppointmentButton = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.newAppointmentButton = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.appointmentsTodayDataView = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.aPPOINTMENTBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.hospitaldatabaseDataSetAppointment = new hospitalmanagement.hospitaldatabaseDataSetAppointment();
+            this.bunifuLabel11 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.createAppointmentPage = new System.Windows.Forms.TabPage();
+            this.checkDoctorsButton = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bookAppointmentButton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.bunifuLabel29 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.availableDoctorsListBox = new System.Windows.Forms.ListBox();
+            this.departmentListBox = new System.Windows.Forms.ListBox();
+            this.appointmentPatientSearchTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.appointmentPatientSearchDataView = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.bunifuLabel28 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.appointmentTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.bunifuLabel27 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.appointmentDatePicker = new Bunifu.UI.WinForms.BunifuDatePicker();
             this.diagnosesPage = new System.Windows.Forms.TabPage();
             this.prescriptionsPage = new System.Windows.Forms.TabPage();
             this.medicationsPage = new System.Windows.Forms.TabPage();
@@ -231,6 +270,10 @@ namespace hospitalmanagement
             this.pATIENTBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pATIENTTableAdapter = new hospitalmanagement.hospitaldatabaseDataSetPatientTableAdapters.PATIENTTableAdapter();
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.aPPOINTMENTTableAdapter = new hospitalmanagement.hospitaldatabaseDataSetAppointmentTableAdapters.APPOINTMENTTableAdapter();
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.APPOINTMENT_DOCTOR_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.APPOINTMENT_PATIENT_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_menu)).BeginInit();
@@ -260,6 +303,15 @@ namespace hospitalmanagement
             ((System.ComponentModel.ISupportInitialize)(this.patientSearchResultsDataView)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.appointmentsPage.SuspendLayout();
+            this.appointmentsInnerPages.SuspendLayout();
+            this.appointmentsMainPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.appointmentsTodayDataView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.aPPOINTMENTBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hospitaldatabaseDataSetAppointment)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.createAppointmentPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.appointmentPatientSearchDataView)).BeginInit();
+            this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -573,29 +625,29 @@ namespace hospitalmanagement
             this.pages.Location = new System.Drawing.Point(368, 93);
             this.pages.Multiline = true;
             this.pages.Name = "pages";
-            this.pages.Page = this.patientsPage;
-            this.pages.PageIndex = 2;
-            this.pages.PageName = "patientsPage";
-            this.pages.PageTitle = "patientsPage";
+            this.pages.Page = this.appointmentsPage;
+            this.pages.PageIndex = 3;
+            this.pages.PageName = "appointmentsPage";
+            this.pages.PageTitle = "appointmentsPage";
             this.pages.SelectedIndex = 0;
             this.pages.Size = new System.Drawing.Size(975, 648);
             this.pages.TabIndex = 13;
-            animation3.AnimateOnlyDifferences = true;
-            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
-            animation3.LeafCoeff = 1F;
-            animation3.MaxTime = 1F;
-            animation3.MinTime = 0F;
-            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
-            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
-            animation3.MosaicSize = 0;
-            animation3.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
-            animation3.RotateCoeff = 0F;
-            animation3.RotateLimit = 0F;
-            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
-            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
-            animation3.TimeCoeff = 0F;
-            animation3.TransparencyCoeff = 0F;
-            this.pages.Transition = animation3;
+            animation4.AnimateOnlyDifferences = true;
+            animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
+            animation4.LeafCoeff = 1F;
+            animation4.MaxTime = 1F;
+            animation4.MinTime = 0F;
+            animation4.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicCoeff")));
+            animation4.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicShift")));
+            animation4.MosaicSize = 0;
+            animation4.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            animation4.RotateCoeff = 0F;
+            animation4.RotateLimit = 0F;
+            animation4.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.ScaleCoeff")));
+            animation4.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.SlideCoeff")));
+            animation4.TimeCoeff = 0F;
+            animation4.TransparencyCoeff = 0F;
+            this.pages.Transition = animation4;
             this.pages.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Leaf;
             // 
             // homePage
@@ -629,10 +681,10 @@ namespace hospitalmanagement
             this.doctorsInnerPages.Location = new System.Drawing.Point(3, 6);
             this.doctorsInnerPages.Multiline = true;
             this.doctorsInnerPages.Name = "doctorsInnerPages";
-            this.doctorsInnerPages.Page = this.additionalSearchPage;
-            this.doctorsInnerPages.PageIndex = 2;
-            this.doctorsInnerPages.PageName = "additionalSearchPage";
-            this.doctorsInnerPages.PageTitle = "additionalSearchPage";
+            this.doctorsInnerPages.Page = this.tabPage1;
+            this.doctorsInnerPages.PageIndex = 0;
+            this.doctorsInnerPages.PageName = "tabPage1";
+            this.doctorsInnerPages.PageTitle = "doctorsMainPage";
             this.doctorsInnerPages.SelectedIndex = 0;
             this.doctorsInnerPages.Size = new System.Drawing.Size(958, 610);
             this.doctorsInnerPages.TabIndex = 4;
@@ -755,8 +807,8 @@ namespace hospitalmanagement
             this.dOCTORIDDataGridViewTextBoxColumn,
             this.dOCTORNAMEDataGridViewTextBoxColumn,
             this.dOCTORDESIGNATIONDataGridViewTextBoxColumn,
+            this.dataGridViewTextBoxColumn5,
             this.dOCTORPHONENUMDataGridViewTextBoxColumn,
-            this.dOCTORDEPARTMENTDataGridViewTextBoxColumn,
             this.dOCTORGRADUATIONDataGridViewTextBoxColumn});
             this.doctorsDataView.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             this.doctorsDataView.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -829,6 +881,14 @@ namespace hospitalmanagement
             this.dOCTORDESIGNATIONDataGridViewTextBoxColumn.Name = "dOCTORDESIGNATIONDataGridViewTextBoxColumn";
             this.dOCTORDESIGNATIONDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "DEPARTMENT_NAME";
+            this.dataGridViewTextBoxColumn5.HeaderText = "DEPARTMENT";
+            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            // 
             // dOCTORPHONENUMDataGridViewTextBoxColumn
             // 
             this.dOCTORPHONENUMDataGridViewTextBoxColumn.DataPropertyName = "DOCTOR_PHONENUM";
@@ -837,15 +897,6 @@ namespace hospitalmanagement
             this.dOCTORPHONENUMDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.dOCTORPHONENUMDataGridViewTextBoxColumn.Name = "dOCTORPHONENUMDataGridViewTextBoxColumn";
             this.dOCTORPHONENUMDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // dOCTORDEPARTMENTDataGridViewTextBoxColumn
-            // 
-            this.dOCTORDEPARTMENTDataGridViewTextBoxColumn.DataPropertyName = "DOCTOR_DEPARTMENT";
-            this.dOCTORDEPARTMENTDataGridViewTextBoxColumn.FillWeight = 116.1497F;
-            this.dOCTORDEPARTMENTDataGridViewTextBoxColumn.HeaderText = "DEPARTMENT";
-            this.dOCTORDEPARTMENTDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.dOCTORDEPARTMENTDataGridViewTextBoxColumn.Name = "dOCTORDEPARTMENTDataGridViewTextBoxColumn";
-            this.dOCTORDEPARTMENTDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // dOCTORGRADUATIONDataGridViewTextBoxColumn
             // 
@@ -1823,8 +1874,8 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn3,
+            this.DOCTOR_DEPARTMENT,
             this.dataGridViewTextBoxColumn4,
-            this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6});
             this.searchResultsDataGridView.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             this.searchResultsDataGridView.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1897,6 +1948,14 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             this.dataGridViewTextBoxColumn3.ReadOnly = true;
             // 
+            // DOCTOR_DEPARTMENT
+            // 
+            this.DOCTOR_DEPARTMENT.DataPropertyName = "DEPARTMENT_NAME";
+            this.DOCTOR_DEPARTMENT.HeaderText = "DEPARTMENT";
+            this.DOCTOR_DEPARTMENT.MinimumWidth = 6;
+            this.DOCTOR_DEPARTMENT.Name = "DOCTOR_DEPARTMENT";
+            this.DOCTOR_DEPARTMENT.ReadOnly = true;
+            // 
             // dataGridViewTextBoxColumn4
             // 
             this.dataGridViewTextBoxColumn4.DataPropertyName = "DOCTOR_PHONENUM";
@@ -1905,15 +1964,6 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "DOCTOR_DEPARTMENT";
-            this.dataGridViewTextBoxColumn5.FillWeight = 116.1497F;
-            this.dataGridViewTextBoxColumn5.HeaderText = "DEPARTMENT";
-            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn6
             // 
@@ -2017,7 +2067,7 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn9,
             this.dataGridViewTextBoxColumn10,
             this.dataGridViewTextBoxColumn11,
-            this.dataGridViewTextBoxColumn12});
+            this.PATIENT_GENDER});
             this.patientsDataView.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             this.patientsDataView.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.patientsDataView.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
@@ -2107,14 +2157,13 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
             this.dataGridViewTextBoxColumn11.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn12
+            // PATIENT_GENDER
             // 
-            this.dataGridViewTextBoxColumn12.DataPropertyName = "PATIENT_GENDER";
-            this.dataGridViewTextBoxColumn12.FillWeight = 113.5829F;
-            this.dataGridViewTextBoxColumn12.HeaderText = "GENDER";
-            this.dataGridViewTextBoxColumn12.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
-            this.dataGridViewTextBoxColumn12.ReadOnly = true;
+            this.PATIENT_GENDER.DataPropertyName = "GENDER";
+            this.PATIENT_GENDER.HeaderText = "GENDER";
+            this.PATIENT_GENDER.MinimumWidth = 6;
+            this.PATIENT_GENDER.Name = "PATIENT_GENDER";
+            this.PATIENT_GENDER.ReadOnly = true;
             // 
             // pATIENTBindingSource2
             // 
@@ -2935,7 +2984,7 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn15,
             this.dataGridViewTextBoxColumn16,
             this.dataGridViewTextBoxColumn17,
-            this.dataGridViewTextBoxColumn18});
+            this.dataGridViewTextBoxColumn12});
             this.patientSearchResultsDataView.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             this.patientSearchResultsDataView.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.patientSearchResultsDataView.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
@@ -3025,14 +3074,13 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
             this.dataGridViewTextBoxColumn17.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn18
+            // dataGridViewTextBoxColumn12
             // 
-            this.dataGridViewTextBoxColumn18.DataPropertyName = "PATIENT_GENDER";
-            this.dataGridViewTextBoxColumn18.FillWeight = 113.5829F;
-            this.dataGridViewTextBoxColumn18.HeaderText = "GENDER";
-            this.dataGridViewTextBoxColumn18.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
-            this.dataGridViewTextBoxColumn18.ReadOnly = true;
+            this.dataGridViewTextBoxColumn12.DataPropertyName = "GENDER";
+            this.dataGridViewTextBoxColumn12.HeaderText = "GENDER";
+            this.dataGridViewTextBoxColumn12.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            this.dataGridViewTextBoxColumn12.ReadOnly = true;
             // 
             // groupBox2
             // 
@@ -3263,10 +3311,7 @@ namespace hospitalmanagement
             // 
             // appointmentsPage
             // 
-            this.appointmentsPage.Controls.Add(this.cancelAppointmentButton);
-            this.appointmentsPage.Controls.Add(this.searchForAppointmentButton);
-            this.appointmentsPage.Controls.Add(this.viewAllAppointmentsButton);
-            this.appointmentsPage.Controls.Add(this.addNewAppointmentButton);
+            this.appointmentsPage.Controls.Add(this.appointmentsInnerPages);
             this.appointmentsPage.Location = new System.Drawing.Point(4, 4);
             this.appointmentsPage.Name = "appointmentsPage";
             this.appointmentsPage.Padding = new System.Windows.Forms.Padding(3);
@@ -3275,81 +3320,732 @@ namespace hospitalmanagement
             this.appointmentsPage.Text = "appointmentsPage";
             this.appointmentsPage.UseVisualStyleBackColor = true;
             // 
+            // appointmentsInnerPages
+            // 
+            this.appointmentsInnerPages.Alignment = System.Windows.Forms.TabAlignment.Bottom;
+            this.appointmentsInnerPages.AllowTransitions = true;
+            this.appointmentsInnerPages.Controls.Add(this.appointmentsMainPage);
+            this.appointmentsInnerPages.Controls.Add(this.createAppointmentPage);
+            this.appointmentsInnerPages.Location = new System.Drawing.Point(3, 6);
+            this.appointmentsInnerPages.Multiline = true;
+            this.appointmentsInnerPages.Name = "appointmentsInnerPages";
+            this.appointmentsInnerPages.Page = this.appointmentsMainPage;
+            this.appointmentsInnerPages.PageIndex = 0;
+            this.appointmentsInnerPages.PageName = "appointmentsMainPage";
+            this.appointmentsInnerPages.PageTitle = "appointmentsMainPage";
+            this.appointmentsInnerPages.SelectedIndex = 0;
+            this.appointmentsInnerPages.Size = new System.Drawing.Size(958, 610);
+            this.appointmentsInnerPages.TabIndex = 0;
+            animation3.AnimateOnlyDifferences = false;
+            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
+            animation3.LeafCoeff = 0F;
+            animation3.MaxTime = 1F;
+            animation3.MinTime = 0F;
+            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
+            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
+            animation3.MosaicSize = 0;
+            animation3.Padding = new System.Windows.Forms.Padding(0);
+            animation3.RotateCoeff = 0F;
+            animation3.RotateLimit = 0F;
+            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
+            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
+            animation3.TimeCoeff = 0F;
+            animation3.TransparencyCoeff = 0F;
+            this.appointmentsInnerPages.Transition = animation3;
+            this.appointmentsInnerPages.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Custom;
+            // 
+            // appointmentsMainPage
+            // 
+            this.appointmentsMainPage.Controls.Add(this.monthCalendar1);
+            this.appointmentsMainPage.Controls.Add(this.searchAppointmentButton);
+            this.appointmentsMainPage.Controls.Add(this.viewAllAppointments);
+            this.appointmentsMainPage.Controls.Add(this.cancelAppointmentButton);
+            this.appointmentsMainPage.Controls.Add(this.newAppointmentButton);
+            this.appointmentsMainPage.Controls.Add(this.appointmentsTodayDataView);
+            this.appointmentsMainPage.Controls.Add(this.bunifuLabel11);
+            this.appointmentsMainPage.Controls.Add(this.pictureBox3);
+            this.appointmentsMainPage.Location = new System.Drawing.Point(4, 4);
+            this.appointmentsMainPage.Name = "appointmentsMainPage";
+            this.appointmentsMainPage.Padding = new System.Windows.Forms.Padding(3);
+            this.appointmentsMainPage.Size = new System.Drawing.Size(950, 581);
+            this.appointmentsMainPage.TabIndex = 0;
+            this.appointmentsMainPage.Text = "appointmentsMainPage";
+            this.appointmentsMainPage.UseVisualStyleBackColor = true;
+            // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.Location = new System.Drawing.Point(245, 149);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 25;
+            // 
+            // searchAppointmentButton
+            // 
+            this.searchAppointmentButton.ActiveBorderThickness = 1;
+            this.searchAppointmentButton.ActiveCornerRadius = 20;
+            this.searchAppointmentButton.ActiveFillColor = System.Drawing.Color.LightBlue;
+            this.searchAppointmentButton.ActiveForecolor = System.Drawing.Color.White;
+            this.searchAppointmentButton.ActiveLineColor = System.Drawing.Color.DarkSlateGray;
+            this.searchAppointmentButton.BackColor = System.Drawing.Color.Transparent;
+            this.searchAppointmentButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("searchAppointmentButton.BackgroundImage")));
+            this.searchAppointmentButton.ButtonText = "Search appointment";
+            this.searchAppointmentButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.searchAppointmentButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchAppointmentButton.ForeColor = System.Drawing.Color.SeaGreen;
+            this.searchAppointmentButton.IdleBorderThickness = 1;
+            this.searchAppointmentButton.IdleCornerRadius = 20;
+            this.searchAppointmentButton.IdleFillColor = System.Drawing.Color.White;
+            this.searchAppointmentButton.IdleForecolor = System.Drawing.Color.DarkSlateGray;
+            this.searchAppointmentButton.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.searchAppointmentButton.Location = new System.Drawing.Point(263, 475);
+            this.searchAppointmentButton.Margin = new System.Windows.Forms.Padding(5);
+            this.searchAppointmentButton.Name = "searchAppointmentButton";
+            this.searchAppointmentButton.Size = new System.Drawing.Size(244, 91);
+            this.searchAppointmentButton.TabIndex = 24;
+            this.searchAppointmentButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // viewAllAppointments
+            // 
+            this.viewAllAppointments.ActiveBorderThickness = 1;
+            this.viewAllAppointments.ActiveCornerRadius = 20;
+            this.viewAllAppointments.ActiveFillColor = System.Drawing.Color.LightBlue;
+            this.viewAllAppointments.ActiveForecolor = System.Drawing.Color.White;
+            this.viewAllAppointments.ActiveLineColor = System.Drawing.Color.DarkSlateGray;
+            this.viewAllAppointments.BackColor = System.Drawing.Color.Transparent;
+            this.viewAllAppointments.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("viewAllAppointments.BackgroundImage")));
+            this.viewAllAppointments.ButtonText = "View all appointments";
+            this.viewAllAppointments.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.viewAllAppointments.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewAllAppointments.ForeColor = System.Drawing.Color.SeaGreen;
+            this.viewAllAppointments.IdleBorderThickness = 1;
+            this.viewAllAppointments.IdleCornerRadius = 20;
+            this.viewAllAppointments.IdleFillColor = System.Drawing.Color.White;
+            this.viewAllAppointments.IdleForecolor = System.Drawing.Color.DarkSlateGray;
+            this.viewAllAppointments.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.viewAllAppointments.Location = new System.Drawing.Point(263, 374);
+            this.viewAllAppointments.Margin = new System.Windows.Forms.Padding(5);
+            this.viewAllAppointments.Name = "viewAllAppointments";
+            this.viewAllAppointments.Size = new System.Drawing.Size(244, 91);
+            this.viewAllAppointments.TabIndex = 23;
+            this.viewAllAppointments.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // cancelAppointmentButton
             // 
-            this.cancelAppointmentButton.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.cancelAppointmentButton.color = System.Drawing.Color.LightSeaGreen;
-            this.cancelAppointmentButton.colorActive = System.Drawing.Color.MediumTurquoise;
+            this.cancelAppointmentButton.ActiveBorderThickness = 1;
+            this.cancelAppointmentButton.ActiveCornerRadius = 20;
+            this.cancelAppointmentButton.ActiveFillColor = System.Drawing.Color.LightBlue;
+            this.cancelAppointmentButton.ActiveForecolor = System.Drawing.Color.White;
+            this.cancelAppointmentButton.ActiveLineColor = System.Drawing.Color.DarkSlateGray;
+            this.cancelAppointmentButton.BackColor = System.Drawing.Color.Transparent;
+            this.cancelAppointmentButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("cancelAppointmentButton.BackgroundImage")));
+            this.cancelAppointmentButton.ButtonText = "Cancel appointment";
             this.cancelAppointmentButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cancelAppointmentButton.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.cancelAppointmentButton.ForeColor = System.Drawing.Color.White;
-            this.cancelAppointmentButton.Image = ((System.Drawing.Image)(resources.GetObject("cancelAppointmentButton.Image")));
-            this.cancelAppointmentButton.ImagePosition = 7;
-            this.cancelAppointmentButton.ImageZoom = 50;
-            this.cancelAppointmentButton.LabelPosition = 70;
-            this.cancelAppointmentButton.LabelText = "Cancel appointment";
-            this.cancelAppointmentButton.Location = new System.Drawing.Point(507, 316);
-            this.cancelAppointmentButton.Margin = new System.Windows.Forms.Padding(4);
+            this.cancelAppointmentButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cancelAppointmentButton.ForeColor = System.Drawing.Color.SeaGreen;
+            this.cancelAppointmentButton.IdleBorderThickness = 1;
+            this.cancelAppointmentButton.IdleCornerRadius = 20;
+            this.cancelAppointmentButton.IdleFillColor = System.Drawing.Color.White;
+            this.cancelAppointmentButton.IdleForecolor = System.Drawing.Color.DarkSlateGray;
+            this.cancelAppointmentButton.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.cancelAppointmentButton.Location = new System.Drawing.Point(0, 475);
+            this.cancelAppointmentButton.Margin = new System.Windows.Forms.Padding(5);
             this.cancelAppointmentButton.Name = "cancelAppointmentButton";
-            this.cancelAppointmentButton.Size = new System.Drawing.Size(173, 155);
-            this.cancelAppointmentButton.TabIndex = 11;
+            this.cancelAppointmentButton.Size = new System.Drawing.Size(244, 91);
+            this.cancelAppointmentButton.TabIndex = 22;
+            this.cancelAppointmentButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // searchForAppointmentButton
+            // newAppointmentButton
             // 
-            this.searchForAppointmentButton.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.searchForAppointmentButton.color = System.Drawing.Color.LightSeaGreen;
-            this.searchForAppointmentButton.colorActive = System.Drawing.Color.MediumTurquoise;
-            this.searchForAppointmentButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.searchForAppointmentButton.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.searchForAppointmentButton.ForeColor = System.Drawing.Color.White;
-            this.searchForAppointmentButton.Image = ((System.Drawing.Image)(resources.GetObject("searchForAppointmentButton.Image")));
-            this.searchForAppointmentButton.ImagePosition = 7;
-            this.searchForAppointmentButton.ImageZoom = 50;
-            this.searchForAppointmentButton.LabelPosition = 70;
-            this.searchForAppointmentButton.LabelText = "Search for appointment";
-            this.searchForAppointmentButton.Location = new System.Drawing.Point(268, 316);
-            this.searchForAppointmentButton.Margin = new System.Windows.Forms.Padding(4);
-            this.searchForAppointmentButton.Name = "searchForAppointmentButton";
-            this.searchForAppointmentButton.Size = new System.Drawing.Size(178, 155);
-            this.searchForAppointmentButton.TabIndex = 10;
+            this.newAppointmentButton.ActiveBorderThickness = 1;
+            this.newAppointmentButton.ActiveCornerRadius = 20;
+            this.newAppointmentButton.ActiveFillColor = System.Drawing.Color.LightBlue;
+            this.newAppointmentButton.ActiveForecolor = System.Drawing.Color.White;
+            this.newAppointmentButton.ActiveLineColor = System.Drawing.Color.DarkSlateGray;
+            this.newAppointmentButton.BackColor = System.Drawing.Color.Transparent;
+            this.newAppointmentButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("newAppointmentButton.BackgroundImage")));
+            this.newAppointmentButton.ButtonText = "New appointment";
+            this.newAppointmentButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.newAppointmentButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.newAppointmentButton.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.newAppointmentButton.IdleBorderThickness = 1;
+            this.newAppointmentButton.IdleCornerRadius = 20;
+            this.newAppointmentButton.IdleFillColor = System.Drawing.Color.White;
+            this.newAppointmentButton.IdleForecolor = System.Drawing.Color.DarkSlateGray;
+            this.newAppointmentButton.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.newAppointmentButton.Location = new System.Drawing.Point(0, 374);
+            this.newAppointmentButton.Margin = new System.Windows.Forms.Padding(5);
+            this.newAppointmentButton.Name = "newAppointmentButton";
+            this.newAppointmentButton.Size = new System.Drawing.Size(244, 91);
+            this.newAppointmentButton.TabIndex = 18;
+            this.newAppointmentButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.newAppointmentButton.Click += new System.EventHandler(this.newAppointmentButton_Click);
             // 
-            // viewAllAppointmentsButton
+            // appointmentsTodayDataView
             // 
-            this.viewAllAppointmentsButton.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.viewAllAppointmentsButton.color = System.Drawing.Color.LightSeaGreen;
-            this.viewAllAppointmentsButton.colorActive = System.Drawing.Color.MediumTurquoise;
-            this.viewAllAppointmentsButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.viewAllAppointmentsButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.viewAllAppointmentsButton.ForeColor = System.Drawing.Color.White;
-            this.viewAllAppointmentsButton.Image = ((System.Drawing.Image)(resources.GetObject("viewAllAppointmentsButton.Image")));
-            this.viewAllAppointmentsButton.ImagePosition = 6;
-            this.viewAllAppointmentsButton.ImageZoom = 50;
-            this.viewAllAppointmentsButton.LabelPosition = 63;
-            this.viewAllAppointmentsButton.LabelText = "View all appointments";
-            this.viewAllAppointmentsButton.Location = new System.Drawing.Point(507, 83);
-            this.viewAllAppointmentsButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.viewAllAppointmentsButton.Name = "viewAllAppointmentsButton";
-            this.viewAllAppointmentsButton.Size = new System.Drawing.Size(173, 155);
-            this.viewAllAppointmentsButton.TabIndex = 9;
+            this.appointmentsTodayDataView.AllowCustomTheming = true;
+            this.appointmentsTodayDataView.AllowUserToAddRows = false;
+            this.appointmentsTodayDataView.AllowUserToDeleteRows = false;
+            this.appointmentsTodayDataView.AllowUserToResizeColumns = false;
+            this.appointmentsTodayDataView.AllowUserToResizeRows = false;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.Black;
+            this.appointmentsTodayDataView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
+            this.appointmentsTodayDataView.AutoGenerateColumns = false;
+            this.appointmentsTodayDataView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.appointmentsTodayDataView.BackgroundColor = System.Drawing.Color.White;
+            this.appointmentsTodayDataView.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.appointmentsTodayDataView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.appointmentsTodayDataView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.appointmentsTodayDataView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
+            this.appointmentsTodayDataView.ColumnHeadersHeight = 40;
+            this.appointmentsTodayDataView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn,
+            this.APPOINTMENT_DOCTOR_ID,
+            this.APPOINTMENT_PATIENT_ID});
+            this.appointmentsTodayDataView.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.appointmentsTodayDataView.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.appointmentsTodayDataView.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.appointmentsTodayDataView.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            this.appointmentsTodayDataView.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.appointmentsTodayDataView.CurrentTheme.BackColor = System.Drawing.Color.White;
+            this.appointmentsTodayDataView.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.appointmentsTodayDataView.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.DodgerBlue;
+            this.appointmentsTodayDataView.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold);
+            this.appointmentsTodayDataView.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.appointmentsTodayDataView.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            this.appointmentsTodayDataView.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.appointmentsTodayDataView.CurrentTheme.Name = null;
+            this.appointmentsTodayDataView.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.appointmentsTodayDataView.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.appointmentsTodayDataView.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.appointmentsTodayDataView.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            this.appointmentsTodayDataView.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.appointmentsTodayDataView.DataSource = this.aPPOINTMENTBindingSource;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.appointmentsTodayDataView.DefaultCellStyle = dataGridViewCellStyle15;
+            this.appointmentsTodayDataView.EnableHeadersVisualStyles = false;
+            this.appointmentsTodayDataView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.appointmentsTodayDataView.HeaderBackColor = System.Drawing.Color.DodgerBlue;
+            this.appointmentsTodayDataView.HeaderBgColor = System.Drawing.Color.Empty;
+            this.appointmentsTodayDataView.HeaderForeColor = System.Drawing.Color.White;
+            this.appointmentsTodayDataView.Location = new System.Drawing.Point(515, 75);
+            this.appointmentsTodayDataView.Name = "appointmentsTodayDataView";
+            this.appointmentsTodayDataView.ReadOnly = true;
+            this.appointmentsTodayDataView.RowHeadersVisible = false;
+            this.appointmentsTodayDataView.RowHeadersWidth = 51;
+            this.appointmentsTodayDataView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.appointmentsTodayDataView.RowTemplate.Height = 40;
+            this.appointmentsTodayDataView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.appointmentsTodayDataView.Size = new System.Drawing.Size(445, 500);
+            this.appointmentsTodayDataView.TabIndex = 6;
+            this.appointmentsTodayDataView.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
-            // addNewAppointmentButton
+            // aPPOINTMENTBindingSource
             // 
-            this.addNewAppointmentButton.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.addNewAppointmentButton.color = System.Drawing.Color.LightSeaGreen;
-            this.addNewAppointmentButton.colorActive = System.Drawing.Color.MediumTurquoise;
-            this.addNewAppointmentButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.addNewAppointmentButton.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.addNewAppointmentButton.ForeColor = System.Drawing.Color.White;
-            this.addNewAppointmentButton.Image = ((System.Drawing.Image)(resources.GetObject("addNewAppointmentButton.Image")));
-            this.addNewAppointmentButton.ImagePosition = 7;
-            this.addNewAppointmentButton.ImageZoom = 50;
-            this.addNewAppointmentButton.LabelPosition = 70;
-            this.addNewAppointmentButton.LabelText = "Add new appointment";
-            this.addNewAppointmentButton.Location = new System.Drawing.Point(268, 83);
-            this.addNewAppointmentButton.Margin = new System.Windows.Forms.Padding(4);
-            this.addNewAppointmentButton.Name = "addNewAppointmentButton";
-            this.addNewAppointmentButton.Size = new System.Drawing.Size(173, 155);
-            this.addNewAppointmentButton.TabIndex = 8;
+            this.aPPOINTMENTBindingSource.DataMember = "APPOINTMENT";
+            this.aPPOINTMENTBindingSource.DataSource = this.hospitaldatabaseDataSetAppointment;
+            // 
+            // hospitaldatabaseDataSetAppointment
+            // 
+            this.hospitaldatabaseDataSetAppointment.DataSetName = "hospitaldatabaseDataSetAppointment";
+            this.hospitaldatabaseDataSetAppointment.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // bunifuLabel11
+            // 
+            this.bunifuLabel11.AllowParentOverrides = false;
+            this.bunifuLabel11.AutoEllipsis = false;
+            this.bunifuLabel11.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.bunifuLabel11.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel11.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel11.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel11.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel11.Location = new System.Drawing.Point(626, 42);
+            this.bunifuLabel11.Name = "bunifuLabel11";
+            this.bunifuLabel11.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel11.Size = new System.Drawing.Size(228, 27);
+            this.bunifuLabel11.TabIndex = 7;
+            this.bunifuLabel11.Text = "Appointments today";
+            this.bunifuLabel11.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel11.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.pictureBox3.Location = new System.Drawing.Point(515, 6);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(445, 83);
+            this.pictureBox3.TabIndex = 8;
+            this.pictureBox3.TabStop = false;
+            // 
+            // createAppointmentPage
+            // 
+            this.createAppointmentPage.Controls.Add(this.checkDoctorsButton);
+            this.createAppointmentPage.Controls.Add(this.bookAppointmentButton);
+            this.createAppointmentPage.Controls.Add(this.bunifuLabel29);
+            this.createAppointmentPage.Controls.Add(this.availableDoctorsListBox);
+            this.createAppointmentPage.Controls.Add(this.departmentListBox);
+            this.createAppointmentPage.Controls.Add(this.appointmentPatientSearchTextBox);
+            this.createAppointmentPage.Controls.Add(this.appointmentPatientSearchDataView);
+            this.createAppointmentPage.Controls.Add(this.groupBox3);
+            this.createAppointmentPage.Location = new System.Drawing.Point(4, 4);
+            this.createAppointmentPage.Name = "createAppointmentPage";
+            this.createAppointmentPage.Padding = new System.Windows.Forms.Padding(3);
+            this.createAppointmentPage.Size = new System.Drawing.Size(950, 581);
+            this.createAppointmentPage.TabIndex = 1;
+            this.createAppointmentPage.Text = "createAppointmentPage";
+            this.createAppointmentPage.UseVisualStyleBackColor = true;
+            // 
+            // checkDoctorsButton
+            // 
+            this.checkDoctorsButton.ActiveBorderThickness = 1;
+            this.checkDoctorsButton.ActiveCornerRadius = 20;
+            this.checkDoctorsButton.ActiveFillColor = System.Drawing.Color.DarkSlateGray;
+            this.checkDoctorsButton.ActiveForecolor = System.Drawing.Color.White;
+            this.checkDoctorsButton.ActiveLineColor = System.Drawing.Color.DarkSlateGray;
+            this.checkDoctorsButton.BackColor = System.Drawing.Color.Transparent;
+            this.checkDoctorsButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("checkDoctorsButton.BackgroundImage")));
+            this.checkDoctorsButton.ButtonText = "Check doctors";
+            this.checkDoctorsButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.checkDoctorsButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkDoctorsButton.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.checkDoctorsButton.IdleBorderThickness = 1;
+            this.checkDoctorsButton.IdleCornerRadius = 20;
+            this.checkDoctorsButton.IdleFillColor = System.Drawing.Color.White;
+            this.checkDoctorsButton.IdleForecolor = System.Drawing.Color.DodgerBlue;
+            this.checkDoctorsButton.IdleLineColor = System.Drawing.Color.DodgerBlue;
+            this.checkDoctorsButton.Location = new System.Drawing.Point(317, 454);
+            this.checkDoctorsButton.Margin = new System.Windows.Forms.Padding(5);
+            this.checkDoctorsButton.Name = "checkDoctorsButton";
+            this.checkDoctorsButton.Size = new System.Drawing.Size(116, 61);
+            this.checkDoctorsButton.TabIndex = 36;
+            this.checkDoctorsButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkDoctorsButton.Click += new System.EventHandler(this.checkDoctorsButton_Click);
+            // 
+            // bookAppointmentButton
+            // 
+            this.bookAppointmentButton.AllowAnimations = true;
+            this.bookAppointmentButton.AllowMouseEffects = true;
+            this.bookAppointmentButton.AllowToggling = false;
+            this.bookAppointmentButton.AnimationSpeed = 200;
+            this.bookAppointmentButton.AutoGenerateColors = false;
+            this.bookAppointmentButton.AutoRoundBorders = false;
+            this.bookAppointmentButton.AutoSizeLeftIcon = true;
+            this.bookAppointmentButton.AutoSizeRightIcon = true;
+            this.bookAppointmentButton.BackColor = System.Drawing.Color.Transparent;
+            this.bookAppointmentButton.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.bookAppointmentButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bookAppointmentButton.BackgroundImage")));
+            this.bookAppointmentButton.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.bookAppointmentButton.ButtonText = "BOOK";
+            this.bookAppointmentButton.ButtonTextMarginLeft = 0;
+            this.bookAppointmentButton.ColorContrastOnClick = 45;
+            this.bookAppointmentButton.ColorContrastOnHover = 45;
+            this.bookAppointmentButton.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.bookAppointmentButton.CustomizableEdges = borderEdges4;
+            this.bookAppointmentButton.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.bookAppointmentButton.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.bookAppointmentButton.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.bookAppointmentButton.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.bookAppointmentButton.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.bookAppointmentButton.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bookAppointmentButton.ForeColor = System.Drawing.Color.White;
+            this.bookAppointmentButton.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bookAppointmentButton.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.bookAppointmentButton.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.bookAppointmentButton.IconMarginLeft = 11;
+            this.bookAppointmentButton.IconPadding = 10;
+            this.bookAppointmentButton.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.bookAppointmentButton.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.bookAppointmentButton.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.bookAppointmentButton.IconSize = 25;
+            this.bookAppointmentButton.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.bookAppointmentButton.IdleBorderRadius = 25;
+            this.bookAppointmentButton.IdleBorderThickness = 1;
+            this.bookAppointmentButton.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.bookAppointmentButton.IdleIconLeftImage = null;
+            this.bookAppointmentButton.IdleIconRightImage = null;
+            this.bookAppointmentButton.IndicateFocus = false;
+            this.bookAppointmentButton.Location = new System.Drawing.Point(756, 465);
+            this.bookAppointmentButton.Name = "bookAppointmentButton";
+            this.bookAppointmentButton.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.bookAppointmentButton.OnDisabledState.BorderRadius = 25;
+            this.bookAppointmentButton.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.bookAppointmentButton.OnDisabledState.BorderThickness = 1;
+            this.bookAppointmentButton.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.bookAppointmentButton.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.bookAppointmentButton.OnDisabledState.IconLeftImage = null;
+            this.bookAppointmentButton.OnDisabledState.IconRightImage = null;
+            this.bookAppointmentButton.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.bookAppointmentButton.onHoverState.BorderRadius = 25;
+            this.bookAppointmentButton.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.bookAppointmentButton.onHoverState.BorderThickness = 1;
+            this.bookAppointmentButton.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.bookAppointmentButton.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.bookAppointmentButton.onHoverState.IconLeftImage = null;
+            this.bookAppointmentButton.onHoverState.IconRightImage = null;
+            this.bookAppointmentButton.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.bookAppointmentButton.OnIdleState.BorderRadius = 25;
+            this.bookAppointmentButton.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.bookAppointmentButton.OnIdleState.BorderThickness = 1;
+            this.bookAppointmentButton.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.bookAppointmentButton.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.bookAppointmentButton.OnIdleState.IconLeftImage = null;
+            this.bookAppointmentButton.OnIdleState.IconRightImage = null;
+            this.bookAppointmentButton.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.bookAppointmentButton.OnPressedState.BorderRadius = 25;
+            this.bookAppointmentButton.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.bookAppointmentButton.OnPressedState.BorderThickness = 1;
+            this.bookAppointmentButton.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.bookAppointmentButton.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.bookAppointmentButton.OnPressedState.IconLeftImage = null;
+            this.bookAppointmentButton.OnPressedState.IconRightImage = null;
+            this.bookAppointmentButton.Size = new System.Drawing.Size(171, 39);
+            this.bookAppointmentButton.TabIndex = 35;
+            this.bookAppointmentButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bookAppointmentButton.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.bookAppointmentButton.TextMarginLeft = 0;
+            this.bookAppointmentButton.TextPadding = new System.Windows.Forms.Padding(0);
+            this.bookAppointmentButton.UseDefaultRadiusAndThickness = true;
+            this.bookAppointmentButton.Click += new System.EventHandler(this.bookAppointmentButton_Click);
+            // 
+            // bunifuLabel29
+            // 
+            this.bunifuLabel29.AllowParentOverrides = false;
+            this.bunifuLabel29.AutoEllipsis = false;
+            this.bunifuLabel29.CursorType = null;
+            this.bunifuLabel29.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuLabel29.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuLabel29.Location = new System.Drawing.Point(441, 369);
+            this.bunifuLabel29.Name = "bunifuLabel29";
+            this.bunifuLabel29.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel29.Size = new System.Drawing.Size(154, 21);
+            this.bunifuLabel29.TabIndex = 32;
+            this.bunifuLabel29.Text = "Available doctors:";
+            this.bunifuLabel29.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel29.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // availableDoctorsListBox
+            // 
+            this.availableDoctorsListBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.availableDoctorsListBox.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.availableDoctorsListBox.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.availableDoctorsListBox.FormattingEnabled = true;
+            this.availableDoctorsListBox.ItemHeight = 20;
+            this.availableDoctorsListBox.Location = new System.Drawing.Point(441, 396);
+            this.availableDoctorsListBox.Name = "availableDoctorsListBox";
+            this.availableDoctorsListBox.Size = new System.Drawing.Size(286, 182);
+            this.availableDoctorsListBox.TabIndex = 34;
+            // 
+            // departmentListBox
+            // 
+            this.departmentListBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.departmentListBox.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.departmentListBox.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.departmentListBox.FormattingEnabled = true;
+            this.departmentListBox.ItemHeight = 20;
+            this.departmentListBox.Location = new System.Drawing.Point(23, 391);
+            this.departmentListBox.Name = "departmentListBox";
+            this.departmentListBox.Size = new System.Drawing.Size(286, 182);
+            this.departmentListBox.TabIndex = 33;
+            // 
+            // appointmentPatientSearchTextBox
+            // 
+            this.appointmentPatientSearchTextBox.AcceptsReturn = false;
+            this.appointmentPatientSearchTextBox.AcceptsTab = false;
+            this.appointmentPatientSearchTextBox.AnimationSpeed = 200;
+            this.appointmentPatientSearchTextBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.appointmentPatientSearchTextBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.appointmentPatientSearchTextBox.BackColor = System.Drawing.Color.White;
+            this.appointmentPatientSearchTextBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("appointmentPatientSearchTextBox.BackgroundImage")));
+            this.appointmentPatientSearchTextBox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.appointmentPatientSearchTextBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.appointmentPatientSearchTextBox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.appointmentPatientSearchTextBox.BorderColorIdle = System.Drawing.Color.DarkCyan;
+            this.appointmentPatientSearchTextBox.BorderRadius = 1;
+            this.appointmentPatientSearchTextBox.BorderThickness = 1;
+            this.appointmentPatientSearchTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.appointmentPatientSearchTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.appointmentPatientSearchTextBox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.appointmentPatientSearchTextBox.DefaultText = "";
+            this.appointmentPatientSearchTextBox.FillColor = System.Drawing.Color.White;
+            this.appointmentPatientSearchTextBox.HideSelection = true;
+            this.appointmentPatientSearchTextBox.IconLeft = null;
+            this.appointmentPatientSearchTextBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.appointmentPatientSearchTextBox.IconPadding = 10;
+            this.appointmentPatientSearchTextBox.IconRight = null;
+            this.appointmentPatientSearchTextBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.appointmentPatientSearchTextBox.Lines = new string[0];
+            this.appointmentPatientSearchTextBox.Location = new System.Drawing.Point(6, 31);
+            this.appointmentPatientSearchTextBox.MaxLength = 32767;
+            this.appointmentPatientSearchTextBox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.appointmentPatientSearchTextBox.Modified = false;
+            this.appointmentPatientSearchTextBox.Multiline = false;
+            this.appointmentPatientSearchTextBox.Name = "appointmentPatientSearchTextBox";
+            stateProperties45.BorderColor = System.Drawing.Color.DarkCyan;
+            stateProperties45.FillColor = System.Drawing.Color.Empty;
+            stateProperties45.ForeColor = System.Drawing.Color.Empty;
+            stateProperties45.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.appointmentPatientSearchTextBox.OnActiveState = stateProperties45;
+            stateProperties46.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties46.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties46.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.appointmentPatientSearchTextBox.OnDisabledState = stateProperties46;
+            stateProperties47.BorderColor = System.Drawing.Color.DarkSlateGray;
+            stateProperties47.FillColor = System.Drawing.Color.Empty;
+            stateProperties47.ForeColor = System.Drawing.Color.Empty;
+            stateProperties47.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.appointmentPatientSearchTextBox.OnHoverState = stateProperties47;
+            stateProperties48.BorderColor = System.Drawing.Color.DarkCyan;
+            stateProperties48.FillColor = System.Drawing.Color.White;
+            stateProperties48.ForeColor = System.Drawing.Color.Empty;
+            stateProperties48.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.appointmentPatientSearchTextBox.OnIdleState = stateProperties48;
+            this.appointmentPatientSearchTextBox.Padding = new System.Windows.Forms.Padding(3);
+            this.appointmentPatientSearchTextBox.PasswordChar = '\0';
+            this.appointmentPatientSearchTextBox.PlaceholderForeColor = System.Drawing.Color.DarkCyan;
+            this.appointmentPatientSearchTextBox.PlaceholderText = "Search patient";
+            this.appointmentPatientSearchTextBox.ReadOnly = false;
+            this.appointmentPatientSearchTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.appointmentPatientSearchTextBox.SelectedText = "";
+            this.appointmentPatientSearchTextBox.SelectionLength = 0;
+            this.appointmentPatientSearchTextBox.SelectionStart = 0;
+            this.appointmentPatientSearchTextBox.ShortcutsEnabled = true;
+            this.appointmentPatientSearchTextBox.Size = new System.Drawing.Size(417, 41);
+            this.appointmentPatientSearchTextBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Material;
+            this.appointmentPatientSearchTextBox.TabIndex = 28;
+            this.appointmentPatientSearchTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.appointmentPatientSearchTextBox.TextMarginBottom = 0;
+            this.appointmentPatientSearchTextBox.TextMarginLeft = 3;
+            this.appointmentPatientSearchTextBox.TextMarginTop = 0;
+            this.appointmentPatientSearchTextBox.TextPlaceholder = "Search patient";
+            this.appointmentPatientSearchTextBox.UseSystemPasswordChar = false;
+            this.appointmentPatientSearchTextBox.WordWrap = true;
+            this.appointmentPatientSearchTextBox.TextChange += new System.EventHandler(this.appointmentPatientSearchTextBox_TextChange);
+            // 
+            // appointmentPatientSearchDataView
+            // 
+            this.appointmentPatientSearchDataView.AllowCustomTheming = true;
+            this.appointmentPatientSearchDataView.AllowUserToAddRows = false;
+            this.appointmentPatientSearchDataView.AllowUserToDeleteRows = false;
+            this.appointmentPatientSearchDataView.AllowUserToResizeColumns = false;
+            this.appointmentPatientSearchDataView.AllowUserToResizeRows = false;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black;
+            this.appointmentPatientSearchDataView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
+            this.appointmentPatientSearchDataView.AutoGenerateColumns = false;
+            this.appointmentPatientSearchDataView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.appointmentPatientSearchDataView.BackgroundColor = System.Drawing.Color.White;
+            this.appointmentPatientSearchDataView.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.appointmentPatientSearchDataView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.appointmentPatientSearchDataView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.appointmentPatientSearchDataView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
+            this.appointmentPatientSearchDataView.ColumnHeadersHeight = 40;
+            this.appointmentPatientSearchDataView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn18,
+            this.dataGridViewTextBoxColumn19,
+            this.dataGridViewTextBoxColumn20,
+            this.dataGridViewTextBoxColumn21,
+            this.dataGridViewTextBoxColumn22,
+            this.dataGridViewTextBoxColumn23});
+            this.appointmentPatientSearchDataView.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.appointmentPatientSearchDataView.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.appointmentPatientSearchDataView.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.appointmentPatientSearchDataView.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            this.appointmentPatientSearchDataView.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.appointmentPatientSearchDataView.CurrentTheme.BackColor = System.Drawing.Color.White;
+            this.appointmentPatientSearchDataView.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.appointmentPatientSearchDataView.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.DodgerBlue;
+            this.appointmentPatientSearchDataView.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold);
+            this.appointmentPatientSearchDataView.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.appointmentPatientSearchDataView.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            this.appointmentPatientSearchDataView.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.appointmentPatientSearchDataView.CurrentTheme.Name = null;
+            this.appointmentPatientSearchDataView.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.appointmentPatientSearchDataView.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.appointmentPatientSearchDataView.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.appointmentPatientSearchDataView.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            this.appointmentPatientSearchDataView.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.appointmentPatientSearchDataView.DataSource = this.pATIENTBindingSource2;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.appointmentPatientSearchDataView.DefaultCellStyle = dataGridViewCellStyle18;
+            this.appointmentPatientSearchDataView.EnableHeadersVisualStyles = false;
+            this.appointmentPatientSearchDataView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.appointmentPatientSearchDataView.HeaderBackColor = System.Drawing.Color.DodgerBlue;
+            this.appointmentPatientSearchDataView.HeaderBgColor = System.Drawing.Color.Empty;
+            this.appointmentPatientSearchDataView.HeaderForeColor = System.Drawing.Color.White;
+            this.appointmentPatientSearchDataView.Location = new System.Drawing.Point(6, 90);
+            this.appointmentPatientSearchDataView.Name = "appointmentPatientSearchDataView";
+            this.appointmentPatientSearchDataView.ReadOnly = true;
+            this.appointmentPatientSearchDataView.RowHeadersVisible = false;
+            this.appointmentPatientSearchDataView.RowHeadersWidth = 51;
+            this.appointmentPatientSearchDataView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.appointmentPatientSearchDataView.RowTemplate.Height = 40;
+            this.appointmentPatientSearchDataView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.appointmentPatientSearchDataView.Size = new System.Drawing.Size(938, 175);
+            this.appointmentPatientSearchDataView.TabIndex = 18;
+            this.appointmentPatientSearchDataView.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
+            // 
+            // dataGridViewTextBoxColumn18
+            // 
+            this.dataGridViewTextBoxColumn18.DataPropertyName = "PATIENT_ID";
+            this.dataGridViewTextBoxColumn18.FillWeight = 32.08556F;
+            this.dataGridViewTextBoxColumn18.HeaderText = "ID";
+            this.dataGridViewTextBoxColumn18.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
+            this.dataGridViewTextBoxColumn18.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn19
+            // 
+            this.dataGridViewTextBoxColumn19.DataPropertyName = "PATIENT_NAME";
+            this.dataGridViewTextBoxColumn19.FillWeight = 113.5829F;
+            this.dataGridViewTextBoxColumn19.HeaderText = "FULL NAME";
+            this.dataGridViewTextBoxColumn19.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
+            this.dataGridViewTextBoxColumn19.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn20
+            // 
+            this.dataGridViewTextBoxColumn20.DataPropertyName = "PATIENT_ADDRESS";
+            this.dataGridViewTextBoxColumn20.FillWeight = 113.5829F;
+            this.dataGridViewTextBoxColumn20.HeaderText = "ADDRESS";
+            this.dataGridViewTextBoxColumn20.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
+            this.dataGridViewTextBoxColumn20.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn21
+            // 
+            this.dataGridViewTextBoxColumn21.DataPropertyName = "PATIENT_BIRTHDATE";
+            this.dataGridViewTextBoxColumn21.FillWeight = 113.5829F;
+            this.dataGridViewTextBoxColumn21.HeaderText = "BIRTH DATE";
+            this.dataGridViewTextBoxColumn21.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
+            this.dataGridViewTextBoxColumn21.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn22
+            // 
+            this.dataGridViewTextBoxColumn22.DataPropertyName = "PATIENT_PHONENUM";
+            this.dataGridViewTextBoxColumn22.FillWeight = 113.5829F;
+            this.dataGridViewTextBoxColumn22.HeaderText = "PHONE NUMBER";
+            this.dataGridViewTextBoxColumn22.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
+            this.dataGridViewTextBoxColumn22.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn23
+            // 
+            this.dataGridViewTextBoxColumn23.DataPropertyName = "GENDER";
+            this.dataGridViewTextBoxColumn23.HeaderText = "GENDER";
+            this.dataGridViewTextBoxColumn23.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
+            this.dataGridViewTextBoxColumn23.ReadOnly = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.bunifuLabel28);
+            this.groupBox3.Controls.Add(this.appointmentTimePicker);
+            this.groupBox3.Controls.Add(this.bunifuLabel27);
+            this.groupBox3.Controls.Add(this.appointmentDatePicker);
+            this.groupBox3.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.groupBox3.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.groupBox3.Location = new System.Drawing.Point(6, 271);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(938, 88);
+            this.groupBox3.TabIndex = 32;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Appointment time";
+            // 
+            // bunifuLabel28
+            // 
+            this.bunifuLabel28.AllowParentOverrides = false;
+            this.bunifuLabel28.AutoEllipsis = false;
+            this.bunifuLabel28.CursorType = null;
+            this.bunifuLabel28.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuLabel28.Location = new System.Drawing.Point(455, 40);
+            this.bunifuLabel28.Name = "bunifuLabel28";
+            this.bunifuLabel28.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel28.Size = new System.Drawing.Size(42, 21);
+            this.bunifuLabel28.TabIndex = 31;
+            this.bunifuLabel28.Text = "Time:";
+            this.bunifuLabel28.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel28.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // appointmentTimePicker
+            // 
+            this.appointmentTimePicker.CustomFormat = "";
+            this.appointmentTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.appointmentTimePicker.Location = new System.Drawing.Point(519, 31);
+            this.appointmentTimePicker.Name = "appointmentTimePicker";
+            this.appointmentTimePicker.ShowUpDown = true;
+            this.appointmentTimePicker.Size = new System.Drawing.Size(200, 32);
+            this.appointmentTimePicker.TabIndex = 27;
+            // 
+            // bunifuLabel27
+            // 
+            this.bunifuLabel27.AllowParentOverrides = false;
+            this.bunifuLabel27.AutoEllipsis = false;
+            this.bunifuLabel27.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel27.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel27.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuLabel27.Location = new System.Drawing.Point(17, 40);
+            this.bunifuLabel27.Name = "bunifuLabel27";
+            this.bunifuLabel27.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel27.Size = new System.Drawing.Size(163, 21);
+            this.bunifuLabel27.TabIndex = 30;
+            this.bunifuLabel27.Text = "Appointment date:";
+            this.bunifuLabel27.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel27.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // appointmentDatePicker
+            // 
+            this.appointmentDatePicker.BackColor = System.Drawing.Color.Transparent;
+            this.appointmentDatePicker.BorderRadius = 1;
+            this.appointmentDatePicker.Color = System.Drawing.Color.Silver;
+            this.appointmentDatePicker.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
+            this.appointmentDatePicker.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
+            this.appointmentDatePicker.DisabledColor = System.Drawing.Color.Gray;
+            this.appointmentDatePicker.DisplayWeekNumbers = false;
+            this.appointmentDatePicker.DPHeight = 0;
+            this.appointmentDatePicker.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.appointmentDatePicker.FillDatePicker = false;
+            this.appointmentDatePicker.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.appointmentDatePicker.ForeColor = System.Drawing.Color.Black;
+            this.appointmentDatePicker.Icon = ((System.Drawing.Image)(resources.GetObject("appointmentDatePicker.Icon")));
+            this.appointmentDatePicker.IconColor = System.Drawing.Color.Gray;
+            this.appointmentDatePicker.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
+            this.appointmentDatePicker.LeftTextMargin = 5;
+            this.appointmentDatePicker.Location = new System.Drawing.Point(197, 31);
+            this.appointmentDatePicker.MinimumSize = new System.Drawing.Size(0, 32);
+            this.appointmentDatePicker.Name = "appointmentDatePicker";
+            this.appointmentDatePicker.Size = new System.Drawing.Size(220, 32);
+            this.appointmentDatePicker.TabIndex = 29;
             // 
             // diagnosesPage
             // 
@@ -3426,6 +4122,37 @@ namespace hospitalmanagement
             this.bunifuElipse2.ElipseRadius = 13;
             this.bunifuElipse2.TargetControl = this.filterBirthdateButton;
             // 
+            // aPPOINTMENTTableAdapter
+            // 
+            this.aPPOINTMENTTableAdapter.ClearBeforeFill = true;
+            // 
+            // aPPOINTMENTTIMEDataGridViewTextBoxColumn
+            // 
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.DataPropertyName = "APPOINTMENT_TIME";
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.FillWeight = 35.15119F;
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.HeaderText = "TIME";
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.Name = "aPPOINTMENTTIMEDataGridViewTextBoxColumn";
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // APPOINTMENT_DOCTOR_ID
+            // 
+            this.APPOINTMENT_DOCTOR_ID.DataPropertyName = "APPOINTMENT_DOCTOR_ID";
+            this.APPOINTMENT_DOCTOR_ID.FillWeight = 79.09017F;
+            this.APPOINTMENT_DOCTOR_ID.HeaderText = "DOCTOR";
+            this.APPOINTMENT_DOCTOR_ID.MinimumWidth = 6;
+            this.APPOINTMENT_DOCTOR_ID.Name = "APPOINTMENT_DOCTOR_ID";
+            this.APPOINTMENT_DOCTOR_ID.ReadOnly = true;
+            // 
+            // APPOINTMENT_PATIENT_ID
+            // 
+            this.APPOINTMENT_PATIENT_ID.DataPropertyName = "APPOINTMENT_PATIENT_ID";
+            this.APPOINTMENT_PATIENT_ID.FillWeight = 79.09017F;
+            this.APPOINTMENT_PATIENT_ID.HeaderText = "PATIENT";
+            this.APPOINTMENT_PATIENT_ID.MinimumWidth = 6;
+            this.APPOINTMENT_PATIENT_ID.Name = "APPOINTMENT_PATIENT_ID";
+            this.APPOINTMENT_PATIENT_ID.ReadOnly = true;
+            // 
             // HomeScreen
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -3478,6 +4205,18 @@ namespace hospitalmanagement
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.appointmentsPage.ResumeLayout(false);
+            this.appointmentsInnerPages.ResumeLayout(false);
+            this.appointmentsMainPage.ResumeLayout(false);
+            this.appointmentsMainPage.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.appointmentsTodayDataView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.aPPOINTMENTBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hospitaldatabaseDataSetAppointment)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.createAppointmentPage.ResumeLayout(false);
+            this.createAppointmentPage.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.appointmentPatientSearchDataView)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource)).EndInit();
             this.ResumeLayout(false);
@@ -3519,10 +4258,6 @@ namespace hospitalmanagement
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl2;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl3;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl4;
-        private Bunifu.Framework.UI.BunifuTileButton cancelAppointmentButton;
-        private Bunifu.Framework.UI.BunifuTileButton searchForAppointmentButton;
-        private Bunifu.Framework.UI.BunifuTileButton viewAllAppointmentsButton;
-        private Bunifu.Framework.UI.BunifuTileButton addNewAppointmentButton;
         private Bunifu.UI.WinForms.BunifuPages doctorsInnerPages;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage addNewDoctorPage;
@@ -3542,12 +4277,6 @@ namespace hospitalmanagement
         private System.Windows.Forms.BindingSource dOCTORBindingSource;
         private hospitaldatabaseDataSetTableAdapters.DOCTORTableAdapter dOCTORTableAdapter;
         private Bunifu.UI.WinForms.BunifuDataGridView doctorsDataView;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dOCTORIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dOCTORNAMEDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dOCTORDESIGNATIONDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dOCTORPHONENUMDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dOCTORDEPARTMENTDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dOCTORGRADUATIONDataGridViewTextBoxColumn;
         private Bunifu.Framework.UI.BunifuThinButton2 deleteDoctorButton;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
         private Bunifu.UI.WinForms.BunifuTextBox doctorGraduationTextBox;
@@ -3555,12 +4284,6 @@ namespace hospitalmanagement
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
         private System.Windows.Forms.TabPage additionalSearchPage;
         private Bunifu.UI.WinForms.BunifuDataGridView searchResultsDataGridView;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.GroupBox groupBox1;
         private Bunifu.UI.WinForms.BunifuTextBox searchAdditionalTextBox;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel19;
@@ -3604,12 +4327,6 @@ namespace hospitalmanagement
         private hospitaldatabaseDataSetPatient hospitaldatabaseDataSetPatient;
         private System.Windows.Forms.BindingSource pATIENTBindingSource2;
         private hospitaldatabaseDataSetPatientTableAdapters.PATIENTTableAdapter pATIENTTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
         private System.Windows.Forms.TabPage additionalSearchPatientPage;
         private Bunifu.UI.WinForms.BunifuDatePicker filterByBirthdatePicker;
         private Bunifu.UI.WinForms.BunifuDataGridView patientSearchResultsDataView;
@@ -3625,11 +4342,64 @@ namespace hospitalmanagement
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel10;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton filterBirthdateButton;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
+        private Bunifu.UI.WinForms.BunifuPages appointmentsInnerPages;
+        private System.Windows.Forms.TabPage appointmentsMainPage;
+        private System.Windows.Forms.TabPage createAppointmentPage;
+        private hospitaldatabaseDataSetAppointment hospitaldatabaseDataSetAppointment;
+        private System.Windows.Forms.BindingSource aPPOINTMENTBindingSource;
+        private hospitaldatabaseDataSetAppointmentTableAdapters.APPOINTMENTTableAdapter aPPOINTMENTTableAdapter;
+        private Bunifu.Framework.UI.BunifuThinButton2 searchAppointmentButton;
+        private Bunifu.Framework.UI.BunifuThinButton2 viewAllAppointments;
+        private Bunifu.Framework.UI.BunifuThinButton2 cancelAppointmentButton;
+        private Bunifu.Framework.UI.BunifuThinButton2 newAppointmentButton;
+        private Bunifu.UI.WinForms.BunifuDataGridView appointmentsTodayDataView;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel11;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dOCTORIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dOCTORNAMEDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dOCTORDESIGNATIONDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dOCTORPHONENUMDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dOCTORGRADUATIONDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DOCTOR_DEPARTMENT;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PATIENT_GENDER;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn16;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn17;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
+        private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private Bunifu.UI.WinForms.BunifuDataGridView appointmentPatientSearchDataView;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn18;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn19;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn20;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn21;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn22;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn23;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bookAppointmentButton;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel29;
+        private System.Windows.Forms.ListBox availableDoctorsListBox;
+        private System.Windows.Forms.ListBox departmentListBox;
+        private Bunifu.UI.WinForms.BunifuTextBox appointmentPatientSearchTextBox;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel28;
+        private System.Windows.Forms.DateTimePicker appointmentTimePicker;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel27;
+        private Bunifu.UI.WinForms.BunifuDatePicker appointmentDatePicker;
+        private Bunifu.Framework.UI.BunifuThinButton2 checkDoctorsButton;
+        private System.Windows.Forms.DataGridViewTextBoxColumn aPPOINTMENTTIMEDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn APPOINTMENT_DOCTOR_ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn APPOINTMENT_PATIENT_ID;
     }
 }
