@@ -235,6 +235,9 @@ namespace hospitalmanagement
             this.cancelAppointmentButton = new Bunifu.Framework.UI.BunifuThinButton2();
             this.newAppointmentButton = new Bunifu.Framework.UI.BunifuThinButton2();
             this.appointmentsTodayDataView = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.APPOINTMENT_DOCTOR_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.APPOINTMENT_PATIENT_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.aPPOINTMENTBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.hospitaldatabaseDataSetAppointment = new hospitalmanagement.hospitaldatabaseDataSetAppointment();
             this.bunifuLabel11 = new Bunifu.UI.WinForms.BunifuLabel();
@@ -271,9 +274,6 @@ namespace hospitalmanagement
             this.pATIENTTableAdapter = new hospitalmanagement.hospitaldatabaseDataSetPatientTableAdapters.PATIENTTableAdapter();
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.aPPOINTMENTTableAdapter = new hospitalmanagement.hospitaldatabaseDataSetAppointmentTableAdapters.APPOINTMENTTableAdapter();
-            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.APPOINTMENT_DOCTOR_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.APPOINTMENT_PATIENT_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_menu)).BeginInit();
@@ -3329,10 +3329,10 @@ namespace hospitalmanagement
             this.appointmentsInnerPages.Location = new System.Drawing.Point(3, 6);
             this.appointmentsInnerPages.Multiline = true;
             this.appointmentsInnerPages.Name = "appointmentsInnerPages";
-            this.appointmentsInnerPages.Page = this.appointmentsMainPage;
-            this.appointmentsInnerPages.PageIndex = 0;
-            this.appointmentsInnerPages.PageName = "appointmentsMainPage";
-            this.appointmentsInnerPages.PageTitle = "appointmentsMainPage";
+            this.appointmentsInnerPages.Page = this.createAppointmentPage;
+            this.appointmentsInnerPages.PageIndex = 1;
+            this.appointmentsInnerPages.PageName = "createAppointmentPage";
+            this.appointmentsInnerPages.PageTitle = "createAppointmentPage";
             this.appointmentsInnerPages.SelectedIndex = 0;
             this.appointmentsInnerPages.Size = new System.Drawing.Size(958, 610);
             this.appointmentsInnerPages.TabIndex = 0;
@@ -3552,6 +3552,33 @@ namespace hospitalmanagement
             this.appointmentsTodayDataView.TabIndex = 6;
             this.appointmentsTodayDataView.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
+            // aPPOINTMENTTIMEDataGridViewTextBoxColumn
+            // 
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.DataPropertyName = "APPOINTMENT_TIME";
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.FillWeight = 35.15119F;
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.HeaderText = "TIME";
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.Name = "aPPOINTMENTTIMEDataGridViewTextBoxColumn";
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // APPOINTMENT_DOCTOR_ID
+            // 
+            this.APPOINTMENT_DOCTOR_ID.DataPropertyName = "APPOINTMENT_DOCTOR_ID";
+            this.APPOINTMENT_DOCTOR_ID.FillWeight = 79.09017F;
+            this.APPOINTMENT_DOCTOR_ID.HeaderText = "DOCTOR";
+            this.APPOINTMENT_DOCTOR_ID.MinimumWidth = 6;
+            this.APPOINTMENT_DOCTOR_ID.Name = "APPOINTMENT_DOCTOR_ID";
+            this.APPOINTMENT_DOCTOR_ID.ReadOnly = true;
+            // 
+            // APPOINTMENT_PATIENT_ID
+            // 
+            this.APPOINTMENT_PATIENT_ID.DataPropertyName = "APPOINTMENT_PATIENT_ID";
+            this.APPOINTMENT_PATIENT_ID.FillWeight = 79.09017F;
+            this.APPOINTMENT_PATIENT_ID.HeaderText = "PATIENT";
+            this.APPOINTMENT_PATIENT_ID.MinimumWidth = 6;
+            this.APPOINTMENT_PATIENT_ID.Name = "APPOINTMENT_PATIENT_ID";
+            this.APPOINTMENT_PATIENT_ID.ReadOnly = true;
+            // 
             // aPPOINTMENTBindingSource
             // 
             this.aPPOINTMENTBindingSource.DataMember = "APPOINTMENT";
@@ -3733,9 +3760,9 @@ namespace hospitalmanagement
             this.bunifuLabel29.Location = new System.Drawing.Point(441, 369);
             this.bunifuLabel29.Name = "bunifuLabel29";
             this.bunifuLabel29.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel29.Size = new System.Drawing.Size(154, 21);
+            this.bunifuLabel29.Size = new System.Drawing.Size(195, 21);
             this.bunifuLabel29.TabIndex = 32;
-            this.bunifuLabel29.Text = "Available doctors:";
+            this.bunifuLabel29.Text = "Doctors in department:";
             this.bunifuLabel29.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel29.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -4125,33 +4152,6 @@ namespace hospitalmanagement
             // aPPOINTMENTTableAdapter
             // 
             this.aPPOINTMENTTableAdapter.ClearBeforeFill = true;
-            // 
-            // aPPOINTMENTTIMEDataGridViewTextBoxColumn
-            // 
-            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.DataPropertyName = "APPOINTMENT_TIME";
-            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.FillWeight = 35.15119F;
-            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.HeaderText = "TIME";
-            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.Name = "aPPOINTMENTTIMEDataGridViewTextBoxColumn";
-            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // APPOINTMENT_DOCTOR_ID
-            // 
-            this.APPOINTMENT_DOCTOR_ID.DataPropertyName = "APPOINTMENT_DOCTOR_ID";
-            this.APPOINTMENT_DOCTOR_ID.FillWeight = 79.09017F;
-            this.APPOINTMENT_DOCTOR_ID.HeaderText = "DOCTOR";
-            this.APPOINTMENT_DOCTOR_ID.MinimumWidth = 6;
-            this.APPOINTMENT_DOCTOR_ID.Name = "APPOINTMENT_DOCTOR_ID";
-            this.APPOINTMENT_DOCTOR_ID.ReadOnly = true;
-            // 
-            // APPOINTMENT_PATIENT_ID
-            // 
-            this.APPOINTMENT_PATIENT_ID.DataPropertyName = "APPOINTMENT_PATIENT_ID";
-            this.APPOINTMENT_PATIENT_ID.FillWeight = 79.09017F;
-            this.APPOINTMENT_PATIENT_ID.HeaderText = "PATIENT";
-            this.APPOINTMENT_PATIENT_ID.MinimumWidth = 6;
-            this.APPOINTMENT_PATIENT_ID.Name = "APPOINTMENT_PATIENT_ID";
-            this.APPOINTMENT_PATIENT_ID.ReadOnly = true;
             // 
             // HomeScreen
             // 

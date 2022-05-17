@@ -518,9 +518,9 @@ namespace hospitalmanagement
         {
             appointmentsInnerPages.SetPage("createAppointmentPage");
 
-            appointmentTimePicker.CustomFormat = "HH:mm tt"; // Only use hours and minutes
-            appointmentTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            appointmentTimePicker.MinDate = DateTime.Now;
+           // appointmentTimePicker.CustomFormat = "HH:mm tt"; // Only use hours and minutes
+           // appointmentTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            //appointmentTimePicker.MinDate = DateTime.Now;
             appointmentDatePicker.MinDate = DateTime.Today;
 
             String usedQuery = "select PATIENT.PATIENT_ID, PATIENT.PATIENT_NAME, PATIENT.PATIENT_ADDRESS, PATIENT.PATIENT_BIRTHDATE, PATIENT.PATIENT_PHONENUM, GENDER.GENDER from PATIENT inner join GENDER on PATIENT.PATIENT_GENDER=GENDER.GENDER_ID";
@@ -571,34 +571,50 @@ namespace hospitalmanagement
             {
                 sqlConnection = new SqlConnection(cs);
                 sqlConnection.Open();
-                query = "SELECT MAX(APPOINTMENT_ID) FROM APPOINTMENT";
+                query = "SELECT * FROM APPOINTMENT WHERE APPOINTMENT_DATE=@date AND APPOINTMENT_TIME=@time AND APPOINTMENT_DOCTOR_ID=@doctor_id";
                 sqlCommand = new SqlCommand(query, sqlConnection);
-                int appointmentID = (int)sqlCommand.ExecuteScalar();
-                appointmentID++;
-                query = "Insert INTO APPOINTMENT (APPOINTMENT_ID, APPOINTMENT_DATE, APPOINTMENT_TIME, APPOINTMENT_DOCTOR_ID, APPOINTMENT_PATIENT_ID) VALUES (@id, @date, @time, @doctor_id, @patient_id)";
-                sqlCommand = new SqlCommand(query, sqlConnection);
-                sqlCommand.Parameters.AddWithValue("@id", appointmentID);
                 sqlCommand.Parameters.AddWithValue("@date", appointmentDatePicker.Value.Date);
                 sqlCommand.Parameters.AddWithValue("@time", appointmentTimePicker.Value.TimeOfDay);
                 sqlCommand.Parameters.AddWithValue("@doctor_id", availableDoctorsListBox.SelectedValue);
-                sqlCommand.Parameters.AddWithValue("@patient_id", patientID);
                 sqlCommand.ExecuteNonQuery();
-                sqlConnection.Close();
-                MessageBox.Show("Appointment booked successfully!");
+                SqlDataReader reader = sqlCommand.ExecuteReader();
+                if (reader.HasRows)
+                {
+                    MessageBox.Show("This doctor already has an appointment at the selected timeslot. Please select another.");
+                }
+                else
+                {
+                    sqlConnection = new SqlConnection(cs);
+                    sqlConnection.Open();
+                    query = "SELECT MAX(APPOINTMENT_ID) FROM APPOINTMENT";
+                    sqlCommand = new SqlCommand(query, sqlConnection);
+                    int appointmentID = (int)sqlCommand.ExecuteScalar();
+                    appointmentID++;
+                    query = "Insert INTO APPOINTMENT (APPOINTMENT_ID, APPOINTMENT_DATE, APPOINTMENT_TIME, APPOINTMENT_DOCTOR_ID, APPOINTMENT_PATIENT_ID) VALUES (@id, @date, @time, @doctor_id, @patient_id)";
+                    sqlCommand = new SqlCommand(query, sqlConnection);
+                    sqlCommand.Parameters.AddWithValue("@id", appointmentID);
+                    sqlCommand.Parameters.AddWithValue("@date", appointmentDatePicker.Value.Date);
+                    sqlCommand.Parameters.AddWithValue("@time", appointmentTimePicker.Value.TimeOfDay);
+                    sqlCommand.Parameters.AddWithValue("@doctor_id", availableDoctorsListBox.SelectedValue);
+                    sqlCommand.Parameters.AddWithValue("@patient_id", patientID);
+                    sqlCommand.ExecuteNonQuery();
+                    sqlConnection.Close();
+                    MessageBox.Show("Appointment booked successfully!");
 
-                appointmentsInnerPages.SetPage("appointmentsMainPage");
-                sqlConnection = new SqlConnection(cs);
-                sqlConnection.Open();
-                query = "select APPOINTMENT.APPOINTMENT_TIME, DOCTOR.DOCTOR_NAME, PATIENT.PATIENT_NAME from APPOINTMENT inner join DOCTOR ON APPOINTMENT.APPOINTMENT_DOCTOR_ID=DOCTOR.DOCTOR_ID where APPOINTMENT_DATE=@date";
-                sqlCommand = new SqlCommand(query, sqlConnection);
-                adapter = new SqlDataAdapter();
-                dataTable = new DataTable();
-                sqlCommand.Parameters.AddWithValue("@date", DateTime.Today);
-                sqlCommand.ExecuteNonQuery();
-                adapter.SelectCommand = sqlCommand;
-                adapter.Fill(dataTable);
-                appointmentsTodayDataView.DataSource = dataTable;
-                sqlConnection.Close();
+                    appointmentsInnerPages.SetPage("appointmentsMainPage");
+                    sqlConnection = new SqlConnection(cs);
+                    sqlConnection.Open();
+                    query = "select APPOINTMENT.APPOINTMENT_TIME, DOCTOR.DOCTOR_NAME, PATIENT.PATIENT_NAME from APPOINTMENT inner join DOCTOR ON APPOINTMENT.APPOINTMENT_DOCTOR_ID=DOCTOR.DOCTOR_ID inner join PATIENT on APPOINTMENT.APPOINTMENT_PATIENT_ID=PATIENT.PATIENT_ID where APPOINTMENT_DATE=@date";
+                    sqlCommand = new SqlCommand(query, sqlConnection);
+                    adapter = new SqlDataAdapter();
+                    dataTable = new DataTable();
+                    sqlCommand.Parameters.AddWithValue("@date", DateTime.Today);
+                    sqlCommand.ExecuteNonQuery();
+                    adapter.SelectCommand = sqlCommand;
+                    adapter.Fill(dataTable);
+                    appointmentsTodayDataView.DataSource = dataTable;
+                    sqlConnection.Close();
+                }
             }
             else
             {
