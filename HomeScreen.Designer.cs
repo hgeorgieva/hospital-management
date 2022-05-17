@@ -31,7 +31,7 @@ namespace hospitalmanagement
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeScreen));
-            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation3 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
+            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation5 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             Utilities.BunifuPages.BunifuAnimatorNS.Animation animation1 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -93,6 +93,88 @@ namespace hospitalmanagement
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties42 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties43 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties44 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation3 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties45 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties46 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties47 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties48 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties49 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties50 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties51 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties52 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties53 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties54 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties55 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties56 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties57 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties58 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties59 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties60 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties61 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties62 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties63 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties64 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties65 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties66 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties67 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties68 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties69 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties70 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties71 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties72 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties73 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties74 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties75 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties76 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation4 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties121 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties122 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties123 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties124 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties117 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties118 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties119 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties120 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties113 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties114 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties115 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties116 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties109 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties110 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties111 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties112 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties105 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties106 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties107 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties108 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties101 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties102 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties103 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties104 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties97 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties98 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties99 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties100 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties93 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties94 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties95 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties96 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties89 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties90 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties91 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties92 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties85 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties86 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties87 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties88 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties81 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties82 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties83 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties84 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties77 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties78 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties79 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties80 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
@@ -134,17 +216,17 @@ namespace hospitalmanagement
             this.addNewDoctorButton = new Bunifu.Framework.UI.BunifuThinButton2();
             this.addNewDoctorPage = new System.Windows.Forms.TabPage();
             this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.doctorGraduationTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.bunifuButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuLabel12 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.doctorPhoneNumTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuLabel13 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel14 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel15 = new Bunifu.UI.WinForms.BunifuLabel();
             this.departmentDropdown = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.bunifuLabel16 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.doctorGraduationTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.bunifuButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.doctorPhoneNumTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
             this.doctorDesignationTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
             this.doctorNameTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.bunifuLabel16 = new Bunifu.UI.WinForms.BunifuLabel();
             this.additionalSearchPage = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.searchAdditionalTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
@@ -184,16 +266,16 @@ namespace hospitalmanagement
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.birthDatePicker = new Bunifu.UI.WinForms.BunifuDatePicker();
             this.bunifuLabel21 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.submitPatientButton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuLabel22 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.patientPhoneNumberTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuLabel23 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel24 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel25 = new Bunifu.UI.WinForms.BunifuLabel();
             this.patientGenderDropdown = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.bunifuLabel26 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.submitPatientButton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.patientPhoneNumberTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
             this.patientAddressTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
             this.patientNameTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.bunifuLabel26 = new Bunifu.UI.WinForms.BunifuLabel();
             this.additionalSearchPatientPage = new System.Windows.Forms.TabPage();
             this.filterBirthdateButton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.filterByBirthdatePicker = new Bunifu.UI.WinForms.BunifuDatePicker();
@@ -220,17 +302,108 @@ namespace hospitalmanagement
             this.viewAllAppointmentsButton = new Bunifu.Framework.UI.BunifuTileButton();
             this.addNewAppointmentButton = new Bunifu.Framework.UI.BunifuTileButton();
             this.diagnosesPage = new System.Windows.Forms.TabPage();
+            this.diagnoseINNERpages = new Bunifu.UI.WinForms.BunifuPages();
+            this.diagnosesMainPage = new System.Windows.Forms.TabPage();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.addDiagnoseButton = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.diagnoseSearchTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.addDiagnosePage = new System.Windows.Forms.TabPage();
+            this.diagnose_add_button = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.diagnose_prescription_dropdown = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.diagnose_doctor_dropdown = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.diagnose_patient_dropdown = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.diagnose_condittion_richtextbox = new System.Windows.Forms.RichTextBox();
+            this.diagnose_testR_richtextbox = new System.Windows.Forms.RichTextBox();
+            this.diagnose_icd_code_textbox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.diagnose_ID_textbox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.bunifuLabel34 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel33 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel32 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel31 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel30 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel29 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel28 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel27 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.diagnoseDetailsPage = new System.Windows.Forms.TabPage();
+            this.diag_details_pres = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.diag_details_doctor = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.diag_details_patient = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.diag_details_condition = new System.Windows.Forms.RichTextBox();
+            this.diag_details_test = new System.Windows.Forms.RichTextBox();
+            this.diag_details_icd = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.diag_details_id = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.bunifuLabel35 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel36 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel37 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel38 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel39 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel40 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel41 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel42 = new Bunifu.UI.WinForms.BunifuLabel();
             this.prescriptionsPage = new System.Windows.Forms.TabPage();
             this.medicationsPage = new System.Windows.Forms.TabPage();
-            this.pATIENTBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bunifuDragControl3 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bunifuDragControl4 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.dOCTORTableAdapter = new hospitalmanagement.hospitaldatabaseDataSetTableAdapters.DOCTORTableAdapter();
-            this.pATIENTBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pATIENTTableAdapter = new hospitalmanagement.hospitaldatabaseDataSetPatientTableAdapters.PATIENTTableAdapter();
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.pATIENTBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.pATIENTBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dOCTORTableAdapter = new hospitalmanagement.hospitaldatabaseDataSetTableAdapters.DOCTORTableAdapter();
+            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.presINNERpages = new Bunifu.UI.WinForms.BunifuPages();
+            this.presMainPage = new System.Windows.Forms.TabPage();
+            this.presAddPage = new System.Windows.Forms.TabPage();
+            this.presDetailsPage = new System.Windows.Forms.TabPage();
+            this.pres_search_button = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.pres_flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pres_add_button = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.pres_search_textBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.pres_add_pres_button = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.pres_quantity_dropbox = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.pres_doctor_dropdown = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.pres_patient_dropdown = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.pres_note_richtextBox = new System.Windows.Forms.RichTextBox();
+            this.presID_textBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.bunifuLabel43 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel44 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel45 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel46 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel48 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel49 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med1_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med2_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med3_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med4_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med5_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med6_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med7_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med8_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med9_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med10_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med1_drop = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.med2_drop = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.med3_drop = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.med4_drop = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.med5_drop = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.med6_drop = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.med7_drop = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.med8_drop = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.med9_drop = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.med10_drop = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.med1_mg = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.med2_mg = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.med3_mg = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.med4_mg = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.med5_mg = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.med6_mg = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.med7_mg = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.med8_mg = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.med9_mg = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.med10_mg = new Bunifu.UI.WinForms.BunifuTextBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_menu)).BeginInit();
@@ -260,8 +433,17 @@ namespace hospitalmanagement
             ((System.ComponentModel.ISupportInitialize)(this.patientSearchResultsDataView)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.appointmentsPage.SuspendLayout();
+            this.diagnosesPage.SuspendLayout();
+            this.diagnoseINNERpages.SuspendLayout();
+            this.diagnosesMainPage.SuspendLayout();
+            this.addDiagnosePage.SuspendLayout();
+            this.diagnoseDetailsPage.SuspendLayout();
+            this.prescriptionsPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource)).BeginInit();
+            this.presINNERpages.SuspendLayout();
+            this.presMainPage.SuspendLayout();
+            this.presDetailsPage.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuLabel1
@@ -504,7 +686,7 @@ namespace hospitalmanagement
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(67, 30);
+            this.label1.Location = new System.Drawing.Point(67, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(46, 28);
             this.label1.TabIndex = 1;
@@ -534,9 +716,10 @@ namespace hospitalmanagement
             // bunifuPictureBox1
             // 
             this.bunifuPictureBox1.AllowFocused = false;
-            this.bunifuPictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuPictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.bunifuPictureBox1.AutoSizeHeight = true;
             this.bunifuPictureBox1.BorderRadius = 19;
+            this.bunifuPictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox1.Image")));
             this.bunifuPictureBox1.IsCircle = true;
             this.bunifuPictureBox1.Location = new System.Drawing.Point(969, 19);
@@ -573,29 +756,29 @@ namespace hospitalmanagement
             this.pages.Location = new System.Drawing.Point(368, 93);
             this.pages.Multiline = true;
             this.pages.Name = "pages";
-            this.pages.Page = this.patientsPage;
-            this.pages.PageIndex = 2;
-            this.pages.PageName = "patientsPage";
-            this.pages.PageTitle = "patientsPage";
+            this.pages.Page = this.prescriptionsPage;
+            this.pages.PageIndex = 5;
+            this.pages.PageName = "prescriptionsPage";
+            this.pages.PageTitle = "prescriptionsPage";
             this.pages.SelectedIndex = 0;
             this.pages.Size = new System.Drawing.Size(975, 648);
             this.pages.TabIndex = 13;
-            animation3.AnimateOnlyDifferences = true;
-            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
-            animation3.LeafCoeff = 1F;
-            animation3.MaxTime = 1F;
-            animation3.MinTime = 0F;
-            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
-            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
-            animation3.MosaicSize = 0;
-            animation3.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
-            animation3.RotateCoeff = 0F;
-            animation3.RotateLimit = 0F;
-            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
-            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
-            animation3.TimeCoeff = 0F;
-            animation3.TransparencyCoeff = 0F;
-            this.pages.Transition = animation3;
+            animation5.AnimateOnlyDifferences = true;
+            animation5.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.BlindCoeff")));
+            animation5.LeafCoeff = 1F;
+            animation5.MaxTime = 1F;
+            animation5.MinTime = 0F;
+            animation5.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicCoeff")));
+            animation5.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicShift")));
+            animation5.MosaicSize = 0;
+            animation5.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            animation5.RotateCoeff = 0F;
+            animation5.RotateLimit = 0F;
+            animation5.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.ScaleCoeff")));
+            animation5.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.SlideCoeff")));
+            animation5.TimeCoeff = 0F;
+            animation5.TransparencyCoeff = 0F;
+            this.pages.Transition = animation5;
             this.pages.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Leaf;
             // 
             // homePage
@@ -970,17 +1153,17 @@ namespace hospitalmanagement
             // addNewDoctorPage
             // 
             this.addNewDoctorPage.Controls.Add(this.bunifuLabel2);
-            this.addNewDoctorPage.Controls.Add(this.doctorGraduationTextBox);
-            this.addNewDoctorPage.Controls.Add(this.bunifuButton1);
             this.addNewDoctorPage.Controls.Add(this.bunifuLabel12);
-            this.addNewDoctorPage.Controls.Add(this.doctorPhoneNumTextBox);
             this.addNewDoctorPage.Controls.Add(this.bunifuLabel13);
             this.addNewDoctorPage.Controls.Add(this.bunifuLabel14);
             this.addNewDoctorPage.Controls.Add(this.bunifuLabel15);
             this.addNewDoctorPage.Controls.Add(this.departmentDropdown);
+            this.addNewDoctorPage.Controls.Add(this.bunifuLabel16);
+            this.addNewDoctorPage.Controls.Add(this.doctorGraduationTextBox);
+            this.addNewDoctorPage.Controls.Add(this.bunifuButton1);
+            this.addNewDoctorPage.Controls.Add(this.doctorPhoneNumTextBox);
             this.addNewDoctorPage.Controls.Add(this.doctorDesignationTextBox);
             this.addNewDoctorPage.Controls.Add(this.doctorNameTextBox);
-            this.addNewDoctorPage.Controls.Add(this.bunifuLabel16);
             this.addNewDoctorPage.Location = new System.Drawing.Point(4, 4);
             this.addNewDoctorPage.Name = "addNewDoctorPage";
             this.addNewDoctorPage.Padding = new System.Windows.Forms.Padding(3);
@@ -1005,6 +1188,123 @@ namespace hospitalmanagement
             this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             this.bunifuLabel2.UseWaitCursor = true;
+            // 
+            // bunifuLabel12
+            // 
+            this.bunifuLabel12.AllowParentOverrides = false;
+            this.bunifuLabel12.AutoEllipsis = false;
+            this.bunifuLabel12.CursorType = null;
+            this.bunifuLabel12.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.bunifuLabel12.Location = new System.Drawing.Point(30, 319);
+            this.bunifuLabel12.Name = "bunifuLabel12";
+            this.bunifuLabel12.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel12.Size = new System.Drawing.Size(222, 23);
+            this.bunifuLabel12.TabIndex = 18;
+            this.bunifuLabel12.Text = "Doctor Phone number:";
+            this.bunifuLabel12.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel12.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel13
+            // 
+            this.bunifuLabel13.AllowParentOverrides = false;
+            this.bunifuLabel13.AutoEllipsis = false;
+            this.bunifuLabel13.CursorType = null;
+            this.bunifuLabel13.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.bunifuLabel13.Location = new System.Drawing.Point(526, 217);
+            this.bunifuLabel13.Name = "bunifuLabel13";
+            this.bunifuLabel13.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel13.Size = new System.Drawing.Size(125, 23);
+            this.bunifuLabel13.TabIndex = 16;
+            this.bunifuLabel13.Text = "Department:";
+            this.bunifuLabel13.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel13.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel14
+            // 
+            this.bunifuLabel14.AllowParentOverrides = false;
+            this.bunifuLabel14.AutoEllipsis = false;
+            this.bunifuLabel14.CursorType = null;
+            this.bunifuLabel14.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.bunifuLabel14.Location = new System.Drawing.Point(30, 217);
+            this.bunifuLabel14.Name = "bunifuLabel14";
+            this.bunifuLabel14.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel14.Size = new System.Drawing.Size(191, 23);
+            this.bunifuLabel14.TabIndex = 15;
+            this.bunifuLabel14.Text = "Doctor Designation:";
+            this.bunifuLabel14.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel14.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel15
+            // 
+            this.bunifuLabel15.AllowParentOverrides = false;
+            this.bunifuLabel15.AutoEllipsis = false;
+            this.bunifuLabel15.CursorType = null;
+            this.bunifuLabel15.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.bunifuLabel15.Location = new System.Drawing.Point(30, 132);
+            this.bunifuLabel15.Name = "bunifuLabel15";
+            this.bunifuLabel15.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel15.Size = new System.Drawing.Size(139, 23);
+            this.bunifuLabel15.TabIndex = 14;
+            this.bunifuLabel15.Text = "Doctor Name:";
+            this.bunifuLabel15.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel15.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // departmentDropdown
+            // 
+            this.departmentDropdown.BackColor = System.Drawing.Color.Transparent;
+            this.departmentDropdown.BackgroundColor = System.Drawing.Color.White;
+            this.departmentDropdown.BorderColor = System.Drawing.Color.Silver;
+            this.departmentDropdown.BorderRadius = 1;
+            this.departmentDropdown.Color = System.Drawing.Color.Silver;
+            this.departmentDropdown.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.departmentDropdown.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.departmentDropdown.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.departmentDropdown.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.departmentDropdown.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.departmentDropdown.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.departmentDropdown.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.departmentDropdown.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.departmentDropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.departmentDropdown.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.departmentDropdown.FillDropDown = true;
+            this.departmentDropdown.FillIndicator = false;
+            this.departmentDropdown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.departmentDropdown.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.departmentDropdown.ForeColor = System.Drawing.Color.Black;
+            this.departmentDropdown.FormattingEnabled = true;
+            this.departmentDropdown.Icon = null;
+            this.departmentDropdown.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.departmentDropdown.IndicatorColor = System.Drawing.Color.Gray;
+            this.departmentDropdown.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.departmentDropdown.ItemBackColor = System.Drawing.Color.White;
+            this.departmentDropdown.ItemBorderColor = System.Drawing.Color.White;
+            this.departmentDropdown.ItemForeColor = System.Drawing.Color.Black;
+            this.departmentDropdown.ItemHeight = 26;
+            this.departmentDropdown.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.departmentDropdown.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.departmentDropdown.ItemTopMargin = 3;
+            this.departmentDropdown.Location = new System.Drawing.Point(657, 208);
+            this.departmentDropdown.Name = "departmentDropdown";
+            this.departmentDropdown.Size = new System.Drawing.Size(260, 32);
+            this.departmentDropdown.TabIndex = 13;
+            this.departmentDropdown.Text = null;
+            this.departmentDropdown.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.departmentDropdown.TextLeftMargin = 5;
+            // 
+            // bunifuLabel16
+            // 
+            this.bunifuLabel16.AllowParentOverrides = false;
+            this.bunifuLabel16.AutoEllipsis = false;
+            this.bunifuLabel16.CursorType = null;
+            this.bunifuLabel16.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bunifuLabel16.Location = new System.Drawing.Point(310, 30);
+            this.bunifuLabel16.Name = "bunifuLabel16";
+            this.bunifuLabel16.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel16.Size = new System.Drawing.Size(318, 49);
+            this.bunifuLabel16.TabIndex = 10;
+            this.bunifuLabel16.Text = "Add new doctor";
+            this.bunifuLabel16.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuLabel16.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // doctorGraduationTextBox
             // 
@@ -1170,21 +1470,6 @@ namespace hospitalmanagement
             this.bunifuButton1.UseDefaultRadiusAndThickness = true;
             this.bunifuButton1.Click += new System.EventHandler(this.bunifuButton1_Click_1);
             // 
-            // bunifuLabel12
-            // 
-            this.bunifuLabel12.AllowParentOverrides = false;
-            this.bunifuLabel12.AutoEllipsis = false;
-            this.bunifuLabel12.CursorType = null;
-            this.bunifuLabel12.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.bunifuLabel12.Location = new System.Drawing.Point(30, 319);
-            this.bunifuLabel12.Name = "bunifuLabel12";
-            this.bunifuLabel12.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel12.Size = new System.Drawing.Size(222, 23);
-            this.bunifuLabel12.TabIndex = 18;
-            this.bunifuLabel12.Text = "Doctor Phone number:";
-            this.bunifuLabel12.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel12.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
             // doctorPhoneNumTextBox
             // 
             this.doctorPhoneNumTextBox.AcceptsReturn = false;
@@ -1258,93 +1543,6 @@ namespace hospitalmanagement
             this.doctorPhoneNumTextBox.TextPlaceholder = "Enter text";
             this.doctorPhoneNumTextBox.UseSystemPasswordChar = false;
             this.doctorPhoneNumTextBox.WordWrap = true;
-            // 
-            // bunifuLabel13
-            // 
-            this.bunifuLabel13.AllowParentOverrides = false;
-            this.bunifuLabel13.AutoEllipsis = false;
-            this.bunifuLabel13.CursorType = null;
-            this.bunifuLabel13.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.bunifuLabel13.Location = new System.Drawing.Point(526, 217);
-            this.bunifuLabel13.Name = "bunifuLabel13";
-            this.bunifuLabel13.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel13.Size = new System.Drawing.Size(125, 23);
-            this.bunifuLabel13.TabIndex = 16;
-            this.bunifuLabel13.Text = "Department:";
-            this.bunifuLabel13.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel13.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel14
-            // 
-            this.bunifuLabel14.AllowParentOverrides = false;
-            this.bunifuLabel14.AutoEllipsis = false;
-            this.bunifuLabel14.CursorType = null;
-            this.bunifuLabel14.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.bunifuLabel14.Location = new System.Drawing.Point(30, 217);
-            this.bunifuLabel14.Name = "bunifuLabel14";
-            this.bunifuLabel14.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel14.Size = new System.Drawing.Size(191, 23);
-            this.bunifuLabel14.TabIndex = 15;
-            this.bunifuLabel14.Text = "Doctor Designation:";
-            this.bunifuLabel14.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel14.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel15
-            // 
-            this.bunifuLabel15.AllowParentOverrides = false;
-            this.bunifuLabel15.AutoEllipsis = false;
-            this.bunifuLabel15.CursorType = null;
-            this.bunifuLabel15.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.bunifuLabel15.Location = new System.Drawing.Point(30, 132);
-            this.bunifuLabel15.Name = "bunifuLabel15";
-            this.bunifuLabel15.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel15.Size = new System.Drawing.Size(139, 23);
-            this.bunifuLabel15.TabIndex = 14;
-            this.bunifuLabel15.Text = "Doctor Name:";
-            this.bunifuLabel15.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel15.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // departmentDropdown
-            // 
-            this.departmentDropdown.BackColor = System.Drawing.Color.Transparent;
-            this.departmentDropdown.BackgroundColor = System.Drawing.Color.White;
-            this.departmentDropdown.BorderColor = System.Drawing.Color.Silver;
-            this.departmentDropdown.BorderRadius = 1;
-            this.departmentDropdown.Color = System.Drawing.Color.Silver;
-            this.departmentDropdown.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
-            this.departmentDropdown.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.departmentDropdown.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.departmentDropdown.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.departmentDropdown.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.departmentDropdown.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
-            this.departmentDropdown.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.departmentDropdown.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
-            this.departmentDropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.departmentDropdown.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.departmentDropdown.FillDropDown = true;
-            this.departmentDropdown.FillIndicator = false;
-            this.departmentDropdown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.departmentDropdown.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.departmentDropdown.ForeColor = System.Drawing.Color.Black;
-            this.departmentDropdown.FormattingEnabled = true;
-            this.departmentDropdown.Icon = null;
-            this.departmentDropdown.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
-            this.departmentDropdown.IndicatorColor = System.Drawing.Color.Gray;
-            this.departmentDropdown.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
-            this.departmentDropdown.ItemBackColor = System.Drawing.Color.White;
-            this.departmentDropdown.ItemBorderColor = System.Drawing.Color.White;
-            this.departmentDropdown.ItemForeColor = System.Drawing.Color.Black;
-            this.departmentDropdown.ItemHeight = 26;
-            this.departmentDropdown.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
-            this.departmentDropdown.ItemHighLightForeColor = System.Drawing.Color.White;
-            this.departmentDropdown.ItemTopMargin = 3;
-            this.departmentDropdown.Location = new System.Drawing.Point(657, 208);
-            this.departmentDropdown.Name = "departmentDropdown";
-            this.departmentDropdown.Size = new System.Drawing.Size(260, 32);
-            this.departmentDropdown.TabIndex = 13;
-            this.departmentDropdown.Text = null;
-            this.departmentDropdown.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.departmentDropdown.TextLeftMargin = 5;
             // 
             // doctorDesignationTextBox
             // 
@@ -1493,21 +1691,6 @@ namespace hospitalmanagement
             this.doctorNameTextBox.TextPlaceholder = "Enter text";
             this.doctorNameTextBox.UseSystemPasswordChar = false;
             this.doctorNameTextBox.WordWrap = true;
-            // 
-            // bunifuLabel16
-            // 
-            this.bunifuLabel16.AllowParentOverrides = false;
-            this.bunifuLabel16.AutoEllipsis = false;
-            this.bunifuLabel16.CursorType = null;
-            this.bunifuLabel16.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.bunifuLabel16.Location = new System.Drawing.Point(310, 30);
-            this.bunifuLabel16.Name = "bunifuLabel16";
-            this.bunifuLabel16.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel16.Size = new System.Drawing.Size(318, 49);
-            this.bunifuLabel16.TabIndex = 10;
-            this.bunifuLabel16.Text = "Add new doctor";
-            this.bunifuLabel16.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuLabel16.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // additionalSearchPage
             // 
@@ -2287,16 +2470,16 @@ namespace hospitalmanagement
             // 
             this.tabPage3.Controls.Add(this.birthDatePicker);
             this.tabPage3.Controls.Add(this.bunifuLabel21);
-            this.tabPage3.Controls.Add(this.submitPatientButton);
             this.tabPage3.Controls.Add(this.bunifuLabel22);
-            this.tabPage3.Controls.Add(this.patientPhoneNumberTextBox);
             this.tabPage3.Controls.Add(this.bunifuLabel23);
             this.tabPage3.Controls.Add(this.bunifuLabel24);
             this.tabPage3.Controls.Add(this.bunifuLabel25);
             this.tabPage3.Controls.Add(this.patientGenderDropdown);
+            this.tabPage3.Controls.Add(this.bunifuLabel26);
+            this.tabPage3.Controls.Add(this.submitPatientButton);
+            this.tabPage3.Controls.Add(this.patientPhoneNumberTextBox);
             this.tabPage3.Controls.Add(this.patientAddressTextBox);
             this.tabPage3.Controls.Add(this.patientNameTextBox);
-            this.tabPage3.Controls.Add(this.bunifuLabel26);
             this.tabPage3.Location = new System.Drawing.Point(4, 4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
@@ -2344,6 +2527,123 @@ namespace hospitalmanagement
             this.bunifuLabel21.Text = "Patient birthdate:";
             this.bunifuLabel21.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel21.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel22
+            // 
+            this.bunifuLabel22.AllowParentOverrides = false;
+            this.bunifuLabel22.AutoEllipsis = false;
+            this.bunifuLabel22.CursorType = null;
+            this.bunifuLabel22.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.bunifuLabel22.Location = new System.Drawing.Point(30, 435);
+            this.bunifuLabel22.Name = "bunifuLabel22";
+            this.bunifuLabel22.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel22.Size = new System.Drawing.Size(225, 23);
+            this.bunifuLabel22.TabIndex = 31;
+            this.bunifuLabel22.Text = "Patient phone number:";
+            this.bunifuLabel22.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel22.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel23
+            // 
+            this.bunifuLabel23.AllowParentOverrides = false;
+            this.bunifuLabel23.AutoEllipsis = false;
+            this.bunifuLabel23.CursorType = null;
+            this.bunifuLabel23.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.bunifuLabel23.Location = new System.Drawing.Point(577, 247);
+            this.bunifuLabel23.Name = "bunifuLabel23";
+            this.bunifuLabel23.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel23.Size = new System.Drawing.Size(80, 23);
+            this.bunifuLabel23.TabIndex = 29;
+            this.bunifuLabel23.Text = "Gender:";
+            this.bunifuLabel23.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel23.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel24
+            // 
+            this.bunifuLabel24.AllowParentOverrides = false;
+            this.bunifuLabel24.AutoEllipsis = false;
+            this.bunifuLabel24.CursorType = null;
+            this.bunifuLabel24.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.bunifuLabel24.Location = new System.Drawing.Point(30, 333);
+            this.bunifuLabel24.Name = "bunifuLabel24";
+            this.bunifuLabel24.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel24.Size = new System.Drawing.Size(156, 23);
+            this.bunifuLabel24.TabIndex = 28;
+            this.bunifuLabel24.Text = "Patient address:";
+            this.bunifuLabel24.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel24.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel25
+            // 
+            this.bunifuLabel25.AllowParentOverrides = false;
+            this.bunifuLabel25.AutoEllipsis = false;
+            this.bunifuLabel25.CursorType = null;
+            this.bunifuLabel25.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.bunifuLabel25.Location = new System.Drawing.Point(30, 144);
+            this.bunifuLabel25.Name = "bunifuLabel25";
+            this.bunifuLabel25.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel25.Size = new System.Drawing.Size(137, 23);
+            this.bunifuLabel25.TabIndex = 27;
+            this.bunifuLabel25.Text = "Patient name:";
+            this.bunifuLabel25.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel25.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // patientGenderDropdown
+            // 
+            this.patientGenderDropdown.BackColor = System.Drawing.Color.Transparent;
+            this.patientGenderDropdown.BackgroundColor = System.Drawing.Color.White;
+            this.patientGenderDropdown.BorderColor = System.Drawing.Color.Silver;
+            this.patientGenderDropdown.BorderRadius = 1;
+            this.patientGenderDropdown.Color = System.Drawing.Color.Silver;
+            this.patientGenderDropdown.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.patientGenderDropdown.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.patientGenderDropdown.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.patientGenderDropdown.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.patientGenderDropdown.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.patientGenderDropdown.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.patientGenderDropdown.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.patientGenderDropdown.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.patientGenderDropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.patientGenderDropdown.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.patientGenderDropdown.FillDropDown = true;
+            this.patientGenderDropdown.FillIndicator = false;
+            this.patientGenderDropdown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.patientGenderDropdown.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.patientGenderDropdown.ForeColor = System.Drawing.Color.Black;
+            this.patientGenderDropdown.FormattingEnabled = true;
+            this.patientGenderDropdown.Icon = null;
+            this.patientGenderDropdown.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.patientGenderDropdown.IndicatorColor = System.Drawing.Color.Gray;
+            this.patientGenderDropdown.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.patientGenderDropdown.ItemBackColor = System.Drawing.Color.White;
+            this.patientGenderDropdown.ItemBorderColor = System.Drawing.Color.White;
+            this.patientGenderDropdown.ItemForeColor = System.Drawing.Color.Black;
+            this.patientGenderDropdown.ItemHeight = 26;
+            this.patientGenderDropdown.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.patientGenderDropdown.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.patientGenderDropdown.ItemTopMargin = 3;
+            this.patientGenderDropdown.Location = new System.Drawing.Point(663, 238);
+            this.patientGenderDropdown.Name = "patientGenderDropdown";
+            this.patientGenderDropdown.Size = new System.Drawing.Size(260, 32);
+            this.patientGenderDropdown.TabIndex = 26;
+            this.patientGenderDropdown.Text = null;
+            this.patientGenderDropdown.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.patientGenderDropdown.TextLeftMargin = 5;
+            // 
+            // bunifuLabel26
+            // 
+            this.bunifuLabel26.AllowParentOverrides = false;
+            this.bunifuLabel26.AutoEllipsis = false;
+            this.bunifuLabel26.CursorType = null;
+            this.bunifuLabel26.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bunifuLabel26.Location = new System.Drawing.Point(308, 14);
+            this.bunifuLabel26.Name = "bunifuLabel26";
+            this.bunifuLabel26.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel26.Size = new System.Drawing.Size(328, 49);
+            this.bunifuLabel26.TabIndex = 23;
+            this.bunifuLabel26.Text = "Add new patient";
+            this.bunifuLabel26.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuLabel26.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // submitPatientButton
             // 
@@ -2435,21 +2735,6 @@ namespace hospitalmanagement
             this.submitPatientButton.UseDefaultRadiusAndThickness = true;
             this.submitPatientButton.Click += new System.EventHandler(this.submitPatientButton_Click);
             // 
-            // bunifuLabel22
-            // 
-            this.bunifuLabel22.AllowParentOverrides = false;
-            this.bunifuLabel22.AutoEllipsis = false;
-            this.bunifuLabel22.CursorType = null;
-            this.bunifuLabel22.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.bunifuLabel22.Location = new System.Drawing.Point(30, 435);
-            this.bunifuLabel22.Name = "bunifuLabel22";
-            this.bunifuLabel22.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel22.Size = new System.Drawing.Size(225, 23);
-            this.bunifuLabel22.TabIndex = 31;
-            this.bunifuLabel22.Text = "Patient phone number:";
-            this.bunifuLabel22.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel22.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
             // patientPhoneNumberTextBox
             // 
             this.patientPhoneNumberTextBox.AcceptsReturn = false;
@@ -2523,93 +2808,6 @@ namespace hospitalmanagement
             this.patientPhoneNumberTextBox.TextPlaceholder = "Enter text";
             this.patientPhoneNumberTextBox.UseSystemPasswordChar = false;
             this.patientPhoneNumberTextBox.WordWrap = true;
-            // 
-            // bunifuLabel23
-            // 
-            this.bunifuLabel23.AllowParentOverrides = false;
-            this.bunifuLabel23.AutoEllipsis = false;
-            this.bunifuLabel23.CursorType = null;
-            this.bunifuLabel23.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.bunifuLabel23.Location = new System.Drawing.Point(577, 247);
-            this.bunifuLabel23.Name = "bunifuLabel23";
-            this.bunifuLabel23.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel23.Size = new System.Drawing.Size(80, 23);
-            this.bunifuLabel23.TabIndex = 29;
-            this.bunifuLabel23.Text = "Gender:";
-            this.bunifuLabel23.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel23.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel24
-            // 
-            this.bunifuLabel24.AllowParentOverrides = false;
-            this.bunifuLabel24.AutoEllipsis = false;
-            this.bunifuLabel24.CursorType = null;
-            this.bunifuLabel24.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.bunifuLabel24.Location = new System.Drawing.Point(30, 333);
-            this.bunifuLabel24.Name = "bunifuLabel24";
-            this.bunifuLabel24.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel24.Size = new System.Drawing.Size(156, 23);
-            this.bunifuLabel24.TabIndex = 28;
-            this.bunifuLabel24.Text = "Patient address:";
-            this.bunifuLabel24.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel24.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel25
-            // 
-            this.bunifuLabel25.AllowParentOverrides = false;
-            this.bunifuLabel25.AutoEllipsis = false;
-            this.bunifuLabel25.CursorType = null;
-            this.bunifuLabel25.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.bunifuLabel25.Location = new System.Drawing.Point(30, 144);
-            this.bunifuLabel25.Name = "bunifuLabel25";
-            this.bunifuLabel25.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel25.Size = new System.Drawing.Size(137, 23);
-            this.bunifuLabel25.TabIndex = 27;
-            this.bunifuLabel25.Text = "Patient name:";
-            this.bunifuLabel25.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel25.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // patientGenderDropdown
-            // 
-            this.patientGenderDropdown.BackColor = System.Drawing.Color.Transparent;
-            this.patientGenderDropdown.BackgroundColor = System.Drawing.Color.White;
-            this.patientGenderDropdown.BorderColor = System.Drawing.Color.Silver;
-            this.patientGenderDropdown.BorderRadius = 1;
-            this.patientGenderDropdown.Color = System.Drawing.Color.Silver;
-            this.patientGenderDropdown.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
-            this.patientGenderDropdown.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.patientGenderDropdown.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.patientGenderDropdown.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.patientGenderDropdown.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.patientGenderDropdown.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
-            this.patientGenderDropdown.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.patientGenderDropdown.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
-            this.patientGenderDropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.patientGenderDropdown.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.patientGenderDropdown.FillDropDown = true;
-            this.patientGenderDropdown.FillIndicator = false;
-            this.patientGenderDropdown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.patientGenderDropdown.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.patientGenderDropdown.ForeColor = System.Drawing.Color.Black;
-            this.patientGenderDropdown.FormattingEnabled = true;
-            this.patientGenderDropdown.Icon = null;
-            this.patientGenderDropdown.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
-            this.patientGenderDropdown.IndicatorColor = System.Drawing.Color.Gray;
-            this.patientGenderDropdown.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
-            this.patientGenderDropdown.ItemBackColor = System.Drawing.Color.White;
-            this.patientGenderDropdown.ItemBorderColor = System.Drawing.Color.White;
-            this.patientGenderDropdown.ItemForeColor = System.Drawing.Color.Black;
-            this.patientGenderDropdown.ItemHeight = 26;
-            this.patientGenderDropdown.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
-            this.patientGenderDropdown.ItemHighLightForeColor = System.Drawing.Color.White;
-            this.patientGenderDropdown.ItemTopMargin = 3;
-            this.patientGenderDropdown.Location = new System.Drawing.Point(663, 238);
-            this.patientGenderDropdown.Name = "patientGenderDropdown";
-            this.patientGenderDropdown.Size = new System.Drawing.Size(260, 32);
-            this.patientGenderDropdown.TabIndex = 26;
-            this.patientGenderDropdown.Text = null;
-            this.patientGenderDropdown.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.patientGenderDropdown.TextLeftMargin = 5;
             // 
             // patientAddressTextBox
             // 
@@ -2758,21 +2956,6 @@ namespace hospitalmanagement
             this.patientNameTextBox.TextPlaceholder = "Enter text";
             this.patientNameTextBox.UseSystemPasswordChar = false;
             this.patientNameTextBox.WordWrap = true;
-            // 
-            // bunifuLabel26
-            // 
-            this.bunifuLabel26.AllowParentOverrides = false;
-            this.bunifuLabel26.AutoEllipsis = false;
-            this.bunifuLabel26.CursorType = null;
-            this.bunifuLabel26.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.bunifuLabel26.Location = new System.Drawing.Point(308, 14);
-            this.bunifuLabel26.Name = "bunifuLabel26";
-            this.bunifuLabel26.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel26.Size = new System.Drawing.Size(328, 49);
-            this.bunifuLabel26.TabIndex = 23;
-            this.bunifuLabel26.Text = "Add new patient";
-            this.bunifuLabel26.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuLabel26.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // additionalSearchPatientPage
             // 
@@ -3353,6 +3536,7 @@ namespace hospitalmanagement
             // 
             // diagnosesPage
             // 
+            this.diagnosesPage.Controls.Add(this.diagnoseINNERpages);
             this.diagnosesPage.Location = new System.Drawing.Point(4, 4);
             this.diagnosesPage.Name = "diagnosesPage";
             this.diagnosesPage.Padding = new System.Windows.Forms.Padding(3);
@@ -3361,8 +3545,1205 @@ namespace hospitalmanagement
             this.diagnosesPage.Text = "diagnosesPage";
             this.diagnosesPage.UseVisualStyleBackColor = true;
             // 
+            // diagnoseINNERpages
+            // 
+            this.diagnoseINNERpages.Alignment = System.Windows.Forms.TabAlignment.Bottom;
+            this.diagnoseINNERpages.AllowTransitions = true;
+            this.diagnoseINNERpages.Controls.Add(this.diagnosesMainPage);
+            this.diagnoseINNERpages.Controls.Add(this.addDiagnosePage);
+            this.diagnoseINNERpages.Controls.Add(this.diagnoseDetailsPage);
+            this.diagnoseINNERpages.Location = new System.Drawing.Point(-4, 3);
+            this.diagnoseINNERpages.Multiline = true;
+            this.diagnoseINNERpages.Name = "diagnoseINNERpages";
+            this.diagnoseINNERpages.Page = this.addDiagnosePage;
+            this.diagnoseINNERpages.PageIndex = 1;
+            this.diagnoseINNERpages.PageName = "addDiagnosePage";
+            this.diagnoseINNERpages.PageTitle = "addDiagnosePage";
+            this.diagnoseINNERpages.SelectedIndex = 0;
+            this.diagnoseINNERpages.Size = new System.Drawing.Size(970, 615);
+            this.diagnoseINNERpages.TabIndex = 0;
+            animation3.AnimateOnlyDifferences = false;
+            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
+            animation3.LeafCoeff = 0F;
+            animation3.MaxTime = 0.5F;
+            animation3.MinTime = 0F;
+            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
+            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
+            animation3.MosaicSize = 0;
+            animation3.Padding = new System.Windows.Forms.Padding(0);
+            animation3.RotateCoeff = 0F;
+            animation3.RotateLimit = 0F;
+            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
+            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
+            animation3.TimeCoeff = 0F;
+            animation3.TransparencyCoeff = 0F;
+            this.diagnoseINNERpages.Transition = animation3;
+            this.diagnoseINNERpages.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Custom;
+            // 
+            // diagnosesMainPage
+            // 
+            this.diagnosesMainPage.Controls.Add(this.bunifuThinButton23);
+            this.diagnosesMainPage.Controls.Add(this.flowLayoutPanel1);
+            this.diagnosesMainPage.Controls.Add(this.addDiagnoseButton);
+            this.diagnosesMainPage.Controls.Add(this.diagnoseSearchTextBox);
+            this.diagnosesMainPage.Location = new System.Drawing.Point(4, 4);
+            this.diagnosesMainPage.Name = "diagnosesMainPage";
+            this.diagnosesMainPage.Padding = new System.Windows.Forms.Padding(3);
+            this.diagnosesMainPage.Size = new System.Drawing.Size(962, 586);
+            this.diagnosesMainPage.TabIndex = 0;
+            this.diagnosesMainPage.Text = "diagnosesMainPage";
+            this.diagnosesMainPage.UseVisualStyleBackColor = true;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(27, 130);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(932, 476);
+            this.flowLayoutPanel1.TabIndex = 4;
+            // 
+            // addDiagnoseButton
+            // 
+            this.addDiagnoseButton.ActiveBorderThickness = 1;
+            this.addDiagnoseButton.ActiveCornerRadius = 30;
+            this.addDiagnoseButton.ActiveFillColor = System.Drawing.Color.DarkGreen;
+            this.addDiagnoseButton.ActiveForecolor = System.Drawing.Color.White;
+            this.addDiagnoseButton.ActiveLineColor = System.Drawing.Color.DarkGreen;
+            this.addDiagnoseButton.BackColor = System.Drawing.Color.Transparent;
+            this.addDiagnoseButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("addDiagnoseButton.BackgroundImage")));
+            this.addDiagnoseButton.ButtonText = "Add Diagnose";
+            this.addDiagnoseButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.addDiagnoseButton.Font = new System.Drawing.Font("Arial Nova Light", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addDiagnoseButton.ForeColor = System.Drawing.Color.SeaGreen;
+            this.addDiagnoseButton.IdleBorderThickness = 1;
+            this.addDiagnoseButton.IdleCornerRadius = 30;
+            this.addDiagnoseButton.IdleFillColor = System.Drawing.Color.White;
+            this.addDiagnoseButton.IdleForecolor = System.Drawing.Color.DarkGreen;
+            this.addDiagnoseButton.IdleLineColor = System.Drawing.Color.DarkGreen;
+            this.addDiagnoseButton.Location = new System.Drawing.Point(742, 11);
+            this.addDiagnoseButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.addDiagnoseButton.Name = "addDiagnoseButton";
+            this.addDiagnoseButton.Size = new System.Drawing.Size(202, 47);
+            this.addDiagnoseButton.TabIndex = 1;
+            this.addDiagnoseButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.addDiagnoseButton.Click += new System.EventHandler(this.addDiagnoseButton_Click);
+            // 
+            // diagnoseSearchTextBox
+            // 
+            this.diagnoseSearchTextBox.AcceptsReturn = false;
+            this.diagnoseSearchTextBox.AcceptsTab = false;
+            this.diagnoseSearchTextBox.AnimationSpeed = 200;
+            this.diagnoseSearchTextBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.diagnoseSearchTextBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.diagnoseSearchTextBox.BackColor = System.Drawing.Color.Transparent;
+            this.diagnoseSearchTextBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("diagnoseSearchTextBox.BackgroundImage")));
+            this.diagnoseSearchTextBox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.diagnoseSearchTextBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.diagnoseSearchTextBox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.diagnoseSearchTextBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.diagnoseSearchTextBox.BorderRadius = 30;
+            this.diagnoseSearchTextBox.BorderThickness = 1;
+            this.diagnoseSearchTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.diagnoseSearchTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.diagnoseSearchTextBox.DefaultFont = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.diagnoseSearchTextBox.DefaultText = "";
+            this.diagnoseSearchTextBox.FillColor = System.Drawing.Color.White;
+            this.diagnoseSearchTextBox.HideSelection = true;
+            this.diagnoseSearchTextBox.IconLeft = null;
+            this.diagnoseSearchTextBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.diagnoseSearchTextBox.IconPadding = 10;
+            this.diagnoseSearchTextBox.IconRight = null;
+            this.diagnoseSearchTextBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.diagnoseSearchTextBox.Lines = new string[0];
+            this.diagnoseSearchTextBox.Location = new System.Drawing.Point(27, 70);
+            this.diagnoseSearchTextBox.MaxLength = 32767;
+            this.diagnoseSearchTextBox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.diagnoseSearchTextBox.Modified = false;
+            this.diagnoseSearchTextBox.Multiline = false;
+            this.diagnoseSearchTextBox.Name = "diagnoseSearchTextBox";
+            stateProperties45.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties45.FillColor = System.Drawing.Color.Empty;
+            stateProperties45.ForeColor = System.Drawing.Color.Empty;
+            stateProperties45.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diagnoseSearchTextBox.OnActiveState = stateProperties45;
+            stateProperties46.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties46.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties46.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.diagnoseSearchTextBox.OnDisabledState = stateProperties46;
+            stateProperties47.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties47.FillColor = System.Drawing.Color.Empty;
+            stateProperties47.ForeColor = System.Drawing.Color.Empty;
+            stateProperties47.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diagnoseSearchTextBox.OnHoverState = stateProperties47;
+            stateProperties48.BorderColor = System.Drawing.Color.Silver;
+            stateProperties48.FillColor = System.Drawing.Color.White;
+            stateProperties48.ForeColor = System.Drawing.Color.Empty;
+            stateProperties48.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diagnoseSearchTextBox.OnIdleState = stateProperties48;
+            this.diagnoseSearchTextBox.Padding = new System.Windows.Forms.Padding(3);
+            this.diagnoseSearchTextBox.PasswordChar = '\0';
+            this.diagnoseSearchTextBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.diagnoseSearchTextBox.PlaceholderText = "Search  (e.g. Patient ID, Patient Name, Doctor ID, Doctor Name,  ICD Code, Diagno" +
+    "se No)";
+            this.diagnoseSearchTextBox.ReadOnly = false;
+            this.diagnoseSearchTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.diagnoseSearchTextBox.SelectedText = "";
+            this.diagnoseSearchTextBox.SelectionLength = 0;
+            this.diagnoseSearchTextBox.SelectionStart = 0;
+            this.diagnoseSearchTextBox.ShortcutsEnabled = true;
+            this.diagnoseSearchTextBox.Size = new System.Drawing.Size(804, 38);
+            this.diagnoseSearchTextBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.diagnoseSearchTextBox.TabIndex = 0;
+            this.diagnoseSearchTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.diagnoseSearchTextBox.TextMarginBottom = 0;
+            this.diagnoseSearchTextBox.TextMarginLeft = 10;
+            this.diagnoseSearchTextBox.TextMarginTop = 0;
+            this.diagnoseSearchTextBox.TextPlaceholder = "Search  (e.g. Patient ID, Patient Name, Doctor ID, Doctor Name,  ICD Code, Diagno" +
+    "se No)";
+            this.diagnoseSearchTextBox.UseSystemPasswordChar = false;
+            this.diagnoseSearchTextBox.WordWrap = true;
+            this.diagnoseSearchTextBox.TextChanged += new System.EventHandler(this.diagnoseSearchTextBox_TextChanged);
+            this.diagnoseSearchTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.diagnoseSearchTextBox_KeyDown);
+            this.diagnoseSearchTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.diagnoseSearchTextBox_KeyPress);
+            // 
+            // addDiagnosePage
+            // 
+            this.addDiagnosePage.Controls.Add(this.diagnose_add_button);
+            this.addDiagnosePage.Controls.Add(this.diagnose_prescription_dropdown);
+            this.addDiagnosePage.Controls.Add(this.diagnose_doctor_dropdown);
+            this.addDiagnosePage.Controls.Add(this.diagnose_patient_dropdown);
+            this.addDiagnosePage.Controls.Add(this.diagnose_condittion_richtextbox);
+            this.addDiagnosePage.Controls.Add(this.diagnose_testR_richtextbox);
+            this.addDiagnosePage.Controls.Add(this.diagnose_icd_code_textbox);
+            this.addDiagnosePage.Controls.Add(this.diagnose_ID_textbox);
+            this.addDiagnosePage.Controls.Add(this.bunifuLabel34);
+            this.addDiagnosePage.Controls.Add(this.bunifuLabel33);
+            this.addDiagnosePage.Controls.Add(this.bunifuLabel32);
+            this.addDiagnosePage.Controls.Add(this.bunifuLabel31);
+            this.addDiagnosePage.Controls.Add(this.bunifuLabel30);
+            this.addDiagnosePage.Controls.Add(this.bunifuLabel29);
+            this.addDiagnosePage.Controls.Add(this.bunifuLabel28);
+            this.addDiagnosePage.Controls.Add(this.bunifuLabel27);
+            this.addDiagnosePage.Location = new System.Drawing.Point(4, 4);
+            this.addDiagnosePage.Name = "addDiagnosePage";
+            this.addDiagnosePage.Padding = new System.Windows.Forms.Padding(3);
+            this.addDiagnosePage.Size = new System.Drawing.Size(962, 586);
+            this.addDiagnosePage.TabIndex = 1;
+            this.addDiagnosePage.Text = "addDiagnosePage";
+            this.addDiagnosePage.UseVisualStyleBackColor = true;
+            // 
+            // diagnose_add_button
+            // 
+            this.diagnose_add_button.ActiveBorderThickness = 1;
+            this.diagnose_add_button.ActiveCornerRadius = 30;
+            this.diagnose_add_button.ActiveFillColor = System.Drawing.Color.DodgerBlue;
+            this.diagnose_add_button.ActiveForecolor = System.Drawing.Color.White;
+            this.diagnose_add_button.ActiveLineColor = System.Drawing.Color.DodgerBlue;
+            this.diagnose_add_button.BackColor = System.Drawing.Color.Transparent;
+            this.diagnose_add_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("diagnose_add_button.BackgroundImage")));
+            this.diagnose_add_button.ButtonText = "Add Diagnose";
+            this.diagnose_add_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.diagnose_add_button.Font = new System.Drawing.Font("Arial Nova Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.diagnose_add_button.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.diagnose_add_button.IdleBorderThickness = 1;
+            this.diagnose_add_button.IdleCornerRadius = 30;
+            this.diagnose_add_button.IdleFillColor = System.Drawing.Color.White;
+            this.diagnose_add_button.IdleForecolor = System.Drawing.Color.DodgerBlue;
+            this.diagnose_add_button.IdleLineColor = System.Drawing.Color.DodgerBlue;
+            this.diagnose_add_button.Location = new System.Drawing.Point(662, 560);
+            this.diagnose_add_button.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.diagnose_add_button.Name = "diagnose_add_button";
+            this.diagnose_add_button.Size = new System.Drawing.Size(280, 46);
+            this.diagnose_add_button.TabIndex = 15;
+            this.diagnose_add_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.diagnose_add_button.Click += new System.EventHandler(this.diagnose_add_button_Click);
+            // 
+            // diagnose_prescription_dropdown
+            // 
+            this.diagnose_prescription_dropdown.BackColor = System.Drawing.Color.Transparent;
+            this.diagnose_prescription_dropdown.BackgroundColor = System.Drawing.Color.White;
+            this.diagnose_prescription_dropdown.BorderColor = System.Drawing.Color.Silver;
+            this.diagnose_prescription_dropdown.BorderRadius = 1;
+            this.diagnose_prescription_dropdown.Color = System.Drawing.Color.Silver;
+            this.diagnose_prescription_dropdown.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.diagnose_prescription_dropdown.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.diagnose_prescription_dropdown.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.diagnose_prescription_dropdown.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.diagnose_prescription_dropdown.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.diagnose_prescription_dropdown.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.diagnose_prescription_dropdown.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.diagnose_prescription_dropdown.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.diagnose_prescription_dropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.diagnose_prescription_dropdown.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.diagnose_prescription_dropdown.FillDropDown = true;
+            this.diagnose_prescription_dropdown.FillIndicator = false;
+            this.diagnose_prescription_dropdown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.diagnose_prescription_dropdown.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.diagnose_prescription_dropdown.ForeColor = System.Drawing.Color.Black;
+            this.diagnose_prescription_dropdown.FormattingEnabled = true;
+            this.diagnose_prescription_dropdown.Icon = null;
+            this.diagnose_prescription_dropdown.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.diagnose_prescription_dropdown.IndicatorColor = System.Drawing.Color.Gray;
+            this.diagnose_prescription_dropdown.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.diagnose_prescription_dropdown.ItemBackColor = System.Drawing.Color.White;
+            this.diagnose_prescription_dropdown.ItemBorderColor = System.Drawing.Color.White;
+            this.diagnose_prescription_dropdown.ItemForeColor = System.Drawing.Color.Black;
+            this.diagnose_prescription_dropdown.ItemHeight = 26;
+            this.diagnose_prescription_dropdown.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.diagnose_prescription_dropdown.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.diagnose_prescription_dropdown.ItemTopMargin = 3;
+            this.diagnose_prescription_dropdown.Location = new System.Drawing.Point(182, 244);
+            this.diagnose_prescription_dropdown.Name = "diagnose_prescription_dropdown";
+            this.diagnose_prescription_dropdown.Size = new System.Drawing.Size(253, 32);
+            this.diagnose_prescription_dropdown.TabIndex = 14;
+            this.diagnose_prescription_dropdown.Text = null;
+            this.diagnose_prescription_dropdown.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.diagnose_prescription_dropdown.TextLeftMargin = 5;
+            // 
+            // diagnose_doctor_dropdown
+            // 
+            this.diagnose_doctor_dropdown.BackColor = System.Drawing.Color.Transparent;
+            this.diagnose_doctor_dropdown.BackgroundColor = System.Drawing.Color.White;
+            this.diagnose_doctor_dropdown.BorderColor = System.Drawing.Color.Silver;
+            this.diagnose_doctor_dropdown.BorderRadius = 1;
+            this.diagnose_doctor_dropdown.Color = System.Drawing.Color.Silver;
+            this.diagnose_doctor_dropdown.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.diagnose_doctor_dropdown.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.diagnose_doctor_dropdown.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.diagnose_doctor_dropdown.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.diagnose_doctor_dropdown.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.diagnose_doctor_dropdown.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.diagnose_doctor_dropdown.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.diagnose_doctor_dropdown.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.diagnose_doctor_dropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.diagnose_doctor_dropdown.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.diagnose_doctor_dropdown.FillDropDown = true;
+            this.diagnose_doctor_dropdown.FillIndicator = false;
+            this.diagnose_doctor_dropdown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.diagnose_doctor_dropdown.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.diagnose_doctor_dropdown.ForeColor = System.Drawing.Color.Black;
+            this.diagnose_doctor_dropdown.FormattingEnabled = true;
+            this.diagnose_doctor_dropdown.Icon = null;
+            this.diagnose_doctor_dropdown.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.diagnose_doctor_dropdown.IndicatorColor = System.Drawing.Color.Gray;
+            this.diagnose_doctor_dropdown.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.diagnose_doctor_dropdown.ItemBackColor = System.Drawing.Color.White;
+            this.diagnose_doctor_dropdown.ItemBorderColor = System.Drawing.Color.White;
+            this.diagnose_doctor_dropdown.ItemForeColor = System.Drawing.Color.Black;
+            this.diagnose_doctor_dropdown.ItemHeight = 26;
+            this.diagnose_doctor_dropdown.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.diagnose_doctor_dropdown.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.diagnose_doctor_dropdown.ItemTopMargin = 3;
+            this.diagnose_doctor_dropdown.Location = new System.Drawing.Point(635, 163);
+            this.diagnose_doctor_dropdown.Name = "diagnose_doctor_dropdown";
+            this.diagnose_doctor_dropdown.Size = new System.Drawing.Size(253, 32);
+            this.diagnose_doctor_dropdown.TabIndex = 13;
+            this.diagnose_doctor_dropdown.Text = null;
+            this.diagnose_doctor_dropdown.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.diagnose_doctor_dropdown.TextLeftMargin = 5;
+            // 
+            // diagnose_patient_dropdown
+            // 
+            this.diagnose_patient_dropdown.BackColor = System.Drawing.Color.Transparent;
+            this.diagnose_patient_dropdown.BackgroundColor = System.Drawing.Color.White;
+            this.diagnose_patient_dropdown.BorderColor = System.Drawing.Color.Silver;
+            this.diagnose_patient_dropdown.BorderRadius = 1;
+            this.diagnose_patient_dropdown.Color = System.Drawing.Color.Silver;
+            this.diagnose_patient_dropdown.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.diagnose_patient_dropdown.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.diagnose_patient_dropdown.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.diagnose_patient_dropdown.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.diagnose_patient_dropdown.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.diagnose_patient_dropdown.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.diagnose_patient_dropdown.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.diagnose_patient_dropdown.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.diagnose_patient_dropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.diagnose_patient_dropdown.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.diagnose_patient_dropdown.FillDropDown = true;
+            this.diagnose_patient_dropdown.FillIndicator = false;
+            this.diagnose_patient_dropdown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.diagnose_patient_dropdown.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.diagnose_patient_dropdown.ForeColor = System.Drawing.Color.Black;
+            this.diagnose_patient_dropdown.FormattingEnabled = true;
+            this.diagnose_patient_dropdown.Icon = null;
+            this.diagnose_patient_dropdown.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.diagnose_patient_dropdown.IndicatorColor = System.Drawing.Color.Gray;
+            this.diagnose_patient_dropdown.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.diagnose_patient_dropdown.ItemBackColor = System.Drawing.Color.White;
+            this.diagnose_patient_dropdown.ItemBorderColor = System.Drawing.Color.White;
+            this.diagnose_patient_dropdown.ItemForeColor = System.Drawing.Color.Black;
+            this.diagnose_patient_dropdown.ItemHeight = 26;
+            this.diagnose_patient_dropdown.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.diagnose_patient_dropdown.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.diagnose_patient_dropdown.ItemTopMargin = 3;
+            this.diagnose_patient_dropdown.Location = new System.Drawing.Point(182, 163);
+            this.diagnose_patient_dropdown.Name = "diagnose_patient_dropdown";
+            this.diagnose_patient_dropdown.Size = new System.Drawing.Size(253, 32);
+            this.diagnose_patient_dropdown.TabIndex = 12;
+            this.diagnose_patient_dropdown.Text = null;
+            this.diagnose_patient_dropdown.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.diagnose_patient_dropdown.TextLeftMargin = 5;
+            // 
+            // diagnose_condittion_richtextbox
+            // 
+            this.diagnose_condittion_richtextbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.diagnose_condittion_richtextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.diagnose_condittion_richtextbox.Location = new System.Drawing.Point(635, 325);
+            this.diagnose_condittion_richtextbox.Name = "diagnose_condittion_richtextbox";
+            this.diagnose_condittion_richtextbox.Size = new System.Drawing.Size(253, 147);
+            this.diagnose_condittion_richtextbox.TabIndex = 11;
+            this.diagnose_condittion_richtextbox.Text = "";
+            // 
+            // diagnose_testR_richtextbox
+            // 
+            this.diagnose_testR_richtextbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.diagnose_testR_richtextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.diagnose_testR_richtextbox.Location = new System.Drawing.Point(182, 325);
+            this.diagnose_testR_richtextbox.Name = "diagnose_testR_richtextbox";
+            this.diagnose_testR_richtextbox.Size = new System.Drawing.Size(253, 147);
+            this.diagnose_testR_richtextbox.TabIndex = 10;
+            this.diagnose_testR_richtextbox.Text = "";
+            // 
+            // diagnose_icd_code_textbox
+            // 
+            this.diagnose_icd_code_textbox.AcceptsReturn = false;
+            this.diagnose_icd_code_textbox.AcceptsTab = false;
+            this.diagnose_icd_code_textbox.AnimationSpeed = 200;
+            this.diagnose_icd_code_textbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.diagnose_icd_code_textbox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.diagnose_icd_code_textbox.BackColor = System.Drawing.Color.Transparent;
+            this.diagnose_icd_code_textbox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("diagnose_icd_code_textbox.BackgroundImage")));
+            this.diagnose_icd_code_textbox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.diagnose_icd_code_textbox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.diagnose_icd_code_textbox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.diagnose_icd_code_textbox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.diagnose_icd_code_textbox.BorderRadius = 1;
+            this.diagnose_icd_code_textbox.BorderThickness = 1;
+            this.diagnose_icd_code_textbox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.diagnose_icd_code_textbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.diagnose_icd_code_textbox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.diagnose_icd_code_textbox.DefaultText = "";
+            this.diagnose_icd_code_textbox.FillColor = System.Drawing.Color.White;
+            this.diagnose_icd_code_textbox.HideSelection = true;
+            this.diagnose_icd_code_textbox.IconLeft = null;
+            this.diagnose_icd_code_textbox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.diagnose_icd_code_textbox.IconPadding = 10;
+            this.diagnose_icd_code_textbox.IconRight = null;
+            this.diagnose_icd_code_textbox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.diagnose_icd_code_textbox.Lines = new string[0];
+            this.diagnose_icd_code_textbox.Location = new System.Drawing.Point(635, 82);
+            this.diagnose_icd_code_textbox.MaxLength = 32767;
+            this.diagnose_icd_code_textbox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.diagnose_icd_code_textbox.Modified = false;
+            this.diagnose_icd_code_textbox.Multiline = false;
+            this.diagnose_icd_code_textbox.Name = "diagnose_icd_code_textbox";
+            stateProperties49.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties49.FillColor = System.Drawing.Color.Empty;
+            stateProperties49.ForeColor = System.Drawing.Color.Empty;
+            stateProperties49.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diagnose_icd_code_textbox.OnActiveState = stateProperties49;
+            stateProperties50.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties50.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties50.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.diagnose_icd_code_textbox.OnDisabledState = stateProperties50;
+            stateProperties51.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties51.FillColor = System.Drawing.Color.Empty;
+            stateProperties51.ForeColor = System.Drawing.Color.Empty;
+            stateProperties51.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diagnose_icd_code_textbox.OnHoverState = stateProperties51;
+            stateProperties52.BorderColor = System.Drawing.Color.Silver;
+            stateProperties52.FillColor = System.Drawing.Color.White;
+            stateProperties52.ForeColor = System.Drawing.Color.Empty;
+            stateProperties52.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diagnose_icd_code_textbox.OnIdleState = stateProperties52;
+            this.diagnose_icd_code_textbox.Padding = new System.Windows.Forms.Padding(3);
+            this.diagnose_icd_code_textbox.PasswordChar = '\0';
+            this.diagnose_icd_code_textbox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.diagnose_icd_code_textbox.PlaceholderText = "Enter text";
+            this.diagnose_icd_code_textbox.ReadOnly = false;
+            this.diagnose_icd_code_textbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.diagnose_icd_code_textbox.SelectedText = "";
+            this.diagnose_icd_code_textbox.SelectionLength = 0;
+            this.diagnose_icd_code_textbox.SelectionStart = 0;
+            this.diagnose_icd_code_textbox.ShortcutsEnabled = true;
+            this.diagnose_icd_code_textbox.Size = new System.Drawing.Size(253, 34);
+            this.diagnose_icd_code_textbox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.diagnose_icd_code_textbox.TabIndex = 9;
+            this.diagnose_icd_code_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.diagnose_icd_code_textbox.TextMarginBottom = 0;
+            this.diagnose_icd_code_textbox.TextMarginLeft = 3;
+            this.diagnose_icd_code_textbox.TextMarginTop = 0;
+            this.diagnose_icd_code_textbox.TextPlaceholder = "Enter text";
+            this.diagnose_icd_code_textbox.UseSystemPasswordChar = false;
+            this.diagnose_icd_code_textbox.WordWrap = true;
+            // 
+            // diagnose_ID_textbox
+            // 
+            this.diagnose_ID_textbox.AcceptsReturn = false;
+            this.diagnose_ID_textbox.AcceptsTab = false;
+            this.diagnose_ID_textbox.AnimationSpeed = 200;
+            this.diagnose_ID_textbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.diagnose_ID_textbox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.diagnose_ID_textbox.BackColor = System.Drawing.Color.Transparent;
+            this.diagnose_ID_textbox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("diagnose_ID_textbox.BackgroundImage")));
+            this.diagnose_ID_textbox.BorderColorActive = System.Drawing.Color.Silver;
+            this.diagnose_ID_textbox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.diagnose_ID_textbox.BorderColorHover = System.Drawing.Color.Silver;
+            this.diagnose_ID_textbox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.diagnose_ID_textbox.BorderRadius = 1;
+            this.diagnose_ID_textbox.BorderThickness = 1;
+            this.diagnose_ID_textbox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.diagnose_ID_textbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.diagnose_ID_textbox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.diagnose_ID_textbox.DefaultText = "";
+            this.diagnose_ID_textbox.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.diagnose_ID_textbox.HideSelection = true;
+            this.diagnose_ID_textbox.IconLeft = null;
+            this.diagnose_ID_textbox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.diagnose_ID_textbox.IconPadding = 10;
+            this.diagnose_ID_textbox.IconRight = null;
+            this.diagnose_ID_textbox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.diagnose_ID_textbox.Lines = new string[0];
+            this.diagnose_ID_textbox.Location = new System.Drawing.Point(182, 82);
+            this.diagnose_ID_textbox.MaxLength = 32767;
+            this.diagnose_ID_textbox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.diagnose_ID_textbox.Modified = false;
+            this.diagnose_ID_textbox.Multiline = false;
+            this.diagnose_ID_textbox.Name = "diagnose_ID_textbox";
+            stateProperties53.BorderColor = System.Drawing.Color.Silver;
+            stateProperties53.FillColor = System.Drawing.Color.Empty;
+            stateProperties53.ForeColor = System.Drawing.Color.Empty;
+            stateProperties53.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diagnose_ID_textbox.OnActiveState = stateProperties53;
+            stateProperties54.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties54.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties54.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.diagnose_ID_textbox.OnDisabledState = stateProperties54;
+            stateProperties55.BorderColor = System.Drawing.Color.Silver;
+            stateProperties55.FillColor = System.Drawing.Color.Empty;
+            stateProperties55.ForeColor = System.Drawing.Color.Empty;
+            stateProperties55.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diagnose_ID_textbox.OnHoverState = stateProperties55;
+            stateProperties56.BorderColor = System.Drawing.Color.Silver;
+            stateProperties56.FillColor = System.Drawing.Color.WhiteSmoke;
+            stateProperties56.ForeColor = System.Drawing.Color.Empty;
+            stateProperties56.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diagnose_ID_textbox.OnIdleState = stateProperties56;
+            this.diagnose_ID_textbox.Padding = new System.Windows.Forms.Padding(3);
+            this.diagnose_ID_textbox.PasswordChar = '\0';
+            this.diagnose_ID_textbox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.diagnose_ID_textbox.PlaceholderText = "Enter text";
+            this.diagnose_ID_textbox.ReadOnly = true;
+            this.diagnose_ID_textbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.diagnose_ID_textbox.SelectedText = "";
+            this.diagnose_ID_textbox.SelectionLength = 0;
+            this.diagnose_ID_textbox.SelectionStart = 0;
+            this.diagnose_ID_textbox.ShortcutsEnabled = true;
+            this.diagnose_ID_textbox.Size = new System.Drawing.Size(253, 34);
+            this.diagnose_ID_textbox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.diagnose_ID_textbox.TabIndex = 8;
+            this.diagnose_ID_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.diagnose_ID_textbox.TextMarginBottom = 0;
+            this.diagnose_ID_textbox.TextMarginLeft = 3;
+            this.diagnose_ID_textbox.TextMarginTop = 0;
+            this.diagnose_ID_textbox.TextPlaceholder = "Enter text";
+            this.diagnose_ID_textbox.UseSystemPasswordChar = false;
+            this.diagnose_ID_textbox.WordWrap = true;
+            // 
+            // bunifuLabel34
+            // 
+            this.bunifuLabel34.AllowParentOverrides = false;
+            this.bunifuLabel34.AutoEllipsis = false;
+            this.bunifuLabel34.CursorType = null;
+            this.bunifuLabel34.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel34.Location = new System.Drawing.Point(495, 325);
+            this.bunifuLabel34.Name = "bunifuLabel34";
+            this.bunifuLabel34.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel34.Size = new System.Drawing.Size(68, 20);
+            this.bunifuLabel34.TabIndex = 7;
+            this.bunifuLabel34.Text = "Condition:";
+            this.bunifuLabel34.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel34.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel33
+            // 
+            this.bunifuLabel33.AllowParentOverrides = false;
+            this.bunifuLabel33.AutoEllipsis = false;
+            this.bunifuLabel33.CursorType = null;
+            this.bunifuLabel33.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel33.Location = new System.Drawing.Point(27, 325);
+            this.bunifuLabel33.Name = "bunifuLabel33";
+            this.bunifuLabel33.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel33.Size = new System.Drawing.Size(80, 20);
+            this.bunifuLabel33.TabIndex = 6;
+            this.bunifuLabel33.Text = "Test Results:";
+            this.bunifuLabel33.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel33.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel32
+            // 
+            this.bunifuLabel32.AllowParentOverrides = false;
+            this.bunifuLabel32.AutoEllipsis = false;
+            this.bunifuLabel32.CursorType = null;
+            this.bunifuLabel32.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel32.Location = new System.Drawing.Point(27, 244);
+            this.bunifuLabel32.Name = "bunifuLabel32";
+            this.bunifuLabel32.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel32.Size = new System.Drawing.Size(78, 20);
+            this.bunifuLabel32.TabIndex = 5;
+            this.bunifuLabel32.Text = "Prescription";
+            this.bunifuLabel32.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel32.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel31
+            // 
+            this.bunifuLabel31.AllowParentOverrides = false;
+            this.bunifuLabel31.AutoEllipsis = false;
+            this.bunifuLabel31.CursorType = null;
+            this.bunifuLabel31.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel31.Location = new System.Drawing.Point(495, 163);
+            this.bunifuLabel31.Name = "bunifuLabel31";
+            this.bunifuLabel31.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel31.Size = new System.Drawing.Size(49, 20);
+            this.bunifuLabel31.TabIndex = 4;
+            this.bunifuLabel31.Text = "Doctor:";
+            this.bunifuLabel31.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel31.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel30
+            // 
+            this.bunifuLabel30.AllowParentOverrides = false;
+            this.bunifuLabel30.AutoEllipsis = false;
+            this.bunifuLabel30.CursorType = null;
+            this.bunifuLabel30.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel30.Location = new System.Drawing.Point(27, 163);
+            this.bunifuLabel30.Name = "bunifuLabel30";
+            this.bunifuLabel30.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel30.Size = new System.Drawing.Size(49, 20);
+            this.bunifuLabel30.TabIndex = 3;
+            this.bunifuLabel30.Text = "Patient:";
+            this.bunifuLabel30.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel30.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel29
+            // 
+            this.bunifuLabel29.AllowParentOverrides = false;
+            this.bunifuLabel29.AutoEllipsis = false;
+            this.bunifuLabel29.CursorType = null;
+            this.bunifuLabel29.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel29.Location = new System.Drawing.Point(495, 82);
+            this.bunifuLabel29.Name = "bunifuLabel29";
+            this.bunifuLabel29.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel29.Size = new System.Drawing.Size(66, 20);
+            this.bunifuLabel29.TabIndex = 2;
+            this.bunifuLabel29.Text = "ICD Code:";
+            this.bunifuLabel29.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel29.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel28
+            // 
+            this.bunifuLabel28.AllowParentOverrides = false;
+            this.bunifuLabel28.AutoEllipsis = false;
+            this.bunifuLabel28.CursorType = null;
+            this.bunifuLabel28.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel28.Location = new System.Drawing.Point(27, 82);
+            this.bunifuLabel28.Name = "bunifuLabel28";
+            this.bunifuLabel28.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel28.Size = new System.Drawing.Size(85, 20);
+            this.bunifuLabel28.TabIndex = 1;
+            this.bunifuLabel28.Text = "Diagnose ID:";
+            this.bunifuLabel28.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel28.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel27
+            // 
+            this.bunifuLabel27.AllowParentOverrides = false;
+            this.bunifuLabel27.AutoEllipsis = false;
+            this.bunifuLabel27.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel27.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel27.Font = new System.Drawing.Font("Segoe UI", 13.8F);
+            this.bunifuLabel27.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuLabel27.Location = new System.Drawing.Point(722, 19);
+            this.bunifuLabel27.Name = "bunifuLabel27";
+            this.bunifuLabel27.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel27.Size = new System.Drawing.Size(220, 31);
+            this.bunifuLabel27.TabIndex = 0;
+            this.bunifuLabel27.Text = "ADD NEW DIAGNOSE";
+            this.bunifuLabel27.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel27.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // diagnoseDetailsPage
+            // 
+            this.diagnoseDetailsPage.Controls.Add(this.bunifuThinButton21);
+            this.diagnoseDetailsPage.Controls.Add(this.diag_details_pres);
+            this.diagnoseDetailsPage.Controls.Add(this.diag_details_doctor);
+            this.diagnoseDetailsPage.Controls.Add(this.diag_details_patient);
+            this.diagnoseDetailsPage.Controls.Add(this.bunifuThinButton22);
+            this.diagnoseDetailsPage.Controls.Add(this.diag_details_condition);
+            this.diagnoseDetailsPage.Controls.Add(this.diag_details_test);
+            this.diagnoseDetailsPage.Controls.Add(this.diag_details_icd);
+            this.diagnoseDetailsPage.Controls.Add(this.diag_details_id);
+            this.diagnoseDetailsPage.Controls.Add(this.bunifuLabel35);
+            this.diagnoseDetailsPage.Controls.Add(this.bunifuLabel36);
+            this.diagnoseDetailsPage.Controls.Add(this.bunifuLabel37);
+            this.diagnoseDetailsPage.Controls.Add(this.bunifuLabel38);
+            this.diagnoseDetailsPage.Controls.Add(this.bunifuLabel39);
+            this.diagnoseDetailsPage.Controls.Add(this.bunifuLabel40);
+            this.diagnoseDetailsPage.Controls.Add(this.bunifuLabel41);
+            this.diagnoseDetailsPage.Controls.Add(this.bunifuLabel42);
+            this.diagnoseDetailsPage.Location = new System.Drawing.Point(4, 4);
+            this.diagnoseDetailsPage.Name = "diagnoseDetailsPage";
+            this.diagnoseDetailsPage.Padding = new System.Windows.Forms.Padding(3);
+            this.diagnoseDetailsPage.Size = new System.Drawing.Size(962, 586);
+            this.diagnoseDetailsPage.TabIndex = 3;
+            this.diagnoseDetailsPage.Text = "diagnoseDetailsPage";
+            this.diagnoseDetailsPage.UseVisualStyleBackColor = true;
+            // 
+            // diag_details_pres
+            // 
+            this.diag_details_pres.AcceptsReturn = false;
+            this.diag_details_pres.AcceptsTab = false;
+            this.diag_details_pres.AnimationSpeed = 200;
+            this.diag_details_pres.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.diag_details_pres.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.diag_details_pres.BackColor = System.Drawing.Color.Transparent;
+            this.diag_details_pres.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("diag_details_pres.BackgroundImage")));
+            this.diag_details_pres.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.diag_details_pres.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.diag_details_pres.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.diag_details_pres.BorderColorIdle = System.Drawing.Color.Silver;
+            this.diag_details_pres.BorderRadius = 1;
+            this.diag_details_pres.BorderThickness = 1;
+            this.diag_details_pres.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.diag_details_pres.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.diag_details_pres.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.diag_details_pres.DefaultText = "";
+            this.diag_details_pres.FillColor = System.Drawing.Color.White;
+            this.diag_details_pres.HideSelection = true;
+            this.diag_details_pres.IconLeft = null;
+            this.diag_details_pres.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.diag_details_pres.IconPadding = 10;
+            this.diag_details_pres.IconRight = null;
+            this.diag_details_pres.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.diag_details_pres.Lines = new string[0];
+            this.diag_details_pres.Location = new System.Drawing.Point(182, 244);
+            this.diag_details_pres.MaxLength = 32767;
+            this.diag_details_pres.MinimumSize = new System.Drawing.Size(1, 1);
+            this.diag_details_pres.Modified = false;
+            this.diag_details_pres.Multiline = false;
+            this.diag_details_pres.Name = "diag_details_pres";
+            stateProperties57.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties57.FillColor = System.Drawing.Color.Empty;
+            stateProperties57.ForeColor = System.Drawing.Color.Empty;
+            stateProperties57.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diag_details_pres.OnActiveState = stateProperties57;
+            stateProperties58.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties58.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties58.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.diag_details_pres.OnDisabledState = stateProperties58;
+            stateProperties59.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties59.FillColor = System.Drawing.Color.Empty;
+            stateProperties59.ForeColor = System.Drawing.Color.Empty;
+            stateProperties59.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diag_details_pres.OnHoverState = stateProperties59;
+            stateProperties60.BorderColor = System.Drawing.Color.Silver;
+            stateProperties60.FillColor = System.Drawing.Color.White;
+            stateProperties60.ForeColor = System.Drawing.Color.Empty;
+            stateProperties60.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diag_details_pres.OnIdleState = stateProperties60;
+            this.diag_details_pres.Padding = new System.Windows.Forms.Padding(3);
+            this.diag_details_pres.PasswordChar = '\0';
+            this.diag_details_pres.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.diag_details_pres.PlaceholderText = "Enter text";
+            this.diag_details_pres.ReadOnly = true;
+            this.diag_details_pres.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.diag_details_pres.SelectedText = "";
+            this.diag_details_pres.SelectionLength = 0;
+            this.diag_details_pres.SelectionStart = 0;
+            this.diag_details_pres.ShortcutsEnabled = true;
+            this.diag_details_pres.Size = new System.Drawing.Size(247, 33);
+            this.diag_details_pres.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.diag_details_pres.TabIndex = 34;
+            this.diag_details_pres.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.diag_details_pres.TextMarginBottom = 0;
+            this.diag_details_pres.TextMarginLeft = 3;
+            this.diag_details_pres.TextMarginTop = 0;
+            this.diag_details_pres.TextPlaceholder = "Enter text";
+            this.diag_details_pres.UseSystemPasswordChar = false;
+            this.diag_details_pres.WordWrap = true;
+            // 
+            // diag_details_doctor
+            // 
+            this.diag_details_doctor.AcceptsReturn = false;
+            this.diag_details_doctor.AcceptsTab = false;
+            this.diag_details_doctor.AnimationSpeed = 200;
+            this.diag_details_doctor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.diag_details_doctor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.diag_details_doctor.BackColor = System.Drawing.Color.Transparent;
+            this.diag_details_doctor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("diag_details_doctor.BackgroundImage")));
+            this.diag_details_doctor.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.diag_details_doctor.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.diag_details_doctor.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.diag_details_doctor.BorderColorIdle = System.Drawing.Color.Silver;
+            this.diag_details_doctor.BorderRadius = 1;
+            this.diag_details_doctor.BorderThickness = 1;
+            this.diag_details_doctor.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.diag_details_doctor.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.diag_details_doctor.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.diag_details_doctor.DefaultText = "";
+            this.diag_details_doctor.FillColor = System.Drawing.Color.White;
+            this.diag_details_doctor.HideSelection = true;
+            this.diag_details_doctor.IconLeft = null;
+            this.diag_details_doctor.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.diag_details_doctor.IconPadding = 10;
+            this.diag_details_doctor.IconRight = null;
+            this.diag_details_doctor.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.diag_details_doctor.Lines = new string[0];
+            this.diag_details_doctor.Location = new System.Drawing.Point(635, 163);
+            this.diag_details_doctor.MaxLength = 32767;
+            this.diag_details_doctor.MinimumSize = new System.Drawing.Size(1, 1);
+            this.diag_details_doctor.Modified = false;
+            this.diag_details_doctor.Multiline = false;
+            this.diag_details_doctor.Name = "diag_details_doctor";
+            stateProperties61.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties61.FillColor = System.Drawing.Color.Empty;
+            stateProperties61.ForeColor = System.Drawing.Color.Empty;
+            stateProperties61.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diag_details_doctor.OnActiveState = stateProperties61;
+            stateProperties62.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties62.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties62.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.diag_details_doctor.OnDisabledState = stateProperties62;
+            stateProperties63.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties63.FillColor = System.Drawing.Color.Empty;
+            stateProperties63.ForeColor = System.Drawing.Color.Empty;
+            stateProperties63.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diag_details_doctor.OnHoverState = stateProperties63;
+            stateProperties64.BorderColor = System.Drawing.Color.Silver;
+            stateProperties64.FillColor = System.Drawing.Color.White;
+            stateProperties64.ForeColor = System.Drawing.Color.Empty;
+            stateProperties64.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diag_details_doctor.OnIdleState = stateProperties64;
+            this.diag_details_doctor.Padding = new System.Windows.Forms.Padding(3);
+            this.diag_details_doctor.PasswordChar = '\0';
+            this.diag_details_doctor.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.diag_details_doctor.PlaceholderText = "Enter text";
+            this.diag_details_doctor.ReadOnly = true;
+            this.diag_details_doctor.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.diag_details_doctor.SelectedText = "";
+            this.diag_details_doctor.SelectionLength = 0;
+            this.diag_details_doctor.SelectionStart = 0;
+            this.diag_details_doctor.ShortcutsEnabled = true;
+            this.diag_details_doctor.Size = new System.Drawing.Size(253, 33);
+            this.diag_details_doctor.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.diag_details_doctor.TabIndex = 33;
+            this.diag_details_doctor.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.diag_details_doctor.TextMarginBottom = 0;
+            this.diag_details_doctor.TextMarginLeft = 3;
+            this.diag_details_doctor.TextMarginTop = 0;
+            this.diag_details_doctor.TextPlaceholder = "Enter text";
+            this.diag_details_doctor.UseSystemPasswordChar = false;
+            this.diag_details_doctor.WordWrap = true;
+            // 
+            // diag_details_patient
+            // 
+            this.diag_details_patient.AcceptsReturn = false;
+            this.diag_details_patient.AcceptsTab = false;
+            this.diag_details_patient.AnimationSpeed = 200;
+            this.diag_details_patient.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.diag_details_patient.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.diag_details_patient.BackColor = System.Drawing.Color.Transparent;
+            this.diag_details_patient.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("diag_details_patient.BackgroundImage")));
+            this.diag_details_patient.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.diag_details_patient.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.diag_details_patient.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.diag_details_patient.BorderColorIdle = System.Drawing.Color.Silver;
+            this.diag_details_patient.BorderRadius = 1;
+            this.diag_details_patient.BorderThickness = 1;
+            this.diag_details_patient.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.diag_details_patient.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.diag_details_patient.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.diag_details_patient.DefaultText = "";
+            this.diag_details_patient.FillColor = System.Drawing.Color.White;
+            this.diag_details_patient.HideSelection = true;
+            this.diag_details_patient.IconLeft = null;
+            this.diag_details_patient.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.diag_details_patient.IconPadding = 10;
+            this.diag_details_patient.IconRight = null;
+            this.diag_details_patient.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.diag_details_patient.Lines = new string[0];
+            this.diag_details_patient.Location = new System.Drawing.Point(182, 161);
+            this.diag_details_patient.MaxLength = 32767;
+            this.diag_details_patient.MinimumSize = new System.Drawing.Size(1, 1);
+            this.diag_details_patient.Modified = false;
+            this.diag_details_patient.Multiline = false;
+            this.diag_details_patient.Name = "diag_details_patient";
+            stateProperties65.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties65.FillColor = System.Drawing.Color.Empty;
+            stateProperties65.ForeColor = System.Drawing.Color.Empty;
+            stateProperties65.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diag_details_patient.OnActiveState = stateProperties65;
+            stateProperties66.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties66.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties66.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.diag_details_patient.OnDisabledState = stateProperties66;
+            stateProperties67.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties67.FillColor = System.Drawing.Color.Empty;
+            stateProperties67.ForeColor = System.Drawing.Color.Empty;
+            stateProperties67.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diag_details_patient.OnHoverState = stateProperties67;
+            stateProperties68.BorderColor = System.Drawing.Color.Silver;
+            stateProperties68.FillColor = System.Drawing.Color.White;
+            stateProperties68.ForeColor = System.Drawing.Color.Empty;
+            stateProperties68.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diag_details_patient.OnIdleState = stateProperties68;
+            this.diag_details_patient.Padding = new System.Windows.Forms.Padding(3);
+            this.diag_details_patient.PasswordChar = '\0';
+            this.diag_details_patient.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.diag_details_patient.PlaceholderText = "Enter text";
+            this.diag_details_patient.ReadOnly = true;
+            this.diag_details_patient.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.diag_details_patient.SelectedText = "";
+            this.diag_details_patient.SelectionLength = 0;
+            this.diag_details_patient.SelectionStart = 0;
+            this.diag_details_patient.ShortcutsEnabled = true;
+            this.diag_details_patient.Size = new System.Drawing.Size(248, 35);
+            this.diag_details_patient.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.diag_details_patient.TabIndex = 32;
+            this.diag_details_patient.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.diag_details_patient.TextMarginBottom = 0;
+            this.diag_details_patient.TextMarginLeft = 3;
+            this.diag_details_patient.TextMarginTop = 0;
+            this.diag_details_patient.TextPlaceholder = "Enter text";
+            this.diag_details_patient.UseSystemPasswordChar = false;
+            this.diag_details_patient.WordWrap = true;
+            // 
+            // bunifuThinButton22
+            // 
+            this.bunifuThinButton22.ActiveBorderThickness = 1;
+            this.bunifuThinButton22.ActiveCornerRadius = 30;
+            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuThinButton22.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
+            this.bunifuThinButton22.ButtonText = "Close";
+            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton22.Font = new System.Drawing.Font("Arial Nova Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton22.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuThinButton22.IdleBorderThickness = 1;
+            this.bunifuThinButton22.IdleCornerRadius = 30;
+            this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.DodgerBlue;
+            this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuThinButton22.Location = new System.Drawing.Point(790, 559);
+            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.bunifuThinButton22.Name = "bunifuThinButton22";
+            this.bunifuThinButton22.Size = new System.Drawing.Size(152, 51);
+            this.bunifuThinButton22.TabIndex = 31;
+            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton22.Click += new System.EventHandler(this.bunifuThinButton22_Click);
+            // 
+            // diag_details_condition
+            // 
+            this.diag_details_condition.BackColor = System.Drawing.Color.White;
+            this.diag_details_condition.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.diag_details_condition.Location = new System.Drawing.Point(635, 325);
+            this.diag_details_condition.Name = "diag_details_condition";
+            this.diag_details_condition.ReadOnly = true;
+            this.diag_details_condition.Size = new System.Drawing.Size(253, 147);
+            this.diag_details_condition.TabIndex = 27;
+            this.diag_details_condition.Text = "";
+            // 
+            // diag_details_test
+            // 
+            this.diag_details_test.BackColor = System.Drawing.Color.White;
+            this.diag_details_test.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.diag_details_test.Location = new System.Drawing.Point(182, 325);
+            this.diag_details_test.Name = "diag_details_test";
+            this.diag_details_test.ReadOnly = true;
+            this.diag_details_test.Size = new System.Drawing.Size(253, 147);
+            this.diag_details_test.TabIndex = 26;
+            this.diag_details_test.Text = "";
+            // 
+            // diag_details_icd
+            // 
+            this.diag_details_icd.AcceptsReturn = false;
+            this.diag_details_icd.AcceptsTab = false;
+            this.diag_details_icd.AnimationSpeed = 200;
+            this.diag_details_icd.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.diag_details_icd.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.diag_details_icd.BackColor = System.Drawing.Color.Transparent;
+            this.diag_details_icd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("diag_details_icd.BackgroundImage")));
+            this.diag_details_icd.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.diag_details_icd.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.diag_details_icd.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.diag_details_icd.BorderColorIdle = System.Drawing.Color.Silver;
+            this.diag_details_icd.BorderRadius = 1;
+            this.diag_details_icd.BorderThickness = 1;
+            this.diag_details_icd.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.diag_details_icd.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.diag_details_icd.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.diag_details_icd.DefaultText = "";
+            this.diag_details_icd.FillColor = System.Drawing.Color.White;
+            this.diag_details_icd.HideSelection = true;
+            this.diag_details_icd.IconLeft = null;
+            this.diag_details_icd.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.diag_details_icd.IconPadding = 10;
+            this.diag_details_icd.IconRight = null;
+            this.diag_details_icd.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.diag_details_icd.Lines = new string[0];
+            this.diag_details_icd.Location = new System.Drawing.Point(635, 82);
+            this.diag_details_icd.MaxLength = 32767;
+            this.diag_details_icd.MinimumSize = new System.Drawing.Size(1, 1);
+            this.diag_details_icd.Modified = false;
+            this.diag_details_icd.Multiline = false;
+            this.diag_details_icd.Name = "diag_details_icd";
+            stateProperties69.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties69.FillColor = System.Drawing.Color.Empty;
+            stateProperties69.ForeColor = System.Drawing.Color.Empty;
+            stateProperties69.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diag_details_icd.OnActiveState = stateProperties69;
+            stateProperties70.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties70.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties70.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.diag_details_icd.OnDisabledState = stateProperties70;
+            stateProperties71.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties71.FillColor = System.Drawing.Color.Empty;
+            stateProperties71.ForeColor = System.Drawing.Color.Empty;
+            stateProperties71.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diag_details_icd.OnHoverState = stateProperties71;
+            stateProperties72.BorderColor = System.Drawing.Color.Silver;
+            stateProperties72.FillColor = System.Drawing.Color.White;
+            stateProperties72.ForeColor = System.Drawing.Color.Empty;
+            stateProperties72.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diag_details_icd.OnIdleState = stateProperties72;
+            this.diag_details_icd.Padding = new System.Windows.Forms.Padding(3);
+            this.diag_details_icd.PasswordChar = '\0';
+            this.diag_details_icd.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.diag_details_icd.PlaceholderText = "Enter text";
+            this.diag_details_icd.ReadOnly = true;
+            this.diag_details_icd.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.diag_details_icd.SelectedText = "";
+            this.diag_details_icd.SelectionLength = 0;
+            this.diag_details_icd.SelectionStart = 0;
+            this.diag_details_icd.ShortcutsEnabled = true;
+            this.diag_details_icd.Size = new System.Drawing.Size(253, 34);
+            this.diag_details_icd.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.diag_details_icd.TabIndex = 25;
+            this.diag_details_icd.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.diag_details_icd.TextMarginBottom = 0;
+            this.diag_details_icd.TextMarginLeft = 3;
+            this.diag_details_icd.TextMarginTop = 0;
+            this.diag_details_icd.TextPlaceholder = "Enter text";
+            this.diag_details_icd.UseSystemPasswordChar = false;
+            this.diag_details_icd.WordWrap = true;
+            // 
+            // diag_details_id
+            // 
+            this.diag_details_id.AcceptsReturn = false;
+            this.diag_details_id.AcceptsTab = false;
+            this.diag_details_id.AnimationSpeed = 200;
+            this.diag_details_id.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.diag_details_id.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.diag_details_id.BackColor = System.Drawing.Color.Transparent;
+            this.diag_details_id.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("diag_details_id.BackgroundImage")));
+            this.diag_details_id.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.diag_details_id.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.diag_details_id.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.diag_details_id.BorderColorIdle = System.Drawing.Color.Silver;
+            this.diag_details_id.BorderRadius = 1;
+            this.diag_details_id.BorderThickness = 1;
+            this.diag_details_id.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.diag_details_id.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.diag_details_id.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.diag_details_id.DefaultText = "";
+            this.diag_details_id.FillColor = System.Drawing.Color.White;
+            this.diag_details_id.HideSelection = true;
+            this.diag_details_id.IconLeft = null;
+            this.diag_details_id.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.diag_details_id.IconPadding = 10;
+            this.diag_details_id.IconRight = null;
+            this.diag_details_id.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.diag_details_id.Lines = new string[0];
+            this.diag_details_id.Location = new System.Drawing.Point(182, 82);
+            this.diag_details_id.MaxLength = 32767;
+            this.diag_details_id.MinimumSize = new System.Drawing.Size(1, 1);
+            this.diag_details_id.Modified = false;
+            this.diag_details_id.Multiline = false;
+            this.diag_details_id.Name = "diag_details_id";
+            stateProperties73.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties73.FillColor = System.Drawing.Color.Empty;
+            stateProperties73.ForeColor = System.Drawing.Color.Empty;
+            stateProperties73.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diag_details_id.OnActiveState = stateProperties73;
+            stateProperties74.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties74.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties74.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.diag_details_id.OnDisabledState = stateProperties74;
+            stateProperties75.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties75.FillColor = System.Drawing.Color.Empty;
+            stateProperties75.ForeColor = System.Drawing.Color.Empty;
+            stateProperties75.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diag_details_id.OnHoverState = stateProperties75;
+            stateProperties76.BorderColor = System.Drawing.Color.Silver;
+            stateProperties76.FillColor = System.Drawing.Color.White;
+            stateProperties76.ForeColor = System.Drawing.Color.Empty;
+            stateProperties76.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.diag_details_id.OnIdleState = stateProperties76;
+            this.diag_details_id.Padding = new System.Windows.Forms.Padding(3);
+            this.diag_details_id.PasswordChar = '\0';
+            this.diag_details_id.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.diag_details_id.PlaceholderText = "Enter text";
+            this.diag_details_id.ReadOnly = true;
+            this.diag_details_id.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.diag_details_id.SelectedText = "";
+            this.diag_details_id.SelectionLength = 0;
+            this.diag_details_id.SelectionStart = 0;
+            this.diag_details_id.ShortcutsEnabled = true;
+            this.diag_details_id.Size = new System.Drawing.Size(253, 34);
+            this.diag_details_id.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.diag_details_id.TabIndex = 24;
+            this.diag_details_id.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.diag_details_id.TextMarginBottom = 0;
+            this.diag_details_id.TextMarginLeft = 3;
+            this.diag_details_id.TextMarginTop = 0;
+            this.diag_details_id.TextPlaceholder = "Enter text";
+            this.diag_details_id.UseSystemPasswordChar = false;
+            this.diag_details_id.WordWrap = true;
+            // 
+            // bunifuLabel35
+            // 
+            this.bunifuLabel35.AllowParentOverrides = false;
+            this.bunifuLabel35.AutoEllipsis = false;
+            this.bunifuLabel35.CursorType = null;
+            this.bunifuLabel35.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel35.Location = new System.Drawing.Point(495, 325);
+            this.bunifuLabel35.Name = "bunifuLabel35";
+            this.bunifuLabel35.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel35.Size = new System.Drawing.Size(68, 20);
+            this.bunifuLabel35.TabIndex = 23;
+            this.bunifuLabel35.Text = "Condition:";
+            this.bunifuLabel35.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel35.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel36
+            // 
+            this.bunifuLabel36.AllowParentOverrides = false;
+            this.bunifuLabel36.AutoEllipsis = false;
+            this.bunifuLabel36.CursorType = null;
+            this.bunifuLabel36.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel36.Location = new System.Drawing.Point(27, 325);
+            this.bunifuLabel36.Name = "bunifuLabel36";
+            this.bunifuLabel36.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel36.Size = new System.Drawing.Size(80, 20);
+            this.bunifuLabel36.TabIndex = 22;
+            this.bunifuLabel36.Text = "Test Results:";
+            this.bunifuLabel36.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel36.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel37
+            // 
+            this.bunifuLabel37.AllowParentOverrides = false;
+            this.bunifuLabel37.AutoEllipsis = false;
+            this.bunifuLabel37.CursorType = null;
+            this.bunifuLabel37.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel37.Location = new System.Drawing.Point(27, 244);
+            this.bunifuLabel37.Name = "bunifuLabel37";
+            this.bunifuLabel37.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel37.Size = new System.Drawing.Size(78, 20);
+            this.bunifuLabel37.TabIndex = 21;
+            this.bunifuLabel37.Text = "Prescription";
+            this.bunifuLabel37.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel37.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel38
+            // 
+            this.bunifuLabel38.AllowParentOverrides = false;
+            this.bunifuLabel38.AutoEllipsis = false;
+            this.bunifuLabel38.CursorType = null;
+            this.bunifuLabel38.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel38.Location = new System.Drawing.Point(495, 163);
+            this.bunifuLabel38.Name = "bunifuLabel38";
+            this.bunifuLabel38.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel38.Size = new System.Drawing.Size(49, 20);
+            this.bunifuLabel38.TabIndex = 20;
+            this.bunifuLabel38.Text = "Doctor:";
+            this.bunifuLabel38.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel38.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel39
+            // 
+            this.bunifuLabel39.AllowParentOverrides = false;
+            this.bunifuLabel39.AutoEllipsis = false;
+            this.bunifuLabel39.CursorType = null;
+            this.bunifuLabel39.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel39.Location = new System.Drawing.Point(27, 163);
+            this.bunifuLabel39.Name = "bunifuLabel39";
+            this.bunifuLabel39.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel39.Size = new System.Drawing.Size(49, 20);
+            this.bunifuLabel39.TabIndex = 19;
+            this.bunifuLabel39.Text = "Patient:";
+            this.bunifuLabel39.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel39.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel40
+            // 
+            this.bunifuLabel40.AllowParentOverrides = false;
+            this.bunifuLabel40.AutoEllipsis = false;
+            this.bunifuLabel40.CursorType = null;
+            this.bunifuLabel40.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel40.Location = new System.Drawing.Point(495, 82);
+            this.bunifuLabel40.Name = "bunifuLabel40";
+            this.bunifuLabel40.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel40.Size = new System.Drawing.Size(66, 20);
+            this.bunifuLabel40.TabIndex = 18;
+            this.bunifuLabel40.Text = "ICD Code:";
+            this.bunifuLabel40.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel40.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel41
+            // 
+            this.bunifuLabel41.AllowParentOverrides = false;
+            this.bunifuLabel41.AutoEllipsis = false;
+            this.bunifuLabel41.CursorType = null;
+            this.bunifuLabel41.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel41.Location = new System.Drawing.Point(27, 82);
+            this.bunifuLabel41.Name = "bunifuLabel41";
+            this.bunifuLabel41.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel41.Size = new System.Drawing.Size(85, 20);
+            this.bunifuLabel41.TabIndex = 17;
+            this.bunifuLabel41.Text = "Diagnose ID:";
+            this.bunifuLabel41.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel41.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel42
+            // 
+            this.bunifuLabel42.AllowParentOverrides = false;
+            this.bunifuLabel42.AutoEllipsis = false;
+            this.bunifuLabel42.CursorType = null;
+            this.bunifuLabel42.Font = new System.Drawing.Font("Segoe UI", 13.8F);
+            this.bunifuLabel42.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuLabel42.Location = new System.Drawing.Point(23, 20);
+            this.bunifuLabel42.Name = "bunifuLabel42";
+            this.bunifuLabel42.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel42.Size = new System.Drawing.Size(122, 31);
+            this.bunifuLabel42.TabIndex = 16;
+            this.bunifuLabel42.Text = "DIAGNOSE :";
+            this.bunifuLabel42.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel42.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
             // prescriptionsPage
             // 
+            this.prescriptionsPage.Controls.Add(this.presINNERpages);
             this.prescriptionsPage.Location = new System.Drawing.Point(4, 4);
             this.prescriptionsPage.Name = "prescriptionsPage";
             this.prescriptionsPage.Padding = new System.Windows.Forms.Padding(3);
@@ -3380,10 +4761,6 @@ namespace hospitalmanagement
             this.medicationsPage.TabIndex = 6;
             this.medicationsPage.Text = "medicationsPage";
             this.medicationsPage.UseVisualStyleBackColor = true;
-            // 
-            // pATIENTBindingSource1
-            // 
-            this.pATIENTBindingSource1.DataMember = "PATIENT";
             // 
             // bunifuDragControl1
             // 
@@ -3413,10 +4790,6 @@ namespace hospitalmanagement
             this.bunifuDragControl4.TargetControl = this.sectionLabel;
             this.bunifuDragControl4.Vertical = true;
             // 
-            // dOCTORTableAdapter
-            // 
-            this.dOCTORTableAdapter.ClearBeforeFill = true;
-            // 
             // pATIENTTableAdapter
             // 
             this.pATIENTTableAdapter.ClearBeforeFill = true;
@@ -3425,6 +4798,1983 @@ namespace hospitalmanagement
             // 
             this.bunifuElipse2.ElipseRadius = 13;
             this.bunifuElipse2.TargetControl = this.filterBirthdateButton;
+            // 
+            // pATIENTBindingSource1
+            // 
+            this.pATIENTBindingSource1.DataMember = "PATIENT";
+            // 
+            // dOCTORTableAdapter
+            // 
+            this.dOCTORTableAdapter.ClearBeforeFill = true;
+            // 
+            // bunifuThinButton21
+            // 
+            this.bunifuThinButton21.ActiveBorderThickness = 1;
+            this.bunifuThinButton21.ActiveCornerRadius = 30;
+            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.Firebrick;
+            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.Firebrick;
+            this.bunifuThinButton21.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
+            this.bunifuThinButton21.ButtonText = "Delete Diagnose";
+            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton21.Font = new System.Drawing.Font("Arial Nova Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton21.ForeColor = System.Drawing.Color.Firebrick;
+            this.bunifuThinButton21.IdleBorderThickness = 1;
+            this.bunifuThinButton21.IdleCornerRadius = 30;
+            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.Firebrick;
+            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.Firebrick;
+            this.bunifuThinButton21.Location = new System.Drawing.Point(557, 559);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton21.Name = "bunifuThinButton21";
+            this.bunifuThinButton21.Size = new System.Drawing.Size(199, 51);
+            this.bunifuThinButton21.TabIndex = 35;
+            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click_1);
+            // 
+            // bunifuThinButton23
+            // 
+            this.bunifuThinButton23.ActiveBorderThickness = 1;
+            this.bunifuThinButton23.ActiveCornerRadius = 30;
+            this.bunifuThinButton23.ActiveFillColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuThinButton23.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
+            this.bunifuThinButton23.ButtonText = "Search";
+            this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton23.Font = new System.Drawing.Font("Arial Nova Light", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton23.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuThinButton23.IdleBorderThickness = 1;
+            this.bunifuThinButton23.IdleCornerRadius = 30;
+            this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton23.IdleForecolor = System.Drawing.Color.DodgerBlue;
+            this.bunifuThinButton23.IdleLineColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuThinButton23.Location = new System.Drawing.Point(838, 65);
+            this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.bunifuThinButton23.Name = "bunifuThinButton23";
+            this.bunifuThinButton23.Size = new System.Drawing.Size(106, 47);
+            this.bunifuThinButton23.TabIndex = 5;
+            this.bunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton23.Click += new System.EventHandler(this.bunifuThinButton23_Click);
+            // 
+            // presINNERpages
+            // 
+            this.presINNERpages.Alignment = System.Windows.Forms.TabAlignment.Bottom;
+            this.presINNERpages.AllowTransitions = true;
+            this.presINNERpages.Controls.Add(this.presMainPage);
+            this.presINNERpages.Controls.Add(this.presAddPage);
+            this.presINNERpages.Controls.Add(this.presDetailsPage);
+            this.presINNERpages.Location = new System.Drawing.Point(0, 0);
+            this.presINNERpages.Multiline = true;
+            this.presINNERpages.Name = "presINNERpages";
+            this.presINNERpages.Page = this.presMainPage;
+            this.presINNERpages.PageIndex = 0;
+            this.presINNERpages.PageName = "presMainPage";
+            this.presINNERpages.PageTitle = "presAddPage";
+            this.presINNERpages.SelectedIndex = 0;
+            this.presINNERpages.Size = new System.Drawing.Size(966, 618);
+            this.presINNERpages.TabIndex = 0;
+            animation4.AnimateOnlyDifferences = false;
+            animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
+            animation4.LeafCoeff = 0F;
+            animation4.MaxTime = 1F;
+            animation4.MinTime = 0F;
+            animation4.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicCoeff")));
+            animation4.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicShift")));
+            animation4.MosaicSize = 0;
+            animation4.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            animation4.RotateCoeff = 0F;
+            animation4.RotateLimit = 0F;
+            animation4.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.ScaleCoeff")));
+            animation4.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.SlideCoeff")));
+            animation4.TimeCoeff = 0F;
+            animation4.TransparencyCoeff = 0F;
+            this.presINNERpages.Transition = animation4;
+            this.presINNERpages.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Custom;
+            // 
+            // presMainPage
+            // 
+            this.presMainPage.Controls.Add(this.med10_mg);
+            this.presMainPage.Controls.Add(this.med9_mg);
+            this.presMainPage.Controls.Add(this.med8_mg);
+            this.presMainPage.Controls.Add(this.med7_mg);
+            this.presMainPage.Controls.Add(this.med6_mg);
+            this.presMainPage.Controls.Add(this.med5_mg);
+            this.presMainPage.Controls.Add(this.med4_mg);
+            this.presMainPage.Controls.Add(this.med3_mg);
+            this.presMainPage.Controls.Add(this.med2_mg);
+            this.presMainPage.Controls.Add(this.med1_mg);
+            this.presMainPage.Controls.Add(this.med10_drop);
+            this.presMainPage.Controls.Add(this.med9_drop);
+            this.presMainPage.Controls.Add(this.med8_drop);
+            this.presMainPage.Controls.Add(this.med7_drop);
+            this.presMainPage.Controls.Add(this.med6_drop);
+            this.presMainPage.Controls.Add(this.med5_drop);
+            this.presMainPage.Controls.Add(this.med4_drop);
+            this.presMainPage.Controls.Add(this.med3_drop);
+            this.presMainPage.Controls.Add(this.med2_drop);
+            this.presMainPage.Controls.Add(this.med1_drop);
+            this.presMainPage.Controls.Add(this.med10_label);
+            this.presMainPage.Controls.Add(this.med9_label);
+            this.presMainPage.Controls.Add(this.med8_label);
+            this.presMainPage.Controls.Add(this.med7_label);
+            this.presMainPage.Controls.Add(this.med6_label);
+            this.presMainPage.Controls.Add(this.med5_label);
+            this.presMainPage.Controls.Add(this.med4_label);
+            this.presMainPage.Controls.Add(this.med3_label);
+            this.presMainPage.Controls.Add(this.med2_label);
+            this.presMainPage.Controls.Add(this.med1_label);
+            this.presMainPage.Controls.Add(this.pres_add_pres_button);
+            this.presMainPage.Controls.Add(this.pres_quantity_dropbox);
+            this.presMainPage.Controls.Add(this.pres_doctor_dropdown);
+            this.presMainPage.Controls.Add(this.pres_patient_dropdown);
+            this.presMainPage.Controls.Add(this.pres_note_richtextBox);
+            this.presMainPage.Controls.Add(this.presID_textBox);
+            this.presMainPage.Controls.Add(this.bunifuLabel43);
+            this.presMainPage.Controls.Add(this.bunifuLabel44);
+            this.presMainPage.Controls.Add(this.bunifuLabel45);
+            this.presMainPage.Controls.Add(this.bunifuLabel46);
+            this.presMainPage.Controls.Add(this.bunifuLabel48);
+            this.presMainPage.Controls.Add(this.bunifuLabel49);
+            this.presMainPage.Location = new System.Drawing.Point(4, 4);
+            this.presMainPage.Name = "presMainPage";
+            this.presMainPage.Padding = new System.Windows.Forms.Padding(3);
+            this.presMainPage.Size = new System.Drawing.Size(958, 589);
+            this.presMainPage.TabIndex = 0;
+            this.presMainPage.Text = "presAddPage";
+            this.presMainPage.UseVisualStyleBackColor = true;
+            // 
+            // presAddPage
+            // 
+            this.presAddPage.Location = new System.Drawing.Point(4, 4);
+            this.presAddPage.Name = "presAddPage";
+            this.presAddPage.Padding = new System.Windows.Forms.Padding(3);
+            this.presAddPage.Size = new System.Drawing.Size(958, 589);
+            this.presAddPage.TabIndex = 1;
+            this.presAddPage.Text = "presDetailsPage";
+            this.presAddPage.UseVisualStyleBackColor = true;
+            // 
+            // presDetailsPage
+            // 
+            this.presDetailsPage.Controls.Add(this.pres_search_button);
+            this.presDetailsPage.Controls.Add(this.pres_flowLayoutPanel2);
+            this.presDetailsPage.Controls.Add(this.pres_add_button);
+            this.presDetailsPage.Controls.Add(this.pres_search_textBox);
+            this.presDetailsPage.Location = new System.Drawing.Point(4, 4);
+            this.presDetailsPage.Name = "presDetailsPage";
+            this.presDetailsPage.Padding = new System.Windows.Forms.Padding(3);
+            this.presDetailsPage.Size = new System.Drawing.Size(958, 589);
+            this.presDetailsPage.TabIndex = 2;
+            this.presDetailsPage.Text = "presMainPage";
+            this.presDetailsPage.UseVisualStyleBackColor = true;
+            // 
+            // pres_search_button
+            // 
+            this.pres_search_button.ActiveBorderThickness = 1;
+            this.pres_search_button.ActiveCornerRadius = 30;
+            this.pres_search_button.ActiveFillColor = System.Drawing.Color.DodgerBlue;
+            this.pres_search_button.ActiveForecolor = System.Drawing.Color.White;
+            this.pres_search_button.ActiveLineColor = System.Drawing.Color.DodgerBlue;
+            this.pres_search_button.BackColor = System.Drawing.Color.Transparent;
+            this.pres_search_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pres_search_button.BackgroundImage")));
+            this.pres_search_button.ButtonText = "Search";
+            this.pres_search_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pres_search_button.Font = new System.Drawing.Font("Arial Nova Light", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pres_search_button.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.pres_search_button.IdleBorderThickness = 1;
+            this.pres_search_button.IdleCornerRadius = 30;
+            this.pres_search_button.IdleFillColor = System.Drawing.Color.White;
+            this.pres_search_button.IdleForecolor = System.Drawing.Color.DodgerBlue;
+            this.pres_search_button.IdleLineColor = System.Drawing.Color.DodgerBlue;
+            this.pres_search_button.Location = new System.Drawing.Point(837, 71);
+            this.pres_search_button.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pres_search_button.Name = "pres_search_button";
+            this.pres_search_button.Size = new System.Drawing.Size(106, 47);
+            this.pres_search_button.TabIndex = 9;
+            this.pres_search_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pres_search_button.Click += new System.EventHandler(this.pres_search_button_Click);
+            // 
+            // pres_flowLayoutPanel2
+            // 
+            this.pres_flowLayoutPanel2.AutoScroll = true;
+            this.pres_flowLayoutPanel2.Location = new System.Drawing.Point(26, 136);
+            this.pres_flowLayoutPanel2.Name = "pres_flowLayoutPanel2";
+            this.pres_flowLayoutPanel2.Size = new System.Drawing.Size(932, 476);
+            this.pres_flowLayoutPanel2.TabIndex = 8;
+            // 
+            // pres_add_button
+            // 
+            this.pres_add_button.ActiveBorderThickness = 1;
+            this.pres_add_button.ActiveCornerRadius = 30;
+            this.pres_add_button.ActiveFillColor = System.Drawing.Color.DarkGreen;
+            this.pres_add_button.ActiveForecolor = System.Drawing.Color.White;
+            this.pres_add_button.ActiveLineColor = System.Drawing.Color.DarkGreen;
+            this.pres_add_button.BackColor = System.Drawing.Color.Transparent;
+            this.pres_add_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pres_add_button.BackgroundImage")));
+            this.pres_add_button.ButtonText = "Add Prescription";
+            this.pres_add_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pres_add_button.Font = new System.Drawing.Font("Arial Nova Light", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pres_add_button.ForeColor = System.Drawing.Color.SeaGreen;
+            this.pres_add_button.IdleBorderThickness = 1;
+            this.pres_add_button.IdleCornerRadius = 30;
+            this.pres_add_button.IdleFillColor = System.Drawing.Color.White;
+            this.pres_add_button.IdleForecolor = System.Drawing.Color.DarkGreen;
+            this.pres_add_button.IdleLineColor = System.Drawing.Color.DarkGreen;
+            this.pres_add_button.Location = new System.Drawing.Point(741, 17);
+            this.pres_add_button.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pres_add_button.Name = "pres_add_button";
+            this.pres_add_button.Size = new System.Drawing.Size(202, 47);
+            this.pres_add_button.TabIndex = 7;
+            this.pres_add_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pres_add_button.Click += new System.EventHandler(this.pres_add_button_Click);
+            // 
+            // pres_search_textBox
+            // 
+            this.pres_search_textBox.AcceptsReturn = false;
+            this.pres_search_textBox.AcceptsTab = false;
+            this.pres_search_textBox.AnimationSpeed = 200;
+            this.pres_search_textBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.pres_search_textBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.pres_search_textBox.BackColor = System.Drawing.Color.Transparent;
+            this.pres_search_textBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pres_search_textBox.BackgroundImage")));
+            this.pres_search_textBox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.pres_search_textBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.pres_search_textBox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.pres_search_textBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.pres_search_textBox.BorderRadius = 30;
+            this.pres_search_textBox.BorderThickness = 1;
+            this.pres_search_textBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.pres_search_textBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.pres_search_textBox.DefaultFont = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pres_search_textBox.DefaultText = "";
+            this.pres_search_textBox.FillColor = System.Drawing.Color.White;
+            this.pres_search_textBox.HideSelection = true;
+            this.pres_search_textBox.IconLeft = null;
+            this.pres_search_textBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.pres_search_textBox.IconPadding = 10;
+            this.pres_search_textBox.IconRight = null;
+            this.pres_search_textBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.pres_search_textBox.Lines = new string[0];
+            this.pres_search_textBox.Location = new System.Drawing.Point(26, 76);
+            this.pres_search_textBox.MaxLength = 32767;
+            this.pres_search_textBox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.pres_search_textBox.Modified = false;
+            this.pres_search_textBox.Multiline = false;
+            this.pres_search_textBox.Name = "pres_search_textBox";
+            stateProperties121.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties121.FillColor = System.Drawing.Color.Empty;
+            stateProperties121.ForeColor = System.Drawing.Color.Empty;
+            stateProperties121.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.pres_search_textBox.OnActiveState = stateProperties121;
+            stateProperties122.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties122.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties122.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties122.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.pres_search_textBox.OnDisabledState = stateProperties122;
+            stateProperties123.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties123.FillColor = System.Drawing.Color.Empty;
+            stateProperties123.ForeColor = System.Drawing.Color.Empty;
+            stateProperties123.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.pres_search_textBox.OnHoverState = stateProperties123;
+            stateProperties124.BorderColor = System.Drawing.Color.Silver;
+            stateProperties124.FillColor = System.Drawing.Color.White;
+            stateProperties124.ForeColor = System.Drawing.Color.Empty;
+            stateProperties124.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.pres_search_textBox.OnIdleState = stateProperties124;
+            this.pres_search_textBox.Padding = new System.Windows.Forms.Padding(3);
+            this.pres_search_textBox.PasswordChar = '\0';
+            this.pres_search_textBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.pres_search_textBox.PlaceholderText = "Search  (e.g. Prescription ID, Patient ID, Patient Name, Doctor ID, Doctor Name)";
+            this.pres_search_textBox.ReadOnly = false;
+            this.pres_search_textBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.pres_search_textBox.SelectedText = "";
+            this.pres_search_textBox.SelectionLength = 0;
+            this.pres_search_textBox.SelectionStart = 0;
+            this.pres_search_textBox.ShortcutsEnabled = true;
+            this.pres_search_textBox.Size = new System.Drawing.Size(804, 38);
+            this.pres_search_textBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.pres_search_textBox.TabIndex = 6;
+            this.pres_search_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.pres_search_textBox.TextMarginBottom = 0;
+            this.pres_search_textBox.TextMarginLeft = 10;
+            this.pres_search_textBox.TextMarginTop = 0;
+            this.pres_search_textBox.TextPlaceholder = "Search  (e.g. Prescription ID, Patient ID, Patient Name, Doctor ID, Doctor Name)";
+            this.pres_search_textBox.UseSystemPasswordChar = false;
+            this.pres_search_textBox.WordWrap = true;
+            this.pres_search_textBox.TextChanged += new System.EventHandler(this.bunifuTextBox1_TextChanged_1);
+            this.pres_search_textBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.pres_search_textBox_KeyDown);
+            // 
+            // pres_add_pres_button
+            // 
+            this.pres_add_pres_button.ActiveBorderThickness = 1;
+            this.pres_add_pres_button.ActiveCornerRadius = 30;
+            this.pres_add_pres_button.ActiveFillColor = System.Drawing.Color.DodgerBlue;
+            this.pres_add_pres_button.ActiveForecolor = System.Drawing.Color.White;
+            this.pres_add_pres_button.ActiveLineColor = System.Drawing.Color.DodgerBlue;
+            this.pres_add_pres_button.BackColor = System.Drawing.Color.Transparent;
+            this.pres_add_pres_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pres_add_pres_button.BackgroundImage")));
+            this.pres_add_pres_button.ButtonText = "Add Prescription";
+            this.pres_add_pres_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pres_add_pres_button.Font = new System.Drawing.Font("Arial Nova Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pres_add_pres_button.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.pres_add_pres_button.IdleBorderThickness = 1;
+            this.pres_add_pres_button.IdleCornerRadius = 30;
+            this.pres_add_pres_button.IdleFillColor = System.Drawing.Color.White;
+            this.pres_add_pres_button.IdleForecolor = System.Drawing.Color.DodgerBlue;
+            this.pres_add_pres_button.IdleLineColor = System.Drawing.Color.DodgerBlue;
+            this.pres_add_pres_button.Location = new System.Drawing.Point(658, 566);
+            this.pres_add_pres_button.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.pres_add_pres_button.Name = "pres_add_pres_button";
+            this.pres_add_pres_button.Size = new System.Drawing.Size(280, 46);
+            this.pres_add_pres_button.TabIndex = 31;
+            this.pres_add_pres_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pres_add_pres_button.Click += new System.EventHandler(this.pres_add_pres_button_Click);
+            // 
+            // pres_quantity_dropbox
+            // 
+            this.pres_quantity_dropbox.BackColor = System.Drawing.Color.Transparent;
+            this.pres_quantity_dropbox.BackgroundColor = System.Drawing.Color.White;
+            this.pres_quantity_dropbox.BorderColor = System.Drawing.Color.Silver;
+            this.pres_quantity_dropbox.BorderRadius = 1;
+            this.pres_quantity_dropbox.Color = System.Drawing.Color.Silver;
+            this.pres_quantity_dropbox.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.pres_quantity_dropbox.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.pres_quantity_dropbox.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.pres_quantity_dropbox.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.pres_quantity_dropbox.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.pres_quantity_dropbox.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.pres_quantity_dropbox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.pres_quantity_dropbox.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.pres_quantity_dropbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.pres_quantity_dropbox.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.pres_quantity_dropbox.FillDropDown = true;
+            this.pres_quantity_dropbox.FillIndicator = false;
+            this.pres_quantity_dropbox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pres_quantity_dropbox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.pres_quantity_dropbox.ForeColor = System.Drawing.Color.Black;
+            this.pres_quantity_dropbox.FormattingEnabled = true;
+            this.pres_quantity_dropbox.Icon = null;
+            this.pres_quantity_dropbox.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.pres_quantity_dropbox.IndicatorColor = System.Drawing.Color.Gray;
+            this.pres_quantity_dropbox.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.pres_quantity_dropbox.ItemBackColor = System.Drawing.Color.White;
+            this.pres_quantity_dropbox.ItemBorderColor = System.Drawing.Color.White;
+            this.pres_quantity_dropbox.ItemForeColor = System.Drawing.Color.Black;
+            this.pres_quantity_dropbox.ItemHeight = 26;
+            this.pres_quantity_dropbox.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.pres_quantity_dropbox.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.pres_quantity_dropbox.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
+            this.pres_quantity_dropbox.ItemTopMargin = 3;
+            this.pres_quantity_dropbox.Location = new System.Drawing.Point(334, 250);
+            this.pres_quantity_dropbox.Name = "pres_quantity_dropbox";
+            this.pres_quantity_dropbox.Size = new System.Drawing.Size(97, 32);
+            this.pres_quantity_dropbox.TabIndex = 30;
+            this.pres_quantity_dropbox.Text = null;
+            this.pres_quantity_dropbox.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.pres_quantity_dropbox.TextLeftMargin = 5;
+            this.pres_quantity_dropbox.SelectedIndexChanged += new System.EventHandler(this.pres_quantity_dropbox_SelectedIndexChanged);
+            // 
+            // pres_doctor_dropdown
+            // 
+            this.pres_doctor_dropdown.BackColor = System.Drawing.Color.Transparent;
+            this.pres_doctor_dropdown.BackgroundColor = System.Drawing.Color.White;
+            this.pres_doctor_dropdown.BorderColor = System.Drawing.Color.Silver;
+            this.pres_doctor_dropdown.BorderRadius = 1;
+            this.pres_doctor_dropdown.Color = System.Drawing.Color.Silver;
+            this.pres_doctor_dropdown.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.pres_doctor_dropdown.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.pres_doctor_dropdown.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.pres_doctor_dropdown.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.pres_doctor_dropdown.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.pres_doctor_dropdown.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.pres_doctor_dropdown.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.pres_doctor_dropdown.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.pres_doctor_dropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.pres_doctor_dropdown.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.pres_doctor_dropdown.FillDropDown = true;
+            this.pres_doctor_dropdown.FillIndicator = false;
+            this.pres_doctor_dropdown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pres_doctor_dropdown.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.pres_doctor_dropdown.ForeColor = System.Drawing.Color.Black;
+            this.pres_doctor_dropdown.FormattingEnabled = true;
+            this.pres_doctor_dropdown.Icon = null;
+            this.pres_doctor_dropdown.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.pres_doctor_dropdown.IndicatorColor = System.Drawing.Color.Gray;
+            this.pres_doctor_dropdown.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.pres_doctor_dropdown.ItemBackColor = System.Drawing.Color.White;
+            this.pres_doctor_dropdown.ItemBorderColor = System.Drawing.Color.White;
+            this.pres_doctor_dropdown.ItemForeColor = System.Drawing.Color.Black;
+            this.pres_doctor_dropdown.ItemHeight = 26;
+            this.pres_doctor_dropdown.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.pres_doctor_dropdown.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.pres_doctor_dropdown.ItemTopMargin = 3;
+            this.pres_doctor_dropdown.Location = new System.Drawing.Point(631, 73);
+            this.pres_doctor_dropdown.Name = "pres_doctor_dropdown";
+            this.pres_doctor_dropdown.Size = new System.Drawing.Size(272, 32);
+            this.pres_doctor_dropdown.TabIndex = 29;
+            this.pres_doctor_dropdown.Text = null;
+            this.pres_doctor_dropdown.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.pres_doctor_dropdown.TextLeftMargin = 5;
+            // 
+            // pres_patient_dropdown
+            // 
+            this.pres_patient_dropdown.BackColor = System.Drawing.Color.Transparent;
+            this.pres_patient_dropdown.BackgroundColor = System.Drawing.Color.White;
+            this.pres_patient_dropdown.BorderColor = System.Drawing.Color.Silver;
+            this.pres_patient_dropdown.BorderRadius = 1;
+            this.pres_patient_dropdown.Color = System.Drawing.Color.Silver;
+            this.pres_patient_dropdown.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.pres_patient_dropdown.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.pres_patient_dropdown.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.pres_patient_dropdown.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.pres_patient_dropdown.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.pres_patient_dropdown.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.pres_patient_dropdown.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.pres_patient_dropdown.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.pres_patient_dropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.pres_patient_dropdown.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.pres_patient_dropdown.FillDropDown = true;
+            this.pres_patient_dropdown.FillIndicator = false;
+            this.pres_patient_dropdown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pres_patient_dropdown.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.pres_patient_dropdown.ForeColor = System.Drawing.Color.Black;
+            this.pres_patient_dropdown.FormattingEnabled = true;
+            this.pres_patient_dropdown.Icon = null;
+            this.pres_patient_dropdown.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.pres_patient_dropdown.IndicatorColor = System.Drawing.Color.Gray;
+            this.pres_patient_dropdown.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.pres_patient_dropdown.ItemBackColor = System.Drawing.Color.White;
+            this.pres_patient_dropdown.ItemBorderColor = System.Drawing.Color.White;
+            this.pres_patient_dropdown.ItemForeColor = System.Drawing.Color.Black;
+            this.pres_patient_dropdown.ItemHeight = 26;
+            this.pres_patient_dropdown.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.pres_patient_dropdown.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.pres_patient_dropdown.ItemTopMargin = 3;
+            this.pres_patient_dropdown.Location = new System.Drawing.Point(178, 154);
+            this.pres_patient_dropdown.Name = "pres_patient_dropdown";
+            this.pres_patient_dropdown.Size = new System.Drawing.Size(253, 32);
+            this.pres_patient_dropdown.TabIndex = 28;
+            this.pres_patient_dropdown.Text = null;
+            this.pres_patient_dropdown.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.pres_patient_dropdown.TextLeftMargin = 5;
+            // 
+            // pres_note_richtextBox
+            // 
+            this.pres_note_richtextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pres_note_richtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pres_note_richtextBox.Location = new System.Drawing.Point(631, 161);
+            this.pres_note_richtextBox.Name = "pres_note_richtextBox";
+            this.pres_note_richtextBox.Size = new System.Drawing.Size(272, 121);
+            this.pres_note_richtextBox.TabIndex = 26;
+            this.pres_note_richtextBox.Text = "";
+            // 
+            // presID_textBox
+            // 
+            this.presID_textBox.AcceptsReturn = false;
+            this.presID_textBox.AcceptsTab = false;
+            this.presID_textBox.AnimationSpeed = 200;
+            this.presID_textBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.presID_textBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.presID_textBox.BackColor = System.Drawing.Color.Transparent;
+            this.presID_textBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("presID_textBox.BackgroundImage")));
+            this.presID_textBox.BorderColorActive = System.Drawing.Color.Silver;
+            this.presID_textBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.presID_textBox.BorderColorHover = System.Drawing.Color.Silver;
+            this.presID_textBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.presID_textBox.BorderRadius = 1;
+            this.presID_textBox.BorderThickness = 1;
+            this.presID_textBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.presID_textBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.presID_textBox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.presID_textBox.DefaultText = "";
+            this.presID_textBox.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.presID_textBox.HideSelection = true;
+            this.presID_textBox.IconLeft = null;
+            this.presID_textBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.presID_textBox.IconPadding = 10;
+            this.presID_textBox.IconRight = null;
+            this.presID_textBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.presID_textBox.Lines = new string[0];
+            this.presID_textBox.Location = new System.Drawing.Point(178, 73);
+            this.presID_textBox.MaxLength = 32767;
+            this.presID_textBox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.presID_textBox.Modified = false;
+            this.presID_textBox.Multiline = false;
+            this.presID_textBox.Name = "presID_textBox";
+            stateProperties117.BorderColor = System.Drawing.Color.Silver;
+            stateProperties117.FillColor = System.Drawing.Color.Empty;
+            stateProperties117.ForeColor = System.Drawing.Color.Empty;
+            stateProperties117.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.presID_textBox.OnActiveState = stateProperties117;
+            stateProperties118.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties118.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties118.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties118.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.presID_textBox.OnDisabledState = stateProperties118;
+            stateProperties119.BorderColor = System.Drawing.Color.Silver;
+            stateProperties119.FillColor = System.Drawing.Color.Empty;
+            stateProperties119.ForeColor = System.Drawing.Color.Empty;
+            stateProperties119.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.presID_textBox.OnHoverState = stateProperties119;
+            stateProperties120.BorderColor = System.Drawing.Color.Silver;
+            stateProperties120.FillColor = System.Drawing.Color.WhiteSmoke;
+            stateProperties120.ForeColor = System.Drawing.Color.Empty;
+            stateProperties120.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.presID_textBox.OnIdleState = stateProperties120;
+            this.presID_textBox.Padding = new System.Windows.Forms.Padding(3);
+            this.presID_textBox.PasswordChar = '\0';
+            this.presID_textBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.presID_textBox.PlaceholderText = "Enter text";
+            this.presID_textBox.ReadOnly = true;
+            this.presID_textBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.presID_textBox.SelectedText = "";
+            this.presID_textBox.SelectionLength = 0;
+            this.presID_textBox.SelectionStart = 0;
+            this.presID_textBox.ShortcutsEnabled = true;
+            this.presID_textBox.Size = new System.Drawing.Size(253, 34);
+            this.presID_textBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.presID_textBox.TabIndex = 24;
+            this.presID_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.presID_textBox.TextMarginBottom = 0;
+            this.presID_textBox.TextMarginLeft = 3;
+            this.presID_textBox.TextMarginTop = 0;
+            this.presID_textBox.TextPlaceholder = "Enter text";
+            this.presID_textBox.UseSystemPasswordChar = false;
+            this.presID_textBox.WordWrap = true;
+            // 
+            // bunifuLabel43
+            // 
+            this.bunifuLabel43.AllowParentOverrides = false;
+            this.bunifuLabel43.AutoEllipsis = false;
+            this.bunifuLabel43.CursorType = null;
+            this.bunifuLabel43.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel43.Location = new System.Drawing.Point(491, 154);
+            this.bunifuLabel43.Name = "bunifuLabel43";
+            this.bunifuLabel43.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel43.Size = new System.Drawing.Size(36, 20);
+            this.bunifuLabel43.TabIndex = 22;
+            this.bunifuLabel43.Text = "Note:";
+            this.bunifuLabel43.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel43.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel44
+            // 
+            this.bunifuLabel44.AllowParentOverrides = false;
+            this.bunifuLabel44.AutoEllipsis = false;
+            this.bunifuLabel44.CursorType = null;
+            this.bunifuLabel44.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel44.Location = new System.Drawing.Point(23, 250);
+            this.bunifuLabel44.Name = "bunifuLabel44";
+            this.bunifuLabel44.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel44.Size = new System.Drawing.Size(251, 20);
+            this.bunifuLabel44.TabIndex = 21;
+            this.bunifuLabel44.Text = "How many medications will be given?";
+            this.bunifuLabel44.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel44.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel45
+            // 
+            this.bunifuLabel45.AllowParentOverrides = false;
+            this.bunifuLabel45.AutoEllipsis = false;
+            this.bunifuLabel45.CursorType = null;
+            this.bunifuLabel45.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel45.Location = new System.Drawing.Point(491, 73);
+            this.bunifuLabel45.Name = "bunifuLabel45";
+            this.bunifuLabel45.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel45.Size = new System.Drawing.Size(49, 20);
+            this.bunifuLabel45.TabIndex = 20;
+            this.bunifuLabel45.Text = "Doctor:";
+            this.bunifuLabel45.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel45.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel46
+            // 
+            this.bunifuLabel46.AllowParentOverrides = false;
+            this.bunifuLabel46.AutoEllipsis = false;
+            this.bunifuLabel46.CursorType = null;
+            this.bunifuLabel46.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel46.Location = new System.Drawing.Point(23, 154);
+            this.bunifuLabel46.Name = "bunifuLabel46";
+            this.bunifuLabel46.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel46.Size = new System.Drawing.Size(49, 20);
+            this.bunifuLabel46.TabIndex = 19;
+            this.bunifuLabel46.Text = "Patient:";
+            this.bunifuLabel46.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel46.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel48
+            // 
+            this.bunifuLabel48.AllowParentOverrides = false;
+            this.bunifuLabel48.AutoEllipsis = false;
+            this.bunifuLabel48.CursorType = null;
+            this.bunifuLabel48.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuLabel48.Location = new System.Drawing.Point(23, 73);
+            this.bunifuLabel48.Name = "bunifuLabel48";
+            this.bunifuLabel48.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel48.Size = new System.Drawing.Size(100, 20);
+            this.bunifuLabel48.TabIndex = 17;
+            this.bunifuLabel48.Text = "Prescription ID:";
+            this.bunifuLabel48.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel48.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel49
+            // 
+            this.bunifuLabel49.AllowParentOverrides = false;
+            this.bunifuLabel49.AutoEllipsis = false;
+            this.bunifuLabel49.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel49.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel49.Font = new System.Drawing.Font("Segoe UI", 13.8F);
+            this.bunifuLabel49.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuLabel49.Location = new System.Drawing.Point(679, 16);
+            this.bunifuLabel49.Name = "bunifuLabel49";
+            this.bunifuLabel49.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel49.Size = new System.Drawing.Size(259, 31);
+            this.bunifuLabel49.TabIndex = 16;
+            this.bunifuLabel49.Text = "ADD NEW PRESCRIPTION";
+            this.bunifuLabel49.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel49.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med1_label
+            // 
+            this.med1_label.AllowParentOverrides = false;
+            this.med1_label.AutoEllipsis = false;
+            this.med1_label.CursorType = null;
+            this.med1_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med1_label.Location = new System.Drawing.Point(23, 326);
+            this.med1_label.Name = "med1_label";
+            this.med1_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med1_label.Size = new System.Drawing.Size(90, 20);
+            this.med1_label.TabIndex = 32;
+            this.med1_label.Text = "Medication 1:";
+            this.med1_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med1_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.med1_label.Visible = false;
+            // 
+            // med2_label
+            // 
+            this.med2_label.AllowParentOverrides = false;
+            this.med2_label.AutoEllipsis = false;
+            this.med2_label.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med2_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med2_label.Location = new System.Drawing.Point(23, 374);
+            this.med2_label.Name = "med2_label";
+            this.med2_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med2_label.Size = new System.Drawing.Size(90, 20);
+            this.med2_label.TabIndex = 33;
+            this.med2_label.Text = "Medication 2:";
+            this.med2_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med2_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.med2_label.Visible = false;
+            // 
+            // med3_label
+            // 
+            this.med3_label.AllowParentOverrides = false;
+            this.med3_label.AutoEllipsis = false;
+            this.med3_label.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med3_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med3_label.Location = new System.Drawing.Point(23, 422);
+            this.med3_label.Name = "med3_label";
+            this.med3_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med3_label.Size = new System.Drawing.Size(90, 20);
+            this.med3_label.TabIndex = 34;
+            this.med3_label.Text = "Medication 3:";
+            this.med3_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med3_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.med3_label.Visible = false;
+            // 
+            // med4_label
+            // 
+            this.med4_label.AllowParentOverrides = false;
+            this.med4_label.AutoEllipsis = false;
+            this.med4_label.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med4_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med4_label.Location = new System.Drawing.Point(23, 470);
+            this.med4_label.Name = "med4_label";
+            this.med4_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med4_label.Size = new System.Drawing.Size(90, 20);
+            this.med4_label.TabIndex = 35;
+            this.med4_label.Text = "Medication 4:";
+            this.med4_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med4_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.med4_label.Visible = false;
+            // 
+            // med5_label
+            // 
+            this.med5_label.AllowParentOverrides = false;
+            this.med5_label.AutoEllipsis = false;
+            this.med5_label.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med5_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med5_label.Location = new System.Drawing.Point(23, 518);
+            this.med5_label.Name = "med5_label";
+            this.med5_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med5_label.Size = new System.Drawing.Size(90, 20);
+            this.med5_label.TabIndex = 36;
+            this.med5_label.Text = "Medication 5:";
+            this.med5_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med5_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.med5_label.Visible = false;
+            // 
+            // med6_label
+            // 
+            this.med6_label.AllowParentOverrides = false;
+            this.med6_label.AutoEllipsis = false;
+            this.med6_label.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med6_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med6_label.Location = new System.Drawing.Point(491, 326);
+            this.med6_label.Name = "med6_label";
+            this.med6_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med6_label.Size = new System.Drawing.Size(90, 20);
+            this.med6_label.TabIndex = 37;
+            this.med6_label.Text = "Medication 6:";
+            this.med6_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med6_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.med6_label.Visible = false;
+            // 
+            // med7_label
+            // 
+            this.med7_label.AllowParentOverrides = false;
+            this.med7_label.AutoEllipsis = false;
+            this.med7_label.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med7_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med7_label.Location = new System.Drawing.Point(491, 372);
+            this.med7_label.Name = "med7_label";
+            this.med7_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med7_label.Size = new System.Drawing.Size(90, 20);
+            this.med7_label.TabIndex = 38;
+            this.med7_label.Text = "Medication 7:";
+            this.med7_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med7_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.med7_label.Visible = false;
+            // 
+            // med8_label
+            // 
+            this.med8_label.AllowParentOverrides = false;
+            this.med8_label.AutoEllipsis = false;
+            this.med8_label.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med8_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med8_label.Location = new System.Drawing.Point(491, 422);
+            this.med8_label.Name = "med8_label";
+            this.med8_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med8_label.Size = new System.Drawing.Size(90, 20);
+            this.med8_label.TabIndex = 39;
+            this.med8_label.Text = "Medication 8:";
+            this.med8_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med8_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.med8_label.Visible = false;
+            // 
+            // med9_label
+            // 
+            this.med9_label.AllowParentOverrides = false;
+            this.med9_label.AutoEllipsis = false;
+            this.med9_label.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med9_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med9_label.Location = new System.Drawing.Point(491, 470);
+            this.med9_label.Name = "med9_label";
+            this.med9_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med9_label.Size = new System.Drawing.Size(90, 20);
+            this.med9_label.TabIndex = 40;
+            this.med9_label.Text = "Medication 9:";
+            this.med9_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med9_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.med9_label.Visible = false;
+            // 
+            // med10_label
+            // 
+            this.med10_label.AllowParentOverrides = false;
+            this.med10_label.AutoEllipsis = false;
+            this.med10_label.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med10_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med10_label.Location = new System.Drawing.Point(491, 518);
+            this.med10_label.Name = "med10_label";
+            this.med10_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med10_label.Size = new System.Drawing.Size(98, 20);
+            this.med10_label.TabIndex = 41;
+            this.med10_label.Text = "Medication 10:";
+            this.med10_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med10_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.med10_label.Visible = false;
+            // 
+            // med1_drop
+            // 
+            this.med1_drop.BackColor = System.Drawing.Color.Transparent;
+            this.med1_drop.BackgroundColor = System.Drawing.Color.White;
+            this.med1_drop.BorderColor = System.Drawing.Color.Silver;
+            this.med1_drop.BorderRadius = 1;
+            this.med1_drop.Color = System.Drawing.Color.Silver;
+            this.med1_drop.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.med1_drop.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med1_drop.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med1_drop.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med1_drop.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.med1_drop.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.med1_drop.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.med1_drop.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.med1_drop.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.med1_drop.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med1_drop.FillDropDown = true;
+            this.med1_drop.FillIndicator = false;
+            this.med1_drop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.med1_drop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med1_drop.ForeColor = System.Drawing.Color.Black;
+            this.med1_drop.FormattingEnabled = true;
+            this.med1_drop.Icon = null;
+            this.med1_drop.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med1_drop.IndicatorColor = System.Drawing.Color.Gray;
+            this.med1_drop.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med1_drop.ItemBackColor = System.Drawing.Color.White;
+            this.med1_drop.ItemBorderColor = System.Drawing.Color.White;
+            this.med1_drop.ItemForeColor = System.Drawing.Color.Black;
+            this.med1_drop.ItemHeight = 26;
+            this.med1_drop.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.med1_drop.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.med1_drop.ItemTopMargin = 3;
+            this.med1_drop.Location = new System.Drawing.Point(161, 325);
+            this.med1_drop.Name = "med1_drop";
+            this.med1_drop.Size = new System.Drawing.Size(170, 32);
+            this.med1_drop.TabIndex = 42;
+            this.med1_drop.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med1_drop.TextLeftMargin = 5;
+            this.med1_drop.Visible = false;
+            // 
+            // med2_drop
+            // 
+            this.med2_drop.BackColor = System.Drawing.Color.Transparent;
+            this.med2_drop.BackgroundColor = System.Drawing.Color.White;
+            this.med2_drop.BorderColor = System.Drawing.Color.Silver;
+            this.med2_drop.BorderRadius = 1;
+            this.med2_drop.Color = System.Drawing.Color.Silver;
+            this.med2_drop.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.med2_drop.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med2_drop.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med2_drop.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med2_drop.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.med2_drop.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.med2_drop.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.med2_drop.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.med2_drop.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.med2_drop.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med2_drop.FillDropDown = true;
+            this.med2_drop.FillIndicator = false;
+            this.med2_drop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.med2_drop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med2_drop.ForeColor = System.Drawing.Color.Black;
+            this.med2_drop.FormattingEnabled = true;
+            this.med2_drop.Icon = null;
+            this.med2_drop.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med2_drop.IndicatorColor = System.Drawing.Color.Gray;
+            this.med2_drop.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med2_drop.ItemBackColor = System.Drawing.Color.White;
+            this.med2_drop.ItemBorderColor = System.Drawing.Color.White;
+            this.med2_drop.ItemForeColor = System.Drawing.Color.Black;
+            this.med2_drop.ItemHeight = 26;
+            this.med2_drop.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.med2_drop.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.med2_drop.ItemTopMargin = 3;
+            this.med2_drop.Location = new System.Drawing.Point(161, 374);
+            this.med2_drop.Name = "med2_drop";
+            this.med2_drop.Size = new System.Drawing.Size(170, 32);
+            this.med2_drop.TabIndex = 43;
+            this.med2_drop.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med2_drop.TextLeftMargin = 5;
+            this.med2_drop.Visible = false;
+            // 
+            // med3_drop
+            // 
+            this.med3_drop.BackColor = System.Drawing.Color.Transparent;
+            this.med3_drop.BackgroundColor = System.Drawing.Color.White;
+            this.med3_drop.BorderColor = System.Drawing.Color.Silver;
+            this.med3_drop.BorderRadius = 1;
+            this.med3_drop.Color = System.Drawing.Color.Silver;
+            this.med3_drop.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.med3_drop.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med3_drop.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med3_drop.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med3_drop.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.med3_drop.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.med3_drop.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.med3_drop.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.med3_drop.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.med3_drop.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med3_drop.FillDropDown = true;
+            this.med3_drop.FillIndicator = false;
+            this.med3_drop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.med3_drop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med3_drop.ForeColor = System.Drawing.Color.Black;
+            this.med3_drop.FormattingEnabled = true;
+            this.med3_drop.Icon = null;
+            this.med3_drop.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med3_drop.IndicatorColor = System.Drawing.Color.Gray;
+            this.med3_drop.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med3_drop.ItemBackColor = System.Drawing.Color.White;
+            this.med3_drop.ItemBorderColor = System.Drawing.Color.White;
+            this.med3_drop.ItemForeColor = System.Drawing.Color.Black;
+            this.med3_drop.ItemHeight = 26;
+            this.med3_drop.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.med3_drop.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.med3_drop.ItemTopMargin = 3;
+            this.med3_drop.Location = new System.Drawing.Point(161, 422);
+            this.med3_drop.Name = "med3_drop";
+            this.med3_drop.Size = new System.Drawing.Size(170, 32);
+            this.med3_drop.TabIndex = 44;
+            this.med3_drop.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med3_drop.TextLeftMargin = 5;
+            this.med3_drop.Visible = false;
+            // 
+            // med4_drop
+            // 
+            this.med4_drop.BackColor = System.Drawing.Color.Transparent;
+            this.med4_drop.BackgroundColor = System.Drawing.Color.White;
+            this.med4_drop.BorderColor = System.Drawing.Color.Silver;
+            this.med4_drop.BorderRadius = 1;
+            this.med4_drop.Color = System.Drawing.Color.Silver;
+            this.med4_drop.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.med4_drop.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med4_drop.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med4_drop.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med4_drop.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.med4_drop.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.med4_drop.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.med4_drop.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.med4_drop.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.med4_drop.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med4_drop.FillDropDown = true;
+            this.med4_drop.FillIndicator = false;
+            this.med4_drop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.med4_drop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med4_drop.ForeColor = System.Drawing.Color.Black;
+            this.med4_drop.FormattingEnabled = true;
+            this.med4_drop.Icon = null;
+            this.med4_drop.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med4_drop.IndicatorColor = System.Drawing.Color.Gray;
+            this.med4_drop.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med4_drop.ItemBackColor = System.Drawing.Color.White;
+            this.med4_drop.ItemBorderColor = System.Drawing.Color.White;
+            this.med4_drop.ItemForeColor = System.Drawing.Color.Black;
+            this.med4_drop.ItemHeight = 26;
+            this.med4_drop.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.med4_drop.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.med4_drop.ItemTopMargin = 3;
+            this.med4_drop.Location = new System.Drawing.Point(161, 470);
+            this.med4_drop.Name = "med4_drop";
+            this.med4_drop.Size = new System.Drawing.Size(170, 32);
+            this.med4_drop.TabIndex = 45;
+            this.med4_drop.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med4_drop.TextLeftMargin = 5;
+            this.med4_drop.Visible = false;
+            // 
+            // med5_drop
+            // 
+            this.med5_drop.BackColor = System.Drawing.Color.Transparent;
+            this.med5_drop.BackgroundColor = System.Drawing.Color.White;
+            this.med5_drop.BorderColor = System.Drawing.Color.Silver;
+            this.med5_drop.BorderRadius = 1;
+            this.med5_drop.Color = System.Drawing.Color.Silver;
+            this.med5_drop.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.med5_drop.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med5_drop.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med5_drop.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med5_drop.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.med5_drop.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.med5_drop.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.med5_drop.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.med5_drop.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.med5_drop.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med5_drop.FillDropDown = true;
+            this.med5_drop.FillIndicator = false;
+            this.med5_drop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.med5_drop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med5_drop.ForeColor = System.Drawing.Color.Black;
+            this.med5_drop.FormattingEnabled = true;
+            this.med5_drop.Icon = null;
+            this.med5_drop.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med5_drop.IndicatorColor = System.Drawing.Color.Gray;
+            this.med5_drop.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med5_drop.ItemBackColor = System.Drawing.Color.White;
+            this.med5_drop.ItemBorderColor = System.Drawing.Color.White;
+            this.med5_drop.ItemForeColor = System.Drawing.Color.Black;
+            this.med5_drop.ItemHeight = 26;
+            this.med5_drop.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.med5_drop.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.med5_drop.ItemTopMargin = 3;
+            this.med5_drop.Location = new System.Drawing.Point(161, 518);
+            this.med5_drop.Name = "med5_drop";
+            this.med5_drop.Size = new System.Drawing.Size(170, 32);
+            this.med5_drop.TabIndex = 46;
+            this.med5_drop.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med5_drop.TextLeftMargin = 5;
+            this.med5_drop.Visible = false;
+            // 
+            // med6_drop
+            // 
+            this.med6_drop.BackColor = System.Drawing.Color.Transparent;
+            this.med6_drop.BackgroundColor = System.Drawing.Color.White;
+            this.med6_drop.BorderColor = System.Drawing.Color.Silver;
+            this.med6_drop.BorderRadius = 1;
+            this.med6_drop.Color = System.Drawing.Color.Silver;
+            this.med6_drop.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.med6_drop.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med6_drop.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med6_drop.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med6_drop.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.med6_drop.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.med6_drop.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.med6_drop.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.med6_drop.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.med6_drop.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med6_drop.FillDropDown = true;
+            this.med6_drop.FillIndicator = false;
+            this.med6_drop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.med6_drop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med6_drop.ForeColor = System.Drawing.Color.Black;
+            this.med6_drop.FormattingEnabled = true;
+            this.med6_drop.Icon = null;
+            this.med6_drop.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med6_drop.IndicatorColor = System.Drawing.Color.Gray;
+            this.med6_drop.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med6_drop.ItemBackColor = System.Drawing.Color.White;
+            this.med6_drop.ItemBorderColor = System.Drawing.Color.White;
+            this.med6_drop.ItemForeColor = System.Drawing.Color.Black;
+            this.med6_drop.ItemHeight = 26;
+            this.med6_drop.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.med6_drop.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.med6_drop.ItemTopMargin = 3;
+            this.med6_drop.Location = new System.Drawing.Point(631, 325);
+            this.med6_drop.Name = "med6_drop";
+            this.med6_drop.Size = new System.Drawing.Size(170, 32);
+            this.med6_drop.TabIndex = 47;
+            this.med6_drop.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med6_drop.TextLeftMargin = 5;
+            this.med6_drop.Visible = false;
+            // 
+            // med7_drop
+            // 
+            this.med7_drop.BackColor = System.Drawing.Color.Transparent;
+            this.med7_drop.BackgroundColor = System.Drawing.Color.White;
+            this.med7_drop.BorderColor = System.Drawing.Color.Silver;
+            this.med7_drop.BorderRadius = 1;
+            this.med7_drop.Color = System.Drawing.Color.Silver;
+            this.med7_drop.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.med7_drop.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med7_drop.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med7_drop.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med7_drop.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.med7_drop.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.med7_drop.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.med7_drop.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.med7_drop.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.med7_drop.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med7_drop.FillDropDown = true;
+            this.med7_drop.FillIndicator = false;
+            this.med7_drop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.med7_drop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med7_drop.ForeColor = System.Drawing.Color.Black;
+            this.med7_drop.FormattingEnabled = true;
+            this.med7_drop.Icon = null;
+            this.med7_drop.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med7_drop.IndicatorColor = System.Drawing.Color.Gray;
+            this.med7_drop.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med7_drop.ItemBackColor = System.Drawing.Color.White;
+            this.med7_drop.ItemBorderColor = System.Drawing.Color.White;
+            this.med7_drop.ItemForeColor = System.Drawing.Color.Black;
+            this.med7_drop.ItemHeight = 26;
+            this.med7_drop.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.med7_drop.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.med7_drop.ItemTopMargin = 3;
+            this.med7_drop.Location = new System.Drawing.Point(631, 372);
+            this.med7_drop.Name = "med7_drop";
+            this.med7_drop.Size = new System.Drawing.Size(170, 32);
+            this.med7_drop.TabIndex = 48;
+            this.med7_drop.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med7_drop.TextLeftMargin = 5;
+            this.med7_drop.Visible = false;
+            // 
+            // med8_drop
+            // 
+            this.med8_drop.BackColor = System.Drawing.Color.Transparent;
+            this.med8_drop.BackgroundColor = System.Drawing.Color.White;
+            this.med8_drop.BorderColor = System.Drawing.Color.Silver;
+            this.med8_drop.BorderRadius = 1;
+            this.med8_drop.Color = System.Drawing.Color.Silver;
+            this.med8_drop.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.med8_drop.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med8_drop.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med8_drop.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med8_drop.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.med8_drop.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.med8_drop.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.med8_drop.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.med8_drop.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.med8_drop.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med8_drop.FillDropDown = true;
+            this.med8_drop.FillIndicator = false;
+            this.med8_drop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.med8_drop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med8_drop.ForeColor = System.Drawing.Color.Black;
+            this.med8_drop.FormattingEnabled = true;
+            this.med8_drop.Icon = null;
+            this.med8_drop.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med8_drop.IndicatorColor = System.Drawing.Color.Gray;
+            this.med8_drop.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med8_drop.ItemBackColor = System.Drawing.Color.White;
+            this.med8_drop.ItemBorderColor = System.Drawing.Color.White;
+            this.med8_drop.ItemForeColor = System.Drawing.Color.Black;
+            this.med8_drop.ItemHeight = 26;
+            this.med8_drop.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.med8_drop.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.med8_drop.ItemTopMargin = 3;
+            this.med8_drop.Location = new System.Drawing.Point(631, 422);
+            this.med8_drop.Name = "med8_drop";
+            this.med8_drop.Size = new System.Drawing.Size(170, 32);
+            this.med8_drop.TabIndex = 49;
+            this.med8_drop.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med8_drop.TextLeftMargin = 5;
+            this.med8_drop.Visible = false;
+            // 
+            // med9_drop
+            // 
+            this.med9_drop.BackColor = System.Drawing.Color.Transparent;
+            this.med9_drop.BackgroundColor = System.Drawing.Color.White;
+            this.med9_drop.BorderColor = System.Drawing.Color.Silver;
+            this.med9_drop.BorderRadius = 1;
+            this.med9_drop.Color = System.Drawing.Color.Silver;
+            this.med9_drop.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.med9_drop.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med9_drop.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med9_drop.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med9_drop.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.med9_drop.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.med9_drop.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.med9_drop.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.med9_drop.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.med9_drop.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med9_drop.FillDropDown = true;
+            this.med9_drop.FillIndicator = false;
+            this.med9_drop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.med9_drop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med9_drop.ForeColor = System.Drawing.Color.Black;
+            this.med9_drop.FormattingEnabled = true;
+            this.med9_drop.Icon = null;
+            this.med9_drop.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med9_drop.IndicatorColor = System.Drawing.Color.Gray;
+            this.med9_drop.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med9_drop.ItemBackColor = System.Drawing.Color.White;
+            this.med9_drop.ItemBorderColor = System.Drawing.Color.White;
+            this.med9_drop.ItemForeColor = System.Drawing.Color.Black;
+            this.med9_drop.ItemHeight = 26;
+            this.med9_drop.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.med9_drop.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.med9_drop.ItemTopMargin = 3;
+            this.med9_drop.Location = new System.Drawing.Point(631, 470);
+            this.med9_drop.Name = "med9_drop";
+            this.med9_drop.Size = new System.Drawing.Size(170, 32);
+            this.med9_drop.TabIndex = 50;
+            this.med9_drop.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med9_drop.TextLeftMargin = 5;
+            this.med9_drop.Visible = false;
+            // 
+            // med10_drop
+            // 
+            this.med10_drop.BackColor = System.Drawing.Color.Transparent;
+            this.med10_drop.BackgroundColor = System.Drawing.Color.White;
+            this.med10_drop.BorderColor = System.Drawing.Color.Silver;
+            this.med10_drop.BorderRadius = 1;
+            this.med10_drop.Color = System.Drawing.Color.Silver;
+            this.med10_drop.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.med10_drop.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med10_drop.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med10_drop.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.med10_drop.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.med10_drop.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.med10_drop.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.med10_drop.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.med10_drop.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.med10_drop.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med10_drop.FillDropDown = true;
+            this.med10_drop.FillIndicator = false;
+            this.med10_drop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.med10_drop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.med10_drop.ForeColor = System.Drawing.Color.Black;
+            this.med10_drop.FormattingEnabled = true;
+            this.med10_drop.Icon = null;
+            this.med10_drop.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med10_drop.IndicatorColor = System.Drawing.Color.Gray;
+            this.med10_drop.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.med10_drop.ItemBackColor = System.Drawing.Color.White;
+            this.med10_drop.ItemBorderColor = System.Drawing.Color.White;
+            this.med10_drop.ItemForeColor = System.Drawing.Color.Black;
+            this.med10_drop.ItemHeight = 26;
+            this.med10_drop.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.med10_drop.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.med10_drop.ItemTopMargin = 3;
+            this.med10_drop.Location = new System.Drawing.Point(631, 518);
+            this.med10_drop.Name = "med10_drop";
+            this.med10_drop.Size = new System.Drawing.Size(170, 32);
+            this.med10_drop.TabIndex = 51;
+            this.med10_drop.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.med10_drop.TextLeftMargin = 5;
+            this.med10_drop.Visible = false;
+            // 
+            // med1_mg
+            // 
+            this.med1_mg.AcceptsReturn = false;
+            this.med1_mg.AcceptsTab = false;
+            this.med1_mg.AnimationSpeed = 200;
+            this.med1_mg.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.med1_mg.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.med1_mg.BackColor = System.Drawing.Color.Transparent;
+            this.med1_mg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("med1_mg.BackgroundImage")));
+            this.med1_mg.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.med1_mg.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med1_mg.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.med1_mg.BorderColorIdle = System.Drawing.Color.Silver;
+            this.med1_mg.BorderRadius = 1;
+            this.med1_mg.BorderThickness = 1;
+            this.med1_mg.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.med1_mg.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.med1_mg.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.med1_mg.DefaultText = "";
+            this.med1_mg.FillColor = System.Drawing.Color.White;
+            this.med1_mg.HideSelection = true;
+            this.med1_mg.IconLeft = null;
+            this.med1_mg.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med1_mg.IconPadding = 10;
+            this.med1_mg.IconRight = null;
+            this.med1_mg.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med1_mg.Lines = new string[0];
+            this.med1_mg.Location = new System.Drawing.Point(351, 325);
+            this.med1_mg.MaxLength = 32767;
+            this.med1_mg.MinimumSize = new System.Drawing.Size(1, 1);
+            this.med1_mg.Modified = false;
+            this.med1_mg.Multiline = false;
+            this.med1_mg.Name = "med1_mg";
+            stateProperties113.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties113.FillColor = System.Drawing.Color.Empty;
+            stateProperties113.ForeColor = System.Drawing.Color.Empty;
+            stateProperties113.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med1_mg.OnActiveState = stateProperties113;
+            stateProperties114.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties114.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties114.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties114.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.med1_mg.OnDisabledState = stateProperties114;
+            stateProperties115.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties115.FillColor = System.Drawing.Color.Empty;
+            stateProperties115.ForeColor = System.Drawing.Color.Empty;
+            stateProperties115.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med1_mg.OnHoverState = stateProperties115;
+            stateProperties116.BorderColor = System.Drawing.Color.Silver;
+            stateProperties116.FillColor = System.Drawing.Color.White;
+            stateProperties116.ForeColor = System.Drawing.Color.Empty;
+            stateProperties116.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med1_mg.OnIdleState = stateProperties116;
+            this.med1_mg.Padding = new System.Windows.Forms.Padding(3);
+            this.med1_mg.PasswordChar = '\0';
+            this.med1_mg.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.med1_mg.PlaceholderText = "mg/mL";
+            this.med1_mg.ReadOnly = false;
+            this.med1_mg.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.med1_mg.SelectedText = "";
+            this.med1_mg.SelectionLength = 0;
+            this.med1_mg.SelectionStart = 0;
+            this.med1_mg.ShortcutsEnabled = true;
+            this.med1_mg.Size = new System.Drawing.Size(80, 34);
+            this.med1_mg.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.med1_mg.TabIndex = 52;
+            this.med1_mg.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.med1_mg.TextMarginBottom = 0;
+            this.med1_mg.TextMarginLeft = 3;
+            this.med1_mg.TextMarginTop = 0;
+            this.med1_mg.TextPlaceholder = "mg/mL";
+            this.med1_mg.UseSystemPasswordChar = false;
+            this.med1_mg.Visible = false;
+            this.med1_mg.WordWrap = true;
+            // 
+            // med2_mg
+            // 
+            this.med2_mg.AcceptsReturn = false;
+            this.med2_mg.AcceptsTab = false;
+            this.med2_mg.AnimationSpeed = 200;
+            this.med2_mg.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.med2_mg.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.med2_mg.BackColor = System.Drawing.Color.Transparent;
+            this.med2_mg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("med2_mg.BackgroundImage")));
+            this.med2_mg.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.med2_mg.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med2_mg.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.med2_mg.BorderColorIdle = System.Drawing.Color.Silver;
+            this.med2_mg.BorderRadius = 1;
+            this.med2_mg.BorderThickness = 1;
+            this.med2_mg.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.med2_mg.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.med2_mg.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.med2_mg.DefaultText = "";
+            this.med2_mg.FillColor = System.Drawing.Color.White;
+            this.med2_mg.HideSelection = true;
+            this.med2_mg.IconLeft = null;
+            this.med2_mg.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med2_mg.IconPadding = 10;
+            this.med2_mg.IconRight = null;
+            this.med2_mg.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med2_mg.Lines = new string[0];
+            this.med2_mg.Location = new System.Drawing.Point(351, 374);
+            this.med2_mg.MaxLength = 32767;
+            this.med2_mg.MinimumSize = new System.Drawing.Size(1, 1);
+            this.med2_mg.Modified = false;
+            this.med2_mg.Multiline = false;
+            this.med2_mg.Name = "med2_mg";
+            stateProperties109.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties109.FillColor = System.Drawing.Color.Empty;
+            stateProperties109.ForeColor = System.Drawing.Color.Empty;
+            stateProperties109.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med2_mg.OnActiveState = stateProperties109;
+            stateProperties110.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties110.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties110.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties110.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.med2_mg.OnDisabledState = stateProperties110;
+            stateProperties111.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties111.FillColor = System.Drawing.Color.Empty;
+            stateProperties111.ForeColor = System.Drawing.Color.Empty;
+            stateProperties111.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med2_mg.OnHoverState = stateProperties111;
+            stateProperties112.BorderColor = System.Drawing.Color.Silver;
+            stateProperties112.FillColor = System.Drawing.Color.White;
+            stateProperties112.ForeColor = System.Drawing.Color.Empty;
+            stateProperties112.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med2_mg.OnIdleState = stateProperties112;
+            this.med2_mg.Padding = new System.Windows.Forms.Padding(3);
+            this.med2_mg.PasswordChar = '\0';
+            this.med2_mg.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.med2_mg.PlaceholderText = "mg/mL";
+            this.med2_mg.ReadOnly = false;
+            this.med2_mg.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.med2_mg.SelectedText = "";
+            this.med2_mg.SelectionLength = 0;
+            this.med2_mg.SelectionStart = 0;
+            this.med2_mg.ShortcutsEnabled = true;
+            this.med2_mg.Size = new System.Drawing.Size(80, 34);
+            this.med2_mg.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.med2_mg.TabIndex = 53;
+            this.med2_mg.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.med2_mg.TextMarginBottom = 0;
+            this.med2_mg.TextMarginLeft = 3;
+            this.med2_mg.TextMarginTop = 0;
+            this.med2_mg.TextPlaceholder = "mg/mL";
+            this.med2_mg.UseSystemPasswordChar = false;
+            this.med2_mg.Visible = false;
+            this.med2_mg.WordWrap = true;
+            // 
+            // med3_mg
+            // 
+            this.med3_mg.AcceptsReturn = false;
+            this.med3_mg.AcceptsTab = false;
+            this.med3_mg.AnimationSpeed = 200;
+            this.med3_mg.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.med3_mg.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.med3_mg.BackColor = System.Drawing.Color.Transparent;
+            this.med3_mg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("med3_mg.BackgroundImage")));
+            this.med3_mg.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.med3_mg.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med3_mg.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.med3_mg.BorderColorIdle = System.Drawing.Color.Silver;
+            this.med3_mg.BorderRadius = 1;
+            this.med3_mg.BorderThickness = 1;
+            this.med3_mg.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.med3_mg.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.med3_mg.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.med3_mg.DefaultText = "";
+            this.med3_mg.FillColor = System.Drawing.Color.White;
+            this.med3_mg.HideSelection = true;
+            this.med3_mg.IconLeft = null;
+            this.med3_mg.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med3_mg.IconPadding = 10;
+            this.med3_mg.IconRight = null;
+            this.med3_mg.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med3_mg.Lines = new string[0];
+            this.med3_mg.Location = new System.Drawing.Point(351, 422);
+            this.med3_mg.MaxLength = 32767;
+            this.med3_mg.MinimumSize = new System.Drawing.Size(1, 1);
+            this.med3_mg.Modified = false;
+            this.med3_mg.Multiline = false;
+            this.med3_mg.Name = "med3_mg";
+            stateProperties105.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties105.FillColor = System.Drawing.Color.Empty;
+            stateProperties105.ForeColor = System.Drawing.Color.Empty;
+            stateProperties105.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med3_mg.OnActiveState = stateProperties105;
+            stateProperties106.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties106.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties106.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties106.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.med3_mg.OnDisabledState = stateProperties106;
+            stateProperties107.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties107.FillColor = System.Drawing.Color.Empty;
+            stateProperties107.ForeColor = System.Drawing.Color.Empty;
+            stateProperties107.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med3_mg.OnHoverState = stateProperties107;
+            stateProperties108.BorderColor = System.Drawing.Color.Silver;
+            stateProperties108.FillColor = System.Drawing.Color.White;
+            stateProperties108.ForeColor = System.Drawing.Color.Empty;
+            stateProperties108.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med3_mg.OnIdleState = stateProperties108;
+            this.med3_mg.Padding = new System.Windows.Forms.Padding(3);
+            this.med3_mg.PasswordChar = '\0';
+            this.med3_mg.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.med3_mg.PlaceholderText = "mg/mL";
+            this.med3_mg.ReadOnly = false;
+            this.med3_mg.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.med3_mg.SelectedText = "";
+            this.med3_mg.SelectionLength = 0;
+            this.med3_mg.SelectionStart = 0;
+            this.med3_mg.ShortcutsEnabled = true;
+            this.med3_mg.Size = new System.Drawing.Size(80, 34);
+            this.med3_mg.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.med3_mg.TabIndex = 54;
+            this.med3_mg.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.med3_mg.TextMarginBottom = 0;
+            this.med3_mg.TextMarginLeft = 3;
+            this.med3_mg.TextMarginTop = 0;
+            this.med3_mg.TextPlaceholder = "mg/mL";
+            this.med3_mg.UseSystemPasswordChar = false;
+            this.med3_mg.Visible = false;
+            this.med3_mg.WordWrap = true;
+            // 
+            // med4_mg
+            // 
+            this.med4_mg.AcceptsReturn = false;
+            this.med4_mg.AcceptsTab = false;
+            this.med4_mg.AnimationSpeed = 200;
+            this.med4_mg.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.med4_mg.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.med4_mg.BackColor = System.Drawing.Color.Transparent;
+            this.med4_mg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("med4_mg.BackgroundImage")));
+            this.med4_mg.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.med4_mg.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med4_mg.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.med4_mg.BorderColorIdle = System.Drawing.Color.Silver;
+            this.med4_mg.BorderRadius = 1;
+            this.med4_mg.BorderThickness = 1;
+            this.med4_mg.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.med4_mg.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.med4_mg.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.med4_mg.DefaultText = "";
+            this.med4_mg.FillColor = System.Drawing.Color.White;
+            this.med4_mg.HideSelection = true;
+            this.med4_mg.IconLeft = null;
+            this.med4_mg.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med4_mg.IconPadding = 10;
+            this.med4_mg.IconRight = null;
+            this.med4_mg.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med4_mg.Lines = new string[0];
+            this.med4_mg.Location = new System.Drawing.Point(351, 470);
+            this.med4_mg.MaxLength = 32767;
+            this.med4_mg.MinimumSize = new System.Drawing.Size(1, 1);
+            this.med4_mg.Modified = false;
+            this.med4_mg.Multiline = false;
+            this.med4_mg.Name = "med4_mg";
+            stateProperties101.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties101.FillColor = System.Drawing.Color.Empty;
+            stateProperties101.ForeColor = System.Drawing.Color.Empty;
+            stateProperties101.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med4_mg.OnActiveState = stateProperties101;
+            stateProperties102.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties102.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties102.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties102.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.med4_mg.OnDisabledState = stateProperties102;
+            stateProperties103.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties103.FillColor = System.Drawing.Color.Empty;
+            stateProperties103.ForeColor = System.Drawing.Color.Empty;
+            stateProperties103.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med4_mg.OnHoverState = stateProperties103;
+            stateProperties104.BorderColor = System.Drawing.Color.Silver;
+            stateProperties104.FillColor = System.Drawing.Color.White;
+            stateProperties104.ForeColor = System.Drawing.Color.Empty;
+            stateProperties104.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med4_mg.OnIdleState = stateProperties104;
+            this.med4_mg.Padding = new System.Windows.Forms.Padding(3);
+            this.med4_mg.PasswordChar = '\0';
+            this.med4_mg.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.med4_mg.PlaceholderText = "mg/mL";
+            this.med4_mg.ReadOnly = false;
+            this.med4_mg.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.med4_mg.SelectedText = "";
+            this.med4_mg.SelectionLength = 0;
+            this.med4_mg.SelectionStart = 0;
+            this.med4_mg.ShortcutsEnabled = true;
+            this.med4_mg.Size = new System.Drawing.Size(80, 34);
+            this.med4_mg.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.med4_mg.TabIndex = 55;
+            this.med4_mg.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.med4_mg.TextMarginBottom = 0;
+            this.med4_mg.TextMarginLeft = 3;
+            this.med4_mg.TextMarginTop = 0;
+            this.med4_mg.TextPlaceholder = "mg/mL";
+            this.med4_mg.UseSystemPasswordChar = false;
+            this.med4_mg.Visible = false;
+            this.med4_mg.WordWrap = true;
+            // 
+            // med5_mg
+            // 
+            this.med5_mg.AcceptsReturn = false;
+            this.med5_mg.AcceptsTab = false;
+            this.med5_mg.AnimationSpeed = 200;
+            this.med5_mg.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.med5_mg.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.med5_mg.BackColor = System.Drawing.Color.Transparent;
+            this.med5_mg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("med5_mg.BackgroundImage")));
+            this.med5_mg.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.med5_mg.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med5_mg.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.med5_mg.BorderColorIdle = System.Drawing.Color.Silver;
+            this.med5_mg.BorderRadius = 1;
+            this.med5_mg.BorderThickness = 1;
+            this.med5_mg.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.med5_mg.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.med5_mg.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.med5_mg.DefaultText = "";
+            this.med5_mg.FillColor = System.Drawing.Color.White;
+            this.med5_mg.HideSelection = true;
+            this.med5_mg.IconLeft = null;
+            this.med5_mg.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med5_mg.IconPadding = 10;
+            this.med5_mg.IconRight = null;
+            this.med5_mg.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med5_mg.Lines = new string[0];
+            this.med5_mg.Location = new System.Drawing.Point(351, 518);
+            this.med5_mg.MaxLength = 32767;
+            this.med5_mg.MinimumSize = new System.Drawing.Size(1, 1);
+            this.med5_mg.Modified = false;
+            this.med5_mg.Multiline = false;
+            this.med5_mg.Name = "med5_mg";
+            stateProperties97.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties97.FillColor = System.Drawing.Color.Empty;
+            stateProperties97.ForeColor = System.Drawing.Color.Empty;
+            stateProperties97.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med5_mg.OnActiveState = stateProperties97;
+            stateProperties98.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties98.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties98.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties98.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.med5_mg.OnDisabledState = stateProperties98;
+            stateProperties99.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties99.FillColor = System.Drawing.Color.Empty;
+            stateProperties99.ForeColor = System.Drawing.Color.Empty;
+            stateProperties99.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med5_mg.OnHoverState = stateProperties99;
+            stateProperties100.BorderColor = System.Drawing.Color.Silver;
+            stateProperties100.FillColor = System.Drawing.Color.White;
+            stateProperties100.ForeColor = System.Drawing.Color.Empty;
+            stateProperties100.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med5_mg.OnIdleState = stateProperties100;
+            this.med5_mg.Padding = new System.Windows.Forms.Padding(3);
+            this.med5_mg.PasswordChar = '\0';
+            this.med5_mg.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.med5_mg.PlaceholderText = "mg/mL";
+            this.med5_mg.ReadOnly = false;
+            this.med5_mg.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.med5_mg.SelectedText = "";
+            this.med5_mg.SelectionLength = 0;
+            this.med5_mg.SelectionStart = 0;
+            this.med5_mg.ShortcutsEnabled = true;
+            this.med5_mg.Size = new System.Drawing.Size(80, 34);
+            this.med5_mg.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.med5_mg.TabIndex = 56;
+            this.med5_mg.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.med5_mg.TextMarginBottom = 0;
+            this.med5_mg.TextMarginLeft = 3;
+            this.med5_mg.TextMarginTop = 0;
+            this.med5_mg.TextPlaceholder = "mg/mL";
+            this.med5_mg.UseSystemPasswordChar = false;
+            this.med5_mg.Visible = false;
+            this.med5_mg.WordWrap = true;
+            // 
+            // med6_mg
+            // 
+            this.med6_mg.AcceptsReturn = false;
+            this.med6_mg.AcceptsTab = false;
+            this.med6_mg.AnimationSpeed = 200;
+            this.med6_mg.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.med6_mg.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.med6_mg.BackColor = System.Drawing.Color.Transparent;
+            this.med6_mg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("med6_mg.BackgroundImage")));
+            this.med6_mg.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.med6_mg.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med6_mg.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.med6_mg.BorderColorIdle = System.Drawing.Color.Silver;
+            this.med6_mg.BorderRadius = 1;
+            this.med6_mg.BorderThickness = 1;
+            this.med6_mg.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.med6_mg.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.med6_mg.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.med6_mg.DefaultText = "";
+            this.med6_mg.FillColor = System.Drawing.Color.White;
+            this.med6_mg.HideSelection = true;
+            this.med6_mg.IconLeft = null;
+            this.med6_mg.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med6_mg.IconPadding = 10;
+            this.med6_mg.IconRight = null;
+            this.med6_mg.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med6_mg.Lines = new string[0];
+            this.med6_mg.Location = new System.Drawing.Point(823, 325);
+            this.med6_mg.MaxLength = 32767;
+            this.med6_mg.MinimumSize = new System.Drawing.Size(1, 1);
+            this.med6_mg.Modified = false;
+            this.med6_mg.Multiline = false;
+            this.med6_mg.Name = "med6_mg";
+            stateProperties93.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties93.FillColor = System.Drawing.Color.Empty;
+            stateProperties93.ForeColor = System.Drawing.Color.Empty;
+            stateProperties93.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med6_mg.OnActiveState = stateProperties93;
+            stateProperties94.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties94.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties94.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties94.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.med6_mg.OnDisabledState = stateProperties94;
+            stateProperties95.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties95.FillColor = System.Drawing.Color.Empty;
+            stateProperties95.ForeColor = System.Drawing.Color.Empty;
+            stateProperties95.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med6_mg.OnHoverState = stateProperties95;
+            stateProperties96.BorderColor = System.Drawing.Color.Silver;
+            stateProperties96.FillColor = System.Drawing.Color.White;
+            stateProperties96.ForeColor = System.Drawing.Color.Empty;
+            stateProperties96.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med6_mg.OnIdleState = stateProperties96;
+            this.med6_mg.Padding = new System.Windows.Forms.Padding(3);
+            this.med6_mg.PasswordChar = '\0';
+            this.med6_mg.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.med6_mg.PlaceholderText = "mg/mL";
+            this.med6_mg.ReadOnly = false;
+            this.med6_mg.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.med6_mg.SelectedText = "";
+            this.med6_mg.SelectionLength = 0;
+            this.med6_mg.SelectionStart = 0;
+            this.med6_mg.ShortcutsEnabled = true;
+            this.med6_mg.Size = new System.Drawing.Size(80, 34);
+            this.med6_mg.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.med6_mg.TabIndex = 57;
+            this.med6_mg.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.med6_mg.TextMarginBottom = 0;
+            this.med6_mg.TextMarginLeft = 3;
+            this.med6_mg.TextMarginTop = 0;
+            this.med6_mg.TextPlaceholder = "mg/mL";
+            this.med6_mg.UseSystemPasswordChar = false;
+            this.med6_mg.Visible = false;
+            this.med6_mg.WordWrap = true;
+            // 
+            // med7_mg
+            // 
+            this.med7_mg.AcceptsReturn = false;
+            this.med7_mg.AcceptsTab = false;
+            this.med7_mg.AnimationSpeed = 200;
+            this.med7_mg.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.med7_mg.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.med7_mg.BackColor = System.Drawing.Color.Transparent;
+            this.med7_mg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("med7_mg.BackgroundImage")));
+            this.med7_mg.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.med7_mg.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med7_mg.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.med7_mg.BorderColorIdle = System.Drawing.Color.Silver;
+            this.med7_mg.BorderRadius = 1;
+            this.med7_mg.BorderThickness = 1;
+            this.med7_mg.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.med7_mg.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.med7_mg.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.med7_mg.DefaultText = "";
+            this.med7_mg.FillColor = System.Drawing.Color.White;
+            this.med7_mg.HideSelection = true;
+            this.med7_mg.IconLeft = null;
+            this.med7_mg.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med7_mg.IconPadding = 10;
+            this.med7_mg.IconRight = null;
+            this.med7_mg.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med7_mg.Lines = new string[0];
+            this.med7_mg.Location = new System.Drawing.Point(823, 372);
+            this.med7_mg.MaxLength = 32767;
+            this.med7_mg.MinimumSize = new System.Drawing.Size(1, 1);
+            this.med7_mg.Modified = false;
+            this.med7_mg.Multiline = false;
+            this.med7_mg.Name = "med7_mg";
+            stateProperties89.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties89.FillColor = System.Drawing.Color.Empty;
+            stateProperties89.ForeColor = System.Drawing.Color.Empty;
+            stateProperties89.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med7_mg.OnActiveState = stateProperties89;
+            stateProperties90.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties90.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties90.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties90.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.med7_mg.OnDisabledState = stateProperties90;
+            stateProperties91.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties91.FillColor = System.Drawing.Color.Empty;
+            stateProperties91.ForeColor = System.Drawing.Color.Empty;
+            stateProperties91.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med7_mg.OnHoverState = stateProperties91;
+            stateProperties92.BorderColor = System.Drawing.Color.Silver;
+            stateProperties92.FillColor = System.Drawing.Color.White;
+            stateProperties92.ForeColor = System.Drawing.Color.Empty;
+            stateProperties92.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med7_mg.OnIdleState = stateProperties92;
+            this.med7_mg.Padding = new System.Windows.Forms.Padding(3);
+            this.med7_mg.PasswordChar = '\0';
+            this.med7_mg.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.med7_mg.PlaceholderText = "mg/mL";
+            this.med7_mg.ReadOnly = false;
+            this.med7_mg.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.med7_mg.SelectedText = "";
+            this.med7_mg.SelectionLength = 0;
+            this.med7_mg.SelectionStart = 0;
+            this.med7_mg.ShortcutsEnabled = true;
+            this.med7_mg.Size = new System.Drawing.Size(80, 34);
+            this.med7_mg.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.med7_mg.TabIndex = 58;
+            this.med7_mg.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.med7_mg.TextMarginBottom = 0;
+            this.med7_mg.TextMarginLeft = 3;
+            this.med7_mg.TextMarginTop = 0;
+            this.med7_mg.TextPlaceholder = "mg/mL";
+            this.med7_mg.UseSystemPasswordChar = false;
+            this.med7_mg.Visible = false;
+            this.med7_mg.WordWrap = true;
+            // 
+            // med8_mg
+            // 
+            this.med8_mg.AcceptsReturn = false;
+            this.med8_mg.AcceptsTab = false;
+            this.med8_mg.AnimationSpeed = 200;
+            this.med8_mg.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.med8_mg.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.med8_mg.BackColor = System.Drawing.Color.Transparent;
+            this.med8_mg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("med8_mg.BackgroundImage")));
+            this.med8_mg.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.med8_mg.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med8_mg.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.med8_mg.BorderColorIdle = System.Drawing.Color.Silver;
+            this.med8_mg.BorderRadius = 1;
+            this.med8_mg.BorderThickness = 1;
+            this.med8_mg.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.med8_mg.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.med8_mg.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.med8_mg.DefaultText = "";
+            this.med8_mg.FillColor = System.Drawing.Color.White;
+            this.med8_mg.HideSelection = true;
+            this.med8_mg.IconLeft = null;
+            this.med8_mg.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med8_mg.IconPadding = 10;
+            this.med8_mg.IconRight = null;
+            this.med8_mg.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med8_mg.Lines = new string[0];
+            this.med8_mg.Location = new System.Drawing.Point(823, 422);
+            this.med8_mg.MaxLength = 32767;
+            this.med8_mg.MinimumSize = new System.Drawing.Size(1, 1);
+            this.med8_mg.Modified = false;
+            this.med8_mg.Multiline = false;
+            this.med8_mg.Name = "med8_mg";
+            stateProperties85.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties85.FillColor = System.Drawing.Color.Empty;
+            stateProperties85.ForeColor = System.Drawing.Color.Empty;
+            stateProperties85.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med8_mg.OnActiveState = stateProperties85;
+            stateProperties86.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties86.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties86.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties86.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.med8_mg.OnDisabledState = stateProperties86;
+            stateProperties87.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties87.FillColor = System.Drawing.Color.Empty;
+            stateProperties87.ForeColor = System.Drawing.Color.Empty;
+            stateProperties87.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med8_mg.OnHoverState = stateProperties87;
+            stateProperties88.BorderColor = System.Drawing.Color.Silver;
+            stateProperties88.FillColor = System.Drawing.Color.White;
+            stateProperties88.ForeColor = System.Drawing.Color.Empty;
+            stateProperties88.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med8_mg.OnIdleState = stateProperties88;
+            this.med8_mg.Padding = new System.Windows.Forms.Padding(3);
+            this.med8_mg.PasswordChar = '\0';
+            this.med8_mg.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.med8_mg.PlaceholderText = "mg/mL";
+            this.med8_mg.ReadOnly = false;
+            this.med8_mg.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.med8_mg.SelectedText = "";
+            this.med8_mg.SelectionLength = 0;
+            this.med8_mg.SelectionStart = 0;
+            this.med8_mg.ShortcutsEnabled = true;
+            this.med8_mg.Size = new System.Drawing.Size(80, 34);
+            this.med8_mg.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.med8_mg.TabIndex = 59;
+            this.med8_mg.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.med8_mg.TextMarginBottom = 0;
+            this.med8_mg.TextMarginLeft = 3;
+            this.med8_mg.TextMarginTop = 0;
+            this.med8_mg.TextPlaceholder = "mg/mL";
+            this.med8_mg.UseSystemPasswordChar = false;
+            this.med8_mg.Visible = false;
+            this.med8_mg.WordWrap = true;
+            // 
+            // med9_mg
+            // 
+            this.med9_mg.AcceptsReturn = false;
+            this.med9_mg.AcceptsTab = false;
+            this.med9_mg.AnimationSpeed = 200;
+            this.med9_mg.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.med9_mg.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.med9_mg.BackColor = System.Drawing.Color.Transparent;
+            this.med9_mg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("med9_mg.BackgroundImage")));
+            this.med9_mg.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.med9_mg.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med9_mg.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.med9_mg.BorderColorIdle = System.Drawing.Color.Silver;
+            this.med9_mg.BorderRadius = 1;
+            this.med9_mg.BorderThickness = 1;
+            this.med9_mg.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.med9_mg.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.med9_mg.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.med9_mg.DefaultText = "";
+            this.med9_mg.FillColor = System.Drawing.Color.White;
+            this.med9_mg.HideSelection = true;
+            this.med9_mg.IconLeft = null;
+            this.med9_mg.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med9_mg.IconPadding = 10;
+            this.med9_mg.IconRight = null;
+            this.med9_mg.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med9_mg.Lines = new string[0];
+            this.med9_mg.Location = new System.Drawing.Point(823, 470);
+            this.med9_mg.MaxLength = 32767;
+            this.med9_mg.MinimumSize = new System.Drawing.Size(1, 1);
+            this.med9_mg.Modified = false;
+            this.med9_mg.Multiline = false;
+            this.med9_mg.Name = "med9_mg";
+            stateProperties81.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties81.FillColor = System.Drawing.Color.Empty;
+            stateProperties81.ForeColor = System.Drawing.Color.Empty;
+            stateProperties81.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med9_mg.OnActiveState = stateProperties81;
+            stateProperties82.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties82.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties82.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties82.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.med9_mg.OnDisabledState = stateProperties82;
+            stateProperties83.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties83.FillColor = System.Drawing.Color.Empty;
+            stateProperties83.ForeColor = System.Drawing.Color.Empty;
+            stateProperties83.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med9_mg.OnHoverState = stateProperties83;
+            stateProperties84.BorderColor = System.Drawing.Color.Silver;
+            stateProperties84.FillColor = System.Drawing.Color.White;
+            stateProperties84.ForeColor = System.Drawing.Color.Empty;
+            stateProperties84.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med9_mg.OnIdleState = stateProperties84;
+            this.med9_mg.Padding = new System.Windows.Forms.Padding(3);
+            this.med9_mg.PasswordChar = '\0';
+            this.med9_mg.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.med9_mg.PlaceholderText = "mg/mL";
+            this.med9_mg.ReadOnly = false;
+            this.med9_mg.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.med9_mg.SelectedText = "";
+            this.med9_mg.SelectionLength = 0;
+            this.med9_mg.SelectionStart = 0;
+            this.med9_mg.ShortcutsEnabled = true;
+            this.med9_mg.Size = new System.Drawing.Size(80, 34);
+            this.med9_mg.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.med9_mg.TabIndex = 60;
+            this.med9_mg.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.med9_mg.TextMarginBottom = 0;
+            this.med9_mg.TextMarginLeft = 3;
+            this.med9_mg.TextMarginTop = 0;
+            this.med9_mg.TextPlaceholder = "mg/mL";
+            this.med9_mg.UseSystemPasswordChar = false;
+            this.med9_mg.Visible = false;
+            this.med9_mg.WordWrap = true;
+            // 
+            // med10_mg
+            // 
+            this.med10_mg.AcceptsReturn = false;
+            this.med10_mg.AcceptsTab = false;
+            this.med10_mg.AnimationSpeed = 200;
+            this.med10_mg.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.med10_mg.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.med10_mg.BackColor = System.Drawing.Color.Transparent;
+            this.med10_mg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("med10_mg.BackgroundImage")));
+            this.med10_mg.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.med10_mg.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.med10_mg.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.med10_mg.BorderColorIdle = System.Drawing.Color.Silver;
+            this.med10_mg.BorderRadius = 1;
+            this.med10_mg.BorderThickness = 1;
+            this.med10_mg.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.med10_mg.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.med10_mg.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.med10_mg.DefaultText = "";
+            this.med10_mg.FillColor = System.Drawing.Color.White;
+            this.med10_mg.HideSelection = true;
+            this.med10_mg.IconLeft = null;
+            this.med10_mg.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med10_mg.IconPadding = 10;
+            this.med10_mg.IconRight = null;
+            this.med10_mg.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.med10_mg.Lines = new string[0];
+            this.med10_mg.Location = new System.Drawing.Point(823, 518);
+            this.med10_mg.MaxLength = 32767;
+            this.med10_mg.MinimumSize = new System.Drawing.Size(1, 1);
+            this.med10_mg.Modified = false;
+            this.med10_mg.Multiline = false;
+            this.med10_mg.Name = "med10_mg";
+            stateProperties77.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties77.FillColor = System.Drawing.Color.Empty;
+            stateProperties77.ForeColor = System.Drawing.Color.Empty;
+            stateProperties77.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med10_mg.OnActiveState = stateProperties77;
+            stateProperties78.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties78.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties78.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties78.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.med10_mg.OnDisabledState = stateProperties78;
+            stateProperties79.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties79.FillColor = System.Drawing.Color.Empty;
+            stateProperties79.ForeColor = System.Drawing.Color.Empty;
+            stateProperties79.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med10_mg.OnHoverState = stateProperties79;
+            stateProperties80.BorderColor = System.Drawing.Color.Silver;
+            stateProperties80.FillColor = System.Drawing.Color.White;
+            stateProperties80.ForeColor = System.Drawing.Color.Empty;
+            stateProperties80.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.med10_mg.OnIdleState = stateProperties80;
+            this.med10_mg.Padding = new System.Windows.Forms.Padding(3);
+            this.med10_mg.PasswordChar = '\0';
+            this.med10_mg.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.med10_mg.PlaceholderText = "mg/mL";
+            this.med10_mg.ReadOnly = false;
+            this.med10_mg.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.med10_mg.SelectedText = "";
+            this.med10_mg.SelectionLength = 0;
+            this.med10_mg.SelectionStart = 0;
+            this.med10_mg.ShortcutsEnabled = true;
+            this.med10_mg.Size = new System.Drawing.Size(80, 34);
+            this.med10_mg.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.med10_mg.TabIndex = 61;
+            this.med10_mg.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.med10_mg.TextMarginBottom = 0;
+            this.med10_mg.TextMarginLeft = 3;
+            this.med10_mg.TextMarginTop = 0;
+            this.med10_mg.TextPlaceholder = "mg/mL";
+            this.med10_mg.UseSystemPasswordChar = false;
+            this.med10_mg.Visible = false;
+            this.med10_mg.WordWrap = true;
             // 
             // HomeScreen
             // 
@@ -3478,8 +6828,20 @@ namespace hospitalmanagement
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.appointmentsPage.ResumeLayout(false);
+            this.diagnosesPage.ResumeLayout(false);
+            this.diagnoseINNERpages.ResumeLayout(false);
+            this.diagnosesMainPage.ResumeLayout(false);
+            this.addDiagnosePage.ResumeLayout(false);
+            this.addDiagnosePage.PerformLayout();
+            this.diagnoseDetailsPage.ResumeLayout(false);
+            this.diagnoseDetailsPage.PerformLayout();
+            this.prescriptionsPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource)).EndInit();
+            this.presINNERpages.ResumeLayout(false);
+            this.presMainPage.ResumeLayout(false);
+            this.presMainPage.PerformLayout();
+            this.presDetailsPage.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3631,5 +6993,96 @@ namespace hospitalmanagement
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn16;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn17;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn18;
+        private Bunifu.UI.WinForms.BunifuPages diagnoseINNERpages;
+        private System.Windows.Forms.TabPage diagnosesMainPage;
+        private Bunifu.UI.WinForms.BunifuTextBox diagnoseSearchTextBox;
+        private System.Windows.Forms.TabPage addDiagnosePage;
+        private Bunifu.Framework.UI.BunifuThinButton2 addDiagnoseButton;
+        private System.Windows.Forms.TabPage diagnoseDetailsPage;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel27;
+        private System.Windows.Forms.RichTextBox diagnose_condittion_richtextbox;
+        private System.Windows.Forms.RichTextBox diagnose_testR_richtextbox;
+        private Bunifu.UI.WinForms.BunifuTextBox diagnose_icd_code_textbox;
+        private Bunifu.UI.WinForms.BunifuTextBox diagnose_ID_textbox;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel34;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel33;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel32;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel31;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel30;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel29;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel28;
+        private Bunifu.UI.WinForms.BunifuDropdown diagnose_prescription_dropdown;
+        private Bunifu.UI.WinForms.BunifuDropdown diagnose_doctor_dropdown;
+        private Bunifu.UI.WinForms.BunifuDropdown diagnose_patient_dropdown;
+        private Bunifu.Framework.UI.BunifuThinButton2 diagnose_add_button;
+        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
+        private System.Windows.Forms.RichTextBox diag_details_condition;
+        private System.Windows.Forms.RichTextBox diag_details_test;
+        private Bunifu.UI.WinForms.BunifuTextBox diag_details_icd;
+        private Bunifu.UI.WinForms.BunifuTextBox diag_details_id;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel35;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel36;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel37;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel38;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel39;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel40;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel41;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel42;
+        private Bunifu.UI.WinForms.BunifuTextBox diag_details_pres;
+        private Bunifu.UI.WinForms.BunifuTextBox diag_details_doctor;
+        private Bunifu.UI.WinForms.BunifuTextBox diag_details_patient;
+        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
+        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton23;
+        private Bunifu.UI.WinForms.BunifuPages presINNERpages;
+        private System.Windows.Forms.TabPage presMainPage;
+        private System.Windows.Forms.TabPage presAddPage;
+        private System.Windows.Forms.TabPage presDetailsPage;
+        private Bunifu.Framework.UI.BunifuThinButton2 pres_search_button;
+        private System.Windows.Forms.FlowLayoutPanel pres_flowLayoutPanel2;
+        private Bunifu.Framework.UI.BunifuThinButton2 pres_add_button;
+        private Bunifu.UI.WinForms.BunifuTextBox pres_search_textBox;
+        private Bunifu.UI.WinForms.BunifuDropdown med10_drop;
+        private Bunifu.UI.WinForms.BunifuDropdown med9_drop;
+        private Bunifu.UI.WinForms.BunifuDropdown med8_drop;
+        private Bunifu.UI.WinForms.BunifuDropdown med7_drop;
+        private Bunifu.UI.WinForms.BunifuDropdown med6_drop;
+        private Bunifu.UI.WinForms.BunifuDropdown med5_drop;
+        private Bunifu.UI.WinForms.BunifuDropdown med4_drop;
+        private Bunifu.UI.WinForms.BunifuDropdown med3_drop;
+        private Bunifu.UI.WinForms.BunifuDropdown med2_drop;
+        private Bunifu.UI.WinForms.BunifuDropdown med1_drop;
+        private Bunifu.UI.WinForms.BunifuLabel med10_label;
+        private Bunifu.UI.WinForms.BunifuLabel med9_label;
+        private Bunifu.UI.WinForms.BunifuLabel med8_label;
+        private Bunifu.UI.WinForms.BunifuLabel med7_label;
+        private Bunifu.UI.WinForms.BunifuLabel med6_label;
+        private Bunifu.UI.WinForms.BunifuLabel med5_label;
+        private Bunifu.UI.WinForms.BunifuLabel med4_label;
+        private Bunifu.UI.WinForms.BunifuLabel med3_label;
+        private Bunifu.UI.WinForms.BunifuLabel med2_label;
+        private Bunifu.UI.WinForms.BunifuLabel med1_label;
+        private Bunifu.Framework.UI.BunifuThinButton2 pres_add_pres_button;
+        private Bunifu.UI.WinForms.BunifuDropdown pres_quantity_dropbox;
+        private Bunifu.UI.WinForms.BunifuDropdown pres_doctor_dropdown;
+        private Bunifu.UI.WinForms.BunifuDropdown pres_patient_dropdown;
+        private System.Windows.Forms.RichTextBox pres_note_richtextBox;
+        private Bunifu.UI.WinForms.BunifuTextBox presID_textBox;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel43;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel44;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel45;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel46;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel48;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel49;
+        private Bunifu.UI.WinForms.BunifuTextBox med10_mg;
+        private Bunifu.UI.WinForms.BunifuTextBox med9_mg;
+        private Bunifu.UI.WinForms.BunifuTextBox med8_mg;
+        private Bunifu.UI.WinForms.BunifuTextBox med7_mg;
+        private Bunifu.UI.WinForms.BunifuTextBox med6_mg;
+        private Bunifu.UI.WinForms.BunifuTextBox med5_mg;
+        private Bunifu.UI.WinForms.BunifuTextBox med4_mg;
+        private Bunifu.UI.WinForms.BunifuTextBox med3_mg;
+        private Bunifu.UI.WinForms.BunifuTextBox med2_mg;
+        private Bunifu.UI.WinForms.BunifuTextBox med1_mg;
     }
 }
