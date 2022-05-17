@@ -103,6 +103,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -114,6 +115,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\ClassBLL.cs" />
+    <Compile Include="DAL\ClassDAL.cs" />
+    <Compile Include="DAL\Connection.cs" />
+    <Compile Include="DiagnoseItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DiagnoseItem.Designer.cs">
+      <DependentUpon>DiagnoseItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomeScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +153,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DiagnoseItem.resx">
+      <DependentUpon>DiagnoseItem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomeScreen.resx">
       <DependentUpon>HomeScreen.cs</DependentUpon>
     </EmbeddedResource>

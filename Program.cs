@@ -16,7 +16,7 @@ namespace hospitalmanagement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new loginScreen());
+            Application.Run(new HomeScreen());
         }
     }
 }
