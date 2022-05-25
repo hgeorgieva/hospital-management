@@ -157,5 +157,248 @@ namespace hospitalmanagement
                 bunifuLabel2.Text = value;
             }
         }
+
+
+        public string Med1_drop
+        {
+            get
+            {
+                return med1_drop.Text;
+            }
+
+            set
+            {
+                med1_drop.Text = value;
+            }
+        }
+
+        public string Med1_mg
+        {
+            get
+            {
+                return med1_mg.Text;
+            }
+            set
+            {
+                med1_mg.Text = value;
+            }
+        }
+
+        public string Med2_drop
+        {
+            get
+            {
+                return med2_drop.Text;
+            }
+            set
+            {
+                med2_drop.Text = value;
+            }
+        }
+
+        public string Med2_mg
+        {
+            get
+            {
+                return med2_mg.Text;
+            }
+            set
+            {
+                med2_mg.Text = value;
+            }
+        }
+
+        public string Med3_drop
+        {
+            get
+            {
+                return med3_drop.Text;
+            }
+            set
+            {
+                med3_drop.Text = value;
+            }
+        }
+
+        public string Med3_mg
+        {
+            get
+            {
+                return med3_mg.Text;
+            }
+            set
+            {
+                med3_mg.Text = value;
+            }
+        }
+
+        public string Med4_drop
+        {
+            get
+            {
+                return med4_drop.Text;
+            }
+            set
+            {
+                med4_drop.Text = value;
+            }
+        }
+
+        public string Med4_mg
+        {
+            get
+            {
+                return med4_mg.Text;
+            }
+            set
+            {
+                med4_mg.Text = value;
+            }
+        }
+
+        public string Med5_drop
+        {
+            get
+            {
+                return med5_drop.Text;
+            }
+            set
+            {
+                med5_drop.Text = value;
+            }
+        }
+
+        public string Med5_mg
+        {
+            get
+            {
+                return med5_mg.Text;
+            }
+            set
+            {
+                med5_mg.Text = value;
+            }
+        }
+
+        public string Med6_drop
+        {
+            get
+            {
+                return med6_drop.Text;
+            }
+            set
+            {
+                med6_drop.Text = value;
+            }
+        }
+
+        public string Med6_mg
+        {
+            get
+            {
+                return med6_mg.Text;
+            }
+            set
+            {
+                med6_mg.Text = value;
+            }
+        }
+
+        public string Med7_drop
+        {
+            get
+            {
+                return med7_drop.Text;
+            }
+            set
+            {
+                med7_drop.Text = value;
+            }
+        }
+
+        public string Med7_mg
+        {
+            get
+            {
+                return med7_mg.Text;
+            }
+            set
+            {
+                med7_mg.Text = value;
+            }
+        }
+
+        public string Med8_drop
+        {
+            get
+            {
+                return med8_drop.Text;
+            }
+            set
+            {
+                med8_drop.Text = value;
+            }
+        }
+
+        public string Med8_mg
+        {
+            get
+            {
+                return med8_mg.Text;
+            }
+            set
+            {
+                med8_mg.Text = value;
+            }
+        }
+
+        public string Med9_drop
+        {
+            get
+            {
+                return med9_drop.Text;
+            }
+            set
+            {
+                med9_drop.Text = value;
+            }
+        }
+
+        public string Med9_mg
+        {
+            get
+            {
+                return med9_mg.Text;
+            }
+            set
+            {
+                med9_mg.Text = value;
+            }
+        }
+
+        public string Med10_drop
+        {
+            get
+            {
+                return med10_drop.Text;
+            }
+            set
+            {
+                med10_drop.Text = value;
+            }
+        }
+
+        public string Med10_mg
+        {
+            get
+            {
+                return med10_mg.Text;
+            }
+            set
+            {
+                med10_mg.Text = value;
+            }
+        }
+
     }
 }

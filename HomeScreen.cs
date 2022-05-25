@@ -17,9 +17,9 @@ namespace hospitalmanagement
 {
     public partial class HomeScreen : Form
     {
-        string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Desktop\hospitaldatabase.mdf;Integrated Security=True";
+        //string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Desktop\hospitaldatabase.mdf;Integrated Security=True";
         //string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\UNI\proekt-bd\hospitalmanagement\hospitaldatabase.mdf;Integrated Security=True";
-        //string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\skaya\Desktop\new_hospital\hospitaldatabase.mdf;Integrated Security=True";
+        string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\skaya\Downloads\hospitaldatabase.mdf;Integrated Security=True";
 
         SqlConnection sqlConnection;
         SqlCommand sqlCommand;
@@ -384,6 +384,8 @@ namespace hospitalmanagement
 
         private void showPrescriptionControl(ClassBLL objbll, DataTable dt)
         {
+            Dictionary<string, int> pres_ids = new Dictionary<string, int>();
+            //Dictionary<string, string> meds = new Dictionary<string, string>();
 
             if (dt != null)
             {
@@ -394,44 +396,162 @@ namespace hospitalmanagement
                     {
                         listItems[i] = new DiagnoseItem();
 
-                        listItems[i].Patient_label = "Patient ID:";
-                        listItems[i].Medication_id_label = "Med ID:";
-                        listItems[i].Doctor_id_label = "Doctor ID:";
+
+                        //string[] drop = { listItems[i].Med1_drop, listItems[i].Med2_drop, listItems[i].Med3_drop, listItems[i].Med4_drop, listItems[i].Med5_drop, listItems[i].Med6_drop, listItems[i].Med7_drop, listItems[i].Med8_drop, listItems[i].Med9_drop, listItems[i].Med10_drop };
+                        //string[] mg = { listItems[i].Med1_mg, listItems[i].Med2_mg, listItems[i].Med3_mg, listItems[i].Med4_mg, listItems[i].Med5_mg, listItems[i].Med6_mg, listItems[i].Med7_mg, listItems[i].Med8_mg, listItems[i].Med9_mg, listItems[i].Med10_mg };
+                        
                         listItems[i].Prescription_id_label = "Prescription ID:";
+                        listItems[i].Patient_label = "Patient ID:";
+                        listItems[i].Medication_id_label = "Meds Given:";
+                        listItems[i].Doctor_id_label = "Doctor ID:";
+                        
 
-
-                        /*
-                        // Foreign key visualizaion (boring/long version, but it works? nah?)
-                        string patient_id = row["DIAGNOSE_PATIENT"].ToString();
-                        int id = Convert.ToInt32(patient_id);
-                        DataTable dtt = objbll.GetFKItems("PATIENT", id);
-                        DataRow rr = dtt.Rows[0];
-                        listItems[i].PatientID = rr["PATIENT_NAME"].ToString() + " (" + row["DIAGNOSE_PATIENT"].ToString() + ")";
-*/
-                        listItems[i].ICDcode = row["PRESCRIPTION_MEDICATION"].ToString();
-                        /*
-                        string doctor_id = row["DIAGNOSE_DOCTOR"].ToString();
-                        int dr_id = Convert.ToInt32(doctor_id);
-                        DataTable dr_Dt = objbll.GetFKItems("DOCTOR", dr_id);
-                        DataRow dr_rr = dr_Dt.Rows[0];
-                        listItems[i].DoctorID = dr_rr["DOCTOR_NAME"].ToString() + " (" + row["DIAGNOSE_DOCTOR"].ToString() + ")";
-*/
-                        listItems[i].PatientID = row["PRESCRIPTION_PATIENT"].ToString();
-                        listItems[i].DoctorID = row["PRESCRIPTION_DOCTOR"].ToString();
                         listItems[i].DiagID = row["PRESCRIPTION_ID"].ToString();
-                        //listItems[i].Condition = row["DIAGNOSE_CONDITION"].ToString();
+                        string pres_id = row["PRESCRIPTION_ID"].ToString();
 
-                        pres_flowLayoutPanel2.Controls.Add(listItems[i]);
 
-//                        listItems[i].Click += new System.EventHandler(this.UserControl_Click);
+                        if (!pres_ids.ContainsKey(pres_id))
+                        {
+                            pres_ids.Add(pres_id, 1);
+
+                            int i_pres_id = Convert.ToInt32(pres_id);
+
+                            sqlConnection = new SqlConnection(cs);
+                            sqlConnection.Open();
+                            query = "SELECT COUNT(*) FROM PRESCRIPTION WHERE PRESCRIPTION_ID = @pres_id";
+                            sqlCommand = new SqlCommand(query, sqlConnection);
+                            sqlCommand.Parameters.AddWithValue("@pres_id", i_pres_id);
+                            int count = (int)sqlCommand.ExecuteScalar();
+
+                            listItems[i].ICDcode = count.ToString();
+
+
+                            sqlConnection = new SqlConnection(cs);
+                            sqlConnection.Open();
+                            query = "SELECT * FROM PRESCRIPTION WHERE PRESCRIPTION_ID = @pres_id";
+                            sqlCommand = new SqlCommand(query, sqlConnection);
+                            sqlCommand.Parameters.AddWithValue("@pres_id", i_pres_id);
+                            adapter = new SqlDataAdapter();
+                            dataTable = new DataTable();
+                            adapter.SelectCommand = sqlCommand;
+                            adapter.Fill(dataTable);
+                            /*
+                            int inn = 0;
+                            #region Mnogo iskah da ne e taka dulgo no ne uspqh v list da sloja "huhu {listItems[i].Med1_drop, listItems[i].Med2_drop ...}" che da napravq posle "huhu[i] = roro..."
+                            while (inn < count) {
+                                try
+                                {
+                                    
+                                    DataRow roro1 = dataTable.Rows[0];
+                                    listItems[i].Med1_drop = roro1["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med1_mg = roro1["PRESCRIPTION_FORMULA"].ToString();
+                                    inn = 1;
+                                    DataRow roro2 = dataTable.Rows[1];
+                                    listItems[i].Med2_drop = roro2["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med2_mg = roro2["PRESCRIPTION_FORMULA"].ToString();
+                                    inn = 2;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message.ToString());
+                                }
+                            }
+                                
+                           
+                            #endregion
+                            */
+                            string patient_id = row["PRESCRIPTION_PATIENT"].ToString();
+                            int pat_id = Convert.ToInt32(patient_id);
+                            DataTable dtt = objbll.GetFKItems("PATIENT", pat_id);
+                            DataRow rr = dtt.Rows[0];
+                            listItems[i].PatientID = rr["PATIENT_NAME"].ToString() + " (" + row["PRESCRIPTION_PATIENT"].ToString() + ") ";
+
+
+                            string doctor_id = row["PRESCRIPTION_DOCTOR"].ToString();
+                            int doc_id = Convert.ToInt32(doctor_id);
+                            DataTable dr_dt = objbll.GetFKItems("DOCTOR", doc_id);
+                            DataRow dr_rr = dr_dt.Rows[0];
+                            listItems[i].DoctorID = dr_rr["DOCTOR_NAME"].ToString() + " (" + row["PRESCRIPTION_DOCTOR"].ToString() + ") ";
+
+
+                            pres_flowLayoutPanel2.Controls.Add(listItems[i]);
+
+                            listItems[i].Click += new System.EventHandler(this.PresControl_Click);
+                        }
+                        
                     }
-
                 }
-
+            }
+        } 
+        private void pres_search_button_Click(object sender, EventArgs e)
+        {
+            searchPresTextBoxResult();
+        }
+       
+        private void pres_search_textBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                searchPresTextBoxResult();
             }
         }
 
-        
+        private void searchPresTextBoxResult()
+        {
+            string s_search = pres_search_textBox.Text;
+
+            pres_flowLayoutPanel2.Controls.Clear();
+            ClassBLL objbll = new ClassBLL();
+            DataTable dt = objbll.GetSearchItems("PRESCRIPTION", s_search);
+            showPrescriptionControl(objbll, dt);
+        }
+
+        private void loopForVis(int start_true, int end_true, int start_false, int end_false, BunifuLabel[] label, BunifuTextBox[] drop, BunifuTextBox[] edit)
+        {
+            for (int i = start_false; i < end_false; i++)
+            {
+                label[i].Visible = false;
+                drop[i].Visible = false;
+                edit[i].Visible = false;
+            }
+
+            for (int i = start_true; i < end_true; i++)
+            {
+                label[i].Visible = true;
+                drop[i].Visible = true;
+                edit[i].Visible = true;
+            }
+        }
+
+        private void PresControl_Click(object sender, EventArgs e)
+        {
+            DiagnoseItem obj = (DiagnoseItem)sender;
+
+            pd_pres_id_textBox.Text = ""; pd_patient_textBox.Text = ""; pd_doctor_textBox.Text = ""; pd_note_richTextbox.Text = ""; pd_med1_drop.Text = ""; pd_med2_drop.Text = ""; pd_med3_drop.Text = ""; pd_med4_drop.Text = ""; pd_med5_drop.Text = ""; pd_med6_drop.Text = ""; pd_med7_drop.Text = ""; pd_med8_drop.Text = ""; pd_med9_drop.Text = ""; pd_med10_drop.Text = "";
+            pd_med1_mg.Text = ""; pd_med2_mg.Text = ""; pd_med3_mg.Text = ""; pd_med4_mg.Text = ""; pd_med5_mg.Text = ""; pd_med6_mg.Text = ""; pd_med7_mg.Text = ""; pd_med8_mg.Text = ""; pd_med9_mg.Text = ""; pd_med10_mg.Text = "";
+
+            BunifuLabel[] label = { pd_med1_label, pd_med2_label, pd_med3_label, pd_med4_label, pd_med5_label, pd_med6_label, pd_med7_label, pd_med8_label, pd_med9_label, pd_med10_label };
+            BunifuTextBox[] drop = { pd_med1_drop, pd_med2_drop, pd_med3_drop, pd_med4_drop, pd_med5_drop, pd_med6_drop, pd_med7_drop, pd_med8_drop, pd_med9_drop, pd_med10_drop };
+            BunifuTextBox[] mg = { pd_med1_mg, pd_med2_mg, pd_med3_mg, pd_med4_mg, pd_med5_mg, pd_med6_mg, pd_med7_mg, pd_med8_mg, pd_med9_mg, pd_med10_mg };
+            string[] func_drop = { obj.Med1_drop, obj.Med2_drop, obj.Med3_drop, obj.Med4_drop, obj.Med5_drop, obj.Med6_drop, obj.Med7_drop, obj.Med8_drop, obj.Med9_drop, obj.Med10_drop };
+            string[] func_mg = { obj.Med1_mg, obj.Med2_mg, obj.Med3_mg, obj.Med4_mg, obj.Med5_mg, obj.Med6_mg, obj.Med7_mg, obj.Med8_mg, obj.Med9_mg, obj.Med10_mg };
+
+
+            pd_pres_id_textBox.Text = obj.DiagID;
+            pd_doctor_textBox.Text = obj.DoctorID;
+            pd_patient_textBox.Text = obj.PatientID;
+
+            int count = Convert.ToInt32(obj.ICDcode);
+            for (int i = 0; i < count; i++)
+            {
+                loopForVis(0, count, count, 10, label, drop, mg);
+                drop[i].Text = func_drop[i];
+                mg[i].Text = func_mg[i];
+            }
+
+            presINNERpages.SetPage("presDetailsPage");
+        }
+
+
+
         private void pres_add_button_Click(object sender, EventArgs e)
         {
             presINNERpages.SetPage("presAddPage");
@@ -459,15 +579,7 @@ namespace hospitalmanagement
             }
         }
 
-        private void pres_search_button_Click(object sender, EventArgs e)
-        {
-
-        }
-       
-        private void pres_search_textBox_KeyDown(object sender, KeyEventArgs e)
-        {
-
-        }
+    
        
         private void loopForVisibility(int start_true, int end_true, int start_false, int end_false, BunifuLabel[] label, Bunifu.UI.WinForms.BunifuDropdown[] drop, BunifuTextBox[] edit)
         {

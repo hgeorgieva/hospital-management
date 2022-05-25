@@ -43,6 +43,26 @@ namespace hospitalmanagement
             this.test_results = new Bunifu.UI.WinForms.BunifuLabel();
             this.condition = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med1_drop = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med1_mg = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med10_mg = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med10_drop = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med9_drop = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med8_drop = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med5_mg = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med5_drop = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med9_mg = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med8_mg = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med7_mg = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med7_drop = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med6_mg = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med6_drop = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med4_mg = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med4_drop = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med3_mg = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med3_drop = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med2_mg = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med2_drop = new Bunifu.UI.WinForms.BunifuLabel();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -178,6 +198,7 @@ namespace hospitalmanagement
             // 
             this.diagnose_id.AllowParentOverrides = false;
             this.diagnose_id.AutoEllipsis = false;
+            this.diagnose_id.Cursor = System.Windows.Forms.Cursors.Default;
             this.diagnose_id.CursorType = System.Windows.Forms.Cursors.Default;
             this.diagnose_id.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.diagnose_id.ForeColor = System.Drawing.Color.Black;
@@ -195,6 +216,7 @@ namespace hospitalmanagement
             // 
             this.prescription.AllowParentOverrides = false;
             this.prescription.AutoEllipsis = false;
+            this.prescription.Cursor = System.Windows.Forms.Cursors.Default;
             this.prescription.CursorType = System.Windows.Forms.Cursors.Default;
             this.prescription.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prescription.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -211,6 +233,7 @@ namespace hospitalmanagement
             // 
             this.test_results.AllowParentOverrides = false;
             this.test_results.AutoEllipsis = false;
+            this.test_results.Cursor = System.Windows.Forms.Cursors.Default;
             this.test_results.CursorType = System.Windows.Forms.Cursors.Default;
             this.test_results.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.test_results.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -227,6 +250,7 @@ namespace hospitalmanagement
             // 
             this.condition.AllowParentOverrides = false;
             this.condition.AutoEllipsis = false;
+            this.condition.Cursor = System.Windows.Forms.Cursors.Default;
             this.condition.CursorType = System.Windows.Forms.Cursors.Default;
             this.condition.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.condition.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -254,6 +278,328 @@ namespace hospitalmanagement
             this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
+            // med1_drop
+            // 
+            this.med1_drop.AllowParentOverrides = false;
+            this.med1_drop.AutoEllipsis = false;
+            this.med1_drop.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med1_drop.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med1_drop.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med1_drop.Location = new System.Drawing.Point(251, 8);
+            this.med1_drop.Name = "med1_drop";
+            this.med1_drop.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med1_drop.Size = new System.Drawing.Size(10, 3);
+            this.med1_drop.TabIndex = 12;
+            this.med1_drop.Text = "bunifuLabel4";
+            this.med1_drop.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med1_drop.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med1_mg
+            // 
+            this.med1_mg.AllowParentOverrides = false;
+            this.med1_mg.AutoEllipsis = false;
+            this.med1_mg.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.med1_mg.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med1_mg.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med1_mg.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med1_mg.Location = new System.Drawing.Point(269, 8);
+            this.med1_mg.Name = "med1_mg";
+            this.med1_mg.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med1_mg.Size = new System.Drawing.Size(10, 3);
+            this.med1_mg.TabIndex = 13;
+            this.med1_mg.Text = "bunifuLabel6";
+            this.med1_mg.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med1_mg.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med10_mg
+            // 
+            this.med10_mg.AllowParentOverrides = false;
+            this.med10_mg.AutoEllipsis = false;
+            this.med10_mg.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med10_mg.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med10_mg.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med10_mg.Location = new System.Drawing.Point(408, 13);
+            this.med10_mg.Name = "med10_mg";
+            this.med10_mg.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med10_mg.Size = new System.Drawing.Size(10, 3);
+            this.med10_mg.TabIndex = 14;
+            this.med10_mg.Text = "bunifuLabel7";
+            this.med10_mg.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med10_mg.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med10_drop
+            // 
+            this.med10_drop.AllowParentOverrides = false;
+            this.med10_drop.AutoEllipsis = false;
+            this.med10_drop.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med10_drop.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med10_drop.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med10_drop.Location = new System.Drawing.Point(285, 8);
+            this.med10_drop.Name = "med10_drop";
+            this.med10_drop.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med10_drop.Size = new System.Drawing.Size(10, 3);
+            this.med10_drop.TabIndex = 15;
+            this.med10_drop.Text = "bunifuLabel8";
+            this.med10_drop.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med10_drop.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med9_drop
+            // 
+            this.med9_drop.AllowParentOverrides = false;
+            this.med9_drop.AutoEllipsis = false;
+            this.med9_drop.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med9_drop.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med9_drop.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med9_drop.Location = new System.Drawing.Point(219, 12);
+            this.med9_drop.Name = "med9_drop";
+            this.med9_drop.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med9_drop.Size = new System.Drawing.Size(10, 3);
+            this.med9_drop.TabIndex = 16;
+            this.med9_drop.Text = "bunifuLabel9";
+            this.med9_drop.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med9_drop.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med8_drop
+            // 
+            this.med8_drop.AllowParentOverrides = false;
+            this.med8_drop.AutoEllipsis = false;
+            this.med8_drop.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med8_drop.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med8_drop.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med8_drop.Location = new System.Drawing.Point(260, 12);
+            this.med8_drop.Name = "med8_drop";
+            this.med8_drop.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med8_drop.Size = new System.Drawing.Size(11, 3);
+            this.med8_drop.TabIndex = 17;
+            this.med8_drop.Text = "bunifuLabel10";
+            this.med8_drop.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med8_drop.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med5_mg
+            // 
+            this.med5_mg.AllowParentOverrides = false;
+            this.med5_mg.AutoEllipsis = false;
+            this.med5_mg.CursorType = null;
+            this.med5_mg.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med5_mg.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med5_mg.Location = new System.Drawing.Point(231, 3);
+            this.med5_mg.Name = "med5_mg";
+            this.med5_mg.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med5_mg.Size = new System.Drawing.Size(11, 3);
+            this.med5_mg.TabIndex = 18;
+            this.med5_mg.Text = "bunifuLabel11";
+            this.med5_mg.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med5_mg.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med5_drop
+            // 
+            this.med5_drop.AllowParentOverrides = false;
+            this.med5_drop.AutoEllipsis = false;
+            this.med5_drop.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med5_drop.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med5_drop.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med5_drop.Location = new System.Drawing.Point(202, 8);
+            this.med5_drop.Name = "med5_drop";
+            this.med5_drop.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med5_drop.Size = new System.Drawing.Size(11, 3);
+            this.med5_drop.TabIndex = 19;
+            this.med5_drop.Text = "bunifuLabel12";
+            this.med5_drop.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med5_drop.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med9_mg
+            // 
+            this.med9_mg.AllowParentOverrides = false;
+            this.med9_mg.AutoEllipsis = false;
+            this.med9_mg.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med9_mg.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med9_mg.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med9_mg.Location = new System.Drawing.Point(330, 3);
+            this.med9_mg.Name = "med9_mg";
+            this.med9_mg.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med9_mg.Size = new System.Drawing.Size(11, 3);
+            this.med9_mg.TabIndex = 20;
+            this.med9_mg.Text = "bunifuLabel13";
+            this.med9_mg.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med9_mg.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med8_mg
+            // 
+            this.med8_mg.AllowParentOverrides = false;
+            this.med8_mg.AutoEllipsis = false;
+            this.med8_mg.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med8_mg.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med8_mg.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med8_mg.Location = new System.Drawing.Point(391, 15);
+            this.med8_mg.Name = "med8_mg";
+            this.med8_mg.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med8_mg.Size = new System.Drawing.Size(11, 3);
+            this.med8_mg.TabIndex = 21;
+            this.med8_mg.Text = "bunifuLabel14";
+            this.med8_mg.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med8_mg.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med7_mg
+            // 
+            this.med7_mg.AllowParentOverrides = false;
+            this.med7_mg.AutoEllipsis = false;
+            this.med7_mg.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med7_mg.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med7_mg.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med7_mg.Location = new System.Drawing.Point(347, 3);
+            this.med7_mg.Name = "med7_mg";
+            this.med7_mg.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med7_mg.Size = new System.Drawing.Size(11, 3);
+            this.med7_mg.TabIndex = 22;
+            this.med7_mg.Text = "bunifuLabel15";
+            this.med7_mg.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med7_mg.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med7_drop
+            // 
+            this.med7_drop.AllowParentOverrides = false;
+            this.med7_drop.AutoEllipsis = false;
+            this.med7_drop.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med7_drop.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med7_drop.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med7_drop.Location = new System.Drawing.Point(214, -4);
+            this.med7_drop.Name = "med7_drop";
+            this.med7_drop.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med7_drop.Size = new System.Drawing.Size(11, 3);
+            this.med7_drop.TabIndex = 23;
+            this.med7_drop.Text = "bunifuLabel16";
+            this.med7_drop.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med7_drop.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med6_mg
+            // 
+            this.med6_mg.AllowParentOverrides = false;
+            this.med6_mg.AutoEllipsis = false;
+            this.med6_mg.CursorType = null;
+            this.med6_mg.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med6_mg.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med6_mg.Location = new System.Drawing.Point(347, 13);
+            this.med6_mg.Name = "med6_mg";
+            this.med6_mg.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med6_mg.Size = new System.Drawing.Size(11, 3);
+            this.med6_mg.TabIndex = 24;
+            this.med6_mg.Text = "bunifuLabel17";
+            this.med6_mg.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med6_mg.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med6_drop
+            // 
+            this.med6_drop.AllowParentOverrides = false;
+            this.med6_drop.AutoEllipsis = false;
+            this.med6_drop.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med6_drop.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med6_drop.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med6_drop.Location = new System.Drawing.Point(330, 13);
+            this.med6_drop.Name = "med6_drop";
+            this.med6_drop.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med6_drop.Size = new System.Drawing.Size(11, 3);
+            this.med6_drop.TabIndex = 25;
+            this.med6_drop.Text = "bunifuLabel18";
+            this.med6_drop.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med6_drop.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med4_mg
+            // 
+            this.med4_mg.AllowParentOverrides = false;
+            this.med4_mg.AutoEllipsis = false;
+            this.med4_mg.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med4_mg.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med4_mg.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med4_mg.Location = new System.Drawing.Point(330, 13);
+            this.med4_mg.Name = "med4_mg";
+            this.med4_mg.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med4_mg.Size = new System.Drawing.Size(11, 3);
+            this.med4_mg.TabIndex = 26;
+            this.med4_mg.Text = "bunifuLabel19";
+            this.med4_mg.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med4_mg.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med4_drop
+            // 
+            this.med4_drop.AllowParentOverrides = false;
+            this.med4_drop.AutoEllipsis = false;
+            this.med4_drop.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med4_drop.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med4_drop.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med4_drop.Location = new System.Drawing.Point(285, 3);
+            this.med4_drop.Name = "med4_drop";
+            this.med4_drop.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med4_drop.Size = new System.Drawing.Size(11, 3);
+            this.med4_drop.TabIndex = 27;
+            this.med4_drop.Text = "bunifuLabel20";
+            this.med4_drop.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med4_drop.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med3_mg
+            // 
+            this.med3_mg.AllowParentOverrides = false;
+            this.med3_mg.AutoEllipsis = false;
+            this.med3_mg.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med3_mg.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med3_mg.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med3_mg.Location = new System.Drawing.Point(330, 8);
+            this.med3_mg.Name = "med3_mg";
+            this.med3_mg.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med3_mg.Size = new System.Drawing.Size(11, 3);
+            this.med3_mg.TabIndex = 28;
+            this.med3_mg.Text = "bunifuLabel21";
+            this.med3_mg.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med3_mg.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med3_drop
+            // 
+            this.med3_drop.AllowParentOverrides = false;
+            this.med3_drop.AutoEllipsis = false;
+            this.med3_drop.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med3_drop.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med3_drop.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med3_drop.Location = new System.Drawing.Point(214, 13);
+            this.med3_drop.Name = "med3_drop";
+            this.med3_drop.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med3_drop.Size = new System.Drawing.Size(11, 3);
+            this.med3_drop.TabIndex = 29;
+            this.med3_drop.Text = "bunifuLabel22";
+            this.med3_drop.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med3_drop.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med2_mg
+            // 
+            this.med2_mg.AllowParentOverrides = false;
+            this.med2_mg.AutoEllipsis = false;
+            this.med2_mg.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med2_mg.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med2_mg.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med2_mg.Location = new System.Drawing.Point(474, 8);
+            this.med2_mg.Name = "med2_mg";
+            this.med2_mg.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med2_mg.Size = new System.Drawing.Size(11, 3);
+            this.med2_mg.TabIndex = 30;
+            this.med2_mg.Text = "bunifuLabel23";
+            this.med2_mg.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med2_mg.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med2_drop
+            // 
+            this.med2_drop.AllowParentOverrides = false;
+            this.med2_drop.AutoEllipsis = false;
+            this.med2_drop.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.med2_drop.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med2_drop.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med2_drop.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.med2_drop.Location = new System.Drawing.Point(360, 16);
+            this.med2_drop.Name = "med2_drop";
+            this.med2_drop.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med2_drop.Size = new System.Drawing.Size(11, 3);
+            this.med2_drop.TabIndex = 31;
+            this.med2_drop.Text = "bunifuLabel24";
+            this.med2_drop.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med2_drop.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
             // DiagnoseItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -261,6 +607,26 @@ namespace hospitalmanagement
             this.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.BorderRadius = 40;
+            this.Controls.Add(this.med2_drop);
+            this.Controls.Add(this.med2_mg);
+            this.Controls.Add(this.med3_drop);
+            this.Controls.Add(this.med3_mg);
+            this.Controls.Add(this.med4_drop);
+            this.Controls.Add(this.med4_mg);
+            this.Controls.Add(this.med6_drop);
+            this.Controls.Add(this.med6_mg);
+            this.Controls.Add(this.med7_drop);
+            this.Controls.Add(this.med7_mg);
+            this.Controls.Add(this.med8_mg);
+            this.Controls.Add(this.med9_mg);
+            this.Controls.Add(this.med5_drop);
+            this.Controls.Add(this.med5_mg);
+            this.Controls.Add(this.med8_drop);
+            this.Controls.Add(this.med9_drop);
+            this.Controls.Add(this.med10_drop);
+            this.Controls.Add(this.med10_mg);
+            this.Controls.Add(this.med1_mg);
+            this.Controls.Add(this.med1_drop);
             this.Controls.Add(this.bunifuLabel2);
             this.Controls.Add(this.condition);
             this.Controls.Add(this.test_results);
@@ -298,5 +664,25 @@ namespace hospitalmanagement
         private Bunifu.UI.WinForms.BunifuLabel prescription;
         private Bunifu.UI.WinForms.BunifuLabel diagnose_id;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
+        private Bunifu.UI.WinForms.BunifuLabel med2_drop;
+        private Bunifu.UI.WinForms.BunifuLabel med2_mg;
+        private Bunifu.UI.WinForms.BunifuLabel med3_drop;
+        private Bunifu.UI.WinForms.BunifuLabel med3_mg;
+        private Bunifu.UI.WinForms.BunifuLabel med4_drop;
+        private Bunifu.UI.WinForms.BunifuLabel med4_mg;
+        private Bunifu.UI.WinForms.BunifuLabel med6_drop;
+        private Bunifu.UI.WinForms.BunifuLabel med6_mg;
+        private Bunifu.UI.WinForms.BunifuLabel med7_drop;
+        private Bunifu.UI.WinForms.BunifuLabel med7_mg;
+        private Bunifu.UI.WinForms.BunifuLabel med8_mg;
+        private Bunifu.UI.WinForms.BunifuLabel med9_mg;
+        private Bunifu.UI.WinForms.BunifuLabel med5_drop;
+        private Bunifu.UI.WinForms.BunifuLabel med5_mg;
+        private Bunifu.UI.WinForms.BunifuLabel med8_drop;
+        private Bunifu.UI.WinForms.BunifuLabel med9_drop;
+        private Bunifu.UI.WinForms.BunifuLabel med10_drop;
+        private Bunifu.UI.WinForms.BunifuLabel med10_mg;
+        private Bunifu.UI.WinForms.BunifuLabel med1_mg;
+        private Bunifu.UI.WinForms.BunifuLabel med1_drop;
     }
 }
