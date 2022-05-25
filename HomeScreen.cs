@@ -145,6 +145,8 @@ namespace hospitalmanagement
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             sectionLabel.Text = "Home";
+            pages.SetPage("homePage");
+            resetButtonColor();
         }
 
         private void resetButtonColor()
@@ -156,7 +158,35 @@ namespace hospitalmanagement
             button_patients.BackColor = Color.FromArgb(26, 32, 40);
             button_prescription.BackColor = Color.FromArgb(26, 32, 40);
         }
+        private void home_toDoctors_Click(object sender, EventArgs e)
+        {
+            button1_Click(sender, e);
+        }
 
+        private void home_toPatients_Click(object sender, EventArgs e)
+        {
+            button_patients_Click(sender, e);
+        }
+
+        private void home_toAppointments_Click(object sender, EventArgs e)
+        {
+            button_appoint_Click(sender, e);
+        }
+
+        private void home_toDiagnoses_Click(object sender, EventArgs e)
+        {
+            button_diagnose_Click(sender, e);
+        }
+
+        private void home_toPrescriptions_Click(object sender, EventArgs e)
+        {
+            button_prescription_Click(sender, e);
+        }
+
+        private void home_toMedications_Click(object sender, EventArgs e)
+        {
+            button_medications_Click(sender, e);
+        }
         private void addNewDoctorButton_Click(object sender, EventArgs e)
         {
             pages.SetPage("addNewDoctorPage");
@@ -1178,5 +1208,7 @@ namespace hospitalmanagement
                 MessageBox.Show("Please fill all required information.");
             }
         }
+
+     
     }
 }
