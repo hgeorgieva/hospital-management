@@ -31,7 +31,7 @@ namespace hospitalmanagement
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeScreen));
-            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation5 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
+            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation6 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             Utilities.BunifuPages.BunifuAnimatorNS.Animation animation1 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -274,6 +274,35 @@ namespace hospitalmanagement
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties214 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties215 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties216 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation5 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties217 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties218 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties219 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties220 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties221 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties222 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties223 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties224 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties225 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties226 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties227 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties228 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties229 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties230 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties231 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties232 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties233 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties234 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties235 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties236 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties237 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties238 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties239 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties240 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties241 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties242 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties243 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties244 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
@@ -579,6 +608,34 @@ namespace hospitalmanagement
             this.home_toDiagnoses = new Bunifu.Framework.UI.BunifuTileButton();
             this.home_toAppointments = new Bunifu.Framework.UI.BunifuTileButton();
             this.home_toMedications = new Bunifu.Framework.UI.BunifuTileButton();
+            this.medicINNERpages = new Bunifu.UI.WinForms.BunifuPages();
+            this.medicMainPage = new System.Windows.Forms.TabPage();
+            this.medicAddPage = new System.Windows.Forms.TabPage();
+            this.medicDetailsPage = new System.Windows.Forms.TabPage();
+            this.medic_search_button = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.MEDICflowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.medic_add_medication_button = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.medic_search_textBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.addMedic_producer_textBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.addMedic_med_name_textBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.addMedic_richTextBox = new System.Windows.Forms.RichTextBox();
+            this.addMedic_med_id_textBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.medic_leaflet_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.medic_producer_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.medic_med_name_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.medic_medication_id_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.medic_add_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.addMedic_add_medic_button = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.md_close_button = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.md_producer_textBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.md_med_name_textBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.md_richTextBox = new System.Windows.Forms.RichTextBox();
+            this.md_med_id_textBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.md_leaflet_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.md_producer_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.md_med_name_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.md_med_id = new Bunifu.UI.WinForms.BunifuLabel();
+            this.md_med_details_label = new Bunifu.UI.WinForms.BunifuLabel();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_menu)).BeginInit();
@@ -628,8 +685,13 @@ namespace hospitalmanagement
             this.presMainPage.SuspendLayout();
             this.presAddPage.SuspendLayout();
             this.presDetailsPage.SuspendLayout();
+            this.medicationsPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource)).BeginInit();
+            this.medicINNERpages.SuspendLayout();
+            this.medicMainPage.SuspendLayout();
+            this.medicAddPage.SuspendLayout();
+            this.medicDetailsPage.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuLabel1
@@ -949,22 +1011,22 @@ namespace hospitalmanagement
             this.pages.SelectedIndex = 0;
             this.pages.Size = new System.Drawing.Size(975, 648);
             this.pages.TabIndex = 13;
-            animation5.AnimateOnlyDifferences = true;
-            animation5.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.BlindCoeff")));
-            animation5.LeafCoeff = 1F;
-            animation5.MaxTime = 1F;
-            animation5.MinTime = 0F;
-            animation5.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicCoeff")));
-            animation5.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicShift")));
-            animation5.MosaicSize = 0;
-            animation5.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
-            animation5.RotateCoeff = 0F;
-            animation5.RotateLimit = 0F;
-            animation5.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.ScaleCoeff")));
-            animation5.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.SlideCoeff")));
-            animation5.TimeCoeff = 0F;
-            animation5.TransparencyCoeff = 0F;
-            this.pages.Transition = animation5;
+            animation6.AnimateOnlyDifferences = true;
+            animation6.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.BlindCoeff")));
+            animation6.LeafCoeff = 1F;
+            animation6.MaxTime = 1F;
+            animation6.MinTime = 0F;
+            animation6.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.MosaicCoeff")));
+            animation6.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation6.MosaicShift")));
+            animation6.MosaicSize = 0;
+            animation6.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            animation6.RotateCoeff = 0F;
+            animation6.RotateLimit = 0F;
+            animation6.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.ScaleCoeff")));
+            animation6.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.SlideCoeff")));
+            animation6.TimeCoeff = 0F;
+            animation6.TransparencyCoeff = 0F;
+            this.pages.Transition = animation6;
             this.pages.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Leaf;
             // 
             // homePage
@@ -1004,10 +1066,10 @@ namespace hospitalmanagement
             this.doctorsInnerPages.Location = new System.Drawing.Point(3, 6);
             this.doctorsInnerPages.Multiline = true;
             this.doctorsInnerPages.Name = "doctorsInnerPages";
-            this.doctorsInnerPages.Page = this.additionalSearchPage;
-            this.doctorsInnerPages.PageIndex = 2;
-            this.doctorsInnerPages.PageName = "additionalSearchPage";
-            this.doctorsInnerPages.PageTitle = "additionalSearchPage";
+            this.doctorsInnerPages.Page = this.addNewDoctorPage;
+            this.doctorsInnerPages.PageIndex = 1;
+            this.doctorsInnerPages.PageName = "addNewDoctorPage";
+            this.doctorsInnerPages.PageTitle = "addNewDoctorPage";
             this.doctorsInnerPages.SelectedIndex = 0;
             this.doctorsInnerPages.Size = new System.Drawing.Size(958, 610);
             this.doctorsInnerPages.TabIndex = 4;
@@ -4347,10 +4409,10 @@ namespace hospitalmanagement
             this.diagnoseINNERpages.Location = new System.Drawing.Point(-4, 3);
             this.diagnoseINNERpages.Multiline = true;
             this.diagnoseINNERpages.Name = "diagnoseINNERpages";
-            this.diagnoseINNERpages.Page = this.diagnoseDetailsPage;
-            this.diagnoseINNERpages.PageIndex = 2;
-            this.diagnoseINNERpages.PageName = "diagnoseDetailsPage";
-            this.diagnoseINNERpages.PageTitle = "diagnoseDetailsPage";
+            this.diagnoseINNERpages.Page = this.diagnosesMainPage;
+            this.diagnoseINNERpages.PageIndex = 0;
+            this.diagnoseINNERpages.PageName = "diagnosesMainPage";
+            this.diagnoseINNERpages.PageTitle = "diagnosesMainPage";
             this.diagnoseINNERpages.SelectedIndex = 0;
             this.diagnoseINNERpages.Size = new System.Drawing.Size(970, 615);
             this.diagnoseINNERpages.TabIndex = 0;
@@ -4403,7 +4465,7 @@ namespace hospitalmanagement
             this.flowLayoutPanel1.Location = new System.Drawing.Point(27, 130);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(932, 476);
-            this.flowLayoutPanel1.TabIndex = 4;
+            this.flowLayoutPanel1.TabIndex = 8;
             // 
             // addDiagnoseButton
             // 
@@ -5576,10 +5638,10 @@ namespace hospitalmanagement
             this.presINNERpages.Location = new System.Drawing.Point(0, 0);
             this.presINNERpages.Multiline = true;
             this.presINNERpages.Name = "presINNERpages";
-            this.presINNERpages.Page = this.presMainPage;
-            this.presINNERpages.PageIndex = 0;
-            this.presINNERpages.PageName = "presMainPage";
-            this.presINNERpages.PageTitle = "presAddPage";
+            this.presINNERpages.Page = this.presDetailsPage;
+            this.presINNERpages.PageIndex = 2;
+            this.presINNERpages.PageName = "presDetailsPage";
+            this.presINNERpages.PageTitle = "presMainPage";
             this.presINNERpages.SelectedIndex = 0;
             this.presINNERpages.Size = new System.Drawing.Size(966, 618);
             this.presINNERpages.TabIndex = 0;
@@ -9549,6 +9611,7 @@ namespace hospitalmanagement
             // 
             // medicationsPage
             // 
+            this.medicationsPage.Controls.Add(this.medicINNERpages);
             this.medicationsPage.Location = new System.Drawing.Point(4, 4);
             this.medicationsPage.Name = "medicationsPage";
             this.medicationsPage.Padding = new System.Windows.Forms.Padding(3);
@@ -9641,10 +9704,10 @@ namespace hospitalmanagement
             // 
             // home_toDoctors
             // 
-            this.home_toDoctors.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
+            this.home_toDoctors.BackColor = System.Drawing.Color.LightSteelBlue;
             this.home_toDoctors.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.home_toDoctors.color = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
-            this.home_toDoctors.colorActive = System.Drawing.Color.LightSteelBlue;
+            this.home_toDoctors.color = System.Drawing.Color.LightSteelBlue;
+            this.home_toDoctors.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toDoctors.Cursor = System.Windows.Forms.Cursors.Hand;
             this.home_toDoctors.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toDoctors.ForeColor = System.Drawing.Color.White;
@@ -9663,9 +9726,9 @@ namespace hospitalmanagement
             // 
             // home_toPatients
             // 
-            this.home_toPatients.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
-            this.home_toPatients.color = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
-            this.home_toPatients.colorActive = System.Drawing.Color.LightSteelBlue;
+            this.home_toPatients.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.home_toPatients.color = System.Drawing.Color.LightSteelBlue;
+            this.home_toPatients.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toPatients.Cursor = System.Windows.Forms.Cursors.Hand;
             this.home_toPatients.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toPatients.ForeColor = System.Drawing.Color.White;
@@ -9683,9 +9746,9 @@ namespace hospitalmanagement
             // 
             // home_toPrescriptions
             // 
-            this.home_toPrescriptions.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
-            this.home_toPrescriptions.color = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
-            this.home_toPrescriptions.colorActive = System.Drawing.Color.LightSteelBlue;
+            this.home_toPrescriptions.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.home_toPrescriptions.color = System.Drawing.Color.LightSteelBlue;
+            this.home_toPrescriptions.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toPrescriptions.Cursor = System.Windows.Forms.Cursors.Hand;
             this.home_toPrescriptions.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toPrescriptions.ForeColor = System.Drawing.Color.White;
@@ -9703,9 +9766,9 @@ namespace hospitalmanagement
             // 
             // home_toDiagnoses
             // 
-            this.home_toDiagnoses.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
-            this.home_toDiagnoses.color = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
-            this.home_toDiagnoses.colorActive = System.Drawing.Color.LightSteelBlue;
+            this.home_toDiagnoses.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.home_toDiagnoses.color = System.Drawing.Color.LightSteelBlue;
+            this.home_toDiagnoses.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toDiagnoses.Cursor = System.Windows.Forms.Cursors.Hand;
             this.home_toDiagnoses.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toDiagnoses.ForeColor = System.Drawing.Color.White;
@@ -9723,9 +9786,9 @@ namespace hospitalmanagement
             // 
             // home_toAppointments
             // 
-            this.home_toAppointments.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
-            this.home_toAppointments.color = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
-            this.home_toAppointments.colorActive = System.Drawing.Color.LightSteelBlue;
+            this.home_toAppointments.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.home_toAppointments.color = System.Drawing.Color.LightSteelBlue;
+            this.home_toAppointments.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toAppointments.Cursor = System.Windows.Forms.Cursors.Hand;
             this.home_toAppointments.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toAppointments.ForeColor = System.Drawing.Color.White;
@@ -9743,9 +9806,9 @@ namespace hospitalmanagement
             // 
             // home_toMedications
             // 
-            this.home_toMedications.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
-            this.home_toMedications.color = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
-            this.home_toMedications.colorActive = System.Drawing.Color.LightSteelBlue;
+            this.home_toMedications.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.home_toMedications.color = System.Drawing.Color.LightSteelBlue;
+            this.home_toMedications.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toMedications.Cursor = System.Windows.Forms.Cursors.Hand;
             this.home_toMedications.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toMedications.ForeColor = System.Drawing.Color.White;
@@ -9760,6 +9823,898 @@ namespace hospitalmanagement
             this.home_toMedications.Size = new System.Drawing.Size(259, 197);
             this.home_toMedications.TabIndex = 11;
             this.home_toMedications.Click += new System.EventHandler(this.home_toMedications_Click);
+            // 
+            // medicINNERpages
+            // 
+            this.medicINNERpages.Alignment = System.Windows.Forms.TabAlignment.Bottom;
+            this.medicINNERpages.AllowTransitions = true;
+            this.medicINNERpages.Controls.Add(this.medicMainPage);
+            this.medicINNERpages.Controls.Add(this.medicAddPage);
+            this.medicINNERpages.Controls.Add(this.medicDetailsPage);
+            this.medicINNERpages.Location = new System.Drawing.Point(1, 1);
+            this.medicINNERpages.Multiline = true;
+            this.medicINNERpages.Name = "medicINNERpages";
+            this.medicINNERpages.Page = this.medicMainPage;
+            this.medicINNERpages.PageIndex = 0;
+            this.medicINNERpages.PageName = "medicMainPage";
+            this.medicINNERpages.PageTitle = "medicMainPage";
+            this.medicINNERpages.SelectedIndex = 0;
+            this.medicINNERpages.Size = new System.Drawing.Size(969, 617);
+            this.medicINNERpages.TabIndex = 0;
+            animation5.AnimateOnlyDifferences = false;
+            animation5.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.BlindCoeff")));
+            animation5.LeafCoeff = 0F;
+            animation5.MaxTime = 1F;
+            animation5.MinTime = 0F;
+            animation5.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicCoeff")));
+            animation5.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicShift")));
+            animation5.MosaicSize = 0;
+            animation5.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            animation5.RotateCoeff = 0F;
+            animation5.RotateLimit = 0F;
+            animation5.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.ScaleCoeff")));
+            animation5.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.SlideCoeff")));
+            animation5.TimeCoeff = 0F;
+            animation5.TransparencyCoeff = 0F;
+            this.medicINNERpages.Transition = animation5;
+            this.medicINNERpages.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Custom;
+            // 
+            // medicMainPage
+            // 
+            this.medicMainPage.Controls.Add(this.medic_search_button);
+            this.medicMainPage.Controls.Add(this.MEDICflowLayoutPanel2);
+            this.medicMainPage.Controls.Add(this.medic_add_medication_button);
+            this.medicMainPage.Controls.Add(this.medic_search_textBox);
+            this.medicMainPage.Location = new System.Drawing.Point(4, 4);
+            this.medicMainPage.Name = "medicMainPage";
+            this.medicMainPage.Padding = new System.Windows.Forms.Padding(3);
+            this.medicMainPage.Size = new System.Drawing.Size(961, 588);
+            this.medicMainPage.TabIndex = 0;
+            this.medicMainPage.Text = "medicMainPage";
+            this.medicMainPage.UseVisualStyleBackColor = true;
+            // 
+            // medicAddPage
+            // 
+            this.medicAddPage.Controls.Add(this.addMedic_add_medic_button);
+            this.medicAddPage.Controls.Add(this.addMedic_producer_textBox);
+            this.medicAddPage.Controls.Add(this.addMedic_med_name_textBox);
+            this.medicAddPage.Controls.Add(this.addMedic_richTextBox);
+            this.medicAddPage.Controls.Add(this.addMedic_med_id_textBox);
+            this.medicAddPage.Controls.Add(this.medic_leaflet_label);
+            this.medicAddPage.Controls.Add(this.medic_producer_label);
+            this.medicAddPage.Controls.Add(this.medic_med_name_label);
+            this.medicAddPage.Controls.Add(this.medic_medication_id_label);
+            this.medicAddPage.Controls.Add(this.medic_add_label);
+            this.medicAddPage.Location = new System.Drawing.Point(4, 4);
+            this.medicAddPage.Name = "medicAddPage";
+            this.medicAddPage.Padding = new System.Windows.Forms.Padding(3);
+            this.medicAddPage.Size = new System.Drawing.Size(961, 588);
+            this.medicAddPage.TabIndex = 1;
+            this.medicAddPage.Text = "medicAddPage";
+            this.medicAddPage.UseVisualStyleBackColor = true;
+            // 
+            // medicDetailsPage
+            // 
+            this.medicDetailsPage.Controls.Add(this.md_close_button);
+            this.medicDetailsPage.Controls.Add(this.md_producer_textBox);
+            this.medicDetailsPage.Controls.Add(this.md_med_name_textBox);
+            this.medicDetailsPage.Controls.Add(this.md_richTextBox);
+            this.medicDetailsPage.Controls.Add(this.md_med_id_textBox);
+            this.medicDetailsPage.Controls.Add(this.md_leaflet_label);
+            this.medicDetailsPage.Controls.Add(this.md_producer_label);
+            this.medicDetailsPage.Controls.Add(this.md_med_name_label);
+            this.medicDetailsPage.Controls.Add(this.md_med_id);
+            this.medicDetailsPage.Controls.Add(this.md_med_details_label);
+            this.medicDetailsPage.Location = new System.Drawing.Point(4, 4);
+            this.medicDetailsPage.Name = "medicDetailsPage";
+            this.medicDetailsPage.Padding = new System.Windows.Forms.Padding(3);
+            this.medicDetailsPage.Size = new System.Drawing.Size(961, 588);
+            this.medicDetailsPage.TabIndex = 2;
+            this.medicDetailsPage.Text = "medicDetailsPage";
+            this.medicDetailsPage.UseVisualStyleBackColor = true;
+            // 
+            // medic_search_button
+            // 
+            this.medic_search_button.ActiveBorderThickness = 1;
+            this.medic_search_button.ActiveCornerRadius = 30;
+            this.medic_search_button.ActiveFillColor = System.Drawing.Color.DodgerBlue;
+            this.medic_search_button.ActiveForecolor = System.Drawing.Color.White;
+            this.medic_search_button.ActiveLineColor = System.Drawing.Color.DodgerBlue;
+            this.medic_search_button.BackColor = System.Drawing.Color.Transparent;
+            this.medic_search_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("medic_search_button.BackgroundImage")));
+            this.medic_search_button.ButtonText = "Search";
+            this.medic_search_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.medic_search_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.medic_search_button.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.medic_search_button.IdleBorderThickness = 1;
+            this.medic_search_button.IdleCornerRadius = 30;
+            this.medic_search_button.IdleFillColor = System.Drawing.Color.White;
+            this.medic_search_button.IdleForecolor = System.Drawing.Color.DodgerBlue;
+            this.medic_search_button.IdleLineColor = System.Drawing.Color.DodgerBlue;
+            this.medic_search_button.Location = new System.Drawing.Point(836, 69);
+            this.medic_search_button.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.medic_search_button.Name = "medic_search_button";
+            this.medic_search_button.Size = new System.Drawing.Size(106, 47);
+            this.medic_search_button.TabIndex = 17;
+            this.medic_search_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // MEDICflowLayoutPanel2
+            // 
+            this.MEDICflowLayoutPanel2.AutoScroll = true;
+            this.MEDICflowLayoutPanel2.Location = new System.Drawing.Point(25, 134);
+            this.MEDICflowLayoutPanel2.Name = "MEDICflowLayoutPanel2";
+            this.MEDICflowLayoutPanel2.Size = new System.Drawing.Size(932, 476);
+            this.MEDICflowLayoutPanel2.TabIndex = 16;
+            // 
+            // medic_add_medication_button
+            // 
+            this.medic_add_medication_button.ActiveBorderThickness = 1;
+            this.medic_add_medication_button.ActiveCornerRadius = 30;
+            this.medic_add_medication_button.ActiveFillColor = System.Drawing.Color.DarkGreen;
+            this.medic_add_medication_button.ActiveForecolor = System.Drawing.Color.White;
+            this.medic_add_medication_button.ActiveLineColor = System.Drawing.Color.DarkGreen;
+            this.medic_add_medication_button.BackColor = System.Drawing.Color.Transparent;
+            this.medic_add_medication_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("medic_add_medication_button.BackgroundImage")));
+            this.medic_add_medication_button.ButtonText = "Add Medication";
+            this.medic_add_medication_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.medic_add_medication_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.medic_add_medication_button.ForeColor = System.Drawing.Color.SeaGreen;
+            this.medic_add_medication_button.IdleBorderThickness = 1;
+            this.medic_add_medication_button.IdleCornerRadius = 30;
+            this.medic_add_medication_button.IdleFillColor = System.Drawing.Color.White;
+            this.medic_add_medication_button.IdleForecolor = System.Drawing.Color.DarkGreen;
+            this.medic_add_medication_button.IdleLineColor = System.Drawing.Color.DarkGreen;
+            this.medic_add_medication_button.Location = new System.Drawing.Point(740, 15);
+            this.medic_add_medication_button.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.medic_add_medication_button.Name = "medic_add_medication_button";
+            this.medic_add_medication_button.Size = new System.Drawing.Size(202, 47);
+            this.medic_add_medication_button.TabIndex = 15;
+            this.medic_add_medication_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // medic_search_textBox
+            // 
+            this.medic_search_textBox.AcceptsReturn = false;
+            this.medic_search_textBox.AcceptsTab = false;
+            this.medic_search_textBox.AnimationSpeed = 200;
+            this.medic_search_textBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.medic_search_textBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.medic_search_textBox.BackColor = System.Drawing.Color.Transparent;
+            this.medic_search_textBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("medic_search_textBox.BackgroundImage")));
+            this.medic_search_textBox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.medic_search_textBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.medic_search_textBox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.medic_search_textBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.medic_search_textBox.BorderRadius = 30;
+            this.medic_search_textBox.BorderThickness = 1;
+            this.medic_search_textBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.medic_search_textBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.medic_search_textBox.DefaultFont = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.medic_search_textBox.DefaultText = "";
+            this.medic_search_textBox.FillColor = System.Drawing.Color.White;
+            this.medic_search_textBox.HideSelection = true;
+            this.medic_search_textBox.IconLeft = null;
+            this.medic_search_textBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.medic_search_textBox.IconPadding = 10;
+            this.medic_search_textBox.IconRight = null;
+            this.medic_search_textBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.medic_search_textBox.Lines = new string[0];
+            this.medic_search_textBox.Location = new System.Drawing.Point(25, 74);
+            this.medic_search_textBox.MaxLength = 32767;
+            this.medic_search_textBox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.medic_search_textBox.Modified = false;
+            this.medic_search_textBox.Multiline = false;
+            this.medic_search_textBox.Name = "medic_search_textBox";
+            stateProperties217.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties217.FillColor = System.Drawing.Color.Empty;
+            stateProperties217.ForeColor = System.Drawing.Color.Empty;
+            stateProperties217.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.medic_search_textBox.OnActiveState = stateProperties217;
+            stateProperties218.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties218.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties218.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties218.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.medic_search_textBox.OnDisabledState = stateProperties218;
+            stateProperties219.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties219.FillColor = System.Drawing.Color.Empty;
+            stateProperties219.ForeColor = System.Drawing.Color.Empty;
+            stateProperties219.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.medic_search_textBox.OnHoverState = stateProperties219;
+            stateProperties220.BorderColor = System.Drawing.Color.Silver;
+            stateProperties220.FillColor = System.Drawing.Color.White;
+            stateProperties220.ForeColor = System.Drawing.Color.Empty;
+            stateProperties220.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.medic_search_textBox.OnIdleState = stateProperties220;
+            this.medic_search_textBox.Padding = new System.Windows.Forms.Padding(3);
+            this.medic_search_textBox.PasswordChar = '\0';
+            this.medic_search_textBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.medic_search_textBox.PlaceholderText = "Search  (e.g. Medication Name, Medication ID, Medication Producer)";
+            this.medic_search_textBox.ReadOnly = false;
+            this.medic_search_textBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.medic_search_textBox.SelectedText = "";
+            this.medic_search_textBox.SelectionLength = 0;
+            this.medic_search_textBox.SelectionStart = 0;
+            this.medic_search_textBox.ShortcutsEnabled = true;
+            this.medic_search_textBox.Size = new System.Drawing.Size(804, 38);
+            this.medic_search_textBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.medic_search_textBox.TabIndex = 14;
+            this.medic_search_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.medic_search_textBox.TextMarginBottom = 0;
+            this.medic_search_textBox.TextMarginLeft = 10;
+            this.medic_search_textBox.TextMarginTop = 0;
+            this.medic_search_textBox.TextPlaceholder = "Search  (e.g. Medication Name, Medication ID, Medication Producer)";
+            this.medic_search_textBox.UseSystemPasswordChar = false;
+            this.medic_search_textBox.WordWrap = true;
+            // 
+            // addMedic_producer_textBox
+            // 
+            this.addMedic_producer_textBox.AcceptsReturn = false;
+            this.addMedic_producer_textBox.AcceptsTab = false;
+            this.addMedic_producer_textBox.AnimationSpeed = 200;
+            this.addMedic_producer_textBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.addMedic_producer_textBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.addMedic_producer_textBox.BackColor = System.Drawing.Color.Transparent;
+            this.addMedic_producer_textBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("addMedic_producer_textBox.BackgroundImage")));
+            this.addMedic_producer_textBox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.addMedic_producer_textBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.addMedic_producer_textBox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.addMedic_producer_textBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.addMedic_producer_textBox.BorderRadius = 1;
+            this.addMedic_producer_textBox.BorderThickness = 1;
+            this.addMedic_producer_textBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.addMedic_producer_textBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.addMedic_producer_textBox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.addMedic_producer_textBox.DefaultText = "";
+            this.addMedic_producer_textBox.FillColor = System.Drawing.Color.White;
+            this.addMedic_producer_textBox.HideSelection = true;
+            this.addMedic_producer_textBox.IconLeft = null;
+            this.addMedic_producer_textBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.addMedic_producer_textBox.IconPadding = 10;
+            this.addMedic_producer_textBox.IconRight = null;
+            this.addMedic_producer_textBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.addMedic_producer_textBox.Lines = new string[0];
+            this.addMedic_producer_textBox.Location = new System.Drawing.Point(636, 70);
+            this.addMedic_producer_textBox.MaxLength = 32767;
+            this.addMedic_producer_textBox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.addMedic_producer_textBox.Modified = false;
+            this.addMedic_producer_textBox.Multiline = false;
+            this.addMedic_producer_textBox.Name = "addMedic_producer_textBox";
+            stateProperties221.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties221.FillColor = System.Drawing.Color.Empty;
+            stateProperties221.ForeColor = System.Drawing.Color.Empty;
+            stateProperties221.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.addMedic_producer_textBox.OnActiveState = stateProperties221;
+            stateProperties222.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties222.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties222.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties222.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.addMedic_producer_textBox.OnDisabledState = stateProperties222;
+            stateProperties223.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties223.FillColor = System.Drawing.Color.Empty;
+            stateProperties223.ForeColor = System.Drawing.Color.Empty;
+            stateProperties223.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.addMedic_producer_textBox.OnHoverState = stateProperties223;
+            stateProperties224.BorderColor = System.Drawing.Color.Silver;
+            stateProperties224.FillColor = System.Drawing.Color.White;
+            stateProperties224.ForeColor = System.Drawing.Color.Empty;
+            stateProperties224.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.addMedic_producer_textBox.OnIdleState = stateProperties224;
+            this.addMedic_producer_textBox.Padding = new System.Windows.Forms.Padding(3);
+            this.addMedic_producer_textBox.PasswordChar = '\0';
+            this.addMedic_producer_textBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.addMedic_producer_textBox.PlaceholderText = "Enter text";
+            this.addMedic_producer_textBox.ReadOnly = false;
+            this.addMedic_producer_textBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.addMedic_producer_textBox.SelectedText = "";
+            this.addMedic_producer_textBox.SelectionLength = 0;
+            this.addMedic_producer_textBox.SelectionStart = 0;
+            this.addMedic_producer_textBox.ShortcutsEnabled = true;
+            this.addMedic_producer_textBox.Size = new System.Drawing.Size(272, 34);
+            this.addMedic_producer_textBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.addMedic_producer_textBox.TabIndex = 114;
+            this.addMedic_producer_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.addMedic_producer_textBox.TextMarginBottom = 0;
+            this.addMedic_producer_textBox.TextMarginLeft = 3;
+            this.addMedic_producer_textBox.TextMarginTop = 0;
+            this.addMedic_producer_textBox.TextPlaceholder = "Enter text";
+            this.addMedic_producer_textBox.UseSystemPasswordChar = false;
+            this.addMedic_producer_textBox.WordWrap = true;
+            // 
+            // addMedic_med_name_textBox
+            // 
+            this.addMedic_med_name_textBox.AcceptsReturn = false;
+            this.addMedic_med_name_textBox.AcceptsTab = false;
+            this.addMedic_med_name_textBox.AnimationSpeed = 200;
+            this.addMedic_med_name_textBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.addMedic_med_name_textBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.addMedic_med_name_textBox.BackColor = System.Drawing.Color.Transparent;
+            this.addMedic_med_name_textBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("addMedic_med_name_textBox.BackgroundImage")));
+            this.addMedic_med_name_textBox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.addMedic_med_name_textBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.addMedic_med_name_textBox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.addMedic_med_name_textBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.addMedic_med_name_textBox.BorderRadius = 1;
+            this.addMedic_med_name_textBox.BorderThickness = 1;
+            this.addMedic_med_name_textBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.addMedic_med_name_textBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.addMedic_med_name_textBox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.addMedic_med_name_textBox.DefaultText = "";
+            this.addMedic_med_name_textBox.FillColor = System.Drawing.Color.White;
+            this.addMedic_med_name_textBox.HideSelection = true;
+            this.addMedic_med_name_textBox.IconLeft = null;
+            this.addMedic_med_name_textBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.addMedic_med_name_textBox.IconPadding = 10;
+            this.addMedic_med_name_textBox.IconRight = null;
+            this.addMedic_med_name_textBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.addMedic_med_name_textBox.Lines = new string[0];
+            this.addMedic_med_name_textBox.Location = new System.Drawing.Point(183, 153);
+            this.addMedic_med_name_textBox.MaxLength = 32767;
+            this.addMedic_med_name_textBox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.addMedic_med_name_textBox.Modified = false;
+            this.addMedic_med_name_textBox.Multiline = false;
+            this.addMedic_med_name_textBox.Name = "addMedic_med_name_textBox";
+            stateProperties225.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties225.FillColor = System.Drawing.Color.Empty;
+            stateProperties225.ForeColor = System.Drawing.Color.Empty;
+            stateProperties225.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.addMedic_med_name_textBox.OnActiveState = stateProperties225;
+            stateProperties226.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties226.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties226.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties226.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.addMedic_med_name_textBox.OnDisabledState = stateProperties226;
+            stateProperties227.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties227.FillColor = System.Drawing.Color.Empty;
+            stateProperties227.ForeColor = System.Drawing.Color.Empty;
+            stateProperties227.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.addMedic_med_name_textBox.OnHoverState = stateProperties227;
+            stateProperties228.BorderColor = System.Drawing.Color.Silver;
+            stateProperties228.FillColor = System.Drawing.Color.White;
+            stateProperties228.ForeColor = System.Drawing.Color.Empty;
+            stateProperties228.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.addMedic_med_name_textBox.OnIdleState = stateProperties228;
+            this.addMedic_med_name_textBox.Padding = new System.Windows.Forms.Padding(3);
+            this.addMedic_med_name_textBox.PasswordChar = '\0';
+            this.addMedic_med_name_textBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.addMedic_med_name_textBox.PlaceholderText = "Enter text";
+            this.addMedic_med_name_textBox.ReadOnly = false;
+            this.addMedic_med_name_textBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.addMedic_med_name_textBox.SelectedText = "";
+            this.addMedic_med_name_textBox.SelectionLength = 0;
+            this.addMedic_med_name_textBox.SelectionStart = 0;
+            this.addMedic_med_name_textBox.ShortcutsEnabled = true;
+            this.addMedic_med_name_textBox.Size = new System.Drawing.Size(244, 35);
+            this.addMedic_med_name_textBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.addMedic_med_name_textBox.TabIndex = 113;
+            this.addMedic_med_name_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.addMedic_med_name_textBox.TextMarginBottom = 0;
+            this.addMedic_med_name_textBox.TextMarginLeft = 3;
+            this.addMedic_med_name_textBox.TextMarginTop = 0;
+            this.addMedic_med_name_textBox.TextPlaceholder = "Enter text";
+            this.addMedic_med_name_textBox.UseSystemPasswordChar = false;
+            this.addMedic_med_name_textBox.WordWrap = true;
+            // 
+            // addMedic_richTextBox
+            // 
+            this.addMedic_richTextBox.BackColor = System.Drawing.Color.White;
+            this.addMedic_richTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.addMedic_richTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addMedic_richTextBox.Location = new System.Drawing.Point(28, 265);
+            this.addMedic_richTextBox.Name = "addMedic_richTextBox";
+            this.addMedic_richTextBox.Size = new System.Drawing.Size(902, 290);
+            this.addMedic_richTextBox.TabIndex = 112;
+            this.addMedic_richTextBox.Text = "";
+            // 
+            // addMedic_med_id_textBox
+            // 
+            this.addMedic_med_id_textBox.AcceptsReturn = false;
+            this.addMedic_med_id_textBox.AcceptsTab = false;
+            this.addMedic_med_id_textBox.AnimationSpeed = 200;
+            this.addMedic_med_id_textBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.addMedic_med_id_textBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.addMedic_med_id_textBox.BackColor = System.Drawing.Color.Transparent;
+            this.addMedic_med_id_textBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("addMedic_med_id_textBox.BackgroundImage")));
+            this.addMedic_med_id_textBox.BorderColorActive = System.Drawing.Color.Silver;
+            this.addMedic_med_id_textBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.addMedic_med_id_textBox.BorderColorHover = System.Drawing.Color.Silver;
+            this.addMedic_med_id_textBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.addMedic_med_id_textBox.BorderRadius = 1;
+            this.addMedic_med_id_textBox.BorderThickness = 1;
+            this.addMedic_med_id_textBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.addMedic_med_id_textBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.addMedic_med_id_textBox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.addMedic_med_id_textBox.DefaultText = "";
+            this.addMedic_med_id_textBox.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.addMedic_med_id_textBox.HideSelection = true;
+            this.addMedic_med_id_textBox.IconLeft = null;
+            this.addMedic_med_id_textBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.addMedic_med_id_textBox.IconPadding = 10;
+            this.addMedic_med_id_textBox.IconRight = null;
+            this.addMedic_med_id_textBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.addMedic_med_id_textBox.Lines = new string[0];
+            this.addMedic_med_id_textBox.Location = new System.Drawing.Point(183, 72);
+            this.addMedic_med_id_textBox.MaxLength = 32767;
+            this.addMedic_med_id_textBox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.addMedic_med_id_textBox.Modified = false;
+            this.addMedic_med_id_textBox.Multiline = false;
+            this.addMedic_med_id_textBox.Name = "addMedic_med_id_textBox";
+            stateProperties229.BorderColor = System.Drawing.Color.Silver;
+            stateProperties229.FillColor = System.Drawing.Color.Empty;
+            stateProperties229.ForeColor = System.Drawing.Color.Empty;
+            stateProperties229.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.addMedic_med_id_textBox.OnActiveState = stateProperties229;
+            stateProperties230.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties230.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties230.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties230.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.addMedic_med_id_textBox.OnDisabledState = stateProperties230;
+            stateProperties231.BorderColor = System.Drawing.Color.Silver;
+            stateProperties231.FillColor = System.Drawing.Color.Empty;
+            stateProperties231.ForeColor = System.Drawing.Color.Empty;
+            stateProperties231.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.addMedic_med_id_textBox.OnHoverState = stateProperties231;
+            stateProperties232.BorderColor = System.Drawing.Color.Silver;
+            stateProperties232.FillColor = System.Drawing.Color.WhiteSmoke;
+            stateProperties232.ForeColor = System.Drawing.Color.Empty;
+            stateProperties232.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.addMedic_med_id_textBox.OnIdleState = stateProperties232;
+            this.addMedic_med_id_textBox.Padding = new System.Windows.Forms.Padding(3);
+            this.addMedic_med_id_textBox.PasswordChar = '\0';
+            this.addMedic_med_id_textBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.addMedic_med_id_textBox.PlaceholderText = "Enter text";
+            this.addMedic_med_id_textBox.ReadOnly = true;
+            this.addMedic_med_id_textBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.addMedic_med_id_textBox.SelectedText = "";
+            this.addMedic_med_id_textBox.SelectionLength = 0;
+            this.addMedic_med_id_textBox.SelectionStart = 0;
+            this.addMedic_med_id_textBox.ShortcutsEnabled = true;
+            this.addMedic_med_id_textBox.Size = new System.Drawing.Size(253, 34);
+            this.addMedic_med_id_textBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.addMedic_med_id_textBox.TabIndex = 111;
+            this.addMedic_med_id_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.addMedic_med_id_textBox.TextMarginBottom = 0;
+            this.addMedic_med_id_textBox.TextMarginLeft = 3;
+            this.addMedic_med_id_textBox.TextMarginTop = 0;
+            this.addMedic_med_id_textBox.TextPlaceholder = "Enter text";
+            this.addMedic_med_id_textBox.UseSystemPasswordChar = false;
+            this.addMedic_med_id_textBox.WordWrap = true;
+            // 
+            // medic_leaflet_label
+            // 
+            this.medic_leaflet_label.AllowParentOverrides = false;
+            this.medic_leaflet_label.AutoEllipsis = false;
+            this.medic_leaflet_label.CursorType = null;
+            this.medic_leaflet_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.medic_leaflet_label.Location = new System.Drawing.Point(28, 229);
+            this.medic_leaflet_label.Name = "medic_leaflet_label";
+            this.medic_leaflet_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.medic_leaflet_label.Size = new System.Drawing.Size(180, 20);
+            this.medic_leaflet_label.TabIndex = 110;
+            this.medic_leaflet_label.Text = "Patient Information Leaflet:";
+            this.medic_leaflet_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.medic_leaflet_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // medic_producer_label
+            // 
+            this.medic_producer_label.AllowParentOverrides = false;
+            this.medic_producer_label.AutoEllipsis = false;
+            this.medic_producer_label.CursorType = null;
+            this.medic_producer_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.medic_producer_label.Location = new System.Drawing.Point(526, 70);
+            this.medic_producer_label.Name = "medic_producer_label";
+            this.medic_producer_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.medic_producer_label.Size = new System.Drawing.Size(62, 20);
+            this.medic_producer_label.TabIndex = 109;
+            this.medic_producer_label.Text = "Producer:";
+            this.medic_producer_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.medic_producer_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // medic_med_name_label
+            // 
+            this.medic_med_name_label.AllowParentOverrides = false;
+            this.medic_med_name_label.AutoEllipsis = false;
+            this.medic_med_name_label.CursorType = null;
+            this.medic_med_name_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.medic_med_name_label.Location = new System.Drawing.Point(28, 153);
+            this.medic_med_name_label.Name = "medic_med_name_label";
+            this.medic_med_name_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.medic_med_name_label.Size = new System.Drawing.Size(122, 20);
+            this.medic_med_name_label.TabIndex = 108;
+            this.medic_med_name_label.Text = "Medication Name:";
+            this.medic_med_name_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.medic_med_name_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // medic_medication_id_label
+            // 
+            this.medic_medication_id_label.AllowParentOverrides = false;
+            this.medic_medication_id_label.AutoEllipsis = false;
+            this.medic_medication_id_label.CursorType = null;
+            this.medic_medication_id_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.medic_medication_id_label.Location = new System.Drawing.Point(28, 72);
+            this.medic_medication_id_label.Name = "medic_medication_id_label";
+            this.medic_medication_id_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.medic_medication_id_label.Size = new System.Drawing.Size(97, 20);
+            this.medic_medication_id_label.TabIndex = 107;
+            this.medic_medication_id_label.Text = "Medication ID:";
+            this.medic_medication_id_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.medic_medication_id_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // medic_add_label
+            // 
+            this.medic_add_label.AllowParentOverrides = false;
+            this.medic_add_label.AutoEllipsis = false;
+            this.medic_add_label.Cursor = System.Windows.Forms.Cursors.Default;
+            this.medic_add_label.CursorType = System.Windows.Forms.Cursors.Default;
+            this.medic_add_label.Font = new System.Drawing.Font("Segoe UI", 13.8F);
+            this.medic_add_label.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.medic_add_label.Location = new System.Drawing.Point(741, 21);
+            this.medic_add_label.Name = "medic_add_label";
+            this.medic_add_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.medic_add_label.Size = new System.Drawing.Size(189, 31);
+            this.medic_add_label.TabIndex = 106;
+            this.medic_add_label.Text = "ADD MEDICATION";
+            this.medic_add_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.medic_add_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // addMedic_add_medic_button
+            // 
+            this.addMedic_add_medic_button.ActiveBorderThickness = 1;
+            this.addMedic_add_medic_button.ActiveCornerRadius = 30;
+            this.addMedic_add_medic_button.ActiveFillColor = System.Drawing.Color.DodgerBlue;
+            this.addMedic_add_medic_button.ActiveForecolor = System.Drawing.Color.White;
+            this.addMedic_add_medic_button.ActiveLineColor = System.Drawing.Color.DodgerBlue;
+            this.addMedic_add_medic_button.BackColor = System.Drawing.Color.Transparent;
+            this.addMedic_add_medic_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("addMedic_add_medic_button.BackgroundImage")));
+            this.addMedic_add_medic_button.ButtonText = "Add Medication";
+            this.addMedic_add_medic_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.addMedic_add_medic_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addMedic_add_medic_button.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.addMedic_add_medic_button.IdleBorderThickness = 1;
+            this.addMedic_add_medic_button.IdleCornerRadius = 30;
+            this.addMedic_add_medic_button.IdleFillColor = System.Drawing.Color.White;
+            this.addMedic_add_medic_button.IdleForecolor = System.Drawing.Color.DodgerBlue;
+            this.addMedic_add_medic_button.IdleLineColor = System.Drawing.Color.DodgerBlue;
+            this.addMedic_add_medic_button.Location = new System.Drawing.Point(673, 563);
+            this.addMedic_add_medic_button.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.addMedic_add_medic_button.Name = "addMedic_add_medic_button";
+            this.addMedic_add_medic_button.Size = new System.Drawing.Size(280, 46);
+            this.addMedic_add_medic_button.TabIndex = 115;
+            this.addMedic_add_medic_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // md_close_button
+            // 
+            this.md_close_button.ActiveBorderThickness = 1;
+            this.md_close_button.ActiveCornerRadius = 30;
+            this.md_close_button.ActiveFillColor = System.Drawing.Color.DodgerBlue;
+            this.md_close_button.ActiveForecolor = System.Drawing.Color.White;
+            this.md_close_button.ActiveLineColor = System.Drawing.Color.DodgerBlue;
+            this.md_close_button.BackColor = System.Drawing.Color.Transparent;
+            this.md_close_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("md_close_button.BackgroundImage")));
+            this.md_close_button.ButtonText = "Close";
+            this.md_close_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.md_close_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.md_close_button.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.md_close_button.IdleBorderThickness = 1;
+            this.md_close_button.IdleCornerRadius = 30;
+            this.md_close_button.IdleFillColor = System.Drawing.Color.White;
+            this.md_close_button.IdleForecolor = System.Drawing.Color.DodgerBlue;
+            this.md_close_button.IdleLineColor = System.Drawing.Color.DodgerBlue;
+            this.md_close_button.Location = new System.Drawing.Point(785, 564);
+            this.md_close_button.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.md_close_button.Name = "md_close_button";
+            this.md_close_button.Size = new System.Drawing.Size(167, 46);
+            this.md_close_button.TabIndex = 125;
+            this.md_close_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // md_producer_textBox
+            // 
+            this.md_producer_textBox.AcceptsReturn = false;
+            this.md_producer_textBox.AcceptsTab = false;
+            this.md_producer_textBox.AnimationSpeed = 200;
+            this.md_producer_textBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.md_producer_textBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.md_producer_textBox.BackColor = System.Drawing.Color.Transparent;
+            this.md_producer_textBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("md_producer_textBox.BackgroundImage")));
+            this.md_producer_textBox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.md_producer_textBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.md_producer_textBox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.md_producer_textBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.md_producer_textBox.BorderRadius = 1;
+            this.md_producer_textBox.BorderThickness = 1;
+            this.md_producer_textBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.md_producer_textBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.md_producer_textBox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.md_producer_textBox.DefaultText = "";
+            this.md_producer_textBox.FillColor = System.Drawing.Color.White;
+            this.md_producer_textBox.HideSelection = true;
+            this.md_producer_textBox.IconLeft = null;
+            this.md_producer_textBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.md_producer_textBox.IconPadding = 10;
+            this.md_producer_textBox.IconRight = null;
+            this.md_producer_textBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.md_producer_textBox.Lines = new string[0];
+            this.md_producer_textBox.Location = new System.Drawing.Point(635, 71);
+            this.md_producer_textBox.MaxLength = 32767;
+            this.md_producer_textBox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.md_producer_textBox.Modified = false;
+            this.md_producer_textBox.Multiline = false;
+            this.md_producer_textBox.Name = "md_producer_textBox";
+            stateProperties233.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties233.FillColor = System.Drawing.Color.Empty;
+            stateProperties233.ForeColor = System.Drawing.Color.Empty;
+            stateProperties233.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.md_producer_textBox.OnActiveState = stateProperties233;
+            stateProperties234.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties234.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties234.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties234.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.md_producer_textBox.OnDisabledState = stateProperties234;
+            stateProperties235.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties235.FillColor = System.Drawing.Color.Empty;
+            stateProperties235.ForeColor = System.Drawing.Color.Empty;
+            stateProperties235.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.md_producer_textBox.OnHoverState = stateProperties235;
+            stateProperties236.BorderColor = System.Drawing.Color.Silver;
+            stateProperties236.FillColor = System.Drawing.Color.White;
+            stateProperties236.ForeColor = System.Drawing.Color.Empty;
+            stateProperties236.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.md_producer_textBox.OnIdleState = stateProperties236;
+            this.md_producer_textBox.Padding = new System.Windows.Forms.Padding(3);
+            this.md_producer_textBox.PasswordChar = '\0';
+            this.md_producer_textBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.md_producer_textBox.PlaceholderText = "Enter text";
+            this.md_producer_textBox.ReadOnly = true;
+            this.md_producer_textBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.md_producer_textBox.SelectedText = "";
+            this.md_producer_textBox.SelectionLength = 0;
+            this.md_producer_textBox.SelectionStart = 0;
+            this.md_producer_textBox.ShortcutsEnabled = true;
+            this.md_producer_textBox.Size = new System.Drawing.Size(272, 34);
+            this.md_producer_textBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.md_producer_textBox.TabIndex = 124;
+            this.md_producer_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.md_producer_textBox.TextMarginBottom = 0;
+            this.md_producer_textBox.TextMarginLeft = 3;
+            this.md_producer_textBox.TextMarginTop = 0;
+            this.md_producer_textBox.TextPlaceholder = "Enter text";
+            this.md_producer_textBox.UseSystemPasswordChar = false;
+            this.md_producer_textBox.WordWrap = true;
+            // 
+            // md_med_name_textBox
+            // 
+            this.md_med_name_textBox.AcceptsReturn = false;
+            this.md_med_name_textBox.AcceptsTab = false;
+            this.md_med_name_textBox.AnimationSpeed = 200;
+            this.md_med_name_textBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.md_med_name_textBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.md_med_name_textBox.BackColor = System.Drawing.Color.Transparent;
+            this.md_med_name_textBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("md_med_name_textBox.BackgroundImage")));
+            this.md_med_name_textBox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.md_med_name_textBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.md_med_name_textBox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.md_med_name_textBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.md_med_name_textBox.BorderRadius = 1;
+            this.md_med_name_textBox.BorderThickness = 1;
+            this.md_med_name_textBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.md_med_name_textBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.md_med_name_textBox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.md_med_name_textBox.DefaultText = "";
+            this.md_med_name_textBox.FillColor = System.Drawing.Color.White;
+            this.md_med_name_textBox.HideSelection = true;
+            this.md_med_name_textBox.IconLeft = null;
+            this.md_med_name_textBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.md_med_name_textBox.IconPadding = 10;
+            this.md_med_name_textBox.IconRight = null;
+            this.md_med_name_textBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.md_med_name_textBox.Lines = new string[0];
+            this.md_med_name_textBox.Location = new System.Drawing.Point(182, 154);
+            this.md_med_name_textBox.MaxLength = 32767;
+            this.md_med_name_textBox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.md_med_name_textBox.Modified = false;
+            this.md_med_name_textBox.Multiline = false;
+            this.md_med_name_textBox.Name = "md_med_name_textBox";
+            stateProperties237.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties237.FillColor = System.Drawing.Color.Empty;
+            stateProperties237.ForeColor = System.Drawing.Color.Empty;
+            stateProperties237.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.md_med_name_textBox.OnActiveState = stateProperties237;
+            stateProperties238.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties238.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties238.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties238.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.md_med_name_textBox.OnDisabledState = stateProperties238;
+            stateProperties239.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties239.FillColor = System.Drawing.Color.Empty;
+            stateProperties239.ForeColor = System.Drawing.Color.Empty;
+            stateProperties239.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.md_med_name_textBox.OnHoverState = stateProperties239;
+            stateProperties240.BorderColor = System.Drawing.Color.Silver;
+            stateProperties240.FillColor = System.Drawing.Color.White;
+            stateProperties240.ForeColor = System.Drawing.Color.Empty;
+            stateProperties240.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.md_med_name_textBox.OnIdleState = stateProperties240;
+            this.md_med_name_textBox.Padding = new System.Windows.Forms.Padding(3);
+            this.md_med_name_textBox.PasswordChar = '\0';
+            this.md_med_name_textBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.md_med_name_textBox.PlaceholderText = "Enter text";
+            this.md_med_name_textBox.ReadOnly = true;
+            this.md_med_name_textBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.md_med_name_textBox.SelectedText = "";
+            this.md_med_name_textBox.SelectionLength = 0;
+            this.md_med_name_textBox.SelectionStart = 0;
+            this.md_med_name_textBox.ShortcutsEnabled = true;
+            this.md_med_name_textBox.Size = new System.Drawing.Size(244, 35);
+            this.md_med_name_textBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.md_med_name_textBox.TabIndex = 123;
+            this.md_med_name_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.md_med_name_textBox.TextMarginBottom = 0;
+            this.md_med_name_textBox.TextMarginLeft = 3;
+            this.md_med_name_textBox.TextMarginTop = 0;
+            this.md_med_name_textBox.TextPlaceholder = "Enter text";
+            this.md_med_name_textBox.UseSystemPasswordChar = false;
+            this.md_med_name_textBox.WordWrap = true;
+            // 
+            // md_richTextBox
+            // 
+            this.md_richTextBox.BackColor = System.Drawing.Color.White;
+            this.md_richTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.md_richTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.md_richTextBox.Location = new System.Drawing.Point(27, 266);
+            this.md_richTextBox.Name = "md_richTextBox";
+            this.md_richTextBox.ReadOnly = true;
+            this.md_richTextBox.Size = new System.Drawing.Size(902, 290);
+            this.md_richTextBox.TabIndex = 122;
+            this.md_richTextBox.Text = "";
+            // 
+            // md_med_id_textBox
+            // 
+            this.md_med_id_textBox.AcceptsReturn = false;
+            this.md_med_id_textBox.AcceptsTab = false;
+            this.md_med_id_textBox.AnimationSpeed = 200;
+            this.md_med_id_textBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.md_med_id_textBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.md_med_id_textBox.BackColor = System.Drawing.Color.Transparent;
+            this.md_med_id_textBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("md_med_id_textBox.BackgroundImage")));
+            this.md_med_id_textBox.BorderColorActive = System.Drawing.Color.Silver;
+            this.md_med_id_textBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.md_med_id_textBox.BorderColorHover = System.Drawing.Color.Silver;
+            this.md_med_id_textBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.md_med_id_textBox.BorderRadius = 1;
+            this.md_med_id_textBox.BorderThickness = 1;
+            this.md_med_id_textBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.md_med_id_textBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.md_med_id_textBox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.md_med_id_textBox.DefaultText = "";
+            this.md_med_id_textBox.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.md_med_id_textBox.HideSelection = true;
+            this.md_med_id_textBox.IconLeft = null;
+            this.md_med_id_textBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.md_med_id_textBox.IconPadding = 10;
+            this.md_med_id_textBox.IconRight = null;
+            this.md_med_id_textBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.md_med_id_textBox.Lines = new string[0];
+            this.md_med_id_textBox.Location = new System.Drawing.Point(182, 73);
+            this.md_med_id_textBox.MaxLength = 32767;
+            this.md_med_id_textBox.MinimumSize = new System.Drawing.Size(1, 1);
+            this.md_med_id_textBox.Modified = false;
+            this.md_med_id_textBox.Multiline = false;
+            this.md_med_id_textBox.Name = "md_med_id_textBox";
+            stateProperties241.BorderColor = System.Drawing.Color.Silver;
+            stateProperties241.FillColor = System.Drawing.Color.Empty;
+            stateProperties241.ForeColor = System.Drawing.Color.Empty;
+            stateProperties241.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.md_med_id_textBox.OnActiveState = stateProperties241;
+            stateProperties242.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties242.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties242.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties242.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.md_med_id_textBox.OnDisabledState = stateProperties242;
+            stateProperties243.BorderColor = System.Drawing.Color.Silver;
+            stateProperties243.FillColor = System.Drawing.Color.Empty;
+            stateProperties243.ForeColor = System.Drawing.Color.Empty;
+            stateProperties243.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.md_med_id_textBox.OnHoverState = stateProperties243;
+            stateProperties244.BorderColor = System.Drawing.Color.Silver;
+            stateProperties244.FillColor = System.Drawing.Color.WhiteSmoke;
+            stateProperties244.ForeColor = System.Drawing.Color.Empty;
+            stateProperties244.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.md_med_id_textBox.OnIdleState = stateProperties244;
+            this.md_med_id_textBox.Padding = new System.Windows.Forms.Padding(3);
+            this.md_med_id_textBox.PasswordChar = '\0';
+            this.md_med_id_textBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.md_med_id_textBox.PlaceholderText = "Enter text";
+            this.md_med_id_textBox.ReadOnly = true;
+            this.md_med_id_textBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.md_med_id_textBox.SelectedText = "";
+            this.md_med_id_textBox.SelectionLength = 0;
+            this.md_med_id_textBox.SelectionStart = 0;
+            this.md_med_id_textBox.ShortcutsEnabled = true;
+            this.md_med_id_textBox.Size = new System.Drawing.Size(253, 34);
+            this.md_med_id_textBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.md_med_id_textBox.TabIndex = 121;
+            this.md_med_id_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.md_med_id_textBox.TextMarginBottom = 0;
+            this.md_med_id_textBox.TextMarginLeft = 3;
+            this.md_med_id_textBox.TextMarginTop = 0;
+            this.md_med_id_textBox.TextPlaceholder = "Enter text";
+            this.md_med_id_textBox.UseSystemPasswordChar = false;
+            this.md_med_id_textBox.WordWrap = true;
+            // 
+            // md_leaflet_label
+            // 
+            this.md_leaflet_label.AllowParentOverrides = false;
+            this.md_leaflet_label.AutoEllipsis = false;
+            this.md_leaflet_label.CursorType = null;
+            this.md_leaflet_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.md_leaflet_label.Location = new System.Drawing.Point(27, 230);
+            this.md_leaflet_label.Name = "md_leaflet_label";
+            this.md_leaflet_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.md_leaflet_label.Size = new System.Drawing.Size(180, 20);
+            this.md_leaflet_label.TabIndex = 120;
+            this.md_leaflet_label.Text = "Patient Information Leaflet:";
+            this.md_leaflet_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.md_leaflet_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // md_producer_label
+            // 
+            this.md_producer_label.AllowParentOverrides = false;
+            this.md_producer_label.AutoEllipsis = false;
+            this.md_producer_label.CursorType = null;
+            this.md_producer_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.md_producer_label.Location = new System.Drawing.Point(525, 71);
+            this.md_producer_label.Name = "md_producer_label";
+            this.md_producer_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.md_producer_label.Size = new System.Drawing.Size(62, 20);
+            this.md_producer_label.TabIndex = 119;
+            this.md_producer_label.Text = "Producer:";
+            this.md_producer_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.md_producer_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // md_med_name_label
+            // 
+            this.md_med_name_label.AllowParentOverrides = false;
+            this.md_med_name_label.AutoEllipsis = false;
+            this.md_med_name_label.CursorType = null;
+            this.md_med_name_label.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.md_med_name_label.Location = new System.Drawing.Point(27, 154);
+            this.md_med_name_label.Name = "md_med_name_label";
+            this.md_med_name_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.md_med_name_label.Size = new System.Drawing.Size(122, 20);
+            this.md_med_name_label.TabIndex = 118;
+            this.md_med_name_label.Text = "Medication Name:";
+            this.md_med_name_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.md_med_name_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // md_med_id
+            // 
+            this.md_med_id.AllowParentOverrides = false;
+            this.md_med_id.AutoEllipsis = false;
+            this.md_med_id.CursorType = null;
+            this.md_med_id.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.md_med_id.Location = new System.Drawing.Point(27, 73);
+            this.md_med_id.Name = "md_med_id";
+            this.md_med_id.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.md_med_id.Size = new System.Drawing.Size(97, 20);
+            this.md_med_id.TabIndex = 117;
+            this.md_med_id.Text = "Medication ID:";
+            this.md_med_id.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.md_med_id.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // md_med_details_label
+            // 
+            this.md_med_details_label.AllowParentOverrides = false;
+            this.md_med_details_label.AutoEllipsis = false;
+            this.md_med_details_label.Cursor = System.Windows.Forms.Cursors.Default;
+            this.md_med_details_label.CursorType = System.Windows.Forms.Cursors.Default;
+            this.md_med_details_label.Font = new System.Drawing.Font("Segoe UI", 13.8F);
+            this.md_med_details_label.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.md_med_details_label.Location = new System.Drawing.Point(726, 21);
+            this.md_med_details_label.Name = "md_med_details_label";
+            this.md_med_details_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.md_med_details_label.Size = new System.Drawing.Size(226, 31);
+            this.md_med_details_label.TabIndex = 116;
+            this.md_med_details_label.Text = "MEDICATION DETAILS";
+            this.md_med_details_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.md_med_details_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // HomeScreen
             // 
@@ -9838,8 +10793,15 @@ namespace hospitalmanagement
             this.presAddPage.ResumeLayout(false);
             this.presAddPage.PerformLayout();
             this.presDetailsPage.ResumeLayout(false);
+            this.medicationsPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource)).EndInit();
+            this.medicINNERpages.ResumeLayout(false);
+            this.medicMainPage.ResumeLayout(false);
+            this.medicAddPage.ResumeLayout(false);
+            this.medicAddPage.PerformLayout();
+            this.medicDetailsPage.ResumeLayout(false);
+            this.medicDetailsPage.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -10165,5 +11127,33 @@ namespace hospitalmanagement
         private Bunifu.Framework.UI.BunifuTileButton home_toPrescriptions;
         private Bunifu.Framework.UI.BunifuTileButton home_toPatients;
         private Bunifu.Framework.UI.BunifuTileButton home_toDoctors;
+        private Bunifu.UI.WinForms.BunifuPages medicINNERpages;
+        private System.Windows.Forms.TabPage medicMainPage;
+        private System.Windows.Forms.TabPage medicAddPage;
+        private System.Windows.Forms.TabPage medicDetailsPage;
+        private Bunifu.Framework.UI.BunifuThinButton2 medic_search_button;
+        private System.Windows.Forms.FlowLayoutPanel MEDICflowLayoutPanel2;
+        private Bunifu.Framework.UI.BunifuThinButton2 medic_add_medication_button;
+        private Bunifu.UI.WinForms.BunifuTextBox medic_search_textBox;
+        private Bunifu.UI.WinForms.BunifuTextBox addMedic_producer_textBox;
+        private Bunifu.UI.WinForms.BunifuTextBox addMedic_med_name_textBox;
+        private System.Windows.Forms.RichTextBox addMedic_richTextBox;
+        private Bunifu.UI.WinForms.BunifuTextBox addMedic_med_id_textBox;
+        private Bunifu.UI.WinForms.BunifuLabel medic_leaflet_label;
+        private Bunifu.UI.WinForms.BunifuLabel medic_producer_label;
+        private Bunifu.UI.WinForms.BunifuLabel medic_med_name_label;
+        private Bunifu.UI.WinForms.BunifuLabel medic_medication_id_label;
+        private Bunifu.UI.WinForms.BunifuLabel medic_add_label;
+        private Bunifu.Framework.UI.BunifuThinButton2 addMedic_add_medic_button;
+        private Bunifu.Framework.UI.BunifuThinButton2 md_close_button;
+        private Bunifu.UI.WinForms.BunifuTextBox md_producer_textBox;
+        private Bunifu.UI.WinForms.BunifuTextBox md_med_name_textBox;
+        private System.Windows.Forms.RichTextBox md_richTextBox;
+        private Bunifu.UI.WinForms.BunifuTextBox md_med_id_textBox;
+        private Bunifu.UI.WinForms.BunifuLabel md_leaflet_label;
+        private Bunifu.UI.WinForms.BunifuLabel md_producer_label;
+        private Bunifu.UI.WinForms.BunifuLabel md_med_name_label;
+        private Bunifu.UI.WinForms.BunifuLabel md_med_id;
+        private Bunifu.UI.WinForms.BunifuLabel md_med_details_label;
     }
 }
