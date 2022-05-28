@@ -689,6 +689,26 @@ namespace hospitalmanagement
             this.bunifuLabel31 = new Bunifu.UI.WinForms.BunifuLabel();
             this.patientPINTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuLabel32 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.bunifuDragControl3 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.bunifuDragControl4 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.pATIENTTableAdapter = new hospitalmanagement.hospitaldatabaseDataSetPatientTableAdapters.PATIENTTableAdapter();
+            this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.pATIENTBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.pATIENTBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dOCTORTableAdapter = new hospitalmanagement.hospitaldatabaseDataSetTableAdapters.DOCTORTableAdapter();
+            this.aPPOINTMENTTableAdapter = new hospitalmanagement.hospitaldatabaseDataSetAppointmentTableAdapters.APPOINTMENTTableAdapter();
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.APPOINTMENT_TIME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.med_panelToHide = new System.Windows.Forms.Panel();
+            this.pres_panelToHide = new System.Windows.Forms.Panel();
+            this.diag_panelToHide = new System.Windows.Forms.Panel();
+            this.diag_loading = new Bunifu.UI.WinForms.BunifuLabel();
+            this.pres_loading = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med_loading = new Bunifu.UI.WinForms.BunifuLabel();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_menu)).BeginInit();
@@ -751,6 +771,11 @@ namespace hospitalmanagement
             ((System.ComponentModel.ISupportInitialize)(this.searchAppointmentDataGridView)).BeginInit();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource)).BeginInit();
+            this.med_panelToHide.SuspendLayout();
+            this.pres_panelToHide.SuspendLayout();
+            this.diag_panelToHide.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuLabel1
@@ -1063,6 +1088,10 @@ namespace hospitalmanagement
             this.pages.Location = new System.Drawing.Point(368, 93);
             this.pages.Multiline = true;
             this.pages.Name = "pages";
+            this.pages.Page = this.medicationsPage;
+            this.pages.PageIndex = 6;
+            this.pages.PageName = "medicationsPage";
+            this.pages.PageTitle = "medicationsPage";
             this.pages.Page = this.patientsPage;
             this.pages.PageIndex = 2;
             this.pages.PageName = "patientsPage";
@@ -1110,7 +1139,7 @@ namespace hospitalmanagement
             this.home_toMedications.color = System.Drawing.Color.LightSteelBlue;
             this.home_toMedications.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toMedications.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.home_toMedications.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_toMedications.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toMedications.ForeColor = System.Drawing.Color.White;
             this.home_toMedications.Image = ((System.Drawing.Image)(resources.GetObject("home_toMedications.Image")));
             this.home_toMedications.ImagePosition = 30;
@@ -1130,7 +1159,7 @@ namespace hospitalmanagement
             this.home_toAppointments.color = System.Drawing.Color.LightSteelBlue;
             this.home_toAppointments.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toAppointments.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.home_toAppointments.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_toAppointments.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toAppointments.ForeColor = System.Drawing.Color.White;
             this.home_toAppointments.Image = ((System.Drawing.Image)(resources.GetObject("home_toAppointments.Image")));
             this.home_toAppointments.ImagePosition = 30;
@@ -1150,7 +1179,7 @@ namespace hospitalmanagement
             this.home_toDiagnoses.color = System.Drawing.Color.LightSteelBlue;
             this.home_toDiagnoses.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toDiagnoses.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.home_toDiagnoses.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_toDiagnoses.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toDiagnoses.ForeColor = System.Drawing.Color.White;
             this.home_toDiagnoses.Image = ((System.Drawing.Image)(resources.GetObject("home_toDiagnoses.Image")));
             this.home_toDiagnoses.ImagePosition = 21;
@@ -1170,7 +1199,7 @@ namespace hospitalmanagement
             this.home_toPrescriptions.color = System.Drawing.Color.LightSteelBlue;
             this.home_toPrescriptions.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toPrescriptions.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.home_toPrescriptions.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_toPrescriptions.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toPrescriptions.ForeColor = System.Drawing.Color.White;
             this.home_toPrescriptions.Image = ((System.Drawing.Image)(resources.GetObject("home_toPrescriptions.Image")));
             this.home_toPrescriptions.ImagePosition = 30;
@@ -1190,7 +1219,7 @@ namespace hospitalmanagement
             this.home_toPatients.color = System.Drawing.Color.LightSteelBlue;
             this.home_toPatients.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toPatients.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.home_toPatients.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_toPatients.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toPatients.ForeColor = System.Drawing.Color.White;
             this.home_toPatients.Image = ((System.Drawing.Image)(resources.GetObject("home_toPatients.Image")));
             this.home_toPatients.ImagePosition = 21;
@@ -1211,7 +1240,7 @@ namespace hospitalmanagement
             this.home_toDoctors.color = System.Drawing.Color.LightSteelBlue;
             this.home_toDoctors.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toDoctors.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.home_toDoctors.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_toDoctors.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toDoctors.ForeColor = System.Drawing.Color.White;
             this.home_toDoctors.Image = ((System.Drawing.Image)(resources.GetObject("home_toDoctors.Image")));
             this.home_toDoctors.ImagePosition = 20;
@@ -4753,6 +4782,7 @@ namespace hospitalmanagement
             // 
             // diagnosesMainPage
             // 
+            this.diagnosesMainPage.Controls.Add(this.diag_panelToHide);
             this.diagnosesMainPage.Controls.Add(this.bunifuThinButton23);
             this.diagnosesMainPage.Controls.Add(this.flowLayoutPanel1);
             this.diagnosesMainPage.Controls.Add(this.addDiagnoseButton);
@@ -9793,6 +9823,7 @@ namespace hospitalmanagement
             // 
             // presDetailsPage
             // 
+            this.presDetailsPage.Controls.Add(this.pres_panelToHide);
             this.presDetailsPage.Controls.Add(this.pres_search_button);
             this.presDetailsPage.Controls.Add(this.pres_flowLayoutPanel2);
             this.presDetailsPage.Controls.Add(this.pres_add_button);
@@ -9989,6 +10020,7 @@ namespace hospitalmanagement
             // 
             // medicMainPage
             // 
+            this.medicMainPage.Controls.Add(this.med_panelToHide);
             this.medicMainPage.Controls.Add(this.medic_search_button);
             this.medicMainPage.Controls.Add(this.MEDICflowLayoutPanel2);
             this.medicMainPage.Controls.Add(this.medic_add_medication_button);
@@ -10025,6 +10057,7 @@ namespace hospitalmanagement
             this.medic_search_button.Size = new System.Drawing.Size(106, 47);
             this.medic_search_button.TabIndex = 17;
             this.medic_search_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.medic_search_button.Click += new System.EventHandler(this.medic_search_button_Click);
             // 
             // MEDICflowLayoutPanel2
             // 
@@ -10058,6 +10091,7 @@ namespace hospitalmanagement
             this.medic_add_medication_button.Size = new System.Drawing.Size(202, 47);
             this.medic_add_medication_button.TabIndex = 15;
             this.medic_add_medication_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.medic_add_medication_button.Click += new System.EventHandler(this.medic_add_medication_button_Click);
             // 
             // medic_search_textBox
             // 
@@ -10132,6 +10166,7 @@ namespace hospitalmanagement
             this.medic_search_textBox.TextPlaceholder = "Search  (e.g. Medication Name, Medication ID, Medication Producer)";
             this.medic_search_textBox.UseSystemPasswordChar = false;
             this.medic_search_textBox.WordWrap = true;
+            this.medic_search_textBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.medic_search_textBox_KeyDown);
             // 
             // medicAddPage
             // 
@@ -10177,6 +10212,7 @@ namespace hospitalmanagement
             this.addMedic_add_medic_button.Size = new System.Drawing.Size(280, 46);
             this.addMedic_add_medic_button.TabIndex = 115;
             this.addMedic_add_medic_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.addMedic_add_medic_button.Click += new System.EventHandler(this.addMedic_add_medic_button_Click);
             // 
             // addMedic_producer_textBox
             // 
@@ -10532,6 +10568,7 @@ namespace hospitalmanagement
             this.md_close_button.Size = new System.Drawing.Size(167, 46);
             this.md_close_button.TabIndex = 125;
             this.md_close_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.md_close_button.Click += new System.EventHandler(this.md_close_button_Click);
             // 
             // md_producer_textBox
             // 
@@ -10843,6 +10880,157 @@ namespace hospitalmanagement
             this.md_med_details_label.Text = "MEDICATION DETAILS";
             this.md_med_details_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.md_med_details_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this;
+            this.bunifuDragControl1.Vertical = true;
+            // 
+            // bunifuDragControl2
+            // 
+            this.bunifuDragControl2.Fixed = true;
+            this.bunifuDragControl2.Horizontal = true;
+            this.bunifuDragControl2.TargetControl = this.panel2;
+            this.bunifuDragControl2.Vertical = true;
+            // 
+            // bunifuDragControl3
+            // 
+            this.bunifuDragControl3.Fixed = true;
+            this.bunifuDragControl3.Horizontal = true;
+            this.bunifuDragControl3.TargetControl = this.label3;
+            this.bunifuDragControl3.Vertical = true;
+            // 
+            // bunifuDragControl4
+            // 
+            this.bunifuDragControl4.Fixed = true;
+            this.bunifuDragControl4.Horizontal = true;
+            this.bunifuDragControl4.TargetControl = this.sectionLabel;
+            this.bunifuDragControl4.Vertical = true;
+            // 
+            // pATIENTTableAdapter
+            // 
+            this.pATIENTTableAdapter.ClearBeforeFill = true;
+            // 
+            // bunifuElipse2
+            // 
+            this.bunifuElipse2.ElipseRadius = 13;
+            this.bunifuElipse2.TargetControl = this.filterBirthdateButton;
+            // 
+            // pATIENTBindingSource1
+            // 
+            this.pATIENTBindingSource1.DataMember = "PATIENT";
+            // 
+            // dOCTORTableAdapter
+            // 
+            this.dOCTORTableAdapter.ClearBeforeFill = true;
+            // 
+            // aPPOINTMENTTableAdapter
+            // 
+            this.aPPOINTMENTTableAdapter.ClearBeforeFill = true;
+            // 
+            // aPPOINTMENTTIMEDataGridViewTextBoxColumn
+            // 
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.DataPropertyName = "APPOINTMENT_TIME";
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.FillWeight = 35.15119F;
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.HeaderText = "TIME";
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.Name = "aPPOINTMENTTIMEDataGridViewTextBoxColumn";
+            this.aPPOINTMENTTIMEDataGridViewTextBoxColumn.Width = 445;
+            // 
+            // APPOINTMENT_TIME
+            // 
+            this.APPOINTMENT_TIME.DataPropertyName = "APPOINTMENT_TIME";
+            this.APPOINTMENT_TIME.HeaderText = "APPOINTMENT_TIME";
+            this.APPOINTMENT_TIME.MinimumWidth = 6;
+            this.APPOINTMENT_TIME.Name = "APPOINTMENT_TIME";
+            this.APPOINTMENT_TIME.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn24
+            // 
+            this.dataGridViewTextBoxColumn24.DataPropertyName = "APPOINTMENT_TIME";
+            this.dataGridViewTextBoxColumn24.HeaderText = "APPOINTMENT_TIME";
+            this.dataGridViewTextBoxColumn24.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
+            this.dataGridViewTextBoxColumn24.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn25
+            // 
+            this.dataGridViewTextBoxColumn25.DataPropertyName = "APPOINTMENT_TIME";
+            this.dataGridViewTextBoxColumn25.HeaderText = "APPOINTMENT_TIME";
+            this.dataGridViewTextBoxColumn25.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
+            this.dataGridViewTextBoxColumn25.Width = 125;
+            // 
+            // med_panelToHide
+            // 
+            this.med_panelToHide.Controls.Add(this.med_loading);
+            this.med_panelToHide.Location = new System.Drawing.Point(17, 125);
+            this.med_panelToHide.Name = "med_panelToHide";
+            this.med_panelToHide.Size = new System.Drawing.Size(943, 474);
+            this.med_panelToHide.TabIndex = 18;
+            // 
+            // pres_panelToHide
+            // 
+            this.pres_panelToHide.Controls.Add(this.pres_loading);
+            this.pres_panelToHide.Location = new System.Drawing.Point(9, 124);
+            this.pres_panelToHide.Name = "pres_panelToHide";
+            this.pres_panelToHide.Size = new System.Drawing.Size(952, 476);
+            this.pres_panelToHide.TabIndex = 10;
+            // 
+            // diag_panelToHide
+            // 
+            this.diag_panelToHide.Controls.Add(this.diag_loading);
+            this.diag_panelToHide.Location = new System.Drawing.Point(13, 121);
+            this.diag_panelToHide.Name = "diag_panelToHide";
+            this.diag_panelToHide.Size = new System.Drawing.Size(948, 473);
+            this.diag_panelToHide.TabIndex = 9;
+            // 
+            // diag_loading
+            // 
+            this.diag_loading.AllowParentOverrides = false;
+            this.diag_loading.AutoEllipsis = false;
+            this.diag_loading.CursorType = System.Windows.Forms.Cursors.Default;
+            this.diag_loading.Font = new System.Drawing.Font("Segoe UI", 13.8F);
+            this.diag_loading.Location = new System.Drawing.Point(427, 216);
+            this.diag_loading.Name = "diag_loading";
+            this.diag_loading.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.diag_loading.Size = new System.Drawing.Size(104, 31);
+            this.diag_loading.TabIndex = 0;
+            this.diag_loading.Text = "Loading ...";
+            this.diag_loading.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.diag_loading.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // pres_loading
+            // 
+            this.pres_loading.AllowParentOverrides = false;
+            this.pres_loading.AutoEllipsis = false;
+            this.pres_loading.CursorType = System.Windows.Forms.Cursors.Default;
+            this.pres_loading.Font = new System.Drawing.Font("Segoe UI", 13.8F);
+            this.pres_loading.Location = new System.Drawing.Point(427, 216);
+            this.pres_loading.Name = "pres_loading";
+            this.pres_loading.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.pres_loading.Size = new System.Drawing.Size(104, 31);
+            this.pres_loading.TabIndex = 0;
+            this.pres_loading.Text = "Loading ...";
+            this.pres_loading.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.pres_loading.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // med_loading
+            // 
+            this.med_loading.AllowParentOverrides = false;
+            this.med_loading.AutoEllipsis = false;
+            this.med_loading.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med_loading.Font = new System.Drawing.Font("Segoe UI", 13.8F);
+            this.med_loading.Location = new System.Drawing.Point(427, 216);
+            this.med_loading.Name = "med_loading";
+            this.med_loading.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med_loading.Size = new System.Drawing.Size(104, 31);
+            this.med_loading.TabIndex = 0;
+            this.med_loading.Text = "Loading ...";
+            this.med_loading.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med_loading.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // bunifuDragControl1
             // 
@@ -11658,6 +11846,14 @@ namespace hospitalmanagement
             this.medicDetailsPage.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource)).EndInit();
+            this.med_panelToHide.ResumeLayout(false);
+            this.med_panelToHide.PerformLayout();
+            this.pres_panelToHide.ResumeLayout(false);
+            this.pres_panelToHide.PerformLayout();
+            this.diag_panelToHide.ResumeLayout(false);
+            this.diag_panelToHide.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pATIENTBindingSource)).EndInit();
             this.searchAppointmentPage.ResumeLayout(false);
             this.searchAppointmentPage.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.searchAppointmentDataGridView)).EndInit();
@@ -12009,7 +12205,6 @@ namespace hospitalmanagement
         private Bunifu.Framework.UI.BunifuThinButton2 md_close_button;
         private Bunifu.UI.WinForms.BunifuTextBox md_producer_textBox;
         private Bunifu.UI.WinForms.BunifuTextBox md_med_name_textBox;
-        private System.Windows.Forms.RichTextBox md_richTextBox;
         private Bunifu.UI.WinForms.BunifuTextBox md_med_id_textBox;
         private Bunifu.UI.WinForms.BunifuLabel md_leaflet_label;
         private Bunifu.UI.WinForms.BunifuLabel md_producer_label;
@@ -12061,5 +12256,12 @@ namespace hospitalmanagement
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel30;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel32;
         private Bunifu.UI.WinForms.BunifuTextBox patientPINTextBox;
+        private System.Windows.Forms.RichTextBox md_richTextBox;
+        private System.Windows.Forms.Panel med_panelToHide;
+        private System.Windows.Forms.Panel pres_panelToHide;
+        private System.Windows.Forms.Panel diag_panelToHide;
+        private Bunifu.UI.WinForms.BunifuLabel diag_loading;
+        private Bunifu.UI.WinForms.BunifuLabel pres_loading;
+        private Bunifu.UI.WinForms.BunifuLabel med_loading;
     }
 }

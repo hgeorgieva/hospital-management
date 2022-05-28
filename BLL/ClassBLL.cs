@@ -44,6 +44,20 @@ namespace hospitalmanagement.BLL
             }
         }
 
+        public bool saveMEDICATIONItems(int id, string med_name, string producer, string leaflet)
+        {
+            try
+            {
+                ClassDAL objdal = new ClassDAL();
+                return objdal.addMEDICATIONItemsToTable(id, med_name, producer, leaflet);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message.ToString());
+                return false;
+            }
+        }
+
         public DataTable GetItems()
         {
             try

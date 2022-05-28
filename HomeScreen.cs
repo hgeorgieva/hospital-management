@@ -83,9 +83,14 @@ namespace hospitalmanagement
             resetButtonColor();
             button_diagnose.BackColor = Color.FromArgb(81, 107, 130);
             sectionLabel.Text = "Diagnoses";
+            if (diag_panelToHide.Visible == false)
+            {
+                diag_panelToHide.Visible = true;
+            }
             pages.SetPage("diagnosesPage");
             diagnoseINNERpages.SetPage("diagnosesMainPage");
             GenerateDynamicUserControl();
+            diag_panelToHide.Visible = false;
         }
 
         private void button_prescription_Click(object sender, EventArgs e)
@@ -93,8 +98,14 @@ namespace hospitalmanagement
             resetButtonColor();
             button_prescription.BackColor = Color.FromArgb(81, 107, 130);
             sectionLabel.Text = "Prescriptions";
+            if (pres_panelToHide.Visible == false)
+            {
+                pres_panelToHide.Visible = true;
+            }
             pages.SetPage("prescriptionsPage");
             presINNERpages.SetPage("presMainPage");
+            GeneratePRESCRIPTIONUserControl();
+            pres_panelToHide.Visible = false;
         }
 
         private void button_medications_Click(object sender, EventArgs e)
@@ -102,7 +113,16 @@ namespace hospitalmanagement
             resetButtonColor();
             button_medications.BackColor = Color.FromArgb(81, 107, 130);
             sectionLabel.Text = "Medications";
+            if (med_panelToHide.Visible == false)
+            {
+                med_panelToHide.Visible = true;
+            } 
             pages.SetPage("medicationsPage");
+            medicINNERpages.SetPage("medicMainPage"); 
+            GenerateMEDICATIONUserControl();
+            med_panelToHide.Visible = false;
+
+
         }
 
         private void bunifuPictureBox1_Click(object sender, EventArgs e)
@@ -202,10 +222,11 @@ namespace hospitalmanagement
             // TODO: This line of code loads data into the 'hospitaldatabaseDataSet.DOCTOR' table. You can move, or remove it, as needed.
             this.dOCTORTableAdapter.Fill(this.hospitaldatabaseDataSet.DOCTOR);
 
-            GenerateDynamicUserControl();
-            GeneratePRESCRIPTIONUserControl();
-     
         }
+
+
+
+
 
         #region Diagnoses Section
 
@@ -226,7 +247,7 @@ namespace hospitalmanagement
 
             flowLayoutPanel1.Controls.Clear();
             ClassBLL objbll = new ClassBLL();
-            DataTable dt = objbll.GetSearchItems("DIAGNOSE", s_search);
+            DataTable dt = objbll.GetSearchItems(" DIAGNOSE", s_search);
             showDiagnoseControl(objbll, dt);
         }
         private void diagnoseSearchTextBox_KeyDown(object sender, KeyEventArgs e)
@@ -680,7 +701,7 @@ namespace hospitalmanagement
                 string selected = (string)pres_quantity_dropbox.SelectedValue;
                 int quantity = Convert.ToInt32(selected);
 
-                for (int i = 0; i < 2; i++)
+                for (int i = 0; i < 2; i++)    // FIXXXXXXXXXXXXXXXXXXXXXX SHOULDN'T BE 222222222222222222222
                 {
                     if (pres_note_richtextBox.Text != "")
                     {
@@ -737,6 +758,157 @@ namespace hospitalmanagement
 
 
 
+
+
+        #region MEDICATION SECTION
+
+        private void medic_add_medication_button_Click(object sender, EventArgs e)
+        {
+            medicINNERpages.SetPage("medicAddPage");
+
+            Random generator = new Random();
+            int number = generator.Next(0, 1000000000);
+
+            addMedic_med_id_textBox.Text = number.ToString();
+            addMedic_producer_textBox.Text = "";
+            addMedic_richTextBox.Text = "";
+        }
+
+        private void addMedic_add_medic_button_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                if (addMedic_med_id_textBox.Text != "" && addMedic_producer_textBox.Text != "" && addMedic_med_name_textBox.Text != "" && addMedic_richTextBox.Text != "")
+                { 
+                    ClassBLL objbll = new ClassBLL();
+                    string med_id = addMedic_med_id_textBox.Text;
+                    int id = Convert.ToInt32(med_id);
+                    
+                    bool dt = objbll.saveMEDICATIONItems(
+                        id,
+                        addMedic_med_name_textBox.Text,
+                        addMedic_producer_textBox.Text,
+                        addMedic_richTextBox.Text
+                        );
+
+                    if (dt != false)
+                    {
+                        MessageBox.Show("Added successfully!");
+                        button_medications_Click(sender, e);
+                    }
+                }
+
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show(err.Message.ToString());
+            }
+        }
+
+        private void GenerateMEDICATIONUserControl()
+        {
+            MEDICflowLayoutPanel2.Controls.Clear();
+
+            ClassBLL objbll = new ClassBLL();
+            DataTable dt = objbll.GetTABLEItems(" MEDICATION");
+            showMEDICATIONControl(objbll, dt);
+        }
+
+
+        private void searchMEDICATIONTextBoxResult()
+        {
+            string s_search = medic_search_textBox.Text;
+
+            MEDICflowLayoutPanel2.Controls.Clear();
+            ClassBLL objbll = new ClassBLL();
+            DataTable dt = objbll.GetSearchItems("MEDICATION", s_search);
+            showMEDICATIONControl(objbll, dt);
+        }
+
+        private void medic_search_button_Click(object sender, EventArgs e)
+        {
+            searchMEDICATIONTextBoxResult();
+        }
+        private void medic_search_textBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                searchMEDICATIONTextBoxResult();
+            }
+        }
+        private void showMEDICATIONControl(ClassBLL objbll, DataTable dt)
+        {
+            try
+            {
+                if (dt != null)
+                {
+                    DiagnoseItem[] listItems = new DiagnoseItem[dt.Rows.Count];
+                    for (int i = 0; i < 1; i++)
+                    {
+                        foreach (DataRow row in dt.Rows)
+                        {
+                            listItems[i] = new DiagnoseItem();
+
+
+                            // med_id, medication name, med_producer, hide diagnose_id
+
+                            listItems[i].Hide_diagnose_id_label = false;
+                            listItems[i].Hide_diagnose_id = false;
+                            listItems[i].Patient_label = "Med ID:";
+                            listItems[i].Medication_id_label = "Med Name:";
+                            listItems[i].Doctor_id_label = "Producer:";
+
+                            listItems[i].PatientID = row["MEDICATION_ID"].ToString();
+                            listItems[i].ICDcode = row["MEDICATION_NAME"].ToString();
+                            listItems[i].DoctorID = row["MEDICATION_PRODUCER"].ToString();
+
+                            listItems[i].DiagID = row["MEDICATION_INFO_LEAFLET"].ToString();
+
+
+                            MEDICflowLayoutPanel2.Controls.Add(listItems[i]);
+
+                            listItems[i].Click += new System.EventHandler(this.UserControlMEDICATION_Click);
+                        }
+
+                    }
+
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message.ToString());
+            }
+        }
+
+        private void UserControlMEDICATION_Click(object sender, EventArgs e)
+        {
+            DiagnoseItem obj = (DiagnoseItem)sender;
+
+            md_med_id_textBox.Text = ""; md_producer_textBox.Text = ""; md_med_name_textBox.Text = ""; md_richTextBox.Text = "";
+
+            md_med_id_textBox.Text = obj.PatientID;
+            md_producer_textBox.Text = obj.DoctorID;
+            md_med_name_textBox.Text = obj.ICDcode;
+            md_richTextBox.Text = obj.DiagID;
+
+        
+            medicINNERpages.SetPage("medicDetailsPage");
+        }
+
+
+        private void md_close_button_Click(object sender, EventArgs e)
+        {
+            GenerateMEDICATIONUserControl();
+            medicINNERpages.SetPage("medicMainPage");
+        }
+
+
+
+
+
+
+        #endregion
 
 
 

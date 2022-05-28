@@ -400,5 +400,42 @@ namespace hospitalmanagement
             }
         }
 
+        public bool Hide_diagnose_id_label
+        {
+            get
+            {
+                return bunifuLabel2.Visible;
+            }
+            set
+            {
+                if (value == false)
+                {
+                    bunifuLabel2.Visible = false;
+                }
+                else
+                {
+                    bunifuLabel2.Visible = true;
+                }
+            }
+        }
+
+        public bool Hide_diagnose_id
+        {
+            get
+            {
+                return diagnose_id.Visible;
+            }
+            set
+            {
+                if (value == false)
+                {
+                    diagnose_id.Visible = false;
+                }
+                else
+                {
+                    diagnose_id.Visible = true;
+                }
+            }
+        }
     }
 }

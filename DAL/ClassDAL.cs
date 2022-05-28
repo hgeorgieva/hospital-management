@@ -45,6 +45,37 @@ namespace hospitalmanagement.DAL
             }
         }
 
+        public bool addMEDICATIONItemsToTable(int id, string med_name, string producer, string leaflet)
+        {
+            Connection con = new Connection();
+            if (ConnectionState.Closed == con.connect.State)
+            {
+                con.connect.Open();
+            }
+           // string query = "Insert into PRESCRIPTION(ID_PRES,PRESCRIPTION_ID,PRESCRIPTION_PATIENT,PRESCRIPTION_DOCTOR,PRESCRIPTION_MEDICATION,PRESCRIPTION_FORMULA,PRESCRIPTION_NOTE)values(@ID_PRES,@PRESCRIPTION_ID,@PRESCRIPTION_PATIENT,@PRESCRIPTION_DOCTOR,@PRESCRIPTION_MEDICATION,@PRESCRIPTION_FORMULA,@PRESCRIPTION_NOTE)";
+
+            string query = "Insert into MEDICATION(MEDICATION_ID,MEDICATION_NAME,MEDICATION_PRODUCER,MEDICATION_INFO_LEAFLET)values(@MEDICATION_ID,@MEDICATION_NAME,@MEDICATION_PRODUCER,@MEDICATION_INFO_LEAFLET)";
+
+            try
+            {
+                using (SqlCommand cmd = new SqlCommand(query, con.connect))
+                {
+                    cmd.Parameters.AddWithValue("@MEDICATION_ID", id);
+                    cmd.Parameters.AddWithValue("@MEDICATION_NAME", med_name.Trim());
+                    cmd.Parameters.AddWithValue("@MEDICATION_PRODUCER", producer.Trim());
+                    cmd.Parameters.AddWithValue("@MEDICATION_INFO_LEAFLET", leaflet.Trim());
+
+                    cmd.ExecuteNonQuery();
+                }
+                return true;
+            }
+            catch
+            {
+                throw;
+            }
+
+        }
+
         public bool addPRESCRIPTIONItemsToTable(int id, int pres_id, int patient_id, int doctor_id, int med_id, string formula, string note)
         {
             Connection con = new Connection();
@@ -171,6 +202,14 @@ namespace hospitalmanagement.DAL
 
                 cmd = new SqlCommand(query, con.connect);
             }
+            else if (table_name == "MEDICATION")
+            {
+                query = "SELECT MEDICATION.MEDICATION_ID,MEDICATION.MEDICATION_NAME, MEDICATION.MEDICATION_PRODUCER, MEDICATION.MEDICATION_INFO_LEAFLET " +
+                   "FROM MEDICATION " +
+                   "WHERE MEDICATION_ID LIKE '%" + input + "%' OR MEDICATION_NAME LIKE '%" + input + "%' OR MEDICATION_PRODUCER LIKE '%" + input + "%'";
+                cmd = new SqlCommand(query, con.connect);
+            }
+
 
             try
             {
