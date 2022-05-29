@@ -18,8 +18,8 @@ namespace hospitalmanagement
     public partial class HomeScreen : Form
     {
         //string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Desktop\hospitaldatabase.mdf;Integrated Security=True";
-        string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\UNI\proekt-bd\hospitalmanagement\hospitaldatabase.mdf;Integrated Security=True";
-        //string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\skaya\Downloads\hospitaldatabase.mdf;Integrated Security=True";
+        //string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\UNI\proekt-bd\hospitalmanagement\hospitaldatabase.mdf;Integrated Security=True";
+        string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\skaya\Desktop\hihiriri\hospitaldatabase.mdf;Integrated Security=True";
 
         SqlConnection sqlConnection;
         SqlCommand sqlCommand;
@@ -486,29 +486,82 @@ namespace hospitalmanagement
                             dataTable = new DataTable();
                             adapter.SelectCommand = sqlCommand;
                             adapter.Fill(dataTable);
-                            /*
-                            int inn = 0;
+
                             #region Mnogo iskah da ne e taka dulgo no ne uspqh v list da sloja "huhu {listItems[i].Med1_drop, listItems[i].Med2_drop ...}" che da napravq posle "huhu[i] = roro..."
-                            while (inn < count) {
-                                try
+                         
+                            try
+                            {
+                                switch (count)
                                 {
+                                    case 1:
+                                        DataRow roro1 = dataTable.Rows[0]; listItems[i].Med1_drop = roro1["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med1_mg = roro1["PRESCRIPTION_FORMULA"].ToString();
+                                        break;
+                                    case 2:
+                                        DataRow roro2 = dataTable.Rows[0]; listItems[i].Med1_drop = roro2["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med1_mg = roro2["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roro3 = dataTable.Rows[1]; listItems[i].Med2_drop = roro3["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med2_mg = roro3["PRESCRIPTION_FORMULA"].ToString();
+                                        break;
+                                    case 3:
+                                        DataRow roro4 = dataTable.Rows[0]; listItems[i].Med1_drop = roro4["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med1_mg = roro4["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roro5 = dataTable.Rows[1]; listItems[i].Med2_drop = roro5["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med2_mg = roro5["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roro6 = dataTable.Rows[2]; listItems[i].Med3_drop = roro6["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med3_mg = roro6["PRESCRIPTION_FORMULA"].ToString();
+                                        break;
+                                    case 4:
+                                        DataRow roro7 = dataTable.Rows[0]; listItems[i].Med1_drop = roro7["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med1_mg = roro7["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roro8 = dataTable.Rows[1]; listItems[i].Med2_drop = roro8["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med2_mg = roro8["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roro9 = dataTable.Rows[2]; listItems[i].Med3_drop = roro9["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med3_mg = roro9["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roro10 = dataTable.Rows[3]; listItems[i].Med4_drop = roro10["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med4_mg = roro10["PRESCRIPTION_FORMULA"].ToString();
+                                        break;
+                                    case 5:
+                                        DataRow roro11 = dataTable.Rows[0]; listItems[i].Med1_drop = roro11["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med1_mg = roro11["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roro12 = dataTable.Rows[1]; listItems[i].Med2_drop = roro12["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med2_mg = roro12["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roro13 = dataTable.Rows[2]; listItems[i].Med3_drop = roro13["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med3_mg = roro13["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roro14 = dataTable.Rows[3]; listItems[i].Med4_drop = roro14["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med4_mg = roro14["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roro15 = dataTable.Rows[4]; listItems[i].Med5_drop = roro15["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med5_mg = roro15["PRESCRIPTION_FORMULA"].ToString();
+                                        break;
+                                    case 6:
+                                        DataRow roro16 = dataTable.Rows[0]; listItems[i].Med1_drop = roro16["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med1_mg = roro16["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roro17 = dataTable.Rows[1]; listItems[i].Med2_drop = roro17["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med2_mg = roro17["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roro18 = dataTable.Rows[2]; listItems[i].Med3_drop = roro18["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med3_mg = roro18["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roro19 = dataTable.Rows[3]; listItems[i].Med4_drop = roro19["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med4_mg = roro19["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roroA = dataTable.Rows[4]; listItems[i].Med5_drop = roroA["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med5_mg = roroA["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roroB = dataTable.Rows[5]; listItems[i].Med6_drop = roroB["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med6_mg = roroB["PRESCRIPTION_FORMULA"].ToString();
+                                        break;
+                                    case 7:
+                                        DataRow roroC = dataTable.Rows[0]; listItems[i].Med1_drop = roroC["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med1_mg = roroC["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roroD = dataTable.Rows[1]; listItems[i].Med2_drop = roroD["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med2_mg = roroD["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roroE = dataTable.Rows[2]; listItems[i].Med3_drop = roroE["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med3_mg = roroE["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roroF = dataTable.Rows[3]; listItems[i].Med4_drop = roroF["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med4_mg = roroF["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roroG = dataTable.Rows[4]; listItems[i].Med5_drop = roroG["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med5_mg = roroG["PRESCRIPTION_FORMULA"].ToString();
+                                        DataRow roroH = dataTable.Rows[5]; listItems[i].Med6_drop = roroH["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med6_mg = roroH["PRESCRIPTION_FORMULA"].ToString();
+                                        break;
+                                    case 8:
+                                        break;
+                                    case 9:
+                                        break;
+                                    case 10:
+                                        break;
+
+                                }
                                     
-                                    DataRow roro1 = dataTable.Rows[0];
-                                    listItems[i].Med1_drop = roro1["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med1_mg = roro1["PRESCRIPTION_FORMULA"].ToString();
-                                    inn = 1;
-                                    DataRow roro2 = dataTable.Rows[1];
-                                    listItems[i].Med2_drop = roro2["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med2_mg = roro2["PRESCRIPTION_FORMULA"].ToString();
-                                    inn = 2;
-                                }
-                                catch (Exception e)
-                                {
-                                    MessageBox.Show(e.Message.ToString());
-                                }
+                                //DataRow roro1 = dataTable.Rows[0];
+                                //listItems[i].Med1_drop = roro1["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med1_mg = roro1["PRESCRIPTION_FORMULA"].ToString();
+                                 
+                                //DataRow roro2 = dataTable.Rows[1];
+                                //listItems[i].Med2_drop = roro2["PRESCRIPTION_MEDICATION"].ToString(); listItems[i].Med2_mg = roro2["PRESCRIPTION_FORMULA"].ToString();
+                                  
+
+
+
                             }
+                            catch (Exception e)
+                            {
+                                MessageBox.Show(e.Message.ToString());
+                            }
+                            
                                 
                            
                             #endregion
-                            */
+                            
                             string patient_id = row["PRESCRIPTION_PATIENT"].ToString();
                             int pat_id = Convert.ToInt32(patient_id);
                             DataTable dtt = objbll.GetFKItems("PATIENT", pat_id);
@@ -522,6 +575,7 @@ namespace hospitalmanagement
                             DataRow dr_rr = dr_dt.Rows[0];
                             listItems[i].DoctorID = dr_rr["DOCTOR_NAME"].ToString() + " (" + row["PRESCRIPTION_DOCTOR"].ToString() + ") ";
 
+                            listItems[i].Condition = row["PRESCRIPTION_NOTE"].ToString();
 
                             pres_flowLayoutPanel2.Controls.Add(listItems[i]);
 
@@ -589,6 +643,7 @@ namespace hospitalmanagement
             pd_pres_id_textBox.Text = obj.DiagID;
             pd_doctor_textBox.Text = obj.DoctorID;
             pd_patient_textBox.Text = obj.PatientID;
+            pd_note_richTextbox.Text = obj.Condition;
 
             int count = Convert.ToInt32(obj.ICDcode);
             for (int i = 0; i < count; i++)
@@ -698,10 +753,10 @@ namespace hospitalmanagement
                 BunifuTextBox[] edit = { med1_mg, med2_mg, med3_mg, med4_mg, med5_mg, med6_mg, med7_mg, med8_mg, med9_mg, med10_mg };
 
 
-                string selected = (string)pres_quantity_dropbox.SelectedValue;
+                string selected = (string)pres_quantity_dropbox.SelectedItem;
                 int quantity = Convert.ToInt32(selected);
 
-                for (int i = 0; i < 2; i++)    // FIXXXXXXXXXXXXXXXXXXXXXX SHOULDN'T BE 222222222222222222222
+                for (int i = 0; i < quantity; i++)   
                 {
                     if (pres_note_richtextBox.Text != "")
                     {
@@ -752,6 +807,10 @@ namespace hospitalmanagement
           
 
            
+        }
+        private void pd_close_pres_button_Click(object sender, EventArgs e)
+        {
+            button_prescription_Click(sender, e);
         }
         #endregion
 
@@ -1559,5 +1618,7 @@ namespace hospitalmanagement
                 sqlConnection.Close();
             }
         }
+
+        
     }
 }
