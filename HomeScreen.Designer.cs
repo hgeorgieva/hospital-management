@@ -450,7 +450,6 @@ namespace hospitalmanagement
             this.appointmentsInnerPages = new Bunifu.UI.WinForms.BunifuPages();
             this.appointmentsMainPage = new System.Windows.Forms.TabPage();
             this.appointmentsTodayDataView = new Bunifu.UI.WinForms.BunifuDataGridView();
-            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.aPPOINTMENTBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.hospitaldatabaseDataSetAppointment = new hospitalmanagement.hospitaldatabaseDataSetAppointment();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
@@ -480,13 +479,9 @@ namespace hospitalmanagement
             this.bunifuLabel27 = new Bunifu.UI.WinForms.BunifuLabel();
             this.viewAllAppointmentsSortDropdown = new Bunifu.UI.WinForms.BunifuDropdown();
             this.viewAllAppointmentsDataGridView = new Bunifu.UI.WinForms.BunifuDataGridView();
-            this.dataGridViewTextBoxColumn39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.searchAppointmentPage = new System.Windows.Forms.TabPage();
             this.bunifuLabel11 = new Bunifu.UI.WinForms.BunifuLabel();
             this.searchAppointmentDataGridView = new Bunifu.UI.WinForms.BunifuDataGridView();
-            this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.searchAppointmentByTimeRadioButton = new Bunifu.UI.WinForms.BunifuRadioButton();
             this.searchAppointmentByDateRadioButton = new Bunifu.UI.WinForms.BunifuRadioButton();
@@ -689,6 +684,17 @@ namespace hospitalmanagement
             this.APPOINTMENT_TIME = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn47 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_menu)).BeginInit();
@@ -1066,10 +1072,10 @@ namespace hospitalmanagement
             this.pages.Location = new System.Drawing.Point(368, 93);
             this.pages.Multiline = true;
             this.pages.Name = "pages";
-            this.pages.Page = this.prescriptionsPage;
-            this.pages.PageIndex = 5;
-            this.pages.PageName = "prescriptionsPage";
-            this.pages.PageTitle = "prescriptionsPage";
+            this.pages.Page = this.patientsPage;
+            this.pages.PageIndex = 2;
+            this.pages.PageName = "patientsPage";
+            this.pages.PageTitle = "patientsPage";
             this.pages.SelectedIndex = 0;
             this.pages.Size = new System.Drawing.Size(975, 648);
             this.pages.TabIndex = 13;
@@ -1113,7 +1119,7 @@ namespace hospitalmanagement
             this.home_toMedications.color = System.Drawing.Color.LightSteelBlue;
             this.home_toMedications.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toMedications.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.home_toMedications.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_toMedications.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toMedications.ForeColor = System.Drawing.Color.White;
             this.home_toMedications.Image = ((System.Drawing.Image)(resources.GetObject("home_toMedications.Image")));
             this.home_toMedications.ImagePosition = 30;
@@ -1133,7 +1139,7 @@ namespace hospitalmanagement
             this.home_toAppointments.color = System.Drawing.Color.LightSteelBlue;
             this.home_toAppointments.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toAppointments.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.home_toAppointments.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_toAppointments.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toAppointments.ForeColor = System.Drawing.Color.White;
             this.home_toAppointments.Image = ((System.Drawing.Image)(resources.GetObject("home_toAppointments.Image")));
             this.home_toAppointments.ImagePosition = 30;
@@ -1153,7 +1159,7 @@ namespace hospitalmanagement
             this.home_toDiagnoses.color = System.Drawing.Color.LightSteelBlue;
             this.home_toDiagnoses.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toDiagnoses.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.home_toDiagnoses.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_toDiagnoses.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toDiagnoses.ForeColor = System.Drawing.Color.White;
             this.home_toDiagnoses.Image = ((System.Drawing.Image)(resources.GetObject("home_toDiagnoses.Image")));
             this.home_toDiagnoses.ImagePosition = 21;
@@ -1173,7 +1179,7 @@ namespace hospitalmanagement
             this.home_toPrescriptions.color = System.Drawing.Color.LightSteelBlue;
             this.home_toPrescriptions.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toPrescriptions.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.home_toPrescriptions.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_toPrescriptions.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toPrescriptions.ForeColor = System.Drawing.Color.White;
             this.home_toPrescriptions.Image = ((System.Drawing.Image)(resources.GetObject("home_toPrescriptions.Image")));
             this.home_toPrescriptions.ImagePosition = 30;
@@ -1193,7 +1199,7 @@ namespace hospitalmanagement
             this.home_toPatients.color = System.Drawing.Color.LightSteelBlue;
             this.home_toPatients.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toPatients.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.home_toPatients.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_toPatients.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toPatients.ForeColor = System.Drawing.Color.White;
             this.home_toPatients.Image = ((System.Drawing.Image)(resources.GetObject("home_toPatients.Image")));
             this.home_toPatients.ImagePosition = 21;
@@ -1214,7 +1220,7 @@ namespace hospitalmanagement
             this.home_toDoctors.color = System.Drawing.Color.LightSteelBlue;
             this.home_toDoctors.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(84)))), ((int)(((byte)(126)))));
             this.home_toDoctors.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.home_toDoctors.Font = new System.Drawing.Font("Arial Nova Light", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_toDoctors.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_toDoctors.ForeColor = System.Drawing.Color.White;
             this.home_toDoctors.Image = ((System.Drawing.Image)(resources.GetObject("home_toDoctors.Image")));
             this.home_toDoctors.ImagePosition = 20;
@@ -1250,10 +1256,10 @@ namespace hospitalmanagement
             this.doctorsInnerPages.Location = new System.Drawing.Point(3, 6);
             this.doctorsInnerPages.Multiline = true;
             this.doctorsInnerPages.Name = "doctorsInnerPages";
-            this.doctorsInnerPages.Page = this.additionalSearchPage;
-            this.doctorsInnerPages.PageIndex = 2;
-            this.doctorsInnerPages.PageName = "additionalSearchPage";
-            this.doctorsInnerPages.PageTitle = "additionalSearchPage";
+            this.doctorsInnerPages.Page = this.tabPage1;
+            this.doctorsInnerPages.PageIndex = 0;
+            this.doctorsInnerPages.PageName = "tabPage1";
+            this.doctorsInnerPages.PageTitle = "doctorsMainPage";
             this.doctorsInnerPages.SelectedIndex = 0;
             this.doctorsInnerPages.Size = new System.Drawing.Size(958, 610);
             this.doctorsInnerPages.TabIndex = 4;
@@ -1413,7 +1419,6 @@ namespace hospitalmanagement
             this.doctorsDataView.HeaderForeColor = System.Drawing.Color.White;
             this.doctorsDataView.Location = new System.Drawing.Point(6, 224);
             this.doctorsDataView.Name = "doctorsDataView";
-            this.doctorsDataView.ReadOnly = true;
             this.doctorsDataView.RowHeadersVisible = false;
             this.doctorsDataView.RowHeadersWidth = 51;
             this.doctorsDataView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -1430,7 +1435,6 @@ namespace hospitalmanagement
             this.dOCTORIDDataGridViewTextBoxColumn.HeaderText = "ID";
             this.dOCTORIDDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.dOCTORIDDataGridViewTextBoxColumn.Name = "dOCTORIDDataGridViewTextBoxColumn";
-            this.dOCTORIDDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // dOCTORNAMEDataGridViewTextBoxColumn
             // 
@@ -1439,7 +1443,6 @@ namespace hospitalmanagement
             this.dOCTORNAMEDataGridViewTextBoxColumn.HeaderText = "FULL NAME";
             this.dOCTORNAMEDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.dOCTORNAMEDataGridViewTextBoxColumn.Name = "dOCTORNAMEDataGridViewTextBoxColumn";
-            this.dOCTORNAMEDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // dOCTORDESIGNATIONDataGridViewTextBoxColumn
             // 
@@ -1448,7 +1451,6 @@ namespace hospitalmanagement
             this.dOCTORDESIGNATIONDataGridViewTextBoxColumn.HeaderText = "DESIGNATION";
             this.dOCTORDESIGNATIONDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.dOCTORDESIGNATIONDataGridViewTextBoxColumn.Name = "dOCTORDESIGNATIONDataGridViewTextBoxColumn";
-            this.dOCTORDESIGNATIONDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn5
             // 
@@ -1456,7 +1458,6 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn5.HeaderText = "DEPARTMENT";
             this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
             // 
             // dOCTORPHONENUMDataGridViewTextBoxColumn
             // 
@@ -1465,7 +1466,6 @@ namespace hospitalmanagement
             this.dOCTORPHONENUMDataGridViewTextBoxColumn.HeaderText = "PHONE NUMBER";
             this.dOCTORPHONENUMDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.dOCTORPHONENUMDataGridViewTextBoxColumn.Name = "dOCTORPHONENUMDataGridViewTextBoxColumn";
-            this.dOCTORPHONENUMDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // dOCTORGRADUATIONDataGridViewTextBoxColumn
             // 
@@ -1474,7 +1474,6 @@ namespace hospitalmanagement
             this.dOCTORGRADUATIONDataGridViewTextBoxColumn.HeaderText = "GRADUATED AT";
             this.dOCTORGRADUATIONDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.dOCTORGRADUATIONDataGridViewTextBoxColumn.Name = "dOCTORGRADUATIONDataGridViewTextBoxColumn";
-            this.dOCTORGRADUATIONDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // dOCTORBindingSource
             // 
@@ -2564,10 +2563,10 @@ namespace hospitalmanagement
             this.patientsInnerPages.Location = new System.Drawing.Point(3, 6);
             this.patientsInnerPages.Multiline = true;
             this.patientsInnerPages.Name = "patientsInnerPages";
-            this.patientsInnerPages.Page = this.tabPage3;
-            this.patientsInnerPages.PageIndex = 1;
-            this.patientsInnerPages.PageName = "tabPage3";
-            this.patientsInnerPages.PageTitle = "addNewPatientPage";
+            this.patientsInnerPages.Page = this.patientsMainPage;
+            this.patientsInnerPages.PageIndex = 0;
+            this.patientsInnerPages.PageName = "patientsMainPage";
+            this.patientsInnerPages.PageTitle = "patientsMainPage";
             this.patientsInnerPages.SelectedIndex = 0;
             this.patientsInnerPages.Size = new System.Drawing.Size(958, 610);
             this.patientsInnerPages.TabIndex = 0;
@@ -2671,7 +2670,6 @@ namespace hospitalmanagement
             this.patientsDataView.HeaderForeColor = System.Drawing.Color.White;
             this.patientsDataView.Location = new System.Drawing.Point(6, 224);
             this.patientsDataView.Name = "patientsDataView";
-            this.patientsDataView.ReadOnly = true;
             this.patientsDataView.RowHeadersVisible = false;
             this.patientsDataView.RowHeadersWidth = 51;
             this.patientsDataView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -2688,7 +2686,6 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn7.HeaderText = "ID";
             this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn8
             // 
@@ -2697,7 +2694,6 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn8.HeaderText = "FULL NAME";
             this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn9
             // 
@@ -2706,7 +2702,6 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn9.HeaderText = "ADDRESS";
             this.dataGridViewTextBoxColumn9.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            this.dataGridViewTextBoxColumn9.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn10
             // 
@@ -2715,7 +2710,6 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn10.HeaderText = "BIRTH DATE";
             this.dataGridViewTextBoxColumn10.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn11
             // 
@@ -2724,7 +2718,6 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn11.HeaderText = "PHONE NUMBER";
             this.dataGridViewTextBoxColumn11.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            this.dataGridViewTextBoxColumn11.ReadOnly = true;
             // 
             // PATIENT_GENDER
             // 
@@ -2732,7 +2725,6 @@ namespace hospitalmanagement
             this.PATIENT_GENDER.HeaderText = "GENDER";
             this.PATIENT_GENDER.MinimumWidth = 6;
             this.PATIENT_GENDER.Name = "PATIENT_GENDER";
-            this.PATIENT_GENDER.ReadOnly = true;
             // 
             // pATIENTBindingSource2
             // 
@@ -3991,10 +3983,10 @@ namespace hospitalmanagement
             this.appointmentsInnerPages.Location = new System.Drawing.Point(3, 6);
             this.appointmentsInnerPages.Multiline = true;
             this.appointmentsInnerPages.Name = "appointmentsInnerPages";
-            this.appointmentsInnerPages.Page = this.searchAppointmentPage;
-            this.appointmentsInnerPages.PageIndex = 3;
-            this.appointmentsInnerPages.PageName = "searchAppointmentPage";
-            this.appointmentsInnerPages.PageTitle = "searchAppointmentPage";
+            this.appointmentsInnerPages.Page = this.appointmentsMainPage;
+            this.appointmentsInnerPages.PageIndex = 0;
+            this.appointmentsInnerPages.PageName = "appointmentsMainPage";
+            this.appointmentsInnerPages.PageTitle = "appointmentsMainPage";
             this.appointmentsInnerPages.SelectedIndex = 0;
             this.appointmentsInnerPages.Size = new System.Drawing.Size(958, 610);
             this.appointmentsInnerPages.TabIndex = 0;
@@ -4060,7 +4052,9 @@ namespace hospitalmanagement
             this.appointmentsTodayDataView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.appointmentsTodayDataView.ColumnHeadersHeight = 40;
             this.appointmentsTodayDataView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn36});
+            this.dataGridViewTextBoxColumn36,
+            this.dataGridViewTextBoxColumn47,
+            this.dataGridViewTextBoxColumn48});
             this.appointmentsTodayDataView.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             this.appointmentsTodayDataView.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.appointmentsTodayDataView.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
@@ -4104,14 +4098,6 @@ namespace hospitalmanagement
             this.appointmentsTodayDataView.Size = new System.Drawing.Size(938, 235);
             this.appointmentsTodayDataView.TabIndex = 26;
             this.appointmentsTodayDataView.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
-            // 
-            // dataGridViewTextBoxColumn36
-            // 
-            this.dataGridViewTextBoxColumn36.DataPropertyName = "APPOINTMENT_TIME";
-            this.dataGridViewTextBoxColumn36.HeaderText = "TIME";
-            this.dataGridViewTextBoxColumn36.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
-            this.dataGridViewTextBoxColumn36.ReadOnly = true;
             // 
             // aPPOINTMENTBindingSource
             // 
@@ -4771,7 +4757,9 @@ namespace hospitalmanagement
             this.viewAllAppointmentsDataGridView.ColumnHeadersHeight = 40;
             this.viewAllAppointmentsDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn39,
-            this.dataGridViewTextBoxColumn40});
+            this.dataGridViewTextBoxColumn40,
+            this.dataGridViewTextBoxColumn45,
+            this.dataGridViewTextBoxColumn46});
             this.viewAllAppointmentsDataGridView.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             this.viewAllAppointmentsDataGridView.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.viewAllAppointmentsDataGridView.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
@@ -4815,22 +4803,6 @@ namespace hospitalmanagement
             this.viewAllAppointmentsDataGridView.Size = new System.Drawing.Size(935, 468);
             this.viewAllAppointmentsDataGridView.TabIndex = 27;
             this.viewAllAppointmentsDataGridView.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
-            // 
-            // dataGridViewTextBoxColumn39
-            // 
-            this.dataGridViewTextBoxColumn39.DataPropertyName = "APPOINTMENT_DATE";
-            this.dataGridViewTextBoxColumn39.HeaderText = "DATE";
-            this.dataGridViewTextBoxColumn39.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn39.Name = "dataGridViewTextBoxColumn39";
-            this.dataGridViewTextBoxColumn39.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn40
-            // 
-            this.dataGridViewTextBoxColumn40.DataPropertyName = "APPOINTMENT_TIME";
-            this.dataGridViewTextBoxColumn40.HeaderText = "TIME";
-            this.dataGridViewTextBoxColumn40.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
-            this.dataGridViewTextBoxColumn40.ReadOnly = true;
             // 
             // searchAppointmentPage
             // 
@@ -4891,7 +4863,9 @@ namespace hospitalmanagement
             this.searchAppointmentDataGridView.ColumnHeadersHeight = 40;
             this.searchAppointmentDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn30,
-            this.dataGridViewTextBoxColumn31});
+            this.dataGridViewTextBoxColumn31,
+            this.dataGridViewTextBoxColumn43,
+            this.dataGridViewTextBoxColumn44});
             this.searchAppointmentDataGridView.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             this.searchAppointmentDataGridView.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.searchAppointmentDataGridView.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
@@ -4935,22 +4909,6 @@ namespace hospitalmanagement
             this.searchAppointmentDataGridView.Size = new System.Drawing.Size(935, 351);
             this.searchAppointmentDataGridView.TabIndex = 28;
             this.searchAppointmentDataGridView.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
-            // 
-            // dataGridViewTextBoxColumn30
-            // 
-            this.dataGridViewTextBoxColumn30.DataPropertyName = "APPOINTMENT_DATE";
-            this.dataGridViewTextBoxColumn30.HeaderText = "DATE";
-            this.dataGridViewTextBoxColumn30.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
-            this.dataGridViewTextBoxColumn30.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn31
-            // 
-            this.dataGridViewTextBoxColumn31.DataPropertyName = "APPOINTMENT_TIME";
-            this.dataGridViewTextBoxColumn31.HeaderText = "TIME";
-            this.dataGridViewTextBoxColumn31.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
-            this.dataGridViewTextBoxColumn31.ReadOnly = true;
             // 
             // groupBox4
             // 
@@ -5333,7 +5291,7 @@ namespace hospitalmanagement
             this.diag_loading.Location = new System.Drawing.Point(427, 216);
             this.diag_loading.Name = "diag_loading";
             this.diag_loading.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.diag_loading.Size = new System.Drawing.Size(104, 31);
+            this.diag_loading.Size = new System.Drawing.Size(60, 17);
             this.diag_loading.TabIndex = 0;
             this.diag_loading.Text = "Loading ...";
             this.diag_loading.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -5925,7 +5883,7 @@ namespace hospitalmanagement
             this.diag_add_new_diag_label.Location = new System.Drawing.Point(722, 19);
             this.diag_add_new_diag_label.Name = "diag_add_new_diag_label";
             this.diag_add_new_diag_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.diag_add_new_diag_label.Size = new System.Drawing.Size(220, 31);
+            this.diag_add_new_diag_label.Size = new System.Drawing.Size(126, 17);
             this.diag_add_new_diag_label.TabIndex = 0;
             this.diag_add_new_diag_label.Text = "ADD NEW DIAGNOSE";
             this.diag_add_new_diag_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -6517,7 +6475,7 @@ namespace hospitalmanagement
             this.dd_diagnose.Location = new System.Drawing.Point(23, 20);
             this.dd_diagnose.Name = "dd_diagnose";
             this.dd_diagnose.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.dd_diagnose.Size = new System.Drawing.Size(122, 31);
+            this.dd_diagnose.Size = new System.Drawing.Size(70, 17);
             this.dd_diagnose.TabIndex = 16;
             this.dd_diagnose.Text = "DIAGNOSE :";
             this.dd_diagnose.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -8304,7 +8262,7 @@ namespace hospitalmanagement
             this.p_addpres_label.Location = new System.Drawing.Point(676, 13);
             this.p_addpres_label.Name = "p_addpres_label";
             this.p_addpres_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.p_addpres_label.Size = new System.Drawing.Size(259, 31);
+            this.p_addpres_label.Size = new System.Drawing.Size(148, 17);
             this.p_addpres_label.TabIndex = 16;
             this.p_addpres_label.Text = "ADD NEW PRESCRIPTION";
             this.p_addpres_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -10360,7 +10318,7 @@ namespace hospitalmanagement
             this.pd_presdetail_label.Location = new System.Drawing.Point(696, 13);
             this.pd_presdetail_label.Name = "pd_presdetail_label";
             this.pd_presdetail_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.pd_presdetail_label.Size = new System.Drawing.Size(240, 31);
+            this.pd_presdetail_label.Size = new System.Drawing.Size(136, 17);
             this.pd_presdetail_label.TabIndex = 62;
             this.pd_presdetail_label.Text = "PRESCRIPTION DETAILS";
             this.pd_presdetail_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -10399,7 +10357,7 @@ namespace hospitalmanagement
             this.pres_loading.Location = new System.Drawing.Point(427, 216);
             this.pres_loading.Name = "pres_loading";
             this.pres_loading.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.pres_loading.Size = new System.Drawing.Size(104, 31);
+            this.pres_loading.Size = new System.Drawing.Size(60, 17);
             this.pres_loading.TabIndex = 0;
             this.pres_loading.Text = "Loading ...";
             this.pres_loading.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -10620,7 +10578,7 @@ namespace hospitalmanagement
             this.med_loading.Location = new System.Drawing.Point(427, 216);
             this.med_loading.Name = "med_loading";
             this.med_loading.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.med_loading.Size = new System.Drawing.Size(104, 31);
+            this.med_loading.Size = new System.Drawing.Size(60, 17);
             this.med_loading.TabIndex = 0;
             this.med_loading.Text = "Loading ...";
             this.med_loading.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -11111,7 +11069,7 @@ namespace hospitalmanagement
             this.medic_add_label.Location = new System.Drawing.Point(741, 21);
             this.medic_add_label.Name = "medic_add_label";
             this.medic_add_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.medic_add_label.Size = new System.Drawing.Size(189, 31);
+            this.medic_add_label.Size = new System.Drawing.Size(107, 17);
             this.medic_add_label.TabIndex = 106;
             this.medic_add_label.Text = "ADD MEDICATION";
             this.medic_add_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -11468,7 +11426,7 @@ namespace hospitalmanagement
             this.md_med_details_label.Location = new System.Drawing.Point(726, 21);
             this.md_med_details_label.Name = "md_med_details_label";
             this.md_med_details_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.md_med_details_label.Size = new System.Drawing.Size(226, 31);
+            this.md_med_details_label.Size = new System.Drawing.Size(128, 17);
             this.md_med_details_label.TabIndex = 116;
             this.md_med_details_label.Text = "MEDICATION DETAILS";
             this.md_med_details_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -11603,6 +11561,94 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn25.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
             this.dataGridViewTextBoxColumn25.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn30
+            // 
+            this.dataGridViewTextBoxColumn30.DataPropertyName = "APPOINTMENT_DATE";
+            this.dataGridViewTextBoxColumn30.HeaderText = "DATE";
+            this.dataGridViewTextBoxColumn30.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
+            this.dataGridViewTextBoxColumn30.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn31
+            // 
+            this.dataGridViewTextBoxColumn31.DataPropertyName = "APPOINTMENT_TIME";
+            this.dataGridViewTextBoxColumn31.HeaderText = "TIME";
+            this.dataGridViewTextBoxColumn31.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
+            this.dataGridViewTextBoxColumn31.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn43
+            // 
+            this.dataGridViewTextBoxColumn43.DataPropertyName = "DOCTOR_NAME";
+            this.dataGridViewTextBoxColumn43.HeaderText = "DOCTOR";
+            this.dataGridViewTextBoxColumn43.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
+            this.dataGridViewTextBoxColumn43.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn44
+            // 
+            this.dataGridViewTextBoxColumn44.DataPropertyName = "PATIENT_NAME";
+            this.dataGridViewTextBoxColumn44.HeaderText = "PATIENT";
+            this.dataGridViewTextBoxColumn44.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
+            this.dataGridViewTextBoxColumn44.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn39
+            // 
+            this.dataGridViewTextBoxColumn39.DataPropertyName = "APPOINTMENT_DATE";
+            this.dataGridViewTextBoxColumn39.HeaderText = "DATE";
+            this.dataGridViewTextBoxColumn39.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn39.Name = "dataGridViewTextBoxColumn39";
+            this.dataGridViewTextBoxColumn39.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn40
+            // 
+            this.dataGridViewTextBoxColumn40.DataPropertyName = "APPOINTMENT_TIME";
+            this.dataGridViewTextBoxColumn40.HeaderText = "TIME";
+            this.dataGridViewTextBoxColumn40.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
+            this.dataGridViewTextBoxColumn40.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn45
+            // 
+            this.dataGridViewTextBoxColumn45.DataPropertyName = "DOCTOR_NAME";
+            this.dataGridViewTextBoxColumn45.HeaderText = "DOCTOR";
+            this.dataGridViewTextBoxColumn45.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
+            this.dataGridViewTextBoxColumn45.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn46
+            // 
+            this.dataGridViewTextBoxColumn46.DataPropertyName = "PATIENT_NAME";
+            this.dataGridViewTextBoxColumn46.HeaderText = "PATIENT";
+            this.dataGridViewTextBoxColumn46.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn46.Name = "dataGridViewTextBoxColumn46";
+            this.dataGridViewTextBoxColumn46.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn36
+            // 
+            this.dataGridViewTextBoxColumn36.DataPropertyName = "APPOINTMENT_TIME";
+            this.dataGridViewTextBoxColumn36.HeaderText = "TIME";
+            this.dataGridViewTextBoxColumn36.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
+            this.dataGridViewTextBoxColumn36.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn47
+            // 
+            this.dataGridViewTextBoxColumn47.DataPropertyName = "DOCTOR_NAME";
+            this.dataGridViewTextBoxColumn47.HeaderText = "DOCTOR";
+            this.dataGridViewTextBoxColumn47.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn47.Name = "dataGridViewTextBoxColumn47";
+            this.dataGridViewTextBoxColumn47.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn48
+            // 
+            this.dataGridViewTextBoxColumn48.DataPropertyName = "PATIENT_NAME";
+            this.dataGridViewTextBoxColumn48.HeaderText = "PATIENT";
+            this.dataGridViewTextBoxColumn48.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
+            this.dataGridViewTextBoxColumn48.ReadOnly = true;
             // 
             // HomeScreen
             // 
@@ -12083,18 +12129,13 @@ namespace hospitalmanagement
         private Bunifu.Framework.UI.BunifuThinButton2 searchAppointmentByDropdownButton;
         private Bunifu.UI.WinForms.BunifuRadioButton searchAppointmentByTimeRadioButton;
         private Bunifu.UI.WinForms.BunifuRadioButton searchAppointmentByDateRadioButton;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn30;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn31;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn34;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn35;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn32;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn33;
         private System.Windows.Forms.DataGridViewTextBoxColumn aPPOINTMENTTIMEDataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn36;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn37;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn38;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn39;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn40;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn41;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn42;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel31;
@@ -12108,5 +12149,16 @@ namespace hospitalmanagement
         private Bunifu.UI.WinForms.BunifuLabel diag_loading;
         private Bunifu.UI.WinForms.BunifuLabel pres_loading;
         private Bunifu.UI.WinForms.BunifuLabel med_loading;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn36;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn47;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn48;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn39;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn40;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn45;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn46;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn30;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn31;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn43;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn44;
     }
 }
