@@ -72,6 +72,20 @@ namespace hospitalmanagement.BLL
             }
         }
 
+        public DataTable GetDoctorItems()
+        {
+            try
+            {
+                ClassDAL objdal = new ClassDAL();
+                return objdal.ReadDOCTORSTable();
+            }
+            catch (Exception e) 
+            {
+                DialogResult result = MessageBox.Show(e.Message.ToString());
+                return null;
+            }
+        }
+
         public DataTable GetFKItems(string table_name, int table_id)
         {
             try

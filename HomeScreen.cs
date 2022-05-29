@@ -111,6 +111,7 @@ namespace hospitalmanagement
         private void button_medications_Click(object sender, EventArgs e)
         {
             resetButtonColor();
+            addMedic_med_name_textBox.Text = "";
             button_medications.BackColor = Color.FromArgb(81, 107, 130);
             sectionLabel.Text = "Medications";
             if (med_panelToHide.Visible == false)
@@ -668,9 +669,27 @@ namespace hospitalmanagement
             presID_textBox.Text = number.ToString();
             pres_note_richtextBox.Text = "";
 
-            sqlConnection = new SqlConnection(cs);
-            query = "SELECT * FROM DOCTOR";
-            fillDropdown(query, sqlConnection, pres_doctor_dropdown);
+           // sqlConnection = new SqlConnection(cs);
+           // query = "SELECT * FROM DOCTOR";
+           // fillDropdown(query, sqlConnection, pres_doctor_dropdown);
+
+            try
+            {
+                ClassBLL objbll = new ClassBLL();
+                DataTable dt = objbll.GetDoctorItems();
+                pres_doctor_dropdown.DataSource = dt;
+                pres_doctor_dropdown.ValueMember = dt.Columns[0].ColumnName;
+                pres_doctor_dropdown.DisplayMember = dt.Columns[1].ColumnName;
+
+            }
+            catch (Exception eee)
+            {
+                MessageBox.Show(eee.Message.ToString());
+            }
+
+
+
+
 
             sqlConnection = new SqlConnection(cs);
             query = "SELECT * FROM PATIENT";
@@ -839,7 +858,8 @@ namespace hospitalmanagement
             {
 
                 if (addMedic_med_id_textBox.Text != "" && addMedic_producer_textBox.Text != "" && addMedic_med_name_textBox.Text != "" && addMedic_richTextBox.Text != "")
-                { 
+                {
+                   
                     ClassBLL objbll = new ClassBLL();
                     string med_id = addMedic_med_id_textBox.Text;
                     int id = Convert.ToInt32(med_id);

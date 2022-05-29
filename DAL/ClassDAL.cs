@@ -253,5 +253,32 @@ namespace hospitalmanagement.DAL
             }
         }
 
+        public DataTable ReadDOCTORSTable ()
+        {
+
+            Connection con = new Connection();
+            if (ConnectionState.Closed == con.connect.State)
+            {
+                con.connect.Open();
+            }
+
+            string query = "SELECT  DOCTOR.DOCTOR_ID, CONCAT(DOCTOR.DOCTOR_NAME, ' (', DOCTOR.DOCTOR_DESIGNATION, ')') FROM DOCTOR";
+            SqlCommand cmd = new SqlCommand(query, con.connect);
+
+            try
+            {
+                using (SqlDataAdapter sda = new SqlDataAdapter(cmd))
+                {
+                    DataTable dt = new DataTable();
+                    sda.Fill(dt);
+                    return dt;
+                }
+            }
+            catch
+            {
+                throw;
+            }
+        }
+             
     }
 }
