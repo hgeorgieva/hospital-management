@@ -115,7 +115,7 @@ namespace hospitalmanagement
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.passwordTextBox.OnIdleState = stateProperties4;
             this.passwordTextBox.Padding = new System.Windows.Forms.Padding(3);
-            this.passwordTextBox.PasswordChar = '\0';
+            this.passwordTextBox.PasswordChar = '•';
             this.passwordTextBox.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.passwordTextBox.PlaceholderText = "Enter password";
             this.passwordTextBox.ReadOnly = false;
@@ -412,6 +412,7 @@ namespace hospitalmanagement
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.HelpButton = true;
             this.Name = "loginScreen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HS Hospital Management System";
             ((System.ComponentModel.ISupportInitialize)(this.xButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

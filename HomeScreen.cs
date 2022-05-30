@@ -18,8 +18,8 @@ namespace hospitalmanagement
     public partial class HomeScreen : Form
     {
         //string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Desktop\hospitaldatabase.mdf;Integrated Security=True";
-        string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\UNI\proekt-bd\hospitalmanagement\hospitaldatabase.mdf;Integrated Security=True";
-        // string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\skaya\Desktop\hihiriri\hospitaldatabase.mdf;Integrated Security=True";
+        //string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\UNI\proekt-bd\hospitalmanagement\hospitaldatabase.mdf;Integrated Security=True";
+        string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\skaya\Desktop\LAST_ONE\hospitaldatabase.mdf;Integrated Security=True";
 
         SqlConnection sqlConnection;
         SqlCommand sqlCommand;
@@ -27,7 +27,7 @@ namespace hospitalmanagement
         DataTable dataTable;
         SqlDataAdapter adapter;
         int ID = 0;
-
+      
         public HomeScreen()
         {
             InitializeComponent();
@@ -111,7 +111,7 @@ namespace hospitalmanagement
         private void button_medications_Click(object sender, EventArgs e)
         {
             resetButtonColor();
-            addMedic_med_name_textBox.Text = "";
+           // addMedic_med_name_textBox.Text = "";
             button_medications.BackColor = Color.FromArgb(81, 107, 130);
             sectionLabel.Text = "Medications";
             if (med_panelToHide.Visible == false)
@@ -248,7 +248,7 @@ namespace hospitalmanagement
 
             flowLayoutPanel1.Controls.Clear();
             ClassBLL objbll = new ClassBLL();
-            DataTable dt = objbll.GetSearchItems(" DIAGNOSE", s_search);
+            DataTable dt = objbll.GetSearchItems("DIAGNOSE", s_search);
             showDiagnoseControl(objbll, dt);
         }
         private void diagnoseSearchTextBox_KeyDown(object sender, KeyEventArgs e)
@@ -310,6 +310,20 @@ namespace hospitalmanagement
 
             diag_details_patient.Text = ""; diag_details_doctor.Text = ""; diag_details_icd.Text = ""; diag_details_id.Text = ""; diag_details_pres.Text = ""; diag_details_test.Text = ""; diag_details_condition.Text = "";
 
+            diag_redaction_id.Visible = false;
+            diag_redaction_pat.Visible = false;
+            diag_redaction_pres.Visible = false;
+            diag_redaction_doc.Visible = false;
+
+            diag_details_icd.Enabled = false;
+            diag_details_test.Enabled = false;
+            diag_details_condition.Enabled = false;
+
+
+            diagnose_edit_button.Visible = true;
+            bunifuThinButton21.Visible = true;
+            bunifuThinButton22.Visible = true;
+            diag_save_edit_button.Visible = false;
 
             diag_details_patient.Text = obj.PatientID;
             diag_details_doctor.Text = obj.DoctorID;
@@ -352,17 +366,29 @@ namespace hospitalmanagement
             diagnose_condittion_richtextbox.Text = "";
 
             sqlConnection = new SqlConnection(cs);
-            query = "SELECT * FROM DOCTOR";
+            query = "SELECT  DOCTOR.DOCTOR_ID, CONCAT(DOCTOR.DOCTOR_NAME, ' (', DOCTOR.DOCTOR_DESIGNATION, ')') FROM DOCTOR";
             fillDropdown(query, sqlConnection, diagnose_doctor_dropdown);
 
             sqlConnection = new SqlConnection(cs);
             query = "SELECT * FROM PATIENT";
             fillDropdown(query, sqlConnection, diagnose_patient_dropdown);
 
-          
-            sqlConnection = new SqlConnection(cs);
-            query = "SELECT * FROM PRESCRIPTION";
-            fillDropdown(query, sqlConnection, diagnose_prescription_dropdown);
+            try
+            {
+                sqlConnection = new SqlConnection(cs);
+                query = "SELECT PRESCRIPTION_ID, MIN(ID_PRES) AS t1 FROM PRESCRIPTION GROUP BY PRESCRIPTION_ID";
+                sqlCommand = new SqlCommand(query, sqlConnection);
+                adapter = new SqlDataAdapter();
+                dataTable = new DataTable();
+                adapter.SelectCommand = sqlCommand;
+                adapter.Fill(dataTable);
+                diagnose_prescription_dropdown.DataSource = dataTable;
+                diagnose_prescription_dropdown.ValueMember = dataTable.Columns[1].ColumnName;
+                diagnose_prescription_dropdown.DisplayMember = dataTable.Columns[0].ColumnName;
+            } catch (Exception eee )
+            {
+                MessageBox.Show(eee.Message.ToString());
+            }
         }
 
         private void fillDropdown(string query, SqlConnection sqlConnection, Bunifu.UI.WinForms.BunifuDropdown bunifudropdown)
@@ -415,7 +441,64 @@ namespace hospitalmanagement
             GenerateDynamicUserControl();
             diagnoseINNERpages.SetPage("diagnosesMainPage");
         }
+        private void diagnose_edit_button_Click(object sender, EventArgs e)
+        {
+            diag_redaction_id.Visible = true;
+            diag_redaction_pat.Visible = true;
+            diag_redaction_pres.Visible = true;
+            diag_redaction_doc.Visible = true;
 
+            diag_details_icd.Enabled = true;
+            diag_details_test.Enabled = true;
+            diag_details_condition.Enabled = true;
+
+            diagnose_edit_button.Visible = false;
+            bunifuThinButton21.Visible = false;
+            bunifuThinButton22.Visible = false;
+            diag_save_edit_button.Visible = true;
+
+
+        }
+        
+        private void diag_save_edit_button_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string diagnose_id = diag_details_id.Text;
+                int id = Convert.ToInt32(diagnose_id);
+
+                string icd_code = diag_details_icd.Text;
+                string test_result = diag_details_test.Text;
+                string condition = diag_details_condition.Text;
+
+
+                sqlConnection = new SqlConnection(cs);
+                sqlConnection.Open();
+                query = "UPDATE DIAGNOSE SET DIAGNOSE_ICD=@icd_code, DIAGNOSE_TEST_RESULTS=@test_result, DIAGNOSE_CONDITION=@condition WHERE DIAGNOSE_ID=@id";
+                sqlCommand = new SqlCommand(query, sqlConnection);
+                sqlCommand.Parameters.AddWithValue("@icd_code", icd_code);
+                sqlCommand.Parameters.AddWithValue("@test_result", test_result);
+                sqlCommand.Parameters.AddWithValue("@condition", condition);
+                sqlCommand.Parameters.AddWithValue("@id", id);
+                sqlCommand.ExecuteNonQuery();
+                sqlConnection.Close();
+
+
+                button_diagnose_Click(sender, e);
+            }
+            catch (Exception ee)
+            {
+                MessageBox.Show(ee.Message.ToString());
+            }
+
+        }
+        private void addnew_pres_Click(object sender, EventArgs e)
+        {
+            pages.SetPage("prescriptionsPage");
+            pres_add_button_Click(sender, e);
+          
+            check_this.Text = "coming_from_diagnose";
+        }
         #endregion
 
 
@@ -813,8 +896,27 @@ namespace hospitalmanagement
                         if (dt != false)
                         {
                             MessageBox.Show("Added successfully!");
+                            if (check_this.Text == "coming_from_diagnose")
+                            {
+                                sqlConnection = new SqlConnection(cs);
+                                query = "SELECT PRESCRIPTION_ID, MIN(ID_PRES) FROM PRESCRIPTION WHERE PRESCRIPTION_PATIENT = @PATIENT_ID GROUP BY PRESCRIPTION_ID";
+                                sqlCommand = new SqlCommand(query, sqlConnection);
+                                sqlCommand.Parameters.AddWithValue("@PATIENT_ID", patient_id);
+                                adapter = new SqlDataAdapter();
+                                dataTable = new DataTable();
+                                adapter.SelectCommand = sqlCommand;
+                                adapter.Fill(dataTable);
+                                diagnose_prescription_dropdown.DataSource = dataTable;
+                                diagnose_prescription_dropdown.ValueMember = dataTable.Columns[1].ColumnName;
+                                diagnose_prescription_dropdown.DisplayMember = dataTable.Columns[0].ColumnName;
+
+                                diagnose_patient_dropdown.SelectedValue = patient_id;
+
+                                pages.SetPage("diagnosesPage");
+                                diagnoseINNERpages.SetPage("AddDiagnosePage");
+                            }
                         }
-                        else MessageBox.Show("OOPS!");
+                        else MessageBox.Show("Something went wrong!");
                     }
                 }
             }
@@ -831,6 +933,10 @@ namespace hospitalmanagement
         {
             button_prescription_Click(sender, e);
         }
+        
+       
+
+
         #endregion
 
 
@@ -966,6 +1072,16 @@ namespace hospitalmanagement
 
             md_med_id_textBox.Text = ""; md_producer_textBox.Text = ""; md_med_name_textBox.Text = ""; md_richTextBox.Text = "";
 
+            med_redaction.Visible = false;
+
+            md_producer_textBox.Enabled = false;
+            md_med_name_textBox.Enabled = false;
+            md_richTextBox.Enabled = false;
+
+            med_edit_med_button.Visible = true;
+            md_close_button.Visible = true;
+            med_save_edit_button.Visible = false;
+
             md_med_id_textBox.Text = obj.PatientID;
             md_producer_textBox.Text = obj.DoctorID;
             md_med_name_textBox.Text = obj.ICDcode;
@@ -983,15 +1099,56 @@ namespace hospitalmanagement
         }
 
 
+        private void med_edit_med_button_Click(object sender, EventArgs e)
+        {
+            med_redaction.Visible = true;
+
+            md_producer_textBox.Enabled = true;
+            md_med_name_textBox.Enabled = true;
+            md_richTextBox.Enabled = true;
+
+            med_edit_med_button.Visible = false;
+            md_close_button.Visible = false;
+            med_save_edit_button.Visible = true;
+        }
+        private void med_save_edit_button_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string med_id = md_med_id_textBox.Text;
+                int id = Convert.ToInt32(med_id);
+
+                string name = md_med_name_textBox.Text;
+                string producer = md_producer_textBox.Text;
+                string leaflet = md_richTextBox.Text;
 
 
+                sqlConnection = new SqlConnection(cs);
+                sqlConnection.Open();
+                query = "UPDATE MEDICATION SET MEDICATION_NAME=@name, MEDICATION_PRODUCER=@producer, MEDICATION_INFO_LEAFLET=@leaflet WHERE MEDICATION_ID=@id";
+                sqlCommand = new SqlCommand(query, sqlConnection);
+                sqlCommand.Parameters.AddWithValue("@name", name);
+                sqlCommand.Parameters.AddWithValue("@producer", producer);
+                sqlCommand.Parameters.AddWithValue("@leaflet", leaflet);
+                sqlCommand.Parameters.AddWithValue("@id", id);
+                sqlCommand.ExecuteNonQuery();
+                sqlConnection.Close();
+
+
+                button_medications_Click(sender, e);
+            } 
+            catch (Exception ee)
+            {
+                MessageBox.Show(ee.Message.ToString());
+            }
+        }
 
 
         #endregion
 
 
 
-
+        #region HRISI
 
         private void bunifuLabel10_Click(object sender, EventArgs e)
         {
@@ -1545,33 +1702,40 @@ namespace hospitalmanagement
         {
             int selectedIndex = appointmentsTodayDataView.SelectedRows[0].Index;
             int rowID = int.Parse(appointmentsTodayDataView[0, selectedIndex].Value.ToString());
-
-            if (selectedIndex != 0)
+            try
             {
-                sqlConnection = new SqlConnection(cs);
-                sqlConnection.Open();
-                query = "Delete APPOINTMENT Where APPOINTMENT_ID=@id";
-                sqlCommand = new SqlCommand(query, sqlConnection);
-                sqlCommand.Parameters.AddWithValue("@id", rowID);
-                sqlCommand.ExecuteNonQuery();
-                sqlConnection.Close();
-                MessageBox.Show("Appointment cancelled successfully!");
+             if (selectedIndex != 0)
+                        {
+                            sqlConnection = new SqlConnection(cs);
+                            sqlConnection.Open();
+                            query = "Delete APPOINTMENT Where APPOINTMENT_ID=@id";
+                            sqlCommand = new SqlCommand(query, sqlConnection);
+                            sqlCommand.Parameters.AddWithValue("@id", rowID);
+                            sqlCommand.ExecuteNonQuery();
+                            sqlConnection.Close();
+                            MessageBox.Show("Appointment cancelled successfully!");
 
-                query = "select APPOINTMENT.APPOINTMENT_TIME, DOCTOR.DOCTOR_NAME, PATIENT.PATIENT_NAME from APPOINTMENT inner join DOCTOR ON APPOINTMENT.APPOINTMENT_DOCTOR_ID=DOCTOR.DOCTOR_ID inner join PATIENT on APPOINTMENT.APPOINTMENT_PATIENT_ID=PATIENT.PATIENT_ID where APPOINTMENT_DATE=@date";
-                sqlCommand = new SqlCommand(query, sqlConnection);
-                adapter = new SqlDataAdapter();
-                dataTable = new DataTable();
-                sqlCommand.Parameters.AddWithValue("@date", DateTime.Today);
-                sqlCommand.ExecuteNonQuery();
-                adapter.SelectCommand = sqlCommand;
-                adapter.Fill(dataTable);
-                appointmentsTodayDataView.DataSource = dataTable;
-                sqlConnection.Close();
+                            query = "select APPOINTMENT.APPOINTMENT_TIME, DOCTOR.DOCTOR_NAME, PATIENT.PATIENT_NAME from APPOINTMENT inner join DOCTOR ON APPOINTMENT.APPOINTMENT_DOCTOR_ID=DOCTOR.DOCTOR_ID inner join PATIENT on APPOINTMENT.APPOINTMENT_PATIENT_ID=PATIENT.PATIENT_ID where APPOINTMENT_DATE=@date";
+                            sqlCommand = new SqlCommand(query, sqlConnection);
+                            adapter = new SqlDataAdapter();
+                            dataTable = new DataTable();
+                            sqlCommand.Parameters.AddWithValue("@date", DateTime.Today);
+                            sqlCommand.ExecuteNonQuery();
+                            adapter.SelectCommand = sqlCommand;
+                            adapter.Fill(dataTable);
+                            appointmentsTodayDataView.DataSource = dataTable;
+                            sqlConnection.Close();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Please select the appointment you wish to cancel.");
+                        }
             }
-            else
+            catch (Exception ee)
             {
-                MessageBox.Show("Please select the appointment you wish to cancel.");
+                MessageBox.Show(ee.Message.ToString());
             }
+           
         }
 
         private void searchAppointmentButton_Click(object sender, EventArgs e)
@@ -1639,6 +1803,10 @@ namespace hospitalmanagement
             }
         }
 
-        
+
+
+        #endregion
+
+       
     }
 }

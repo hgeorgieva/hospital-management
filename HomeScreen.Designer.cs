@@ -450,6 +450,9 @@ namespace hospitalmanagement
             this.appointmentsInnerPages = new Bunifu.UI.WinForms.BunifuPages();
             this.appointmentsMainPage = new System.Windows.Forms.TabPage();
             this.appointmentsTodayDataView = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.P_NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.D_NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.aPPOINTMENTBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.hospitaldatabaseDataSetAppointment = new hospitalmanagement.hospitaldatabaseDataSetAppointment();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
@@ -479,6 +482,10 @@ namespace hospitalmanagement
             this.bunifuLabel27 = new Bunifu.UI.WinForms.BunifuLabel();
             this.viewAllAppointmentsSortDropdown = new Bunifu.UI.WinForms.BunifuDropdown();
             this.viewAllAppointmentsDataGridView = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.dataGridViewTextBoxColumn39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PAT_NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DOC_NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.searchAppointmentPage = new System.Windows.Forms.TabPage();
             this.bunifuLabel11 = new Bunifu.UI.WinForms.BunifuLabel();
             this.searchAppointmentDataGridView = new Bunifu.UI.WinForms.BunifuDataGridView();
@@ -523,6 +530,12 @@ namespace hospitalmanagement
             this.diag_diagnose_id_label = new Bunifu.UI.WinForms.BunifuLabel();
             this.diag_add_new_diag_label = new Bunifu.UI.WinForms.BunifuLabel();
             this.diagnoseDetailsPage = new System.Windows.Forms.TabPage();
+            this.diag_save_edit_button = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.diag_redaction_pres = new Bunifu.UI.WinForms.BunifuLabel();
+            this.diag_redaction_doc = new Bunifu.UI.WinForms.BunifuLabel();
+            this.diag_redaction_pat = new Bunifu.UI.WinForms.BunifuLabel();
+            this.diag_redaction_id = new Bunifu.UI.WinForms.BunifuLabel();
+            this.diagnose_edit_button = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.diag_details_pres = new Bunifu.UI.WinForms.BunifuTextBox();
             this.diag_details_doctor = new Bunifu.UI.WinForms.BunifuTextBox();
@@ -654,6 +667,9 @@ namespace hospitalmanagement
             this.medic_medication_id_label = new Bunifu.UI.WinForms.BunifuLabel();
             this.medic_add_label = new Bunifu.UI.WinForms.BunifuLabel();
             this.medicDetailsPage = new System.Windows.Forms.TabPage();
+            this.med_redaction = new Bunifu.UI.WinForms.BunifuLabel();
+            this.med_edit_med_button = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.med_save_edit_button = new Bunifu.Framework.UI.BunifuThinButton2();
             this.md_close_button = new Bunifu.Framework.UI.BunifuThinButton2();
             this.md_producer_textBox = new Bunifu.UI.WinForms.BunifuTextBox();
             this.md_med_name_textBox = new Bunifu.UI.WinForms.BunifuTextBox();
@@ -686,15 +702,10 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn47 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DOCTOR_NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PATIENT_NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.addnew_pres = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.check_this = new Bunifu.UI.WinForms.BunifuLabel();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_menu)).BeginInit();
@@ -1072,10 +1083,10 @@ namespace hospitalmanagement
             this.pages.Location = new System.Drawing.Point(368, 93);
             this.pages.Multiline = true;
             this.pages.Name = "pages";
-            this.pages.Page = this.patientsPage;
-            this.pages.PageIndex = 2;
-            this.pages.PageName = "patientsPage";
-            this.pages.PageTitle = "patientsPage";
+            this.pages.Page = this.prescriptionsPage;
+            this.pages.PageIndex = 5;
+            this.pages.PageName = "prescriptionsPage";
+            this.pages.PageTitle = "prescriptionsPage";
             this.pages.SelectedIndex = 0;
             this.pages.Size = new System.Drawing.Size(975, 648);
             this.pages.TabIndex = 13;
@@ -1435,6 +1446,7 @@ namespace hospitalmanagement
             this.dOCTORIDDataGridViewTextBoxColumn.HeaderText = "ID";
             this.dOCTORIDDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.dOCTORIDDataGridViewTextBoxColumn.Name = "dOCTORIDDataGridViewTextBoxColumn";
+            this.dOCTORIDDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // dOCTORNAMEDataGridViewTextBoxColumn
             // 
@@ -4029,7 +4041,6 @@ namespace hospitalmanagement
             // appointmentsTodayDataView
             // 
             this.appointmentsTodayDataView.AllowCustomTheming = true;
-            this.appointmentsTodayDataView.AllowUserToAddRows = false;
             this.appointmentsTodayDataView.AllowUserToDeleteRows = false;
             this.appointmentsTodayDataView.AllowUserToResizeColumns = false;
             this.appointmentsTodayDataView.AllowUserToResizeRows = false;
@@ -4053,8 +4064,8 @@ namespace hospitalmanagement
             this.appointmentsTodayDataView.ColumnHeadersHeight = 40;
             this.appointmentsTodayDataView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn36,
-            this.dataGridViewTextBoxColumn47,
-            this.dataGridViewTextBoxColumn48});
+            this.P_NAME,
+            this.D_NAME});
             this.appointmentsTodayDataView.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             this.appointmentsTodayDataView.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.appointmentsTodayDataView.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
@@ -4098,6 +4109,30 @@ namespace hospitalmanagement
             this.appointmentsTodayDataView.Size = new System.Drawing.Size(938, 235);
             this.appointmentsTodayDataView.TabIndex = 26;
             this.appointmentsTodayDataView.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
+            // 
+            // dataGridViewTextBoxColumn36
+            // 
+            this.dataGridViewTextBoxColumn36.DataPropertyName = "APPOINTMENT_TIME";
+            this.dataGridViewTextBoxColumn36.HeaderText = "TIME";
+            this.dataGridViewTextBoxColumn36.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
+            this.dataGridViewTextBoxColumn36.ReadOnly = true;
+            // 
+            // P_NAME
+            // 
+            this.P_NAME.DataPropertyName = "PATIENT_NAME";
+            this.P_NAME.HeaderText = "PATIENT NAME";
+            this.P_NAME.MinimumWidth = 6;
+            this.P_NAME.Name = "P_NAME";
+            this.P_NAME.ReadOnly = true;
+            // 
+            // D_NAME
+            // 
+            this.D_NAME.DataPropertyName = "DOCTOR_NAME";
+            this.D_NAME.HeaderText = "DOCTOR NAME";
+            this.D_NAME.MinimumWidth = 6;
+            this.D_NAME.Name = "D_NAME";
+            this.D_NAME.ReadOnly = true;
             // 
             // aPPOINTMENTBindingSource
             // 
@@ -4758,8 +4793,8 @@ namespace hospitalmanagement
             this.viewAllAppointmentsDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn39,
             this.dataGridViewTextBoxColumn40,
-            this.dataGridViewTextBoxColumn45,
-            this.dataGridViewTextBoxColumn46});
+            this.PAT_NAME,
+            this.DOC_NAME});
             this.viewAllAppointmentsDataGridView.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             this.viewAllAppointmentsDataGridView.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.viewAllAppointmentsDataGridView.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
@@ -4803,6 +4838,38 @@ namespace hospitalmanagement
             this.viewAllAppointmentsDataGridView.Size = new System.Drawing.Size(935, 468);
             this.viewAllAppointmentsDataGridView.TabIndex = 27;
             this.viewAllAppointmentsDataGridView.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
+            // 
+            // dataGridViewTextBoxColumn39
+            // 
+            this.dataGridViewTextBoxColumn39.DataPropertyName = "APPOINTMENT_DATE";
+            this.dataGridViewTextBoxColumn39.HeaderText = "DATE";
+            this.dataGridViewTextBoxColumn39.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn39.Name = "dataGridViewTextBoxColumn39";
+            this.dataGridViewTextBoxColumn39.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn40
+            // 
+            this.dataGridViewTextBoxColumn40.DataPropertyName = "APPOINTMENT_TIME";
+            this.dataGridViewTextBoxColumn40.HeaderText = "TIME";
+            this.dataGridViewTextBoxColumn40.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
+            this.dataGridViewTextBoxColumn40.ReadOnly = true;
+            // 
+            // PAT_NAME
+            // 
+            this.PAT_NAME.DataPropertyName = "PATIENT_NAME";
+            this.PAT_NAME.HeaderText = "PATIENT NAME";
+            this.PAT_NAME.MinimumWidth = 6;
+            this.PAT_NAME.Name = "PAT_NAME";
+            this.PAT_NAME.ReadOnly = true;
+            // 
+            // DOC_NAME
+            // 
+            this.DOC_NAME.DataPropertyName = "DOCTOR_NAME";
+            this.DOC_NAME.HeaderText = "DOCTOR NAME";
+            this.DOC_NAME.MinimumWidth = 6;
+            this.DOC_NAME.Name = "DOC_NAME";
+            this.DOC_NAME.ReadOnly = true;
             // 
             // searchAppointmentPage
             // 
@@ -4864,8 +4931,8 @@ namespace hospitalmanagement
             this.searchAppointmentDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn30,
             this.dataGridViewTextBoxColumn31,
-            this.dataGridViewTextBoxColumn43,
-            this.dataGridViewTextBoxColumn44});
+            this.DOCTOR_NAME,
+            this.PATIENT_NAME});
             this.searchAppointmentDataGridView.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             this.searchAppointmentDataGridView.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.searchAppointmentDataGridView.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
@@ -5248,10 +5315,10 @@ namespace hospitalmanagement
             this.diagnoseINNERpages.Location = new System.Drawing.Point(-4, 3);
             this.diagnoseINNERpages.Multiline = true;
             this.diagnoseINNERpages.Name = "diagnoseINNERpages";
-            this.diagnoseINNERpages.Page = this.diagnosesMainPage;
-            this.diagnoseINNERpages.PageIndex = 0;
-            this.diagnoseINNERpages.PageName = "diagnosesMainPage";
-            this.diagnoseINNERpages.PageTitle = "diagnosesMainPage";
+            this.diagnoseINNERpages.Page = this.addDiagnosePage;
+            this.diagnoseINNERpages.PageIndex = 1;
+            this.diagnoseINNERpages.PageName = "addDiagnosePage";
+            this.diagnoseINNERpages.PageTitle = "addDiagnosePage";
             this.diagnoseINNERpages.SelectedIndex = 0;
             this.diagnoseINNERpages.Size = new System.Drawing.Size(970, 615);
             this.diagnoseINNERpages.TabIndex = 0;
@@ -5291,7 +5358,7 @@ namespace hospitalmanagement
             this.diag_loading.Location = new System.Drawing.Point(427, 216);
             this.diag_loading.Name = "diag_loading";
             this.diag_loading.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.diag_loading.Size = new System.Drawing.Size(60, 17);
+            this.diag_loading.Size = new System.Drawing.Size(104, 31);
             this.diag_loading.TabIndex = 0;
             this.diag_loading.Text = "Loading ...";
             this.diag_loading.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -5422,6 +5489,7 @@ namespace hospitalmanagement
             // 
             // addDiagnosePage
             // 
+            this.addDiagnosePage.Controls.Add(this.addnew_pres);
             this.addDiagnosePage.Controls.Add(this.diagnose_add_button);
             this.addDiagnosePage.Controls.Add(this.diagnose_prescription_dropdown);
             this.addDiagnosePage.Controls.Add(this.diagnose_doctor_dropdown);
@@ -5883,7 +5951,7 @@ namespace hospitalmanagement
             this.diag_add_new_diag_label.Location = new System.Drawing.Point(722, 19);
             this.diag_add_new_diag_label.Name = "diag_add_new_diag_label";
             this.diag_add_new_diag_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.diag_add_new_diag_label.Size = new System.Drawing.Size(126, 17);
+            this.diag_add_new_diag_label.Size = new System.Drawing.Size(220, 31);
             this.diag_add_new_diag_label.TabIndex = 0;
             this.diag_add_new_diag_label.Text = "ADD NEW DIAGNOSE";
             this.diag_add_new_diag_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -5891,6 +5959,12 @@ namespace hospitalmanagement
             // 
             // diagnoseDetailsPage
             // 
+            this.diagnoseDetailsPage.Controls.Add(this.diag_save_edit_button);
+            this.diagnoseDetailsPage.Controls.Add(this.diag_redaction_pres);
+            this.diagnoseDetailsPage.Controls.Add(this.diag_redaction_doc);
+            this.diagnoseDetailsPage.Controls.Add(this.diag_redaction_pat);
+            this.diagnoseDetailsPage.Controls.Add(this.diag_redaction_id);
+            this.diagnoseDetailsPage.Controls.Add(this.diagnose_edit_button);
             this.diagnoseDetailsPage.Controls.Add(this.bunifuThinButton21);
             this.diagnoseDetailsPage.Controls.Add(this.diag_details_pres);
             this.diagnoseDetailsPage.Controls.Add(this.diag_details_doctor);
@@ -5916,6 +5990,130 @@ namespace hospitalmanagement
             this.diagnoseDetailsPage.Text = "diagnoseDetailsPage";
             this.diagnoseDetailsPage.UseVisualStyleBackColor = true;
             // 
+            // diag_save_edit_button
+            // 
+            this.diag_save_edit_button.ActiveBorderThickness = 1;
+            this.diag_save_edit_button.ActiveCornerRadius = 30;
+            this.diag_save_edit_button.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.diag_save_edit_button.ActiveForecolor = System.Drawing.Color.White;
+            this.diag_save_edit_button.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.diag_save_edit_button.BackColor = System.Drawing.Color.Transparent;
+            this.diag_save_edit_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("diag_save_edit_button.BackgroundImage")));
+            this.diag_save_edit_button.ButtonText = "Save";
+            this.diag_save_edit_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.diag_save_edit_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.diag_save_edit_button.ForeColor = System.Drawing.Color.SeaGreen;
+            this.diag_save_edit_button.IdleBorderThickness = 1;
+            this.diag_save_edit_button.IdleCornerRadius = 30;
+            this.diag_save_edit_button.IdleFillColor = System.Drawing.Color.White;
+            this.diag_save_edit_button.IdleForecolor = System.Drawing.Color.SeaGreen;
+            this.diag_save_edit_button.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.diag_save_edit_button.Location = new System.Drawing.Point(396, 558);
+            this.diag_save_edit_button.Margin = new System.Windows.Forms.Padding(5);
+            this.diag_save_edit_button.Name = "diag_save_edit_button";
+            this.diag_save_edit_button.Size = new System.Drawing.Size(199, 51);
+            this.diag_save_edit_button.TabIndex = 41;
+            this.diag_save_edit_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.diag_save_edit_button.Click += new System.EventHandler(this.diag_save_edit_button_Click);
+            // 
+            // diag_redaction_pres
+            // 
+            this.diag_redaction_pres.AllowParentOverrides = false;
+            this.diag_redaction_pres.AutoEllipsis = false;
+            this.diag_redaction_pres.Cursor = System.Windows.Forms.Cursors.Default;
+            this.diag_redaction_pres.CursorType = System.Windows.Forms.Cursors.Default;
+            this.diag_redaction_pres.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.diag_redaction_pres.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.diag_redaction_pres.Location = new System.Drawing.Point(27, 270);
+            this.diag_redaction_pres.Name = "diag_redaction_pres";
+            this.diag_redaction_pres.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.diag_redaction_pres.Size = new System.Drawing.Size(134, 17);
+            this.diag_redaction_pres.TabIndex = 40;
+            this.diag_redaction_pres.Text = "Redaction not allowed!";
+            this.diag_redaction_pres.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.diag_redaction_pres.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.diag_redaction_pres.Visible = false;
+            // 
+            // diag_redaction_doc
+            // 
+            this.diag_redaction_doc.AllowParentOverrides = false;
+            this.diag_redaction_doc.AutoEllipsis = false;
+            this.diag_redaction_doc.Cursor = System.Windows.Forms.Cursors.Default;
+            this.diag_redaction_doc.CursorType = System.Windows.Forms.Cursors.Default;
+            this.diag_redaction_doc.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.diag_redaction_doc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.diag_redaction_doc.Location = new System.Drawing.Point(495, 189);
+            this.diag_redaction_doc.Name = "diag_redaction_doc";
+            this.diag_redaction_doc.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.diag_redaction_doc.Size = new System.Drawing.Size(134, 17);
+            this.diag_redaction_doc.TabIndex = 39;
+            this.diag_redaction_doc.Text = "Redaction not allowed!";
+            this.diag_redaction_doc.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.diag_redaction_doc.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.diag_redaction_doc.Visible = false;
+            // 
+            // diag_redaction_pat
+            // 
+            this.diag_redaction_pat.AllowParentOverrides = false;
+            this.diag_redaction_pat.AutoEllipsis = false;
+            this.diag_redaction_pat.Cursor = System.Windows.Forms.Cursors.Default;
+            this.diag_redaction_pat.CursorType = System.Windows.Forms.Cursors.Default;
+            this.diag_redaction_pat.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.diag_redaction_pat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.diag_redaction_pat.Location = new System.Drawing.Point(27, 189);
+            this.diag_redaction_pat.Name = "diag_redaction_pat";
+            this.diag_redaction_pat.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.diag_redaction_pat.Size = new System.Drawing.Size(134, 17);
+            this.diag_redaction_pat.TabIndex = 38;
+            this.diag_redaction_pat.Text = "Redaction not allowed!";
+            this.diag_redaction_pat.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.diag_redaction_pat.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.diag_redaction_pat.Visible = false;
+            // 
+            // diag_redaction_id
+            // 
+            this.diag_redaction_id.AllowParentOverrides = false;
+            this.diag_redaction_id.AutoEllipsis = false;
+            this.diag_redaction_id.Cursor = System.Windows.Forms.Cursors.Default;
+            this.diag_redaction_id.CursorType = System.Windows.Forms.Cursors.Default;
+            this.diag_redaction_id.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.diag_redaction_id.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.diag_redaction_id.Location = new System.Drawing.Point(27, 108);
+            this.diag_redaction_id.Name = "diag_redaction_id";
+            this.diag_redaction_id.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.diag_redaction_id.Size = new System.Drawing.Size(134, 17);
+            this.diag_redaction_id.TabIndex = 37;
+            this.diag_redaction_id.Text = "Redaction not allowed!";
+            this.diag_redaction_id.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.diag_redaction_id.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.diag_redaction_id.Visible = false;
+            // 
+            // diagnose_edit_button
+            // 
+            this.diagnose_edit_button.ActiveBorderThickness = 1;
+            this.diagnose_edit_button.ActiveCornerRadius = 30;
+            this.diagnose_edit_button.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.diagnose_edit_button.ActiveForecolor = System.Drawing.Color.White;
+            this.diagnose_edit_button.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.diagnose_edit_button.BackColor = System.Drawing.Color.Transparent;
+            this.diagnose_edit_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("diagnose_edit_button.BackgroundImage")));
+            this.diagnose_edit_button.ButtonText = "Edit Diagnose";
+            this.diagnose_edit_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.diagnose_edit_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.diagnose_edit_button.ForeColor = System.Drawing.Color.SeaGreen;
+            this.diagnose_edit_button.IdleBorderThickness = 1;
+            this.diagnose_edit_button.IdleCornerRadius = 30;
+            this.diagnose_edit_button.IdleFillColor = System.Drawing.Color.White;
+            this.diagnose_edit_button.IdleForecolor = System.Drawing.Color.SeaGreen;
+            this.diagnose_edit_button.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.diagnose_edit_button.Location = new System.Drawing.Point(23, 557);
+            this.diagnose_edit_button.Margin = new System.Windows.Forms.Padding(5);
+            this.diagnose_edit_button.Name = "diagnose_edit_button";
+            this.diagnose_edit_button.Size = new System.Drawing.Size(199, 51);
+            this.diagnose_edit_button.TabIndex = 36;
+            this.diagnose_edit_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.diagnose_edit_button.Click += new System.EventHandler(this.diagnose_edit_button_Click);
+            // 
             // bunifuThinButton21
             // 
             this.bunifuThinButton21.ActiveBorderThickness = 1;
@@ -5934,7 +6132,7 @@ namespace hospitalmanagement
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.Firebrick;
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.Firebrick;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(557, 559);
+            this.bunifuThinButton21.Location = new System.Drawing.Point(557, 558);
             this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
             this.bunifuThinButton21.Size = new System.Drawing.Size(199, 51);
@@ -5961,6 +6159,7 @@ namespace hospitalmanagement
             this.diag_details_pres.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.diag_details_pres.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
             this.diag_details_pres.DefaultText = "";
+            this.diag_details_pres.Enabled = false;
             this.diag_details_pres.FillColor = System.Drawing.Color.White;
             this.diag_details_pres.HideSelection = true;
             this.diag_details_pres.IconLeft = null;
@@ -5981,9 +6180,9 @@ namespace hospitalmanagement
             stateProperties65.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.diag_details_pres.OnActiveState = stateProperties65;
             stateProperties66.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties66.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties66.FillColor = System.Drawing.Color.White;
             stateProperties66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties66.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            stateProperties66.PlaceholderForeColor = System.Drawing.Color.White;
             this.diag_details_pres.OnDisabledState = stateProperties66;
             stateProperties67.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties67.FillColor = System.Drawing.Color.Empty;
@@ -5999,7 +6198,7 @@ namespace hospitalmanagement
             this.diag_details_pres.PasswordChar = '\0';
             this.diag_details_pres.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.diag_details_pres.PlaceholderText = "Enter text";
-            this.diag_details_pres.ReadOnly = true;
+            this.diag_details_pres.ReadOnly = false;
             this.diag_details_pres.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.diag_details_pres.SelectedText = "";
             this.diag_details_pres.SelectionLength = 0;
@@ -6035,6 +6234,7 @@ namespace hospitalmanagement
             this.diag_details_doctor.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.diag_details_doctor.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
             this.diag_details_doctor.DefaultText = "";
+            this.diag_details_doctor.Enabled = false;
             this.diag_details_doctor.FillColor = System.Drawing.Color.White;
             this.diag_details_doctor.HideSelection = true;
             this.diag_details_doctor.IconLeft = null;
@@ -6055,7 +6255,7 @@ namespace hospitalmanagement
             stateProperties69.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.diag_details_doctor.OnActiveState = stateProperties69;
             stateProperties70.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties70.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties70.FillColor = System.Drawing.Color.White;
             stateProperties70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             stateProperties70.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.diag_details_doctor.OnDisabledState = stateProperties70;
@@ -6073,7 +6273,7 @@ namespace hospitalmanagement
             this.diag_details_doctor.PasswordChar = '\0';
             this.diag_details_doctor.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.diag_details_doctor.PlaceholderText = "Enter text";
-            this.diag_details_doctor.ReadOnly = true;
+            this.diag_details_doctor.ReadOnly = false;
             this.diag_details_doctor.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.diag_details_doctor.SelectedText = "";
             this.diag_details_doctor.SelectionLength = 0;
@@ -6109,6 +6309,7 @@ namespace hospitalmanagement
             this.diag_details_patient.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.diag_details_patient.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
             this.diag_details_patient.DefaultText = "";
+            this.diag_details_patient.Enabled = false;
             this.diag_details_patient.FillColor = System.Drawing.Color.White;
             this.diag_details_patient.HideSelection = true;
             this.diag_details_patient.IconLeft = null;
@@ -6129,9 +6330,9 @@ namespace hospitalmanagement
             stateProperties73.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.diag_details_patient.OnActiveState = stateProperties73;
             stateProperties74.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties74.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties74.FillColor = System.Drawing.Color.White;
             stateProperties74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties74.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            stateProperties74.PlaceholderForeColor = System.Drawing.Color.White;
             this.diag_details_patient.OnDisabledState = stateProperties74;
             stateProperties75.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties75.FillColor = System.Drawing.Color.Empty;
@@ -6147,7 +6348,7 @@ namespace hospitalmanagement
             this.diag_details_patient.PasswordChar = '\0';
             this.diag_details_patient.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.diag_details_patient.PlaceholderText = "Enter text";
-            this.diag_details_patient.ReadOnly = true;
+            this.diag_details_patient.ReadOnly = false;
             this.diag_details_patient.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.diag_details_patient.SelectedText = "";
             this.diag_details_patient.SelectionLength = 0;
@@ -6194,9 +6395,9 @@ namespace hospitalmanagement
             // 
             this.diag_details_condition.BackColor = System.Drawing.Color.White;
             this.diag_details_condition.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.diag_details_condition.Enabled = false;
             this.diag_details_condition.Location = new System.Drawing.Point(635, 325);
             this.diag_details_condition.Name = "diag_details_condition";
-            this.diag_details_condition.ReadOnly = true;
             this.diag_details_condition.Size = new System.Drawing.Size(253, 147);
             this.diag_details_condition.TabIndex = 27;
             this.diag_details_condition.Text = "";
@@ -6205,9 +6406,9 @@ namespace hospitalmanagement
             // 
             this.diag_details_test.BackColor = System.Drawing.Color.White;
             this.diag_details_test.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.diag_details_test.Enabled = false;
             this.diag_details_test.Location = new System.Drawing.Point(182, 325);
             this.diag_details_test.Name = "diag_details_test";
-            this.diag_details_test.ReadOnly = true;
             this.diag_details_test.Size = new System.Drawing.Size(253, 147);
             this.diag_details_test.TabIndex = 26;
             this.diag_details_test.Text = "";
@@ -6231,6 +6432,7 @@ namespace hospitalmanagement
             this.diag_details_icd.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.diag_details_icd.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
             this.diag_details_icd.DefaultText = "";
+            this.diag_details_icd.Enabled = false;
             this.diag_details_icd.FillColor = System.Drawing.Color.White;
             this.diag_details_icd.HideSelection = true;
             this.diag_details_icd.IconLeft = null;
@@ -6251,9 +6453,9 @@ namespace hospitalmanagement
             stateProperties77.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.diag_details_icd.OnActiveState = stateProperties77;
             stateProperties78.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties78.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties78.FillColor = System.Drawing.Color.White;
             stateProperties78.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties78.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            stateProperties78.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.diag_details_icd.OnDisabledState = stateProperties78;
             stateProperties79.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties79.FillColor = System.Drawing.Color.Empty;
@@ -6269,7 +6471,7 @@ namespace hospitalmanagement
             this.diag_details_icd.PasswordChar = '\0';
             this.diag_details_icd.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.diag_details_icd.PlaceholderText = "Enter text";
-            this.diag_details_icd.ReadOnly = true;
+            this.diag_details_icd.ReadOnly = false;
             this.diag_details_icd.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.diag_details_icd.SelectedText = "";
             this.diag_details_icd.SelectionLength = 0;
@@ -6305,6 +6507,7 @@ namespace hospitalmanagement
             this.diag_details_id.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.diag_details_id.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
             this.diag_details_id.DefaultText = "";
+            this.diag_details_id.Enabled = false;
             this.diag_details_id.FillColor = System.Drawing.Color.White;
             this.diag_details_id.HideSelection = true;
             this.diag_details_id.IconLeft = null;
@@ -6325,9 +6528,9 @@ namespace hospitalmanagement
             stateProperties81.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.diag_details_id.OnActiveState = stateProperties81;
             stateProperties82.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties82.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties82.FillColor = System.Drawing.Color.White;
             stateProperties82.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties82.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            stateProperties82.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.diag_details_id.OnDisabledState = stateProperties82;
             stateProperties83.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties83.FillColor = System.Drawing.Color.Empty;
@@ -6343,7 +6546,7 @@ namespace hospitalmanagement
             this.diag_details_id.PasswordChar = '\0';
             this.diag_details_id.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.diag_details_id.PlaceholderText = "Enter text";
-            this.diag_details_id.ReadOnly = true;
+            this.diag_details_id.ReadOnly = false;
             this.diag_details_id.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.diag_details_id.SelectedText = "";
             this.diag_details_id.SelectionLength = 0;
@@ -6475,7 +6678,7 @@ namespace hospitalmanagement
             this.dd_diagnose.Location = new System.Drawing.Point(23, 20);
             this.dd_diagnose.Name = "dd_diagnose";
             this.dd_diagnose.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.dd_diagnose.Size = new System.Drawing.Size(70, 17);
+            this.dd_diagnose.Size = new System.Drawing.Size(122, 31);
             this.dd_diagnose.TabIndex = 16;
             this.dd_diagnose.Text = "DIAGNOSE :";
             this.dd_diagnose.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -6502,10 +6705,10 @@ namespace hospitalmanagement
             this.presINNERpages.Location = new System.Drawing.Point(0, 0);
             this.presINNERpages.Multiline = true;
             this.presINNERpages.Name = "presINNERpages";
-            this.presINNERpages.Page = this.presAddPage;
-            this.presINNERpages.PageIndex = 1;
-            this.presINNERpages.PageName = "presAddPage";
-            this.presINNERpages.PageTitle = "presDetailsPage";
+            this.presINNERpages.Page = this.presMainPage;
+            this.presINNERpages.PageIndex = 0;
+            this.presINNERpages.PageName = "presMainPage";
+            this.presINNERpages.PageTitle = "presAddPage";
             this.presINNERpages.SelectedIndex = 0;
             this.presINNERpages.Size = new System.Drawing.Size(966, 618);
             this.presINNERpages.TabIndex = 0;
@@ -6529,6 +6732,7 @@ namespace hospitalmanagement
             // 
             // presMainPage
             // 
+            this.presMainPage.Controls.Add(this.check_this);
             this.presMainPage.Controls.Add(this.med10_mg);
             this.presMainPage.Controls.Add(this.med9_mg);
             this.presMainPage.Controls.Add(this.med8_mg);
@@ -8262,7 +8466,7 @@ namespace hospitalmanagement
             this.p_addpres_label.Location = new System.Drawing.Point(676, 13);
             this.p_addpres_label.Name = "p_addpres_label";
             this.p_addpres_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.p_addpres_label.Size = new System.Drawing.Size(148, 17);
+            this.p_addpres_label.Size = new System.Drawing.Size(259, 31);
             this.p_addpres_label.TabIndex = 16;
             this.p_addpres_label.Text = "ADD NEW PRESCRIPTION";
             this.p_addpres_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -10318,7 +10522,7 @@ namespace hospitalmanagement
             this.pd_presdetail_label.Location = new System.Drawing.Point(696, 13);
             this.pd_presdetail_label.Name = "pd_presdetail_label";
             this.pd_presdetail_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.pd_presdetail_label.Size = new System.Drawing.Size(136, 17);
+            this.pd_presdetail_label.Size = new System.Drawing.Size(240, 31);
             this.pd_presdetail_label.TabIndex = 62;
             this.pd_presdetail_label.Text = "PRESCRIPTION DETAILS";
             this.pd_presdetail_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -10357,7 +10561,7 @@ namespace hospitalmanagement
             this.pres_loading.Location = new System.Drawing.Point(427, 216);
             this.pres_loading.Name = "pres_loading";
             this.pres_loading.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.pres_loading.Size = new System.Drawing.Size(60, 17);
+            this.pres_loading.Size = new System.Drawing.Size(104, 31);
             this.pres_loading.TabIndex = 0;
             this.pres_loading.Text = "Loading ...";
             this.pres_loading.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -10520,10 +10724,10 @@ namespace hospitalmanagement
             this.medicINNERpages.Location = new System.Drawing.Point(1, 1);
             this.medicINNERpages.Multiline = true;
             this.medicINNERpages.Name = "medicINNERpages";
-            this.medicINNERpages.Page = this.medicMainPage;
-            this.medicINNERpages.PageIndex = 0;
-            this.medicINNERpages.PageName = "medicMainPage";
-            this.medicINNERpages.PageTitle = "medicMainPage";
+            this.medicINNERpages.Page = this.medicDetailsPage;
+            this.medicINNERpages.PageIndex = 2;
+            this.medicINNERpages.PageName = "medicDetailsPage";
+            this.medicINNERpages.PageTitle = "medicDetailsPage";
             this.medicINNERpages.SelectedIndex = 0;
             this.medicINNERpages.Size = new System.Drawing.Size(969, 617);
             this.medicINNERpages.TabIndex = 0;
@@ -10578,7 +10782,7 @@ namespace hospitalmanagement
             this.med_loading.Location = new System.Drawing.Point(427, 216);
             this.med_loading.Name = "med_loading";
             this.med_loading.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.med_loading.Size = new System.Drawing.Size(60, 17);
+            this.med_loading.Size = new System.Drawing.Size(104, 31);
             this.med_loading.TabIndex = 0;
             this.med_loading.Text = "Loading ...";
             this.med_loading.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -11069,7 +11273,7 @@ namespace hospitalmanagement
             this.medic_add_label.Location = new System.Drawing.Point(741, 21);
             this.medic_add_label.Name = "medic_add_label";
             this.medic_add_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.medic_add_label.Size = new System.Drawing.Size(107, 17);
+            this.medic_add_label.Size = new System.Drawing.Size(189, 31);
             this.medic_add_label.TabIndex = 106;
             this.medic_add_label.Text = "ADD MEDICATION";
             this.medic_add_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -11077,6 +11281,9 @@ namespace hospitalmanagement
             // 
             // medicDetailsPage
             // 
+            this.medicDetailsPage.Controls.Add(this.med_redaction);
+            this.medicDetailsPage.Controls.Add(this.med_edit_med_button);
+            this.medicDetailsPage.Controls.Add(this.med_save_edit_button);
             this.medicDetailsPage.Controls.Add(this.md_close_button);
             this.medicDetailsPage.Controls.Add(this.md_producer_textBox);
             this.medicDetailsPage.Controls.Add(this.md_med_name_textBox);
@@ -11094,6 +11301,77 @@ namespace hospitalmanagement
             this.medicDetailsPage.TabIndex = 2;
             this.medicDetailsPage.Text = "medicDetailsPage";
             this.medicDetailsPage.UseVisualStyleBackColor = true;
+            // 
+            // med_redaction
+            // 
+            this.med_redaction.AllowParentOverrides = false;
+            this.med_redaction.AutoEllipsis = false;
+            this.med_redaction.Cursor = System.Windows.Forms.Cursors.Default;
+            this.med_redaction.CursorType = System.Windows.Forms.Cursors.Default;
+            this.med_redaction.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med_redaction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.med_redaction.Location = new System.Drawing.Point(27, 99);
+            this.med_redaction.Name = "med_redaction";
+            this.med_redaction.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.med_redaction.Size = new System.Drawing.Size(134, 17);
+            this.med_redaction.TabIndex = 128;
+            this.med_redaction.Text = "Redaction not allowed!";
+            this.med_redaction.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.med_redaction.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.med_redaction.Visible = false;
+            // 
+            // med_edit_med_button
+            // 
+            this.med_edit_med_button.ActiveBorderThickness = 1;
+            this.med_edit_med_button.ActiveCornerRadius = 30;
+            this.med_edit_med_button.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.med_edit_med_button.ActiveForecolor = System.Drawing.Color.White;
+            this.med_edit_med_button.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.med_edit_med_button.BackColor = System.Drawing.Color.Transparent;
+            this.med_edit_med_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("med_edit_med_button.BackgroundImage")));
+            this.med_edit_med_button.ButtonText = "Edit Diagnose";
+            this.med_edit_med_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.med_edit_med_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med_edit_med_button.ForeColor = System.Drawing.Color.SeaGreen;
+            this.med_edit_med_button.IdleBorderThickness = 1;
+            this.med_edit_med_button.IdleCornerRadius = 30;
+            this.med_edit_med_button.IdleFillColor = System.Drawing.Color.White;
+            this.med_edit_med_button.IdleForecolor = System.Drawing.Color.SeaGreen;
+            this.med_edit_med_button.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.med_edit_med_button.Location = new System.Drawing.Point(28, 564);
+            this.med_edit_med_button.Margin = new System.Windows.Forms.Padding(5);
+            this.med_edit_med_button.Name = "med_edit_med_button";
+            this.med_edit_med_button.Size = new System.Drawing.Size(199, 46);
+            this.med_edit_med_button.TabIndex = 127;
+            this.med_edit_med_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.med_edit_med_button.Click += new System.EventHandler(this.med_edit_med_button_Click);
+            // 
+            // med_save_edit_button
+            // 
+            this.med_save_edit_button.ActiveBorderThickness = 1;
+            this.med_save_edit_button.ActiveCornerRadius = 30;
+            this.med_save_edit_button.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.med_save_edit_button.ActiveForecolor = System.Drawing.Color.White;
+            this.med_save_edit_button.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.med_save_edit_button.BackColor = System.Drawing.Color.Transparent;
+            this.med_save_edit_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("med_save_edit_button.BackgroundImage")));
+            this.med_save_edit_button.ButtonText = "Save";
+            this.med_save_edit_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.med_save_edit_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.med_save_edit_button.ForeColor = System.Drawing.Color.SeaGreen;
+            this.med_save_edit_button.IdleBorderThickness = 1;
+            this.med_save_edit_button.IdleCornerRadius = 30;
+            this.med_save_edit_button.IdleFillColor = System.Drawing.Color.White;
+            this.med_save_edit_button.IdleForecolor = System.Drawing.Color.SeaGreen;
+            this.med_save_edit_button.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.med_save_edit_button.Location = new System.Drawing.Point(410, 564);
+            this.med_save_edit_button.Margin = new System.Windows.Forms.Padding(5);
+            this.med_save_edit_button.Name = "med_save_edit_button";
+            this.med_save_edit_button.Size = new System.Drawing.Size(199, 46);
+            this.med_save_edit_button.TabIndex = 126;
+            this.med_save_edit_button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.med_save_edit_button.Visible = false;
+            this.med_save_edit_button.Click += new System.EventHandler(this.med_save_edit_button_Click);
             // 
             // md_close_button
             // 
@@ -11113,7 +11391,7 @@ namespace hospitalmanagement
             this.md_close_button.IdleFillColor = System.Drawing.Color.White;
             this.md_close_button.IdleForecolor = System.Drawing.Color.DodgerBlue;
             this.md_close_button.IdleLineColor = System.Drawing.Color.DodgerBlue;
-            this.md_close_button.Location = new System.Drawing.Point(785, 564);
+            this.md_close_button.Location = new System.Drawing.Point(760, 564);
             this.md_close_button.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.md_close_button.Name = "md_close_button";
             this.md_close_button.Size = new System.Drawing.Size(167, 46);
@@ -11140,6 +11418,7 @@ namespace hospitalmanagement
             this.md_producer_textBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.md_producer_textBox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
             this.md_producer_textBox.DefaultText = "";
+            this.md_producer_textBox.Enabled = false;
             this.md_producer_textBox.FillColor = System.Drawing.Color.White;
             this.md_producer_textBox.HideSelection = true;
             this.md_producer_textBox.IconLeft = null;
@@ -11160,7 +11439,7 @@ namespace hospitalmanagement
             stateProperties241.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.md_producer_textBox.OnActiveState = stateProperties241;
             stateProperties242.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties242.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties242.FillColor = System.Drawing.Color.White;
             stateProperties242.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             stateProperties242.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.md_producer_textBox.OnDisabledState = stateProperties242;
@@ -11178,7 +11457,7 @@ namespace hospitalmanagement
             this.md_producer_textBox.PasswordChar = '\0';
             this.md_producer_textBox.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.md_producer_textBox.PlaceholderText = "Enter text";
-            this.md_producer_textBox.ReadOnly = true;
+            this.md_producer_textBox.ReadOnly = false;
             this.md_producer_textBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.md_producer_textBox.SelectedText = "";
             this.md_producer_textBox.SelectionLength = 0;
@@ -11214,6 +11493,7 @@ namespace hospitalmanagement
             this.md_med_name_textBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.md_med_name_textBox.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
             this.md_med_name_textBox.DefaultText = "";
+            this.md_med_name_textBox.Enabled = false;
             this.md_med_name_textBox.FillColor = System.Drawing.Color.White;
             this.md_med_name_textBox.HideSelection = true;
             this.md_med_name_textBox.IconLeft = null;
@@ -11234,7 +11514,7 @@ namespace hospitalmanagement
             stateProperties245.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.md_med_name_textBox.OnActiveState = stateProperties245;
             stateProperties246.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties246.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties246.FillColor = System.Drawing.Color.White;
             stateProperties246.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             stateProperties246.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.md_med_name_textBox.OnDisabledState = stateProperties246;
@@ -11252,7 +11532,7 @@ namespace hospitalmanagement
             this.md_med_name_textBox.PasswordChar = '\0';
             this.md_med_name_textBox.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.md_med_name_textBox.PlaceholderText = "Enter text";
-            this.md_med_name_textBox.ReadOnly = true;
+            this.md_med_name_textBox.ReadOnly = false;
             this.md_med_name_textBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.md_med_name_textBox.SelectedText = "";
             this.md_med_name_textBox.SelectionLength = 0;
@@ -11273,10 +11553,10 @@ namespace hospitalmanagement
             // 
             this.md_richTextBox.BackColor = System.Drawing.Color.White;
             this.md_richTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.md_richTextBox.Enabled = false;
             this.md_richTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.md_richTextBox.Location = new System.Drawing.Point(27, 266);
             this.md_richTextBox.Name = "md_richTextBox";
-            this.md_richTextBox.ReadOnly = true;
             this.md_richTextBox.Size = new System.Drawing.Size(902, 290);
             this.md_richTextBox.TabIndex = 122;
             this.md_richTextBox.Text = "";
@@ -11426,7 +11706,7 @@ namespace hospitalmanagement
             this.md_med_details_label.Location = new System.Drawing.Point(726, 21);
             this.md_med_details_label.Name = "md_med_details_label";
             this.md_med_details_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.md_med_details_label.Size = new System.Drawing.Size(128, 17);
+            this.md_med_details_label.Size = new System.Drawing.Size(226, 31);
             this.md_med_details_label.TabIndex = 116;
             this.md_med_details_label.Text = "MEDICATION DETAILS";
             this.md_med_details_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -11578,77 +11858,63 @@ namespace hospitalmanagement
             this.dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
             this.dataGridViewTextBoxColumn31.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn43
+            // DOCTOR_NAME
             // 
-            this.dataGridViewTextBoxColumn43.DataPropertyName = "DOCTOR_NAME";
-            this.dataGridViewTextBoxColumn43.HeaderText = "DOCTOR";
-            this.dataGridViewTextBoxColumn43.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
-            this.dataGridViewTextBoxColumn43.ReadOnly = true;
+            this.DOCTOR_NAME.DataPropertyName = "DOCTOR_NAME";
+            this.DOCTOR_NAME.HeaderText = "DOCTOR NAME";
+            this.DOCTOR_NAME.MinimumWidth = 6;
+            this.DOCTOR_NAME.Name = "DOCTOR_NAME";
+            this.DOCTOR_NAME.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn44
+            // PATIENT_NAME
             // 
-            this.dataGridViewTextBoxColumn44.DataPropertyName = "PATIENT_NAME";
-            this.dataGridViewTextBoxColumn44.HeaderText = "PATIENT";
-            this.dataGridViewTextBoxColumn44.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
-            this.dataGridViewTextBoxColumn44.ReadOnly = true;
+            this.PATIENT_NAME.DataPropertyName = "PATIENT_NAME";
+            this.PATIENT_NAME.HeaderText = "PATIENT NAME";
+            this.PATIENT_NAME.MinimumWidth = 6;
+            this.PATIENT_NAME.Name = "PATIENT_NAME";
+            this.PATIENT_NAME.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn39
+            // addnew_pres
             // 
-            this.dataGridViewTextBoxColumn39.DataPropertyName = "APPOINTMENT_DATE";
-            this.dataGridViewTextBoxColumn39.HeaderText = "DATE";
-            this.dataGridViewTextBoxColumn39.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn39.Name = "dataGridViewTextBoxColumn39";
-            this.dataGridViewTextBoxColumn39.ReadOnly = true;
+            this.addnew_pres.ActiveBorderThickness = 1;
+            this.addnew_pres.ActiveCornerRadius = 30;
+            this.addnew_pres.ActiveFillColor = System.Drawing.Color.DodgerBlue;
+            this.addnew_pres.ActiveForecolor = System.Drawing.Color.White;
+            this.addnew_pres.ActiveLineColor = System.Drawing.Color.DodgerBlue;
+            this.addnew_pres.BackColor = System.Drawing.Color.Transparent;
+            this.addnew_pres.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("addnew_pres.BackgroundImage")));
+            this.addnew_pres.ButtonText = "Add New";
+            this.addnew_pres.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.addnew_pres.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addnew_pres.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.addnew_pres.IdleBorderThickness = 1;
+            this.addnew_pres.IdleCornerRadius = 30;
+            this.addnew_pres.IdleFillColor = System.Drawing.Color.White;
+            this.addnew_pres.IdleForecolor = System.Drawing.Color.DodgerBlue;
+            this.addnew_pres.IdleLineColor = System.Drawing.Color.DodgerBlue;
+            this.addnew_pres.Location = new System.Drawing.Point(456, 237);
+            this.addnew_pres.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.addnew_pres.Name = "addnew_pres";
+            this.addnew_pres.Size = new System.Drawing.Size(97, 46);
+            this.addnew_pres.TabIndex = 16;
+            this.addnew_pres.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.addnew_pres.Click += new System.EventHandler(this.addnew_pres_Click);
             // 
-            // dataGridViewTextBoxColumn40
+            // check_this
             // 
-            this.dataGridViewTextBoxColumn40.DataPropertyName = "APPOINTMENT_TIME";
-            this.dataGridViewTextBoxColumn40.HeaderText = "TIME";
-            this.dataGridViewTextBoxColumn40.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
-            this.dataGridViewTextBoxColumn40.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn45
-            // 
-            this.dataGridViewTextBoxColumn45.DataPropertyName = "DOCTOR_NAME";
-            this.dataGridViewTextBoxColumn45.HeaderText = "DOCTOR";
-            this.dataGridViewTextBoxColumn45.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
-            this.dataGridViewTextBoxColumn45.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn46
-            // 
-            this.dataGridViewTextBoxColumn46.DataPropertyName = "PATIENT_NAME";
-            this.dataGridViewTextBoxColumn46.HeaderText = "PATIENT";
-            this.dataGridViewTextBoxColumn46.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn46.Name = "dataGridViewTextBoxColumn46";
-            this.dataGridViewTextBoxColumn46.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn36
-            // 
-            this.dataGridViewTextBoxColumn36.DataPropertyName = "APPOINTMENT_TIME";
-            this.dataGridViewTextBoxColumn36.HeaderText = "TIME";
-            this.dataGridViewTextBoxColumn36.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
-            this.dataGridViewTextBoxColumn36.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn47
-            // 
-            this.dataGridViewTextBoxColumn47.DataPropertyName = "DOCTOR_NAME";
-            this.dataGridViewTextBoxColumn47.HeaderText = "DOCTOR";
-            this.dataGridViewTextBoxColumn47.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn47.Name = "dataGridViewTextBoxColumn47";
-            this.dataGridViewTextBoxColumn47.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn48
-            // 
-            this.dataGridViewTextBoxColumn48.DataPropertyName = "PATIENT_NAME";
-            this.dataGridViewTextBoxColumn48.HeaderText = "PATIENT";
-            this.dataGridViewTextBoxColumn48.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
-            this.dataGridViewTextBoxColumn48.ReadOnly = true;
+            this.check_this.AllowParentOverrides = false;
+            this.check_this.AutoEllipsis = false;
+            this.check_this.CursorType = System.Windows.Forms.Cursors.Default;
+            this.check_this.Font = new System.Drawing.Font("Segoe UI", 1.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.check_this.ForeColor = System.Drawing.Color.White;
+            this.check_this.Location = new System.Drawing.Point(411, 37);
+            this.check_this.Name = "check_this";
+            this.check_this.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.check_this.Size = new System.Drawing.Size(11, 3);
+            this.check_this.TabIndex = 62;
+            this.check_this.Text = "bunifuLabel33";
+            this.check_this.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.check_this.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // HomeScreen
             // 
@@ -11661,6 +11927,7 @@ namespace hospitalmanagement
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Location = new System.Drawing.Point(100, 100);
             this.Name = "HomeScreen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.HomeScreen_Load);
             this.panel2.ResumeLayout(false);
@@ -12149,16 +12416,33 @@ namespace hospitalmanagement
         private Bunifu.UI.WinForms.BunifuLabel diag_loading;
         private Bunifu.UI.WinForms.BunifuLabel pres_loading;
         private Bunifu.UI.WinForms.BunifuLabel med_loading;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn36;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn47;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn48;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn39;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn40;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn45;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn46;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn30;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn31;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn43;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn44;
+        private Bunifu.Framework.UI.BunifuThinButton2 diagnose_edit_button;
+        private Bunifu.UI.WinForms.BunifuLabel diag_redaction_pres;
+        private Bunifu.UI.WinForms.BunifuLabel diag_redaction_doc;
+        private Bunifu.UI.WinForms.BunifuLabel diag_redaction_pat;
+        private Bunifu.UI.WinForms.BunifuLabel diag_redaction_id;
+        private Bunifu.Framework.UI.BunifuThinButton2 diag_save_edit_button;
+        private Bunifu.UI.WinForms.BunifuLabel med_redaction;
+        private Bunifu.Framework.UI.BunifuThinButton2 med_edit_med_button;
+        private Bunifu.Framework.UI.BunifuThinButton2 med_save_edit_button;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn39;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn40;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PAT_NAME;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DOC_NAME;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn36;
+        private System.Windows.Forms.DataGridViewTextBoxColumn P_NAME;
+        private System.Windows.Forms.DataGridViewTextBoxColumn D_NAME;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn30;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn31;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DOCTOR_NAME;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PATIENT_NAME;
+        private Bunifu.Framework.UI.BunifuThinButton2 addnew_pres;
+        private Bunifu.UI.WinForms.BunifuLabel check_this;
     }
 }
